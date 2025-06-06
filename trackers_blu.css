@@ -104,12 +104,14 @@ body {
 
     }
 
-    .top-nav__dropdown > a > .top-nav--left__container {
-      display: grid;
-      align-items: center;
-      position: relative;
-      font-size: 17px;
-    }
+.top-nav__dropdown > a > .top-nav--left__container {
+  display: grid;
+  align-items: center;
+  position: relative;
+  font-size: 17px;
+  font-weight: 600;
+  text-shadow: 1px 2px 0px #0b0a0a;
+}
 
     .top-nav__ratio-bar.top-nav__ratio-bar {
       display: grid;
