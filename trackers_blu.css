@@ -22,12 +22,10 @@ body {
 
 .topic-listing--read .topic-listing__heading {
   font-weight: 400;
-  font-family: Roboto;
 }
 
 .topic-listing__latest-post-link {
   font-size: 13px;
-  font-family: Roboto;
   background: radial-gradient(circle at top right,#23d1a508,#157d631c) !important;
   border-bottom: thin solid #324041a1;
   border-right: thin solid #324041a1;
@@ -90,7 +88,6 @@ body {
   color: #fff;
   background: radial-gradient(circle at top right,#3b4252,#466bf059,#3b4252);
   border-radius: 10px;
-  font-family: Roboto;
   border: 2px solid #3b4252;
   font-size: 21px;
   font-weight: 500;
@@ -126,7 +123,6 @@ body {
       justify-content: center;
       padding: 0;
       margin: 0;
-      font-family: Roboto;
       font-weight: 400;
       background: #3b4252;
       border-radius: 5px;
@@ -146,7 +142,6 @@ body {
       border: var(--button-outlined-border);
       border-radius: var(--button-outlined-border-radius);
       background: #272c36b5;
-      font-family: Roboto;
       font-weight: 400;
     }
 
@@ -202,25 +197,21 @@ body {
 
     .post__author-topics dt, .post__author-posts dt {
       font-weight: 500;
-      font-family: Roboto;
     }
 
     .text-green {
       color: #3fb618;
       font-size: 15px;
-      font-family: Roboto;
     }
 
     .text-red {
       color: #ff0039;
       font-size: 15px;
-      font-family: Roboto;
     }
 
     .text-orange {
       color: #ff7518;
       font-size: 15px;
-      font-family: Roboto;
     }
 
     th.similar-torrents__type {
@@ -240,7 +231,6 @@ body {
   border-radius: 5px;
   color: white;
   font-size: 11px;
-  font-family: Roboto;
   word-spacing: -1px;
 }
     .torrent-card__header, .torrent-card__footer {
@@ -314,17 +304,14 @@ body {
 
   .topic-listing__latest-post-link{
     font-size: 13px;
-    font-family: Roboto;
   }
 
   .topic-listing {
     color: var(--panel-fg);
-    font-family: Roboto;
   }
 
   .breadcrumb--active {
     color: var(--breadcrumb-active-fg);
-    font-family: Roboto;
   }
 
   .panel__actions {
@@ -376,7 +363,6 @@ body {
 
 .panel__tab {
   color: #81a1c1;
-  font-family: Roboto;
   font-weight: 500;
 }
 
@@ -391,7 +377,6 @@ body {
   font-size: 12px;
   text-align: center;
   display: inline-block;
-  font-family: Roboto;
 }
 
 .nav-tabsV2 {
@@ -420,7 +405,6 @@ body {
   grid-area: size;
   width: 8.5%;
   font-size: 14px;
-  font-family: Roboto;
   font-weight: 400;
 }
 
@@ -445,7 +429,6 @@ body {
   border: none;
   text-align: center;
   cursor: pointer;
-  font-family: Roboto;
   background: #3b4252;
 }
 
@@ -463,7 +446,6 @@ body {
 
 .topic-listing--unread {
   font-weight: 600;
-  font-family: Roboto;
 }
 
 .topic-listing--unread .topic-listing__heading a::before {
@@ -476,8 +458,7 @@ body {
   justify-content: space-between;
   font-size: 13px;
   margin-bottom: 0;
- font-family: Roboto;
- background: radial-gradient(circle at top right,#2e3440,#434c5e) !important;
+  background: radial-gradient(circle at top right,#2e3440,#434c5e) !important;
 }
 
 .torrent__tags li:not(:last-child)::after {
@@ -497,7 +478,6 @@ body {
 .panel__action .form__button {
   margin: 0 3px;
   background: #434c5e;
-  font-family: Roboto;
   font-weight: 500;
   color: #90e2ad;
 }
@@ -518,7 +498,6 @@ body {
   background-color: #343a48;
   text-align: center;
   display: block;
-  font-family: Roboto;
 }
 
 .user-stat-card {
@@ -574,7 +553,6 @@ body {
 .topic-tag--implemented {
   background-color: rgba(162, 238, 239, 0.3);
   color: var(--forum-tag-implemented-fg);
-  font-family: Roboto;
   font-weight: 400;
   max-height: 16px;
 }
@@ -582,7 +560,6 @@ body {
 .topic-tag--denied {
   background-color: rgba(19, 20, 29, 0.34);
   color: #e10101;
-  font-family: Roboto;
   font-weight: 400;
   vertical-align: middle;
   max-height: 16px;
@@ -602,7 +579,6 @@ body {
   color: #7dafbf;
   font-size: 14px;
   background-color: var(--dialog-head-bg);
-  font-family: Roboto;
 }
 
 .form__textarea {
@@ -694,7 +670,6 @@ progress {
   padding: 6px 12px;
   display: inline-block;
   font-weight: 400;
-  font-family: Roboto;
 }
 
 .torrent__tags > li > time::before {
@@ -727,7 +702,6 @@ progress {
 
 .post__toolbar-item {
   list-style-type: none;
-  font-family: Roboto;
 }
 
 .post__tip-button:hover {
@@ -788,12 +762,10 @@ progress {
   font-style: italic;
   background: #3b4252;
   border-radius: 5px;
-  font-family: Roboto;
 }
 
 .post__tip-stats dt {
   font-weight: 400;
-  font-family: Roboto;
   color: skyblue;
 }
 
@@ -865,7 +837,6 @@ progress {
   border-left: 1px solid var(--footer-hr-fg);
   border-radius: 5px;
   background: #191d2a4a;
-  font-family: Roboto;
   background: radial-gradient(circle at top right,#23d1a508,#2328334f) !important;
   border-bottom: thin solid #324041a1;
   border-right: thin solid #324041a1;
@@ -891,7 +862,6 @@ progress {
 .post__content.post__content.post__content {
   background-color: #434c5e;
   font-size: 16px;
-  font-family: Roboto;
 }
 
 .bbcode-rendered.bbcode-rendered .bbcode-rendered__note::before {
@@ -912,7 +882,6 @@ progress {
 .footer__section-list {
   list-style-type: none;
   font-size: 13px;
-  font-family: Roboto;
 }
 
 .chatbox-message__time::before {
@@ -925,7 +894,6 @@ progress {
 .chatbox-message__time {
   display: inline-block;
   font-size: 11px;
-  font-family: Roboto;
   color: #d8dee9;
   position: unset;
   padding: 7px 4px 4px 5px;
@@ -951,7 +919,6 @@ progress {
   font-size: 11px;
   padding: 2px 4px;
   color: yellow;
-  font-family: Roboto;
 }
 .chatroom__whispers:before {
   content: url('https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/images/keyboard-solid.svg');
@@ -980,7 +947,6 @@ progress {
 
 .torrent-search--list__resolution {
   color: #87f79a;
-  font-family: Roboto;
   background: #2c323d;
   border-radius: 6px;
 }
@@ -1048,7 +1014,6 @@ progress {
 .torrent-search--list__age {
   font-size: 16px;
   color: var(--torrent-row-fg);
-  font-family: Roboto;
   background: #2c323d !important;
   border-bottom: 1px solid #3b4252 !important;
   border-right: 1px solid #3b4252 !important;
@@ -1066,14 +1031,12 @@ progress {
   font-size: 15px;
   border-top: 1px solid var(--torrent-group-header-bg);
   padding: 8px 6px 8px 16px;
-  font-family: Roboto;
   font-weight: 400;
 }
 
 .torrent-search--list__format {
   grid-area: format;
   background: #2c323dbf !important;
-  font-family: Roboto;
 }
 
 .form__select {
@@ -1119,7 +1082,6 @@ progress {
 
 .torrent-search--list__overview {
   color: var(--torrent-row-fg);
-  font-family: Roboto;
   border: thin #2c323d !important;
 }
 
@@ -1178,7 +1140,6 @@ progress {
   font-size: 12px;
   background: #2c323d;
   border-radius: 5px;
-  font-family: Roboto;
 }
 
 .subforum-listing__latest-post-link{
