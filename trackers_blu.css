@@ -490,15 +490,15 @@ body {
 }
 
 .pagination__previous, .pagination__next {
-  width: 90px;
+  width: 79px;
   white-space: nowrap;
-  height: 40px;
   line-height: 40px;
-  font-size: 14px;
+  font-size: 15px;
   color: var(--paginate-fg);
-  background-color: #343a48;
   text-align: center;
-  display: block;
+  border-radius: 0 10px 10px 0;
+  background: #2c323d;
+  font-weight:600;
 }
 
 .user-stat-card {
