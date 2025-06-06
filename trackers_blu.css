@@ -1288,9 +1288,10 @@ progress {
 
 .nav-tab--active__link::before {
   content: " ";
-  margin-right: 5px;
   color: whitesmoke;
-  opacity: 70%
+  opacity: 70%;
+  font-size: 12px;
+  padding: 3px;
 }
 
 .torrent-search--list__resolution-and-type {
