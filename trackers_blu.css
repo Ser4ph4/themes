@@ -1364,6 +1364,14 @@ progress {
   font-family: "Roboto Condensed", sans-serif;
 }
 
+dl.post__author-join{
+  color: white;
+  background: #191d2a73 !important;
+  border-radius: 7px 0 0 0;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
