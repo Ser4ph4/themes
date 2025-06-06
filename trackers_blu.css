@@ -1304,6 +1304,14 @@ progress {
   font-family: Roboto;
 }
 
+.user-tag, .user-tag__link {
+  display: inline-flex;
+  white-space: nowrap;
+  align-items: baseline;
+  font-weight: 600;
+}
+
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
