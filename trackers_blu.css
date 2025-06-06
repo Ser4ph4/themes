@@ -1348,11 +1348,10 @@ progress {
   font-size: 15px;
   line-height: 1.5;
   word-wrap: break-word;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
   color: var(--bbcode-rendered-fg-default);
   margin: 0;
   background-color: #4c566a;
+  border-radius: 0 0 10px 0;
 }
 
 /*
