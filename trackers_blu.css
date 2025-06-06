@@ -159,6 +159,7 @@ body {
       white-space: nowrap;
       background: #ffffff17;
       border-radius: 5px;
+      max-width: max-content;
       
     }
 
