@@ -7,7 +7,6 @@
 
 .alert {
   color: #feb100;
-  font-family: JetBrains Mono;
   background: #191d2a url('https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/trackers/blutopian_bg-2025.svg');
   background-size: 130px;
   font-size: 14px;
@@ -68,7 +67,6 @@ body {
   float: right;
   background: #ffffff17;
   border-radius: 5px;
-  font-family: JetBrains Mono;
   line-height: 16px;
 
 }
@@ -79,14 +77,13 @@ body {
     color: var(--button-filled-fg);
     border: var(--button-filled-border);
     border-radius: var(--button-filled-border-radius);
-    font-family: JetBrains Mono;}
+  }
 
     .torrent-search--list__name {
       grid-area: name;
       font-size: 16px;
       color: var(--torrent-row-fg);
-      font-family: JetBrains Mono;
-      word-spacing: -4px;
+     word-spacing: -4px;
     }
 
 .torrent__name {
@@ -113,7 +110,6 @@ body {
       display: grid;
       align-items: center;
       position: relative;
-      font-family: JetBrains Mono;
       font-size: 17px;
     }
 
@@ -201,7 +197,7 @@ body {
       border-radius: 5px;
       position: relative;
       cursor: pointer;
-      font-family: JetBrains Mono;
+      
     }
 
     .post__author-topics dt, .post__author-posts dt {
@@ -361,8 +357,7 @@ body {
   background-image: linear-gradient(90deg,#3654d8 4%,#349ce6 19%,#56d0e2 39%,#62e080 60%,#d195cb 80%,#e646dd);
   font-weight: 400;
   font-size: 2.5rem;
-  font-family: JetBrains Mono,Arial,sans-serif;
-  text-transform: uppercase;
+   text-transform: uppercase;
   -webkit-filter: brightness(110%);
   filter: brightness(110%);
   text-shadow: 0 0 5px rgba(169, 214, 245, 0.18);
@@ -494,7 +489,6 @@ body {
 .profile__username {
   grid-area: username;
   font-size: 18px;
-  font-family: JetBrains Mono;
   border-radius: 5px;
   max-width: max-content;
   background: radial-gradient(circle at top right,#252a346b,#3b4252) !important;
@@ -622,8 +616,7 @@ body {
   outline: none;
   padding: var(--textarea-padding);
   width: 100%;
-  font-family: JetBrains Mono;
-}
+  }
 
 .nav-tab-menu__items {
   margin-left: 4px;
@@ -785,8 +778,7 @@ progress {
   font-weight: 900;
   color: #90e0ac;
   text-decoration: underline;
-  font-family: JetBrains Mono;
-}
+ }
 
 .donation-package__description {
   font-size: 14px;
@@ -831,7 +823,6 @@ progress {
   text-align: center;
   background: #ffffff17;
   border-radius: 5px;
-  font-family: JetBrains Mono;
   color: #90e2ad;
   line-height: 16px
 }
@@ -842,7 +833,6 @@ progress {
   line-height: 1.5;
   text-align: center;
   font-size: 15px;
-  font-family: JetBrains Mono;
   background: #24272f;
   border: 1px solid #182026;
   border-radius: 18px 18px 0 0;
@@ -895,7 +885,6 @@ progress {
   font-size: 15px;
   margin: 0;
   font-weight: 400;
-  font-family: JetBrains Mono;
   color: #5a96ca;
 }
 
