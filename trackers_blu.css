@@ -56,19 +56,19 @@ body {
   }
 
 .post__author-title {
-  grid-area: title;
-  font-size: 13px;
+  font-size: 12px;
   text-align: center;
-  word-break: normal;
+  word-break: initial;
   overflow-wrap: anywhere;
-  color: #02ffcaa1;
-  float: right;
-  background: #ffffff17;
+  color: #ffffffa1;
+  background: #212121;
   border-radius: 5px;
-  line-height: 16px;
-
+  font-family: JetBrains Mono;
+  line-height: 12px;
+  padding: 2px 1px;
+  margin-top: 1px;
+  margin-bottom: 7px;
 }
-
 
   .form__button--filled {
     background: #0c4b49;
