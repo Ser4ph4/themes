@@ -670,7 +670,6 @@ progress {
   background: #fb00000f;
   color: #feb100;
   border-radius: 10px
-  
 }
 
 .panel__heading {
@@ -679,9 +678,9 @@ progress {
   display: block;
   margin: 0;
   padding: 11px 5px;
-  font-size: 16px;
+  font-size: 13px;
   flex-grow: 1;
-  font-weight: 400;
+  font-weight: 600;
   border-radius: 10px 10px 0 0px;
 }
 
