@@ -1293,6 +1293,16 @@ progress {
   opacity: 70%
 }
 
+.torrent-search--list__resolution-and-type {
+  display: flex;
+  flex-direction: column;
+  color: #faf5d9;
+  border-radius: 8px;
+  padding: 2px 6px;
+  text-align: center;
+  background-color: #3b4252 !important;
+  font-family: Roboto;
+}
 
 /*
 ░░░░░░░░░░░
