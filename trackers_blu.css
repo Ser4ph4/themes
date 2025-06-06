@@ -1311,6 +1311,10 @@ progress {
   font-weight: 600;
 }
 
+.topic-listing__view-stats dd {
+  margin: 0;
+  color: #2c93e6;
+}
 
 /*
 ░░░░░░░░░░░
