@@ -489,7 +489,19 @@ body {
   align-self: center;
 }
 
-.pagination__previous, .pagination__next {
+.pagination__previous {
+  width: 79px;
+  white-space: nowrap;
+  line-height: 40px;
+  font-size: 15px;
+  color: var(--paginate-fg);
+  text-align: center;
+  border-radius: 10px 0 0 10px;
+  background: #2c323d;
+  font-weight: 600;
+}
+
+.pagination__next {
   width: 79px;
   white-space: nowrap;
   line-height: 40px;
