@@ -577,6 +577,15 @@ body {
   border-radius: 5px;
 }
 
+.panel__header {
+  background-color: inherit;
+  color: #d8dee9;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 10px;
+}
+
 .topic-tag--implemented {
   background-color: rgba(162, 238, 239, 0.3);
   color: var(--forum-tag-implemented-fg);
