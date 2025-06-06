@@ -396,9 +396,9 @@ body {
   border-radius: 10px;
 }
 
-.topic-listing__post-stats dt {
+.topic-listing__post-stats dt, .topic-listing__view-stats dt {
   font-weight: 400;
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .torrent-search--grouped__size {
