@@ -321,6 +321,7 @@ body {
     text-transform: revert-layer !important;
     font-size: 12px;
     font-weight: 700;
+    border-radius: 13px
   }
   .torrent-search__component {
     display: flex;
@@ -1176,9 +1177,7 @@ progress {
   border-top: thin solid #324041a1;
 }
 
-.panel__header{
-  margin-top:-16px
-}
+
 
 #chatbox_header{
   margin-top:-1px !important;
