@@ -1996,6 +1996,14 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   background: #2e3440 !important;
 }
 
+.top-nav__icon-bar.mobile {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  column-gap: 0;
+  width: 100%;
+  margin-top: 10px;
+}
 
 /*
 ░░░░░░░░░░░
