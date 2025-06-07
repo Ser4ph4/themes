@@ -1437,8 +1437,9 @@ i.fas.fa-minus-circle.fa-pull-right {
 }
 
 .panel__header {
-  margin-top: 4px;
+  margin-top: 0px;
   display: inline-flex;
+  border-radius: 10px !important;
 }
 
 .post__author-topics dd, .post__author-posts dd {
