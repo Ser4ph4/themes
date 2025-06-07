@@ -1447,6 +1447,11 @@ i.fas.fa-minus-circle.fa-pull-right {
   color: #d8dee9;
 }
 
+.post__author-join dt, .post__author-topics dt, .post__author-posts dt {
+  font-weight: 400;
+  padding: 0 3px;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
