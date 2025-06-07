@@ -1452,6 +1452,17 @@ i.fas.fa-minus-circle.fa-pull-right {
   padding: 0 3px;
 }
 
+.chatbox-message::before {
+  display: block;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: -10px;
+  width: 0;
+  border-right: 10px solid #3b4252;
+  border-top: 10px solid transparent;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
