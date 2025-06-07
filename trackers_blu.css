@@ -2164,7 +2164,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   padding: 0;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .meta {
     grid-template-areas:
 "poster      title       actions    " 
