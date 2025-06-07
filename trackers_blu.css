@@ -2107,16 +2107,13 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 }
 
 .torrent__leechers-link.torrent__leechers-link{
+  color: var(--torrent-row-leechers-fg);
   background: #bf616a3b;
   padding: 4px;
   border-radius: 10px;
   color: white;
   word-spacing: -3px;
 }
-
-
-
-
 
 /*
 ░░░░░░░░░░░
