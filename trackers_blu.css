@@ -1359,8 +1359,9 @@ progress {
 .post__author-join-datetime {
   color: #f4f4f4;
   background: #252a34;
-  padding: 0px 1px;
+  padding: 1px 9px;
   border: thin solid #434c5e;
+  font-size: 9pt;
 }
 
 dl.post__author-join{
