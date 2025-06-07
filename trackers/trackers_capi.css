@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,700;1,700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet');
+
+body {
+    background-image: url(https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/trackers/capibara.svg);
+}
+.alert {
+  color: #feb100;
+  font-family: JetBrains Mono;
+  background: #252a34;
+  font-size: 14px;
+  padding: 0px;
+}
+
+.topic-listing--read .topic-listing__heading {
+  font-weight: 400;
+  font-family: Roboto;
+}
+
+.topic-listing__heading{
+  display: inline;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0;
+  font-family: Roboto;
+}
+
+.topic-listing--read {
+    font-weight: 600 !important;
+  }
+  .fa::before, .fas::before {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
+    font-size: 16px;
+  }
+
+
+  .post__tip-input {
+    margin: 5px 5px 2px 9px;
+    border-width: 0 0 2px 0;
+    border-style: solid;
+    border-color: var(--post-toolbar-bg);
+    color: var(--post-toolbar-fg);
+    width: 72px;
+    background-color: #2e3440;
+    text-align: right;
+    border-radius: 8px;
+  }
+
+.post__author-title {
+  grid-area: title;
+  font-size: 13px;
+  text-align: center;
+  word-break: normal;
+  overflow-wrap: anywhere;
+  color: #02ffcaa1;
+  float: right;
+  background: #ffffff17;
+  border-radius: 5px;
+  font-family: JetBrains Mono;}
+
+  .form__button--filled {
+    background: #0c4b49;
+    color: var(--button-filled-fg);
+    border: var(--button-filled-border);
+    border-radius: var(--button-filled-border-radius);
+    font-family: JetBrains Mono;}
+
+    .torrent-search--list__name {
+      grid-area: name;
+      font-size: 16px;
+      color: var(--torrent-row-fg);
+      font-family: JetBrains Mono;
+      word-spacing: -4px;
+    }
+
+    .torrent__name {
+      color: #d8dee9;
+      color: #fff;
+      float: right;
+      background: #3b4252;
+      border-radius: 10px;
+      font-family: Roboto;
+    }
+
+    .form__button--filled {
+      background: #166d6b;
+      color: var(--button-filled-fg);
+      border: var(--button-filled-border);
+      border-radius: var(--button-filled-border-radius);
+    }
+
+    .top-nav__dropdown > a > .top-nav--left__container {
+      display: grid;
+      align-items: center;
+      position: relative;
+      font-family: JetBrains Mono;
+      font-size: 17px;
+    }
+
+    .top-nav__ratio-bar.top-nav__ratio-bar {
+      display: grid;
+      gap: 1px 12px;
+      grid-template-rows: repeat(2,auto);
+      grid-template-columns: repeat(4,auto);
+      grid-auto-flow: column;
+      font-size: 15px;
+      list-style-type: none;
+      color: var(--top-nav-ratio-bar-fg);
+      align-content: center;
+      justify-content: center;
+      padding: 0;
+      margin: 0;
+      font-family: Roboto;
+      font-weight: 700;
+    }
+    .form__button--outlined {
+      background: var(--button-outlined-bg);
+      color: var(--button-outlined-fg);
+      border: var(--button-outlined-border);
+      border-radius: var(--button-outlined-border-radius);
+      background: #272c36b5;
+      font-family: Roboto;
+      font-weight: 400;
+    }
+
+    .fa::before, .fab::before, .fad::before, .fal::before, .far::before, .fas::before {
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: auto;
+      display: inline-block;
+      font-style: normal;
+      font-variant: normal;
+    }
+
+    .subforum-listing__latest-heading {
+      font-size: 14px;
+      white-space: nowrap;
+      background: #ffffff17;
+      border-radius: 5px;
+    }
+
+    .post__aside {
+      grid-area: aside;
+      padding: 9px;
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      background-color: #2e34408f;
+      color: var(--post-aside-fg);
+    }
+
+    .top-nav__dropdown > ul > li > a, .top-nav__dropdown > ul > li > form > button {
+      color: var(--top-nav-dropdown-menu-item-fg);
+      font-size: 15px;
+      text-decoration: none;
+      padding: 6px 90px 6px 6px;
+      white-space: nowrap;
+      height: 100%;
+      display: grid;
+      grid-template-columns: 30px auto;
+      column-gap: 10px;
+      align-items: center;
+      line-height: 15px;
+      background: var(--top-nav-dropdown-menu-item-bg);
+      outline: none;
+      width: 100%;
+      border: none;
+      text-align: left;
+      border-radius: 5px;
+      position: relative;
+      cursor: pointer;
+      font-family: JetBrains Mono;
+    }
+
+    .post__author-topics dt, .post__author-posts dt {
+      font-weight: 500;
+      font-family: Roboto;
+    }
+
+    .text-green {
+      color: #3fb618;
+      font-size: 15px;
+      font-family: Roboto;
+    }
+
+    .text-red {
+      color: #ff0039;
+      font-size: 15px;
+      font-family: Roboto;
+    }
+
+    .text-orange {
+      color: #ff7518;
+      font-size: 15px;
+      font-family: Roboto;
+    }
+
+    th.similar-torrents__type {
+      background-color: initial;
+      font-size: 13px;
+      font-weight: 400;
+      padding: 0px 1px;
+      min-height: 36px;
+      vertical-align: middle;
+      grid-area: type;
+      white-space: nowrap;
+      background: #ffffff17;
+    }
+
+    .post__datetime {
+      grid-area: datetime;
+      background: #ffffff17;
+      border-radius: 5px;
+      color: white;
+      font-size: 11px;
+      font-family: Roboto;
+    }
+
+    .torrent-card__header, .torrent-card__footer {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+      font-size: 11px;
+      color: var(--torrent-card-head-fg);
+      background-color: #2e3440;
+      margin: 0;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+
+    .footer__copyright {
+      grid-area: copyright;
+      margin: 0;
+      font-size: 12px;
+      text-align: right;
+      background: #ffffff17;
+      max-width: max-content;
+    }
+
+    .footer__stats {
+      grid-area: stats;
+      font-size: 12px;
+      margin: 0;
+      text-align: right;
+      background: #ffffff17;
+      max-width: max-content;
+    }
+
+    .pagination {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      max-width: 100vw;
+      background-color: var(--paginate-bg);
+    }
+
+    .similar-torrents__torrents {
+      border-collapse: collapse;
+      background: #3b4252b2 !important;
+    }
+
+    .meta {
+      display: grid;
+      grid-template-areas:
+    "poster title       actions    " 
+    "poster ids         ids        " 
+    "poster description description" 
+    "poster chips       chips      ";
+      grid-template-columns: auto 1fr auto;
+      grid-template-rows: auto auto auto minmax(0,1fr);
+      gap: 16px 32px;
+      padding: 16px;
+      max-height: 510px;
+      background: #3b42525e;
+      border-radius: 10px;
+    }
+
+    .torrent__activity-link{
+      background: #3b42525e;
+      border-radius: 10px;
+   }
+
+   .top-nav__right {
+    grid-area: right;
+    display: flex;
+    column-gap: 20px;
+    justify-content: end;
+  }
+
+  .topic-listing__latest-post-link{
+    font-size: 13px;
+    font-family: Roboto;
+  }
+
+  .topic-listing {
+    color: var(--panel-fg);
+    font-family: Roboto;
+  }
+
+  .breadcrumb--active {
+    color: var(--breadcrumb-active-fg);
+    font-family: Roboto;
+  }

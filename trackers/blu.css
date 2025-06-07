@@ -1,0 +1,8 @@
+
+.alert {
+  padding: 0px !important;
+  color: #feb100;
+}
+.topic-listing--read .topic-listing__heading {
+    font-weight: 600 !important;
+  }
