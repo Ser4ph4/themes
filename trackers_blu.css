@@ -1502,6 +1502,15 @@ i.fas.fa-minus-circle.fa-pull-right {
   background: #2c323d80;
 }
 
+.work__tags > li > a, .work__tags > li > span {
+  color: var(--torrent-tag-fg);
+  padding: 1px 5px;
+  display: inline-flex;
+  background: #221e28;
+  border-radius: 10px;
+  max-width: max-content !important;
+}
+
 .top10-poster {
   display: grid;
   grid-template-rows: auto 1fr;
