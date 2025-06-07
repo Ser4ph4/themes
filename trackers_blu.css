@@ -2004,7 +2004,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   }
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 576px) {
   .panelV2.blocks__news::before {
     content: " ";
     font-size: 92%;
