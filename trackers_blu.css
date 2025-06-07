@@ -1793,10 +1793,10 @@ td.torrent-search--grouped__age time {
 }
 
 @media only screen and (max-width: 767px) {
-td.torrent-search--grouped__size {
-  grid-area: size;
-  color: #8cff8e;
-  background: none;
+  td.torrent-search--grouped__size {
+    color: #8cff8e;
+    background: #2c323d;
+    border-radius: 0 10px 10px 0px;
   }
 }
 
