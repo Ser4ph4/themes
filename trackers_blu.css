@@ -1384,6 +1384,20 @@ dl.post__author-join{
   border-radius: 0 7px 7px 0;
 }
 
+.fa-angle-left::before {
+  content: "";
+  padding: 1px 1px;
+  padding: 6px 6px;
+  border-radius: 10px;
+}
+
+.fa-angle-right::before {
+  content: "";
+  background: #343a48;
+  padding: 6px 6px;
+  border-radius: 10px;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
