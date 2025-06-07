@@ -425,7 +425,7 @@ body {
 
 .nav-tab__link, .nav-tab--active__link {
   margin-top: 6px;
-  padding: 7px 22px;
+  padding: 6px 22px;
   white-space: nowrap;
   display: inline-block;
   color: #43a4fb;
