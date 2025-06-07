@@ -2133,6 +2133,18 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   margin-right: -1px;
 }
 
+.mediainfo h3 {
+  display: unset;
+  font-family: inherit;
+  color: #bbb;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: left;
+  margin: 3px 5px;
+  padding: 0;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
