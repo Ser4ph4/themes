@@ -1964,6 +1964,23 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
  }
 }
 
+@media screen and (max-width: 576px) {
+.footer__stats {
+  grid-area: stats;
+  font-size: 10px;
+  margin-top: 2px;
+ } 
+}
+
+@media screen and (max-width: 576px) {
+.footer__copyright {
+  grid-area: copyright;
+  margin: 0;
+  font-size: 9px;
+  color: #46bcfb9e;
+  font-family: Arial;
+ }
+}
 
 @media screen and (max-width: 576px) {
   .post__header {
