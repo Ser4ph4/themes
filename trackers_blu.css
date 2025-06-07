@@ -1797,6 +1797,7 @@ td.torrent-search--grouped__age time {
     color: #8cff8e;
     background: #2c323d;
     border-radius: 0 10px 10px 0px;
+    max-width: max-content;
   }
 }
 
