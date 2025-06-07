@@ -2097,21 +2097,15 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   font-size: 14px;
 }
 
-.torrent__seeders-link.torrent__seeders-link {
-  background: #01b8011a !important;
+.torrent__seeders-link.torrent__seeders-link{
+  color:var(--torrent-row-seeders-fg);
+  background: #01b8011a;
   padding: 4px;
   border-radius: 10px;
   color: whitesmoke;
   word-spacing: -3px;
 }
 
-.torrent__leechers-link.torrent__leechers-link {
-  background: #bf616a3b !important;
-  padding: 4px;
-  border-radius: 10px;
-  color: white;
-  word-spacing: -3px;
-}
 
 /*
 ░░░░░░░░░░░
