@@ -1601,7 +1601,7 @@ border-bottom: 2px solid #2c323d;
   }
 }
 
-@media only screen and (max-width: 567px) {
+@media only screen and (max-width: 767px) {
   .footer__sub-footer {
     grid-template: "libraries" auto "stats" auto "copyright" auto/auto;
     gap: 5px;
@@ -1612,7 +1612,7 @@ border-bottom: 2px solid #2c323d;
   }
 }
 
-@media only screen and (max-width: 567px) {
+@media only screen and (max-width: 767px) {
 .footer__icons {
   font-size: 13px;
   grid-area: libraries;
