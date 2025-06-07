@@ -1376,6 +1376,12 @@ dl.post__author-join{
   background: #68ff0017;
 }
 
+.votes__dislike {
+  background-color: #f4092017;
+  color: var(--post-dislike-fg);
+  border-radius: 0 7px 7px 0;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
