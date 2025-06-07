@@ -1424,6 +1424,11 @@ dl.post__author-join{
   margin-right: 1px;
 }
 
+i.fas.fa-plus-circle.fa-pull-right {
+  color: #ebcb8b !important;
+  display: block;
+  margin-top: 3px;
+}
 
 /*
 ░░░░░░░░░░░
