@@ -482,10 +482,10 @@ body {
 }
 
 .panel__action .form__button {
-  margin: 0 3px;
+  margin: auto;
   background: #434c5e;
-  font-weight: 500;
   color: #90e2ad;
+  font-weight: 600;
 }
 
 .user-peers {
