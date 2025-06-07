@@ -763,7 +763,7 @@ progress {
 }
 
  .post__tip-button {
-  display: ruby-base;
+  display: inline;
   place-items: center;
   height: 100%;
   padding: 6px 1px;
@@ -2253,6 +2253,17 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
     font-family: initial;
     font-weight: 600 !important;
   }
+}
+
+.post__permalink, .post__quote, .post__edit, .post__delete-button, .votes__like, .votes__dislike, .post__tip-button {
+    display: inline-flex
+    height: 100%;
+    padding: 7px 14px;
+    background-color: transparent;
+    color: inherit;
+    min-width: 54px;
+    text-align: center;
+    border: none;
 }
 
 /*
