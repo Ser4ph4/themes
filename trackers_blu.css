@@ -1351,7 +1351,6 @@ progress {
   word-wrap: break-word;
   color: var(--bbcode-rendered-fg-default);
   margin: 0;
-  background-color: #4c566a;
   border-radius: 0 0 10px 0;
 }
 
