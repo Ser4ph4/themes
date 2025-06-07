@@ -2097,7 +2097,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   font-size: 14px;
 }
 
-.torrent__seeders-link.text-green {
+.torrent__seeders-link.torrent__seeders-link {
   background: #01b8011a;
   padding: 4px;
   border-radius: 10px;
