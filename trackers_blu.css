@@ -1987,12 +1987,14 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   margin-left: 17px;
 }
 
-
-.post__author-posts, .post__author-topics {
+.post__author-posts {
   border-radius: 0 0 5px 5px;
-  background: #2e3440;
+  background: #2e3440 !important;
 }
 
+.post__author-topics {
+  background: #2e3440 !important;
+}
 
 
 /*
