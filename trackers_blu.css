@@ -1436,6 +1436,11 @@ i.fas.fa-minus-circle.fa-pull-right {
   margin-top: 3px;
 }
 
+.panel__header {
+  margin-top: 4px;
+  display: inline-flex;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
