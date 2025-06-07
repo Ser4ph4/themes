@@ -2105,7 +2105,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   word-spacing: -3px;
 }
 
-.torrent__leechers-link.text-red {
+.torrent__leechers-link.torrent__leechers-link {
   background: #bf616a3b !important;
   padding: 4px;
   border-radius: 10px;
