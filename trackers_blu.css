@@ -12,6 +12,7 @@
   font-size: 14px;
   padding: 0px;
 }
+
 body {
     background: #191d2a url('https://ser4ph4.github.io/themes/images/blutopian_bg-2025.svg');
     background-size: auto;
@@ -34,14 +35,14 @@ body {
 }
 
 .topic-listing--read {
-    font-weight: 600 !important;
-  }
+  font-weight: 600 !important;
+ }
+
   .fa::before, .fas::before {
     font-family: "Font Awesome 5 Pro";
     font-weight: 900;
     font-size: 14px;
   }
-
 
   .post__tip-input {
     margin: 5px 5px 2px 9px;
@@ -667,14 +668,12 @@ body {
 progress {
   vertical-align:baseline;
   border-radius: 9px;
-  
 }
 
 .panelV2.achievements__unlocked{
   background: #5daa0017;
   color: #feb100;
   border-radius: 10px
-
 }
 
 .panelV2.achievements__pending{
@@ -991,7 +990,7 @@ progress {
 }
 
 .fa-sharp.fas.fa-bell{
-  color:goldenrod;
+ color:goldenrod;
 }
 
 .torrent-search--list__resolution {
