@@ -1541,8 +1541,7 @@ border-bottom: 2px solid #2c323d;
 
 @media only screen and (max-width: 767px) {
 .fa-duotone.fa-comments::after, .fad.fa-comments::after {
-  content: "";
-  margin-left: 13px;
+ content: "";
   }
  }
 
