@@ -2004,6 +2004,15 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   }
 }
 
+@media only screen and (max-width: 1100px) {
+.panelV2.blocks__news::before {
+  content: " ";
+  font-size: 87%;
+  vertical-align: 1px;
+  margin-left: 10px;
+  margin-right: -10px
+ }
+}
 
 @media only screen and (max-width: 1100px) {
   .panel__header {
