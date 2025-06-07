@@ -2023,6 +2023,16 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   margin-top: 10px;
 }
 
+.footer__section-title ~ p {
+  color: #fff;
+  background: #3b425282;
+  max-width: max-content;
+  padding: 2px 5px;
+  border-radius: 5px;
+  margin-top: 1px;
+  font-size: 14px;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
