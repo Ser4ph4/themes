@@ -1374,6 +1374,8 @@ dl.post__author-join{
 
 .votes__like {
   background: #68ff0017;
+  color: var(--post-like-fg);
+  border-radius: 7px 0 0 7px;
 }
 
 .votes__dislike {
