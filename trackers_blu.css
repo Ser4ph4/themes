@@ -1479,12 +1479,13 @@ i.fas.fa-minus-circle.fa-pull-right {
 }
 
 .footer__section-list {
-  list-style-type:none;
-  padding-left:0;
-  font-size:13px;
-  display:flex;
-  flex-direction:column;
-  gap:1px;
+  list-style-type: none;
+  padding-left: 15px;
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  margin-top: -2px;
 }
 
 
