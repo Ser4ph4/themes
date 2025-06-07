@@ -2205,6 +2205,16 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   }
 }
 
+.torrent-search--grouped__dropdown > summary::before {
+  font-family: "Font Awesome 5 Pro",sans-serif;
+  font-size: 13px;
+  display: inline-block;
+  color: springgreen;
+  background: #2c323d;
+  border-radius: 5px;
+  margin-right: 3px;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
