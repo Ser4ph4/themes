@@ -680,7 +680,7 @@ progress {
   color: var(--panel-head-fg);
   display: block;
   margin: 0;
-  padding: 11px 5px;
+  padding: 0px 0px;
   font-size: 13px;
   flex-grow: 1;
   font-weight: 600;
