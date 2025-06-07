@@ -1942,6 +1942,14 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 }
 
 @media screen and (max-width: 576px) {
+.topic-listing__header {
+  grid-area: header;
+  padding: 0 33px;
+ }
+}
+
+
+@media screen and (max-width: 576px) {
   .post__header {
     grid-template-areas: "datetime topic . tip-stats overflow" ".        .     . .         toolbar " !important;
     grid-template-columns: auto auto 1fr auto auto !important;
@@ -1963,6 +1971,8 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   margin-top: 4px;
   margin-left: 17px;
 }
+
+
 
 /*
 ░░░░░░░░░░░
