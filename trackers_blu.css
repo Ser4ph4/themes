@@ -2016,6 +2016,22 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
  } 
 }
 
+@media only screen and (max-width: 1100px) {
+.form__button {
+  font-size: 11px;
+  line-height: 1;
+  padding: 4px 4px;
+  filter: brightness(1);
+  text-align: center;
+  transition: filter .3s;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: .5ch;
+  user-select: none;
+  pointer-events: auto;
+ }
+}
 
 @media only screen and (max-width: 1100px) {
   .panel__header {
