@@ -1988,6 +1988,12 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 }
 
 
+.post__author-posts, .post__author-topics {
+  border-radius: 0 0 5px 5px;
+  background: #2e3440;
+}
+
+
 
 /*
 ░░░░░░░░░░░
