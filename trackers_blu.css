@@ -1517,6 +1517,362 @@ i.fas.fa-minus-circle.fa-pull-right {
   font-weight: 600;
 }
 
+@media only screen and (max-width: 767px) {
+ .torrent-search--list__row {
+border-bottom: 2px solid #2c323d;
+ }
+}
+
+
+@media only screen and (max-width: 767px) {
+.fa-duotone.fa-comments::after, .fad.fa-comments::after {
+  content: "";
+  margin-left: 13px;
+  }
+ }
+
+@media only screen and (max-width: 767px) {
+.fa-comments::before {
+  content: "";
+  margin-left: 13px;
+ }
+}
+
+
+@media screen and (max-width: 576px) {
+.meta__title::before {
+  vertical-align: 0px;
+  margin-right: -2px;
+  content: "~" !important; 
+ }
+}
+
+@media screen and (max-width: 576px) {
+  .data-table > tbody > tr > td {
+  padding: 0px;
+  font-size: 14px;
+  color: white;
+  font-family: Roboto !important;
+}
+ }
+
+@media screen and (max-width: 576px) {
+ .topic-listing__forum {
+  font-size: 10px;
+  text-align: center;
+  margin-left: 27px;
+}
+}
+
+@media only screen and (max-width: 767px) {
+  .torrent-search--list__buttons {
+    width: 100%;
+    background: #373b44 !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  td.torrent-search--grouped__age::before {
+    width: 100%;
+    display: none !important;
+    background: #373b44 !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .footer__stats, .footer__copyright {
+    text-align: center !important;
+    display: block !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .footer__sub-footer {
+    grid-template: "libraries" auto "stats" auto "copyright" auto/auto;
+    gap: 12px;
+    justify-items: center;
+    border: none !important;
+    background: none !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .torrent__tags li:not(:last-child)::after  {
+    content: "" !important;
+   display: inline-block !important;
+   margin-left: -.5ch !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .topic-listing__post-stats {
+    flex-direction: row !important;
+    margin-left: 30.5px !important;
+    background: #2c323d !important;
+    padding: 1px 4px !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .topic-listing {
+    grid-template-columns: 23px auto 1fr !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .topic-listing__view-stats {
+    margin: -4px !important;
+    font-size: 12px !important;
+    background: #27292d;
+    border-radius: 5px;
+    font-family: Roboto;
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .subforum-listing__topic-stats, .subforum-listing__post-stats {
+    flex-direction: row !important;
+    max-width: max-content !important;
+    padding: 0px 1px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+.post__topic {
+  grid-area: topic !important;
+  margin-top: -2px !important;
+  color: #fff;
+  text-transform: lowercase;
+  font-size: 12px;
+  margin-left: 1px !important;
+  }
+ }
+
+@media only screen and (max-width: 767px) {
+.user-tag, .user-tag__link {
+  font-family: inherit;
+  display: inline-block;
+  white-space: nowrap;
+   }
+}
+
+@media only screen and (max-width: 767px) {
+.chatbox-message__content img {
+  max-width: 300px;
+ }
+}
+
+@media only screen and (max-width: 767px) {
+  .form__group--short-horizontal {
+  background-color: inherit !important;;
+  display: grid !important;;
+  gap: 0px;
+  grid-template-columns: repeat(auto-fit,minmax(120px,1fr));
+  align-items: center;
+  } 
+}
+
+@media only screen and (max-width: 767px) {
+.form__button--outlined {
+  color: var(--button-outlined-fg);
+  border: var(--button-outlined-border);
+  background: #5d616a7d;
+  font-weight: 400;
+  font-size: 12px;
+ }
+}
+
+@media only screen and (max-width: 767px) {
+.form__button {
+  line-height: 1;
+  margin: 3px;
+  padding: 5px 10px;
+  align-self: flex-start;
+  filter: brightness(1);
+  text-align: center;
+  transition: filter .3s;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.1ch;
+  -webkit-user-select: none;
+  user-select: none;
+ }
+}
+
+@media screen and (max-width: 767px) {
+  .meta__description {
+    max-height: 95px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+.torrent__name {
+  color: #fff;
+  background: radial-gradient(circle at top right,#3b4252,#166d6b9e,#3b4252);
+  border-radius: 10px;
+  font-family: Roboto;
+  border: 2px solid #3b4252;
+  font-size: 13px;
+  font-weight: 500;
+  text-align: center;
+  margin: 8px 0;
+ }
+}
+
+@media only screen and (max-width: 767px) {
+  td.torrent-search--grouped__seeders {
+    grid-area: completed;
+    width: 19%;
+    margin-right: 241px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  td.torrent-search--grouped__leechers {
+    grid-area: completed;
+    width: 19%;
+    margin-right: 131px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  td.torrent-search--grouped__completed {
+    grid-area: completed;
+    width: 19%;
+    margin-right: 21px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+td.torrent-search--grouped__age time {
+  color: inherit;
+  background: #2c323d;
+  padding: 1px 1px;
+  margin-right: 64px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+td.torrent-search--grouped__size {
+  grid-area: size;
+  color: #8cff8e;
+  background: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+.torrent-icons {
+  grid-area: icons;
+  letter-spacing: 1px;
+  align-items: center;
+  max-width: max-content;
+  border-radius: 3px;
+  background: #27313278;
+ }
+}
+
+@media only screen and (max-width: 767px) {
+th.similar-torrents__type {
+  font-size: 13px;
+  font-weight: 400;
+  padding: 0px 1px;
+  min-height: 36px;
+  grid-area: type;
+  white-space: nowrap;
+  font-family: Roboto;
+  background: #212121;
+  border-radius: 10px;
+ }
+}
+
+@media only screen and (max-width: 767px) {
+.img-responsive{
+  max-height: 120px !important;
+ }
+}
+
+@media only screen and (max-width: 767px) {
+.top-nav {
+  background-color: var(--top-nav-bg);
+  box-shadow: var(--top-nav-box-shadow);
+  display: grid;
+  grid-template: "left . menus . right toggle" 48px/1fr 40px auto 40px 1fr auto;
+  align-items: center;
+  padding: 0px 40px;
+ }
+}
+
+@media only screen and (max-width: 767px) {
+.profile__avatar {
+  grid-area: avatar;
+  align-self: start;
+  border-radius: 10%;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+ }
+}
+
+@media only screen and (max-width: 767px) {
+.top-nav__icon-bar {
+  margin: 0;
+  list-style-type: none;
+  background: #242932;
+  border-radius: 22px;
+  border: 2px solid #4c566a;
+  padding: 3px 3px;
+  display: none;
+ }
+}
+
+@media only screen and (max-width: 1100px) {
+  .panel__actions {
+    position: unset;
+  
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .panel__actions::before {
+    content: "⋮⋮⋮";
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .meta__chip-container {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .post__tip-stats {
+    display: block !important;
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .post__tip-stats::before {
+  display: none !important;
+}
+}
+
+@media screen and (max-width: 1100px) {
+  .torrent-search--list__poster-img {
+  width: 54px;
+  height: 81px;
+  border-radius: 5px;
+  margin-left: 25px !important;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  margin-bottom: 0px !important;
+  margin-top: 3px !important;
+ }
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
