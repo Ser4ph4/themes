@@ -1358,8 +1358,6 @@ progress {
   line-height: 1.7;
   word-wrap: break-word;
   color: #f4f8ff;
-  margin-right: 8px;
-  border-radius: 0 10px 10px 0;
   padding: 0px 2px;
   font-family: inherit;
 }
