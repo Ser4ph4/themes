@@ -1873,6 +1873,97 @@ th.similar-torrents__type {
  }
 }
 
+i.fas.fa-arrow-circle-up.text-success.torrent-icons{
+ margin-right:1.3px !important;
+}
+
+.fa-heart-pulse::before, .fa-heartbeat::before {
+  content: "";
+  margin-right: 3px;
+  vertical-align: 0px;
+}
+
+.fa-comment-alt-lines::before, .fa-message-lines::before {
+  content: "";
+  margin-right: 3px;
+}
+
+
+@media screen and (max-width: 767px) {
+  .top-nav__icon-bar {
+   /*! display: inline-flex !important; */
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .top-nav__ratio-bar.top-nav__ratio-bar.mobile {
+    display: grid !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .top-nav__ratio-bar.top-nav__ratio-bar {
+    font-size: 14px;
+    display: none !important;
+  }
+}
+
+.fa-close::before, .fa-multiply::before, .fa-remove::before, .fa-times::before, .fa-xmark::before {
+  content: "";
+  color: red;
+}
+
+@media screen and (max-width: 576px) {
+  .post__figure {
+    margin-bottom: 0 !important;
+    max-width: 79px !important;
+    display: inline-flex;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .post__aside {
+    display: grid;
+    grid-template-areas:
+"figure author author author" 
+"figure topics posts  .     ";
+    grid-template-columns: 34px auto auto 1fr;
+    gap: 0 8px;
+    padding: 2px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .post__author-join {
+   display: none !important;
+   
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .post__header {
+    grid-template-areas: "datetime topic . tip-stats overflow" ".        .     . .         toolbar " !important;
+    grid-template-columns: auto auto 1fr auto auto !important;
+    gap: 0 3px !important;
+  }
+}
+
+.top-nav__toggle {
+  grid-area: unset !important;
+  background-color: transparent !important;
+  outline: none !important;
+  border: none !important;
+  color: var(--top-nav-toggle-fg) !important;
+}
+
+.fa-bars::before, .fa-navicon::before {
+ content: "";
+  font-size: 25px !important;
+  margin-top: 4px;
+  margin-left: 17px;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
