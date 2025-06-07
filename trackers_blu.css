@@ -2124,6 +2124,15 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   background: #2c323d6e;
 }
 
+.mediainfo__filename::before {
+  content: url('https://ser4ph4.github.io/themes/images/bars-solid.svg');
+  vertical-align: -2px;
+  width: 12px;
+  display: inline-grid;
+  margin-left: 1px;
+  margin-right: -1px;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
