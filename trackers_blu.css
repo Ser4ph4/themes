@@ -2097,6 +2097,22 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   font-size: 14px;
 }
 
+.torrent__seeders-link.text-green {
+  background: #01b8011a;
+  padding: 4px;
+  border-radius: 10px;
+  color: whitesmoke;
+  word-spacing: -3px;
+}
+
+.torrent__leechers-link.text-red {
+  background: #bf616a3b;
+  padding: 4px;
+  border-radius: 10px;
+  color: white;
+  word-spacing: -3px;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
