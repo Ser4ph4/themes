@@ -1297,7 +1297,7 @@ progress {
 }
 
 .nav-tab--active__link::before {
-  content: " ";
+  content: "►  ";
   color: whitesmoke;
   opacity: 70%;
   font-size: 12px;
