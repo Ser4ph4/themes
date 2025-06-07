@@ -867,7 +867,7 @@ progress {
   border-top: 1px solid var(--footer-hr-fg);
   display: grid;
   grid-template: "libraries stats" auto "libraries copyright" auto/auto auto;
-  width: 44vw;
+  width: 53vw;
   max-width: 100%;
   padding: 4px;
   margin-top: 20px;
