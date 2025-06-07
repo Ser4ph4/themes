@@ -1488,6 +1488,10 @@ i.fas.fa-minus-circle.fa-pull-right {
   margin-top: -2px;
 }
 
+.subforum-listings__item:nth-child(2n) {
+  list-style-type: none;
+  background: #2c323d80;
+}
 
 /*
 ░░░░░░░░░░░
