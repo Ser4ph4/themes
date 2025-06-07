@@ -1439,6 +1439,14 @@ i.fas.fa-minus-circle.fa-pull-right {
   display: inline-flex;
 }
 
+.post__author-topics dd, .post__author-posts dd {
+  margin: 0;
+  padding: 0 3px;
+  font-family: Verdana;
+  font-weight: 600;
+  color: #d8dee9;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
