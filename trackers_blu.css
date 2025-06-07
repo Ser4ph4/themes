@@ -2191,6 +2191,20 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   }
 }
 
+@media screen and (max-width: 600px) {
+  .torrent-search--grouped__name a {
+    padding: 12px 0;
+    display: inline-block;
+    line-height: 0.2;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    background: #2c323d;
+    border-radius: 10px 0 0 10px;
+    font-weight: 600;
+  }
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
