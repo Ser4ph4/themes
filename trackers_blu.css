@@ -423,7 +423,7 @@ body {
   border-top: 3px solid #3b4252;
 }
 
-.nav-tab__link, .nav-tab--active__link {
+.nav-tab__link {
   margin-top: 6px;
   padding: 6px 22px;
   white-space: nowrap;
@@ -1501,6 +1501,20 @@ i.fas.fa-minus-circle.fa-pull-right {
   background: #13141d;
   border-radius: 10px 10px 10px 10px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 12px, rgb(0, 0, 0) 0px 4px 6px;
+}
+
+.nav-tab--active__link {
+  margin-top: 5px;
+  padding: 6px 22px;
+  white-space: nowrap;
+  display: inline-block;
+  color: #43a4fb;
+  font-size: 14px;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  background: #252a34;
+  font-weight: 600;
 }
 
 /*
