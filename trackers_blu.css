@@ -958,6 +958,7 @@ progress {
   font-size: 11px;
   color: yellow;
   font-style: italic;
+  margin-top: -4px;
 }
 
 .chatroom__whispers:before {
