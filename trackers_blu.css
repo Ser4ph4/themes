@@ -2133,6 +2133,14 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   margin-right: -1px;
 }
 
+.mediainfo__audio {
+  background: #2c323d;
+  max-width: unset;
+  border-radius: 5px;
+  border: 2px solid #252a34;
+  margin: auto;
+}
+
 .mediainfo h3 {
   display: unset;
   font-family: inherit;
