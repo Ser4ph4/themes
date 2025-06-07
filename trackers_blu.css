@@ -2164,6 +2164,33 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   padding: 0;
 }
 
+@media screen and (max-width: 480px) {
+  .meta {
+    grid-template-areas:
+"poster      title       actions    " 
+"tags        tags        tags       " 
+"ids         ids         ids        " 
+"description description description" 
+"chips       chips       chips      ";
+    grid-template-columns: 64px minmax(0,1fr) auto;
+    column-gap: 12px;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .meta {
+    max-height: unset;
+    grid-template-areas:
+"poster      title       actions    " 
+"poster      tags        tags       " 
+"poster      ids         ids        " 
+"description description description" 
+"chips       chips       chips      ";
+    grid-template-columns: 96px minmax(0,1fr) auto;
+  }
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
