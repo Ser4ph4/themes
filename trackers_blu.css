@@ -1397,6 +1397,15 @@ dl.post__author-join{
   border-radius: 10px;
 }
 
+.meta__title::before {
+  content: " ";
+  color: #4dc4fb;
+  opacity: 75%;
+  font-size: 19px;
+  padding: 5px;
+  vertical-align: 2px;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
