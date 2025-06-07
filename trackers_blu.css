@@ -2250,7 +2250,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 
 @media screen and (max-width: 767px) {
   .top-nav__left .top-nav__site-logo, .top-nav__left .top-nav__branding i {
-    font-size: 26px;
+    font-size: 24px;
     font-family: initial;
     font-weight: 600 !important;
   }
