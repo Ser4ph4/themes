@@ -1808,6 +1808,7 @@ td.torrent-search--grouped__size {
   max-width: max-content;
   border-radius: 3px;
   background: #27313278;
+  margin: auto;
  }
 }
 
