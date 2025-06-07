@@ -1406,6 +1406,25 @@ dl.post__author-join{
   vertical-align: 2px;
 }
 
+.mediainfo__subtitles {
+  background: #2e344096;
+  max-width: max-content;
+  border: 2px solid #2c323d21;
+  margin-left: 3px;
+  border-radius: 10px;
+  padding: 0px 2px;
+  margin-top: 4px;
+}
+
+.mediainfo__subtitles::before {
+  content: url('https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/trackers/legenda-cbr.svg');
+  width: 16px;
+  display: inline-grid;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
