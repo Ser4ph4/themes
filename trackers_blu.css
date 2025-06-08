@@ -2282,6 +2282,19 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   border-bottom: 2px solid #2c323d;
 }
 
+.torrent-search--list__name:visited:before {
+ color: gray;
+}
+
+.torrent-search--list__name::before {
+  content: " ";
+  margin-right: 3px;
+  font-size: 77%;
+  vertical-align: 2px;
+  color: cornflowerblue;
+  opacity: 89%;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
