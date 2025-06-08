@@ -2339,6 +2339,13 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   font-style: italic;
 }
 
+.chatbox-message__header {
+  grid-area: header;
+  display: flex;
+  align-items: center;
+  padding: 1px 3px;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
