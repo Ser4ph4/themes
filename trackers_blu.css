@@ -2282,17 +2282,16 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   border-bottom: 2px solid #2c323d;
 }
 
-.torrent-search--list__name:visited:before {
+.torrent-search--list__name:visited:after {
  color: gray;
 }
 
 .torrent-search--list__name::before {
-  content: " ";
-  margin-right: 3px;
-  font-size: 77%;
-  vertical-align: 2px;
-  color: cornflowerblue;
-  opacity: 89%;
+    content: "~";
+    font-size: 20px;
+    vertical-align: 0px;
+    color: cornflowerblue;
+    opacity: 95%;
 }
 
 /*
