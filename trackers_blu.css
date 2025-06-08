@@ -950,11 +950,11 @@ progress {
 }
 
 .chatbox-message__avatar {
-  width: 34px;
+  width: 33px;
   height: 33px;
-  border-radius: 20%;
-  margin-bottom: -4px;
-  margin-left: -6px;
+  border-radius: 100%;
+  margin-bottom: -9px;
+  margin-left: -2px;
   box-shadow: rgba(0, 0, 0, 0.64) 0px 5px 15px;
 }
 
@@ -1366,6 +1366,7 @@ progress {
   color: #f4f8ff;
   padding: 0px 2px;
   font-family: inherit;
+  border-radius: 10px 10px 10px 4px;
 }
 
 .post__author-join-datetime {
