@@ -2319,9 +2319,9 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   color: #3ea3ed;
   background: #2c323d;
   max-width: max-content;
-  padding: 1px 1px;
   border-radius: 5px;
   display: inline-flex;
+  padding: 0px 3px;
 }
 
 /*
