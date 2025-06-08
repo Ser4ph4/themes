@@ -2309,6 +2309,16 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   font-family: Roboto !important;
 }
 
+.torrent-card__rating-and-genres {
+  font-size: 11px;
+  color: #3ea3ed;
+  background: #2c323d;
+  max-width: max-content;
+  padding: 1px 1px;
+  border-radius: 5px;
+  display: inline-flex;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
