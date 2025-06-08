@@ -526,6 +526,8 @@ body {
   text-align: center;
   color: #4dabca;
   cursor: default;
+  border-bottom: 2px solid #2c323d;
+  text-shadow: 1px 1px 4px #0b0a0a;
 }
 
 .pagination__next {
