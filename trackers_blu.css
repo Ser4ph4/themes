@@ -2287,11 +2287,13 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 }
 
 .torrent-search--list__name::before {
-    content: "~";
-    font-size: 20px;
-    vertical-align: 0px;
-    color: cornflowerblue;
-    opacity: 95%;
+  content: "~";
+  font-size: 20px;
+  vertical-align: 0px;
+  color: cornflowerblue;
+  opacity: 95%;
+  font-weight: bold;
+  margin-left: 3px;
 }
 
 /*
