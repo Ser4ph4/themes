@@ -2298,6 +2298,17 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   content: "";
 }
 
+.torrent-card__genre {
+  display: inline;
+  color: #d8e5ff;
+  font-size: 12px;
+  text-transform: uppercase;
+  background: #2c323d;
+  padding: 1px 1px;
+  font-weight: 500;
+  font-family: Roboto;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
