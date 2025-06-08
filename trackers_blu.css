@@ -2305,10 +2305,13 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   color: #d8e5ff;
   font-size: 12px !important;
   text-transform: uppercase;
-  background: #2c323d !important;
-  padding: 1px 1px;
+  background: #434c5e !important;
   font-weight: 500;
   font-family: Roboto !important;
+  border-radius: 3px;
+  padding: 0px 0px;
+  margin-right: 1px;
+  margin-left: 1px;
 }
 
 .torrent-card__rating-and-genres {
