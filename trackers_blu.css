@@ -2301,12 +2301,12 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 .torrent-card__genre {
   display: inline;
   color: #d8e5ff;
-  font-size: 12px;
+  font-size: 12px !important;
   text-transform: uppercase;
-  background: #2c323d;
+  background: #2c323d !important;
   padding: 1px 1px;
   font-weight: 500;
-  font-family: Roboto;
+  font-family: Roboto !important;
 }
 
 /*
