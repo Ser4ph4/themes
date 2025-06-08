@@ -953,9 +953,10 @@ progress {
   width: 33px;
   height: 33px;
   border-radius: 100%;
-  margin-bottom: -9px;
+  margin-bottom: 5px;
   margin-left: -2px;
   box-shadow: rgba(0, 0, 0, 0.64) 0px 5px 15px;
+  z-index: ;
 }
 
 .post__avatar {
@@ -1361,10 +1362,10 @@ progress {
 
 .bbcode-rendered.bbcode-rendered {
   font-size: 15px;
-  line-height: 1.7;
+  line-height: 2.7;
   word-wrap: break-word;
   color: #f4f8ff;
-  padding: 0px 2px;
+  padding: 2px 2px;
   font-family: inherit;
   border-radius: 0 10px 10px 0;
 }
@@ -1469,8 +1470,8 @@ i.fas.fa-minus-circle.fa-pull-right {
   display: block;
   content: "";
   position: absolute;
-  bottom: 0;
-  left: -10px;
+  bottom: 27px;
+  left: -7px;
   width: 0;
   border-right: 10px solid #3b4252;
   border-top: 10px solid transparent;
