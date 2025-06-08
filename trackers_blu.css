@@ -2282,7 +2282,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   border-bottom: 2px solid #2c323d;
 }
 
-.torrent-search--list__name:visited:after {
+.torrent-search--list__name:visited:before {
  color: gray;
 }
 
