@@ -81,7 +81,7 @@ body {
       grid-area: name;
       font-size: 16px;
       color: var(--torrent-row-fg);
-     word-spacing: -4px;
+     
     }
 
 .torrent__name {
