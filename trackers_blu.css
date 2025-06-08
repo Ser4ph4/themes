@@ -954,7 +954,7 @@ progress {
   height: 33px;
   border-radius: 100%;
   margin-bottom: 5px;
-  margin-left: -2px;
+  margin-left: 4px;
   box-shadow: rgba(0, 0, 0, 0.64) 0px 5px 15px;
   
 }
