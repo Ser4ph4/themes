@@ -1473,8 +1473,8 @@ i.fas.fa-minus-circle.fa-pull-right {
   bottom: 27px;
   left: -7px;
   width: 0;
-  border-right: 10px solid #3b4252;
-  border-top: 10px solid transparent;
+  border-right: none;
+  border-top: none;
 }
 
 .fa-trophy-alt::before, .fa-trophy-star::before {
