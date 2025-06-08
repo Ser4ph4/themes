@@ -1240,9 +1240,11 @@ progress {
 
 .top-nav__ratio-bar a {
   color: var(--top-nav-ratio-bar-fg);
-  text-decoration: none;
+  text-decoration: rosybrown;
   margin-left: 1px !important;
   margin-right: 1px !important;
+  font-weight: 600;
+  color: #ced4de;
 }
 
 .far.fa-sign-out {
