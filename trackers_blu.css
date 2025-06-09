@@ -2364,6 +2364,15 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   padding: 0px 0 0px;
 }
 
+.post__footer {
+  grid-area: footer;
+  border-top: 2px solid #373e4d;
+  padding: 0px;
+  font-size: 13px;
+  color: var(--post-footer-fg);
+  background: #2e344063;
+}
+
 
 /*
 ░░░░░░░░░░░
