@@ -1143,8 +1143,7 @@ progress {
 }
 
 .panelV2 > :nth-child(2) {
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-radius: 10px !important;
   overflow: hidden;
   max-width: 98vw !important;
 }
