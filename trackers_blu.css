@@ -1273,7 +1273,7 @@ progress {
 
 .panelV2 {
   background-color: #2c323d;
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 10px 10px 10px 10px;
   border: 2px solid #262b35;
 }
 
