@@ -1277,6 +1277,12 @@ progress {
   border: 2px solid #262b35;
 }
 
+.panelV2 > :nth-child(2) {
+  overflow: hidden;
+  max-width: 98vw !important;
+  border-radius: 10px;
+}
+
 .topic-listing__post-stats, .topic-listing__view-stats {
   margin: -4px;
   display: flex;
