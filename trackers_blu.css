@@ -2345,6 +2345,11 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   padding: 1px 3px;
 }
 
+.page__topic--show > article > div > section > .panel__body {
+  background-color: transparent;
+  padding: 3px 0 0px;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
