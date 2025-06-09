@@ -1367,7 +1367,7 @@ progress {
   color: #f4f8ff;
   padding: 2px 2px;
   font-family: inherit;
-  border-radius: 0 10px 10px 0;
+  
 }
 
 .post__author-join-datetime {
@@ -2345,6 +2345,25 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   align-items: center;
   padding: 1px 3px;
 }
+
+.post {
+  display: grid;
+  grid-template-areas:
+"aside header " 
+"aside content" 
+"aside footer ";
+  grid-template-columns: minmax(153px,min-content) minmax(0,1fr);
+  grid-template-rows: auto 1fr auto;
+  box-shadow: var(--post-shadow);
+  overflow: hidden;
+  background: #434c5e;
+}
+
+.page__topic--show > article > div > section > .panel__body {
+  background-color: #c10b0b00;
+  padding: 1px 0 0px;
+}
+
 
 /*
 ░░░░░░░░░░░
