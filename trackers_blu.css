@@ -2360,8 +2360,8 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 }
 
 .page__topic--show > article > div > section > .panel__body {
-  background-color: #c10b0b00;
-  padding: 1px 0 0px;
+  background-color: transparent;
+  padding: 0px 0 0px;
 }
 
 
