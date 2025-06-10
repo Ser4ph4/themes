@@ -2342,8 +2342,8 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 
 .chatbox-message__header {
   grid-area: header;
-  display: unset;
-  padding: 1px 3px;
+  display: inline-grid;
+  padding: 1px 2px;
 }
 
 .page__topic--show > article > div > section > .panel__body {
