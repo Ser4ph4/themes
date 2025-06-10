@@ -1,6 +1,6 @@
 /*
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
-❕[Stylesheet] BLU Nord Theme CSS : 𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 07/06/2025  
+❕[Stylesheet] BLU Nord Theme CSS : 𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 10/06/2025  
 ▫️𝘔𝘰𝘥𝘪𝘧𝘪𝘤𝘢𝘵𝘪𝘰𝘯𝘴 : @𝙎𝙚𝙧𝙖𝙥𝙝4
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
 */
@@ -1368,6 +1368,7 @@ progress {
   color: #f4f8ff;
   padding: 2px 2px;
   font-family: inherit;
+  white-space: normal !important;
 }
 
 .post__author-join-datetime {
@@ -2341,8 +2342,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 
 .chatbox-message__header {
   grid-area: header;
-  display: flex;
-  align-items: center;
+  display: unset;
   padding: 1px 3px;
 }
 
