@@ -1930,13 +1930,6 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   margin-right: 3px;
 }
 
-
-@media screen and (max-width: 767px) {
-  .top-nav__icon-bar {
-   /*! display: inline-flex !important; */
-  }
-}
-
 @media screen and (max-width: 767px) {
   .top-nav__ratio-bar.top-nav__ratio-bar.mobile {
     display: grid !important;
