@@ -44,7 +44,7 @@ body {
     font-size: 14px;
   }
 
-  .post__tip-input {
+ .post__tip-input {
     margin: 5px 5px 2px 9px;
     border-width: 0 0 2px 0;
     border-style: solid;
@@ -472,7 +472,6 @@ body {
 }
 .post__author-topics{
   background: #333a47;
-
 }
 
 .torrent__tags li:not(:last-child)::after {
@@ -1218,7 +1217,6 @@ progress {
 
 .panel__tab.chatbox__tab.panel__tab--active::before {
   content: url('');
-
 }
 
 .bbcode-rendered.bbcode-rendered img {
