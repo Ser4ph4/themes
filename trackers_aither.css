@@ -44,7 +44,7 @@ body {
     font-size: 14px;
   }
 
- .post__tip-input {
+  .post__tip-input {
     margin: 5px 5px 2px 9px;
     border-width: 0 0 2px 0;
     border-style: solid;
@@ -77,7 +77,7 @@ body {
     border-radius: var(--button-filled-border-radius);
   }
 
-    .torrent-search--list__name {
+   .torrent-search--list__name {
       grid-area: name;
       font-size: 16px;
       color: var(--torrent-row-fg);
@@ -472,6 +472,7 @@ body {
 }
 .post__author-topics{
   background: #333a47;
+
 }
 
 .torrent__tags li:not(:last-child)::after {
@@ -1217,6 +1218,7 @@ progress {
 
 .panel__tab.chatbox__tab.panel__tab--active::before {
   content: url('');
+
 }
 
 .bbcode-rendered.bbcode-rendered img {
@@ -1923,13 +1925,6 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 .fa-comment-alt-lines::before, .fa-message-lines::before {
   content: "";
   margin-right: 3px;
-}
-
-
-@media screen and (max-width: 767px) {
-  .top-nav__icon-bar {
-   /*! display: inline-flex !important; */
-  }
 }
 
 @media screen and (max-width: 767px) {
