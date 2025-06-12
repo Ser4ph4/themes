@@ -2338,7 +2338,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 }
 
 .torrent-search--list__name:visited {
-  color: #7184ea;
+  color: #7184ea !important;
 }
 
 /*
