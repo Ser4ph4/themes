@@ -96,6 +96,23 @@ body {
 
 }
 
+.meta__description {
+  grid-area: description;
+  max-height: 150px;
+  overflow-y: auto;
+  color: var(--meta-description-fg);
+  margin-top: 4px;
+  padding: 6px 8px;
+  font-size: 16px;
+  line-height: 1.5;
+  background: rgba(143, 145, 149, 0.25);
+  border: 1px solid rgba(60, 66, 80, 0.4);
+  border-radius: 6px;
+  scrollbar-width: thin;
+  scrollbar-color: #4c566a #2e3440;
+}
+
+
 .form__button--filled {
       background: #295756;;
       color: var(--button-filled-fg);
@@ -1424,7 +1441,9 @@ dl.post__author-join{
 
 .meta__title::before {
   content: url(https://ser4ph4.github.io/themes/images/icon-music.svg);
-  vertical-align: middle;
+  padding: 5px;
+  vertical-align: -1px;
+  margin-right: -10px;
 }
 
 .mediainfo__subtitles {
