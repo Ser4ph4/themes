@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
   <!-- Fundo translúcido no estilo Nord -->
-  <rect width="1920" height="1080" fill="#2E3440" opacity="0.95" stroke="none"/>
+  <rect width="1920" height="1080" fill="#2E3440" stroke="none"/>
 
   <!-- Grupo de ícones de música com transparência e brilho suave -->
   <g fill="#88C0D0" stroke="none">
