@@ -1424,9 +1424,7 @@ dl.post__author-join{
 
 .meta__title::before {
   content: url(https://ser4ph4.github.io/themes/images/icon-music.svg);
-  padding: 5px;
-  vertical-align: -1px;
-  margin-right: -10px;
+  vertical-align: middle;
 }
 
 .mediainfo__subtitles {
