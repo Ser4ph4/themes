@@ -96,23 +96,6 @@ body {
 
 }
 
-.meta__description {
-  grid-area: description;
-  max-height: 150px;
-  overflow-y: auto;
-  color: var(--meta-description-fg);
-  margin-top: 4px;
-  padding: 6px 8px;
-  font-size: 16px;
-  line-height: 1.5;
-  background: rgba(143, 145, 149, 0.25);
-  border: 1px solid rgba(60, 66, 80, 0.4);
-  border-radius: 6px;
-  scrollbar-width: thin;
-  scrollbar-color: #4c566a #2e3440;
-}
-
-
 .form__button--filled {
       background: #295756;;
       color: var(--button-filled-fg);
@@ -1232,14 +1215,13 @@ progress {
 }
 
 
-
 #chatbox_header{
   margin-top:-1px !important;
 
 }
 
 .panel__tab--active::before {
-  content: url('https://ser4ph4.github.io/themes/images/foquete-blu.svg');
+  content: url('https://ser4ph4.github.io/themes/images/music-icons-2.svg');
   vertical-align: -1px;
   margin-left: 2px;
   margin-right: 2px;
