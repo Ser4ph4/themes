@@ -909,6 +909,7 @@ progress {
 .post__content.post__content.post__content {
   background-color: #434c5e;
   font-size: 16px;
+  padding: 8px;
 }
 
 .bbcode-rendered.bbcode-rendered .bbcode-rendered__note::before {
