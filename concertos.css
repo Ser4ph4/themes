@@ -1539,6 +1539,17 @@ i.fas.fa-minus-circle.fa-pull-right {
   box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 12px, rgb(0, 0, 0) 0px 4px 6px;
 }
 
+.meta__description {
+  grid-area: description;
+  max-height: 150px;
+  overflow-y: auto;
+  color: var(--meta-description-fg);
+  margin-top: 2px;
+  background: #cdcdcd1a;
+  border-radius: 10px;
+  padding: 10px;
+}
+
 .nav-tab--active__link {
   margin-top: 5.7px;
   padding: 6px 11px;
@@ -2356,5 +2367,6 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
 ░░░░░░░░░░░
 */
+
 
 
