@@ -14,7 +14,7 @@ By : @𝙎𝙚𝙧𝙖𝙥𝙝4
 }
 
 body {
-    background: #2e3440 url('https://ser4ph4.github.io/themes/images/fundo-concertos.svg');
+    background: #252a34 url('https://ser4ph4.github.io/themes/images/fundo-concertos.svg');
     background-size: 600px auto;
     font-size: 16px;
     line-height: 21px !important;
@@ -114,7 +114,7 @@ body {
 
     .top-nav__ratio-bar.top-nav__ratio-bar {
       display: grid;
-      gap: 0px 10px;
+      gap: 1px 12px;
       grid-template-rows: repeat(2,auto);
       grid-template-columns: repeat(4,auto);
       grid-auto-flow: column;
@@ -126,12 +126,15 @@ body {
       padding: 0;
       margin: 0;
       font-weight: 400;
+      background: #3b4252;
       border-radius: 5px;
       border-left: solid 1px rgb(19, 20, 29);
       border-right: solid 1px rgb(19, 20, 29);
       border-top: solid 1px rgb(19, 20, 29);
       border-bottom: solid 1px rgb(19, 20, 30);
-      background: #111609;
+      background: #191d2a url('https://ser4ph4.github.io/themes/images/blutopian_bg-2025.svg');
+      background-size: auto;
+      background-size: 130px;
       box-shadow: rgba(0, 0, 0, 0.64) 0px 5px 15px;
 
     }
