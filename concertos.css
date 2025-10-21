@@ -115,6 +115,28 @@ body {
  cursor: pointer; 
 }
 
+.top-nav__site-logo {
+  background-color: #4281da;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  background-image: radial-gradient(circle,#15e1ed,#af63e4 44%,#8d00ff 86%);
+  font-weight: 500;
+  font-size: 2.5rem;
+  text-shadow: rgba(52,160,230,.55) 0 0 1px;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  text-transform: uppercase;
+}
+
+.top-nav__site-logo::before {
+  content: "🎵 "; 
+  font-size: 2.4rem;
+  opacity: 1;
+  filter: none;
+  text-shadow: none;
+  -webkit-text-fill-color: initial;
+  -webkit-background-clip: initial;
+}
+
 .form__button--filled {
       background: #295756;;
       color: var(--button-filled-fg);
@@ -2420,4 +2442,5 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
 ░░░░░░░░░░░
 */
+
 
