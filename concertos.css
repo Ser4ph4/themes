@@ -2392,11 +2392,11 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 
 .article-preview__title::before {
   content: url("https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/trackers/noticias-cbr.svg") !important;
-  vertical-align: -1px;
-  width: 16px;
+  vertical-align: unset;
+  width: 13px;
   display: inline-grid;
-  margin-left: 1px;
-  margin-right: -10px;
+  margin-left: 2px;
+  margin-right: auto;
 }
 
 .article-preview__image {
@@ -2408,8 +2408,16 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 
+.article-preview {
+  background-color:var(--article-card-bg);
+  padding: 19px;
+  border-radius: 5px;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
 ░░░░░░░░░░░
 */
+
