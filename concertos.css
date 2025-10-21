@@ -96,6 +96,25 @@ body {
 
 }
 
+user-stat-card__username {
+  grid-area: username;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3px 6px;
+  margin: 0;
+  border-radius: 8px;
+  font-weight: 500;
+  text-decoration: none;
+  overflow: hidden;
+  white-space: nowrap;
+  background-image: url('https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/images/votes-fundo-bj.svg');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+ cursor: pointer; 
+}
+
 .form__button--filled {
       background: #295756;;
       color: var(--button-filled-fg);
@@ -2368,6 +2387,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
 ░░░░░░░░░░░
 */
+
 
 
 
