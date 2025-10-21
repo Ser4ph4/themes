@@ -96,7 +96,7 @@ body {
 
 }
 
-user-stat-card__username {
+.user-stat-card__username {
   grid-area: username;
   display: flex;
   align-items: center;
@@ -2387,6 +2387,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
 ░░░░░░░░░░░
 */
+
 
 
 
