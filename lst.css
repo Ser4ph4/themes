@@ -2388,6 +2388,22 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   content: "✨"; 
   font-size: 1.2rem;
 }
+
+.alert__content .badge {
+  display: inline-flex;
+  align-items: center;
+  background-color: #23b240;
+  color: #11121b;
+  padding: 6px 6px;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
