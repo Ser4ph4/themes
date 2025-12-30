@@ -2369,7 +2369,12 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   border-radius: 10px 10px 0 0 !important;
 }
 
-
+.top-nav__dropdown:hover > a, .top-nav__dropdown:focus-within > a {
+  color: var(--top-nav-dropdown-hover-fg);
+  text-decoration: var(--top-nav-dropdown-hover-text-decoration);
+  text-underline-offset: 3px;
+  background: none !important;
+}
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
