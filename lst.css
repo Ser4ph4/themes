@@ -2419,7 +2419,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 .chatbox-message__avatar {
   width: 34px;
   height: 34px;
-  border-radius: 100%;
+  border-radius: 100% !important;
   box-shadow: rgb(33, 33, 33) 0px 5px 15px;
   margin-top: 6px;
 }
