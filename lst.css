@@ -2431,6 +2431,11 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   border-radius: 10px;
 }
 
+.featured-carousel__feature-details {
+  padding: revert-layer;
+  background: #1b1f2f7a;
+  border-radius: 3px 3px 0 0;
+}
 
 /*
 ░░░░░░░░░░░
