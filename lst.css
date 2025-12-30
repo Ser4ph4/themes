@@ -2412,6 +2412,20 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 
+.panel__action.page__published::before {
+  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/clock-regular.svg");
+  margin-left: 0px;
+  margin-right: 0px;
+  vertical-align: unset;
+}
+
+.panel__action.page__published {
+  background: #212121;
+  color: #faad11;
+  padding: 0px 5px;
+  border-radius: 6px !important;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
