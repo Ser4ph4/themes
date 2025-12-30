@@ -2375,12 +2375,12 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 
 .special-event-alert > .alert__content {
   display: flex;
-  align-items: center; 
-  justify-content: center; 
-  gap: 15px; 
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
   background-color: #11121b;
-  color: #ffffff; 
-  padding: 12px 20px;
+  color: #ffffff;
+  padding: 5px;
   border-radius: 8px;
 }
 
