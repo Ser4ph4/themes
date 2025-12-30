@@ -949,16 +949,6 @@ progress {
   padding: 7px 4px 4px 5px;
 }
 
-.chatbox-message__avatar {
-  width: 33px;
-  height: 33px;
-  border-radius: 100%;
-  margin-bottom: 5px;
-  margin-left: 4px;
-  box-shadow: rgba(0, 0, 0, 0.64) 0px 5px 15px;
-  
-}
-
 .post__avatar {
   width: 100%;
   border-radius: 10px;
@@ -2424,6 +2414,14 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   color: #faad11;
   padding: 0px 5px;
   border-radius: 6px !important;
+}
+
+.chatbox-message__avatar {
+  width: 34px;
+  height: 34px;
+  border-radius: 100%;
+  box-shadow: rgb(33, 33, 33) 0px 5px 15px;
+  margin-top: 6px;
 }
 
 /*
