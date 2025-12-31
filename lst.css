@@ -2593,6 +2593,30 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   font-style: italic;
 }
 
+.chatroom__messages--wrapper .chatroom__messages .reply::before {
+  --spine-width: 2px;
+  --avatar-size: 27px;
+  --reply-spacing: 4px;
+  --gutter: 16px;
+  --custom-message-spacing-vertical-container-cozy: .75rem;
+  content: "";
+  display: block;
+  position: absolute;
+  box-sizing: border-box;
+  top: 50%;
+  right: 100%;
+  bottom: 0;
+  left: calc(-1 * (.5 * var(--avatar-size) + var(--gutter)));
+  margin-right: var(--reply-spacing);
+  margin-top: calc(-.5 * var(--spine-width));
+  margin-left: calc(-.5 * var(--spine-width));
+  margin-bottom: calc(-4px + var(--custom-message-spacing-vertical-container-cozy));
+  border-color: #d3d9e4;
+  border-width: var(--spine-width) 0 0 var(--spine-width);
+  border-style: solid;
+  border-top-left-radius: 6px;
+}
+
 .chatroom__whispers-reply {
   grid-area: reply;
   padding: 2px 5px;
