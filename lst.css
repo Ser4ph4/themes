@@ -2478,6 +2478,24 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   color: #3c96d7; /* Pode ter cor diferente do texto se quiser */
 }
 
+.mediainfo__general, .mediainfo__video {
+  flex-basis: 48%;
+  flex-shrink: 0;
+  padding: 10px;
+  background: rgba(46, 52, 64, 0.25);
+  border: 1px solid rgba(76, 86, 106, 0.35);
+  border-radius: 8px;
+  font-size: 13px;
+  color: #d8dee9;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  margin-bottom: 6px;
+  max-width: max-content;
+}
+
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
