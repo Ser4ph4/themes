@@ -2542,6 +2542,13 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   to   { opacity: 0.6; transform: translateY(0); }
 }
 
+.bbcode-rendered.isirc::before {
+  color: #20ff38;
+  font-size: 12px;
+  margin-right: 5px;
+  display: inline;
+  content: "(irc)";
+}
 
 /*
 ░░░░░░░░░░░
