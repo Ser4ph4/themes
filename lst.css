@@ -1,6 +1,6 @@
 /*
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
-❕[Stylesheet] LST Nord Theme CSS : 𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 30/12/2025 ~  
+❕[Stylesheet] LST Nord Theme CSS : 𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 31/12/2025 ~  
 ▫️𝘔𝘰𝘥𝘪𝘧𝘪𝘤𝘢𝘵𝘪𝘰𝘯𝘴 : @𝙎𝙚𝙧𝙖𝙥𝙝4
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
 */
@@ -2149,11 +2149,11 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 
 .mediainfo__audio::before {
   content: url('https://ser4ph4.github.io/themes/images/audio-bj.svg');
-  vertical-align: -1px;
-  width: 10px;
-  display: inline-grid;
+  vertical-align: baseline;
+  width: 3px;
+  display: inline-flex;
   margin-left: 11px;
-  margin-right: -7px;
+  margin-right: 1px;
 }
 
 .mediainfo h3 {
