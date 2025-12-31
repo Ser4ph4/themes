@@ -32,7 +32,7 @@ body {
 }
 
 .user-tag.torrent-search--list__uploader{
-  height: 18px
+  height: auto;
 }
 
 .fa-coins::before {
