@@ -2581,6 +2581,16 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   border-radius: 0px 10px 0 0;
 }
 
+.chatroom__messages--wrapper .chatroom__messages .reply {
+  font-size: .8em;
+  background: #12141a;
+  max-width: max-content;
+  display: inline-flex;
+  padding: 0px 2px;
+  border-radius: 3px;
+  font-style: italic;
+}
+
 .chatroom__whispers-reply {
   grid-area: reply;
   padding: 2px 5px;
