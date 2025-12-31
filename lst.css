@@ -25,6 +25,11 @@ body {
   font-weight: 400;
 }
 
+.fa-coins::before {
+  content: "";
+  color: goldenrod;
+}
+
 .topic-listing__latest-post-link {
   font-size: 13px;
   background: radial-gradient(circle at top right,#23d1a508,#157d631c) !important;
