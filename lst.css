@@ -2461,6 +2461,22 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   background: #11121b;
 }
 
+.torrent-search--list__name2 {
+  grid-area:name;
+  font-size:16px;
+  color:#3c96d7;
+  background: #12121b;
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+
+.torrent-search--list__name2::before {
+  content: "►"; 
+  font-weight: 900;
+  margin-right: 0px;
+  color: #3c96d7; /* Pode ter cor diferente do texto se quiser */
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
