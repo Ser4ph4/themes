@@ -2443,9 +2443,9 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   width: 34px;
   height: 34px;
   border-radius: 100% !important;
-  box-shadow: rgb(33, 33, 33) 0px 5px 15px;
-  margin-top: 13px;
-  margin-left: 10px;
+  box-shadow: rgb(15, 16, 25) 0px 5px 15px;
+  margin-top: 10px;
+  margin-left: 13px;
 }
 
 .nav-tab-menu__items .nav-tab__link {
@@ -2561,7 +2561,8 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   font-size: 12px;
   margin-right: 5px;
   display: inline;
-  content: "(irc)";
+  content: "•IRC•";
+  font-style: italic;
 }
 
 .chatroom__messages li:hover {
