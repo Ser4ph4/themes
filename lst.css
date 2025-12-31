@@ -831,11 +831,12 @@ progress {
   grid-area: tip-stats;
   display: inline-flex;
   margin-bottom: 0;
-  background: #2121215e;
+  background: #343a488f;
   border-radius: 3px;
-  color: #45affd;
+  color: #daa520;
+  font-family: Roboto !important;
+  font-weight: 500;
   padding: 0px 2px;
-  font-weight: 600;
 }
 
 .post__tip-stats::before {
