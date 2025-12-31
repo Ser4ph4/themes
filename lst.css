@@ -20,6 +20,13 @@ body {
     line-height: 17px !important;
   }
 
+.top-nav__main-menus {
+  list-style-type: none;
+  background: #222731 !important;
+  padding: 3px 7px;
+  border-radius: 10px;
+}
+
 .topic-listing--read .topic-listing__heading {
   font-weight: 400;
 }
