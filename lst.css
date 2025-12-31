@@ -2500,6 +2500,10 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   max-width: max-content;
 }
 
+.page__request--create {
+  font-size: 11px !important;
+}
+
 
 /*
 ░░░░░░░░░░░
