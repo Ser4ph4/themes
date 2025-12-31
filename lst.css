@@ -2716,6 +2716,16 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   background: #1e202296;
 }
 
+.donation-package__name {
+  font-size: 15px;
+  font-weight: 900;
+  color: #90e0ac;
+  text-decoration: underline;
+  background: #11121b;
+  padding: 3px 4px;
+  border-radius: 5px;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
