@@ -324,7 +324,7 @@ body {
     text-transform: revert-layer !important;
     font-size: 12px;
     font-weight: 700;
-    border-radius: 13px
+    border-radius: 13px 13px 0 0;
   }
   .torrent-search__component {
     display: flex;
