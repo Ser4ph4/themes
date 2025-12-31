@@ -1355,7 +1355,7 @@ progress {
   line-height: 1.5;
   word-wrap: break-word;
   color: #f4f8ff;
-  padding: 2px 2px;
+  padding: 2px 8px;
   font-family: inherit;
   white-space: normal !important;
   background: #222730;
