@@ -319,7 +319,7 @@ body {
   }
 
   .panel__actions {
-    background-color: #101019;
+    background-color: #2a303b00;
     color: #d8dee9;
     text-transform: revert-layer !important;
     font-size: 12px;
