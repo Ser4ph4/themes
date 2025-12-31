@@ -7,14 +7,14 @@
 
 .alert {
   color: #feb100;
-  background: #191d2a url('https://ser4ph4.github.io/themes/images/blutopian_bg-2025.svg');
+  background: #191d2a url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/vn-fundo.svg');
   background-size: 130px;
   font-size: 14px;
   padding: 0px;
 }
 
 body {
-    background: #191d2a url('https://ser4ph4.github.io/themes/images/blutopian_bg-2025.svg');
+    background: #191d2a url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/vn-fundo.svg');
     background-size: auto;
     background-size: 300px auto;
     font-size: 16px;
@@ -160,16 +160,13 @@ body {
       padding: 0;
       margin: 0;
       font-weight: 400;
-      background: #3b4252;
+      background: #0f1019;
       border-radius: 5px;
       border-left: solid 1px rgb(19, 20, 29);
       border-right: solid 1px rgb(19, 20, 29);
       border-top: solid 1px rgb(19, 20, 29);
       border-bottom: solid 1px rgb(19, 20, 30);
-      background: #191d2a url('https://ser4ph4.github.io/themes/images/blutopian_bg-2025.svg');
-      background-size: auto;
-      background-size: 130px;
-      box-shadow: rgba(0, 0, 0, 0.64) 0px 5px 15px;
+      box-shadow: rgba(0, 0, 0, 0.64) 0px 3px 10px;
 
     }
     .form__button--outlined {
