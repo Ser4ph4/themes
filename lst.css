@@ -2684,6 +2684,21 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   cursor: pointer;
 }
 
+.user-stat-card__username {
+  grid-area: username;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 1px;
+  margin: 0;
+  border-radius: 8px;
+  font-weight: 500;
+  text-decoration: none;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  background: #1e202296;
+}
 
 /*
 ░░░░░░░░░░░
