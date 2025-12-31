@@ -2537,6 +2537,12 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   animation: fadeInCapy 0.3s forwards;
 }
 
+@keyframes fadeInCapy {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 0.6; transform: translateY(0); }
+}
+
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
