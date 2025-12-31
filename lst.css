@@ -114,6 +114,17 @@ body {
 
     }
 
+.top-nav__icon-bar > li > a > i {
+  color: var(--top-nav-icon-bar-icon-fg);
+  font-size: 16px;
+  text-align: center;
+  aspect-ratio: 1;
+  border-radius: var(--top-nav-icon-bar-icon-border-radius);
+  background-color: var(--top-nav-icon-bar-icon-bg);
+  height: 32px;
+  line-height: 32px;
+}
+
 .top-nav__dropdown > a > .top-nav--left__container {
   display: grid;
   align-items: center;
