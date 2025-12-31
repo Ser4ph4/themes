@@ -1557,11 +1557,17 @@ border-bottom: 2px solid #2c323d;
 }
 
 @media screen and (max-width: 576px) {
-.meta__title::before {
-  vertical-align: 0px;
-  margin-right: -2px;
-  content: "~" !important; 
- }
+  .meta__title::before {
+    content: "";
+    display: inline-block;
+    vertical-align: -11px !important;
+    width: 16px;
+    height: 31px;
+    background-image: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/icon_title_lst.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
 
 @media screen and (max-width: 576px) {
