@@ -319,7 +319,7 @@ body {
   }
 
   .panel__actions {
-    background-color: inherit;
+    background-color: #101019;
     color: #d8dee9;
     text-transform: revert-layer !important;
     font-size: 12px;
