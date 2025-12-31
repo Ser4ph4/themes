@@ -14,11 +14,10 @@
 }
 
 body {
-    background: #191d2a url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/vn-fundo.svg');
-    background-size: auto;
-    background-size: 300px auto;
-    font-size: 16px;
-    line-height: 21px !important;
+    background: #2e3440 url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/vn-fundo.svg');
+    background-size: 69px auto;
+    font-size: 15px;
+    line-height: 17px !important;
   }
 
 .topic-listing--read .topic-listing__heading {
