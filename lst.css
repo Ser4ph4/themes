@@ -2655,7 +2655,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 
 .chatroom__whispers-typing {
   grid-area: new-messages-start;
-  margin: 0px 17px;
+  margin: 6px 17px;
   display: flex;
   align-items: center;
   color: #958324;
