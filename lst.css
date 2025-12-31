@@ -2490,17 +2490,15 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 }
 
 .torrent-icons .badge {
-  letter-spacing:normal;
-  padding:0 5px;
-  border:1px solid #333;
-  border-radius:10px;
-  font-size:.9em;
-  display:flex;
-  align-items:center;
-  gap:2px;
+  letter-spacing: normal;
+  padding: 0 5px;
+  border: 2px solid #393f51;
+  font-size: .9em;
+  display: flex;
+  align-items: center;
+  gap: 2px;
   background: #11121b;
 }
-
 .torrent-search--list__name2 {
   grid-area:name;
   font-size:14px;
