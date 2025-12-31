@@ -2639,6 +2639,24 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   color: #ca3838;
 }
 
+.form__standard-icon-button {
+  all: unset;
+  font-size: 21px;
+  line-height: 1;
+  padding: 13px;
+  border-radius: var(--icon-button-border-radius);
+  border: var(--icon-button-border);
+  background: var(--icon-button-bg);
+  color: var(--icon-button-fg);
+  transition: filter .3s;
+  display: inline-grid;
+  min-height: 29px;
+  min-width: 29px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
