@@ -31,6 +31,10 @@ body {
   font-weight: 400;
 }
 
+.user-tag.torrent-search--list__uploader{
+  height: 19px
+}
+
 .fa-coins::before {
   content: "";
   color: goldenrod;
