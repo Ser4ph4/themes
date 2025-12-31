@@ -2572,7 +2572,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 .chatroom__whispers-reply {
   grid-area: reply;
   padding: 2px 5px;
-  margin: 0px 6px;
+  margin: 6px 6px;
     margin-left: 6px;
   font-size: 12px;
   align-items: center;
