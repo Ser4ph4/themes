@@ -30,6 +30,11 @@ body {
   color: goldenrod;
 }
 
+.fa-youtube::before {
+  content: "";
+  font-size: 13px;
+}
+
 .topic-listing__latest-post-link {
   font-size: 13px;
   background: radial-gradient(circle at top right,#23d1a508,#157d631c) !important;
