@@ -2431,7 +2431,8 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   height: 34px;
   border-radius: 100% !important;
   box-shadow: rgb(33, 33, 33) 0px 5px 15px;
-  margin-top: 6px;
+  margin-top: 13px;
+  margin-left: 10px;
 }
 
 .nav-tab-menu__items .nav-tab__link {
@@ -2559,6 +2560,12 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   margin: 8px 0;
   border-left: 2px solid transparent;
   position: relative;
+}
+
+.chatroom__messages .message {
+  overflow-wrap: anywhere;
+  background: #11121b;
+  border-radius: 10px 10px 0 0;
 }
 
 /*
