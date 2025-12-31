@@ -55,6 +55,7 @@ body {
 
 .bbcode-input__icon-separator {
   align-self: stretch;
+  margin: 11px 0px;
 }
 
   .fa::before, .fas::before {
