@@ -39,6 +39,13 @@ body {
   font-size: 13px;
 }
 
+p.bbcode-input__tabs {
+  background: #1f1f1f !important;
+  display: inline-flex;
+  align-content: flex-end;
+  margin: auto;
+}
+
 .topic-listing__latest-post-link {
   font-size: 13px;
   background: radial-gradient(circle at top right,#23d1a508,#157d631c) !important;
