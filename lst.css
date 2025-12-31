@@ -44,6 +44,12 @@ body {
   border-top: thin solid #324041a1;
 }
 
+@media only screen and (min-width: 1600px) {
+  main {
+    margin: 0 max(0px,29vw - 350px);
+  }
+}
+
 .topic-listing--read {
   font-weight: 600 !important;
  }
