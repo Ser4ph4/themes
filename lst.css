@@ -581,7 +581,8 @@ body {
   grid-area: toggle;
   border-top-right-radius: var(--bbcode-input-border-radius);
   margin: 0;
-  background: #2f3541;
+  background: #11121b;
+  border: 2px solid #4183c1;
 }
 
 .bbcode-input__tabs {
