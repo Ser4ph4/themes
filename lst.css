@@ -1411,6 +1411,15 @@ dl.post__author-join{
   background-position: center;
 }
 
+.mediainfo {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 14px;
+  background: #171b28;
+  padding: 10px;
+  border-radius: 10px;
+}
+
 .mediainfo__subtitles {
   background: #2e344096;
   max-width: max-content;
