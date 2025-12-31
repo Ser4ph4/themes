@@ -2550,6 +2550,17 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   content: "(irc)";
 }
 
+.chatroom__messages li:hover {
+  background: none;
+}
+
+.chatroom__messages > li {
+  padding: 0 16px;
+  margin: 8px 0;
+  border-left: 2px solid transparent;
+  position: relative;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
