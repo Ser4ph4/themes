@@ -29,6 +29,11 @@ body {
   color: goldenrod;
 }
 
+.fa-face-smile::before, .fa-smile::before {
+  content: "";
+  color: gold;
+}
+
 .fa-youtube::before {
   content: "";
   font-size: 13px;
