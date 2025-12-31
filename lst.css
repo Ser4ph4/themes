@@ -2653,6 +2653,20 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   color: #ca3838;
 }
 
+.chatroom__whispers-typing {
+  grid-area: new-messages-start;
+  margin: 0px 17px;
+  display: flex;
+  align-items: center;
+  color: #958324;
+  background: #0f10199e;
+  max-width: max-content;
+  padding: 1px 7px;
+  border-radius: 5px;
+  font-size: 13px;
+  height: 19px;
+}
+
 .form__standard-icon-button {
   all: unset;
   font-size: 21px;
