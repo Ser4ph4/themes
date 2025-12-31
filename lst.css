@@ -2513,7 +2513,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   letter-spacing: 3px;
   font-size: 12px;
   gap: 5px;
-  align-items: unset;
+  align-items: center;
   display: inline-flex;
   min-height: 20px;
 }
