@@ -53,6 +53,10 @@ body {
   font-weight: 600 !important;
  }
 
+.bbcode-input__icon-separator {
+  align-self: stretch;
+}
+
   .fa::before, .fas::before {
     font-family: "Font Awesome 5 Pro";
     font-weight: 900;
