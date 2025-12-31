@@ -605,7 +605,7 @@ body {
 .bbcode-input__icon-bar {
   grid-area: buttons;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: unset;
   justify-content: flex-start;
   align-items: flex-end;
   padding: 0;
