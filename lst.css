@@ -2468,6 +2468,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   background: #12121b;
   padding: 2px 5px;
   border-radius: 5px;
+  font-weight: 500 !important;
 }
 
 .torrent-search--list__name2::before {
