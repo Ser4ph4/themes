@@ -2558,7 +2558,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 
 .chatroom__messages > li {
   padding: 0 16px;
-  margin: 8px 0;
+  margin: 2px 0;
   border-left: 2px solid transparent;
   position: relative;
 }
