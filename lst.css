@@ -2510,6 +2510,22 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   font-size: 11px !important;
 }
 
+@media only screen and (max-width: 767px) {
+  .torrent-search--list__uploader {
+    padding: 2px 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .torrent-icons {
+    letter-spacing: 1px;
+    align-items: center;
+    border-radius: 7px;
+    background: #27313278;
+    margin: auto;
+    display: inline-flex;
+  }
+}
 
 /*
 ░░░░░░░░░░░
