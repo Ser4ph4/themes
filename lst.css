@@ -2767,6 +2767,16 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   font-family: 'Roboto', sans-serif;
 }
 
+.panelV2.blocks__news::before {
+  content: "🔔 ";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  transform: translateY(-50%);
+  color: #88c0d0;
+  font-size: 16px;
+  opacity: 50%;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
