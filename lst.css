@@ -1368,7 +1368,7 @@ progress {
   display: inline-flex;
   white-space: nowrap;
   align-items: baseline;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .topic-listing__view-stats dd {
