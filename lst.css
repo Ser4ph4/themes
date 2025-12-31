@@ -2584,6 +2584,11 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   margin-left: 17px !important;
 }
 
+.fa-circle-xmark::before, .fa-times-circle::before, .fa-xmark-circle::before {
+  content: "";
+  margin-right: 3px;
+  color: #ca3838;
+}
 
 /*
 ░░░░░░░░░░░
