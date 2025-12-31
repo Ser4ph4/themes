@@ -1290,13 +1290,11 @@ progress {
 .quick-search__input {
   width: 100%;
   border: none;
-  font-size: 13px;
-  padding: 1px 0 1px 29px;
+  font-size: 14px;
+  padding: 3px 0 1px 30px;
   color: #fff;
-  font-family: Roboto;
-  background: #434C5E url('https://ser4ph4.github.io/themes/images/fundo-busca-bj.svg') no-repeat; 
+  background: #0F1019AD url('https://ser4ph4.github.io/themes/images/fundo-busca-bj.svg') no-repeat; 
   background-position: 4%;
-  border-radius: 10px
 }
 
 .nav-tab--active__link::before {
