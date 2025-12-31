@@ -2557,7 +2557,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 }
 
 .chatroom__messages > li {
-  padding: 0 16px;
+  padding: 0 6px;
   margin: 2px 0;
   border-left: 2px solid transparent;
   position: relative;
@@ -2568,6 +2568,22 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   background: #11121b;
   border-radius: 0px 10px 0 0;
 }
+
+.chatroom__whispers-reply {
+  grid-area: reply;
+  padding: 2px 5px;
+  margin: 0px 6px;
+    margin-left: 6px;
+  font-size: 12px;
+  align-items: center;
+  justify-content: space-between;
+  background: #20252e;
+  max-width: max-content;
+  display: inline-flex;
+  border-radius: 6px;
+  margin-left: 17px !important;
+}
+
 
 /*
 ░░░░░░░░░░░
