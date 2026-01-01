@@ -1,28 +1,60 @@
 /*
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
-❕Aither 𝘛𝘩𝘦𝘮𝘦 : 𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 12/06/2025  
+❕[Stylesheet] AIT Nord Theme CSS  𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 01/01/2026 ~  
 ▫️𝘔𝘰𝘥𝘪𝘧𝘪𝘤𝘢𝘵𝘪𝘰𝘯𝘴 : @𝙎𝙚𝙧𝙖𝙥𝙝4
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
 */
 
 .alert {
   color: #feb100;
-  background: #191d2a url('https://ser4ph4.github.io/themes/images/aither-bg.svg');
+  background: #191d2a url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/aither-bg.svg');
   background-size: 130px;
   font-size: 14px;
   padding: 0px;
 }
 
 body {
-    background: #191d2a url('https://ser4ph4.github.io/themes/images/aither-bg.svg');
-    background-size: auto;
-    background-size: 300px auto;
-    font-size: 16px;
-    line-height: 21px !important;
+    background: #191d2a  url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/aither-bg.svg');
+    background-size: 275px;
+    font-size: 14x;
+    line-height: 17px !important;
   }
+
+.top-nav__main-menus {
+  list-style-type: none;
+  background: #222731 !important;
+  padding: 3px 7px;
+  border-radius: 10px;
+}
 
 .topic-listing--read .topic-listing__heading {
   font-weight: 400;
+}
+
+.user-tag.torrent-search--list__uploader{
+  height: auto;
+}
+
+.fa-coins::before {
+  content: "";
+  color: goldenrod;
+}
+
+.fa-face-smile::before, .fa-smile::before {
+  content: "";
+  color: gold;
+}
+
+.fa-youtube::before {
+  content: "";
+  font-size: 13px;
+}
+
+p.bbcode-input__tabs {
+  background: #1f1f1f !important;
+  display: inline-flex;
+  align-content: flex-end;
+  margin: auto;
 }
 
 .topic-listing__latest-post-link {
@@ -34,14 +66,25 @@ body {
   border-top: thin solid #324041a1;
 }
 
+@media only screen and (min-width: 1600px) {
+  main {
+    margin: 0 max(0px,29vw - 350px);
+  }
+}
+
 .topic-listing--read {
   font-weight: 600 !important;
  }
 
+.bbcode-input__icon-separator {
+  align-self: stretch;
+  margin: 11px 0px;
+}
+
   .fa::before, .fas::before {
     font-family: "Font Awesome 5 Pro";
     font-weight: 900;
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .post__tip-input {
@@ -70,6 +113,12 @@ body {
   margin-bottom: 4px;
 }
 
+.torrent-search--list__size {
+  background-color: #2c323d6e !important;
+  color: #8fd1ff;
+  font-weight: 600;
+}
+
   .form__button--filled {
     background: #0c4b49;
     color: var(--button-filled-fg);
@@ -77,7 +126,7 @@ body {
     border-radius: var(--button-filled-border-radius);
   }
 
-   .torrent-search--list__name {
+    .torrent-search--list__name {
       grid-area: name;
       font-size: 16px;
       color: var(--torrent-row-fg);
@@ -104,6 +153,17 @@ body {
 
     }
 
+.top-nav__icon-bar > li > a > i {
+  color: var(--top-nav-icon-bar-icon-fg);
+  font-size: 16px;
+  text-align: center;
+  aspect-ratio: 1;
+  border-radius: var(--top-nav-icon-bar-icon-border-radius);
+  background-color: var(--top-nav-icon-bar-icon-bg);
+  height: 32px;
+  line-height: 32px;
+}
+
 .top-nav__dropdown > a > .top-nav--left__container {
   display: grid;
   align-items: center;
@@ -127,16 +187,13 @@ body {
       padding: 0;
       margin: 0;
       font-weight: 400;
-      background: #3b4252;
+      background: #0f1019;
       border-radius: 5px;
       border-left: solid 1px rgb(19, 20, 29);
       border-right: solid 1px rgb(19, 20, 29);
       border-top: solid 1px rgb(19, 20, 29);
       border-bottom: solid 1px rgb(19, 20, 30);
-      background: #191d2a url('https://ser4ph4.github.io/themes/images/aither-bg.svg');
-      background-size: auto;
-      background-size: 130px;
-      box-shadow: rgba(0, 0, 0, 0.64) 0px 5px 15px;
+      box-shadow: rgba(0, 0, 0, 0.64) 0px 3px 10px;
 
     }
     .form__button--outlined {
@@ -166,15 +223,15 @@ body {
       
     }
 
-    .post__aside {
-      grid-area: aside;
-      padding: 9px;
-      display: flex;
-      flex-direction: column;
-      align-items: stretch;
-      background-color: #2e34408f;
-      color: var(--post-aside-fg);
-    }
+ .post__aside {
+  grid-area: aside;
+  padding: 9px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  background-color: #252a34;
+  color: var(--post-aside-fg);
+}
 
     .top-nav__dropdown > ul > li > a, .top-nav__dropdown > ul > li > form > button {
       color: var(--top-nav-dropdown-menu-item-fg);
@@ -319,12 +376,12 @@ body {
   }
 
   .panel__actions {
-    background-color: inherit;
+    background-color: #2a303b00;
     color: #d8dee9;
     text-transform: revert-layer !important;
     font-size: 12px;
     font-weight: 700;
-    border-radius: 13px
+    border-radius: 13px 13px 0 0;
   }
   .torrent-search__component {
     display: flex;
@@ -560,7 +617,8 @@ body {
   grid-area: toggle;
   border-top-right-radius: var(--bbcode-input-border-radius);
   margin: 0;
-  background: #2f3541;
+  background: #11121b;
+  border: 2px solid #4183c1;
 }
 
 .bbcode-input__tabs {
@@ -736,7 +794,7 @@ progress {
   gap: 9px;
   font-size: 13px;
   color: #fff;
-  background-color: #3a4352;
+  background-color: #252a34;
   padding-left: 9px;
   border-bottom: 1px solid #434c5e;
 }
@@ -826,11 +884,12 @@ progress {
   grid-area: tip-stats;
   display: inline-flex;
   margin-bottom: 0;
-  background: #2121215e;
+  background: #343a488f;
   border-radius: 3px;
-  color: #45affd;
+  color: #daa520;
+  font-family: Roboto !important;
+  font-weight: 500;
   padding: 0px 2px;
-  font-weight: 600;
 }
 
 .post__tip-stats::before {
@@ -946,16 +1005,7 @@ progress {
   font-size: 11px;
   color: #d8dee9;
   position: unset;
-  padding: 7px 4px 4px 5px;
-}
-
-.chatbox-message__avatar {
-  width: 34px;
-  height: 33px;
-  border-radius: 20%;
-  margin-bottom: -4px;
-  margin-left: -6px;
-  box-shadow: rgba(0, 0, 0, 0.64) 0px 5px 15px;
+  padding: 2px 8px 3px 10px;
 }
 
 .post__avatar {
@@ -1028,7 +1078,7 @@ progress {
   padding: 0;
   display: flex;
   flex-direction: column;
-  row-gap: 6px;
+  row-gap: 10px;
 }
 .topic-tag--approved::after {
   content: url('https://ser4ph4.github.io/themes/images/aprovado-tag.svg');
@@ -1064,12 +1114,11 @@ progress {
 }
 
 .torrent-search--list__age {
-  font-size: 16px;
-  color: var(--torrent-row-fg);
-  background: #2c323d !important;
-  border-bottom: 1px solid #3b4252 !important;
-  border-right: 1px solid #3b4252 !important;
+  background: #1a1e29 !important;
+  border-bottom: 1px solid #212530 !important;
+  border-right: 1px solid #212530 !important;
   color: #43a4fb !important;
+  font-size: 12px !important;
 }
 
 .torrent-search--list__sticky-row td {
@@ -1210,10 +1259,9 @@ progress {
 }
 
 .panel__tab--active::before {
-  content: url('https://ser4ph4.github.io/themes/images/foquete-blu.svg');
-  vertical-align: -1px;
-  margin-left: 2px;
+  content: "#";
   margin-right: 2px;
+  color: #3b7ebb;
 }
 
 .panel__tab.chatbox__tab.panel__tab--active::before {
@@ -1274,6 +1322,7 @@ progress {
   background-color: #2c323d;
   border-radius: 10px 10px 10px 10px;
   border: 2px solid #262b35;
+  padding: 3px;
 }
 
 .topic-listing__post-stats, .topic-listing__view-stats {
@@ -1293,13 +1342,11 @@ progress {
 .quick-search__input {
   width: 100%;
   border: none;
-  font-size: 13px;
-  padding: 1px 0 1px 29px;
+  font-size: 14px;
+  padding: 3px 0 1px 30px;
   color: #fff;
-  font-family: Roboto;
-  background: #434C5E url('https://ser4ph4.github.io/themes/images/fundo-busca-bj.svg') no-repeat; 
+  background: #0F1019AD url('https://ser4ph4.github.io/themes/images/fundo-busca-bj.svg') no-repeat; 
   background-position: 4%;
-  border-radius: 10px
 }
 
 .nav-tab--active__link::before {
@@ -1324,7 +1371,7 @@ progress {
   display: inline-flex;
   white-space: nowrap;
   align-items: baseline;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .topic-listing__view-stats dd {
@@ -1338,15 +1385,12 @@ progress {
 
 .top-nav__icon-bar {
   display: flex;
-  list-style-type: none;
-  column-gap: 14px;
+  column-gap: 6px;
   align-items: center;
-  grid-area: icon-bar;
   margin: 0;
-  padding: 0;
   list-style-type: none;
   background: #242932;
-  border-radius: 22px;
+  border-radius: 20px;
   border: 2px solid #4c566a;
   padding: 3px 3px;
 }
@@ -1361,11 +1405,13 @@ progress {
 
 .bbcode-rendered.bbcode-rendered {
   font-size: 15px;
-  line-height: 1.7;
+  line-height: 1.5;
   word-wrap: break-word;
   color: #f4f8ff;
-  padding: 0px 2px;
+  padding: 2px 8px;
   font-family: inherit;
+  white-space: normal !important;
+  background: #222730;
 }
 
 .post__author-join-datetime {
@@ -1378,7 +1424,7 @@ progress {
 
 dl.post__author-join{
   color: white;
-  background: #282c35 !important;
+  background: #13141d6b  !important;
   border-radius: 8px 8px 0 0;
 }
 
@@ -1409,10 +1455,24 @@ dl.post__author-join{
 }
 
 .meta__title::before {
-  content: url(https://ser4ph4.github.io/themes/images/aither.svg);
-  padding: 5px;
-  vertical-align: -1px;
-  margin-right: -12px;
+  content: "";
+  display: inline-block;
+  vertical-align: -11px !important;
+  width: 22px;
+  height: 41px;
+  background-image: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/icon_title_lst.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.mediainfo {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 14px;
+  background: #171b28;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .mediainfo__subtitles {
@@ -1468,11 +1528,11 @@ i.fas.fa-minus-circle.fa-pull-right {
   display: block;
   content: "";
   position: absolute;
-  bottom: 0;
-  left: -10px;
+  bottom: 27px;
+  left: -7px;
   width: 0;
-  border-right: 10px solid #3b4252;
-  border-top: 10px solid transparent;
+  border-right: none;
+  border-top: none;
 }
 
 .fa-trophy-alt::before, .fa-trophy-star::before {
@@ -1499,11 +1559,14 @@ i.fas.fa-minus-circle.fa-pull-right {
 }
 
 .torrent-search--list__poster-img {
-  width: 54px;
-  height: 81px;
-  border-radius: 5px;
-  margin-left: -4px;
-  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  width: 50px;
+  height: 70px;
+  border-radius: 10px;
+  box-shadow: rgba(50, 67, 86, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.torrent-search--list__poster {
+  background: #11121b4f !important;
 }
 
 .subforum-listings__item:nth-child(2n) {
@@ -1562,11 +1625,17 @@ border-bottom: 2px solid #2c323d;
 }
 
 @media screen and (max-width: 576px) {
-.meta__title::before {
-  vertical-align: 0px;
-  margin-right: -2px;
-  content: "~" !important; 
- }
+  .meta__title::before {
+    content: "";
+    display: inline-block;
+    vertical-align: -11px !important;
+    width: 16px;
+    height: 31px;
+    background-image: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/icon_title_lst.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -1802,7 +1871,6 @@ td.torrent-search--grouped__age time {
 
 @media only screen and (max-width: 767px) {
 .torrent-icons {
-  grid-area: icons;
   letter-spacing: 1px;
   align-items: center;
   max-width: max-content;
@@ -1935,7 +2003,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 
 @media screen and (max-width: 767px) {
   .top-nav__ratio-bar.top-nav__ratio-bar {
-    font-size: 12px;
+    font-size: 14px;
     display: none !important;
   }
 }
@@ -2139,11 +2207,11 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 
 .mediainfo__audio::before {
   content: url('https://ser4ph4.github.io/themes/images/audio-bj.svg');
-  vertical-align: -1px;
-  width: 10px;
-  display: inline-grid;
+  vertical-align: baseline;
+  width: 3px;
+  display: inline-flex;
   margin-left: 11px;
-  margin-right: -7px;
+  margin-right: 1px;
 }
 
 .mediainfo h3 {
@@ -2295,13 +2363,10 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 
 .torrent-card__genre {
   display: inline;
-  color: #d8e5ff;
-  font-size: 12px !important;
-  text-transform: uppercase;
-  background: #434c5e !important;
-  font-weight: 500;
-  font-family: Roboto !important;
-  border-radius: 3px;
+  color: #bac075;
+  font-size: 10px !important;
+  background: #1a1e29 !important;
+  font-weight: 700;
   padding: 0px 0px;
   margin-right: 1px;
   margin-left: 1px;
@@ -2330,8 +2395,399 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   font-style: italic;
 }
 
-.torrent-search--list__name:visited {
-  color: #7184ea !important;
+.chatbox-message__header {
+  grid-area: header;
+  display: inline-flex;
+  padding: 1px 2px;
+}
+
+.page__topic--show > article > div > section > .panel__body {
+  background-color: transparent;
+  padding: 3px 0 0px;
+}
+
+.mediainfo dd {
+  margin-left: 45px;
+}
+
+.user-stat-card__avatar {
+  grid-area: avatar;
+  border-radius: 10% !important;
+  max-width: 44px;
+}
+
+.top-nav__profile-image {
+  width: 32px;
+  height: 32px;
+  border-radius: var(--top-nav-icon-bar-icon-border-radius);
+  border: 2px solid #3a8197;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.torrent-search--grouped__dropdown {
+  display: block;
+  font-size: 13px;
+  background: #1c1f26;
+  border-radius: 10px 10px 0 0 !important;
+}
+
+.top-nav__dropdown:hover > a, .top-nav__dropdown:focus-within > a {
+  color: var(--top-nav-dropdown-hover-fg);
+  text-decoration: var(--top-nav-dropdown-hover-text-decoration);
+  text-underline-offset: 3px;
+  background: none !important;
+}
+
+.special-event-alert > .alert__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  background-color: #11121b;
+  color: #ffffff;
+  padding: 2px;
+  border-radius: 8px;
+}
+
+.special-event-alert > .alert__content::before {
+  content: "✨"; 
+  font-size: 1.2rem;
+}
+
+.alert__content .badge {
+  display: inline-flex;
+  align-items: center;
+  background-color: #23b240;
+  color: #11121b;
+  padding: 3px 6px;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.article-preview__image {
+  max-height: 50px;
+  max-width: 300px;
+  grid-area: image;
+  border-radius: 31px;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.panel__action.page__published::before {
+  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/clock-regular.svg");
+  margin-left: 0px;
+  margin-right: 0px;
+  vertical-align: unset;
+}
+
+.panel__action.page__published {
+  background: #212121;
+  color: #faad11;
+  padding: 0px 5px;
+  border-radius: 6px !important;
+}
+
+.chatbox-message__avatar {
+  width: 34px;
+  height: 34px;
+  border-radius: 100% !important;
+  box-shadow: rgb(15, 16, 25) 0px 5px 15px;
+  margin-top: 10px;
+  margin-left: 13px;
+}
+
+.nav-tab-menu__items .nav-tab__link {
+  padding: 2px 3px 2px 0px;
+  width: 100%;
+  border: 2px solid #43523b;
+  border-radius: 10px;
+}
+
+.featured-carousel__feature-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0px !important;
+  padding: 0px !important;
+}
+
+.featured-carousel__featured-until, .featured-carousel__featured-by {
+  text-align: center;
+  font-size: 11.5px;
+  background: #11121b59;
+  display: inline-flex;
+  padding: 0px 4px;
+  margin: 1px;
+  border-radius: 0 0 6px 6px;
+}
+
+.torrent-icons .badge {
+  letter-spacing: normal;
+  padding: 0 5px;
+  border: 2px solid #393f51;
+  font-size: .9em;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  background: #11121b;
+}
+.torrent-search--list__name2 {
+  grid-area:name;
+  font-size:14px;
+  color:#3c96d7;
+  background: #12121b;
+  padding: 2px 5px;
+  border-radius: 5px;
+  font-weight: 500 !important;
+}
+
+.torrent-search--list__name2::before {
+  content: "►"; 
+  font-weight: 900;
+  margin-right: 0px;
+  color: #3c96d7; /* Pode ter cor diferente do texto se quiser */
+}
+
+.mediainfo__general, .mediainfo__video {
+  flex-basis: 48%;
+  flex-shrink: 0;
+  padding: 10px;
+  background: rgba(46, 52, 64, 0.25);
+  border: 1px solid rgba(76, 86, 106, 0.35);
+  border-radius: 8px;
+  font-size: 13px;
+  color: #d8dee9;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  margin-bottom: 6px;
+  max-width: max-content;
+}
+
+.page__request--create {
+  font-size: 11px !important;
+}
+
+.torrent-icons {
+  letter-spacing: 3px;
+  font-size: 12px;
+  gap: 5px;
+  align-items: center;
+  display: inline-flex;
+  min-height: 20px;
+}
+
+.user-stat-card:hover {
+  background: var(--user-stat-card-bg-hover, #23252c);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px);
+}
+
+.user-stat-card:hover::after {
+  content: "";
+  position: absolute;
+  bottom: 0.5rem;
+  right: 1.55rem;
+  width: 33px;
+  height: 33px;
+  background: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/duck_lst.gif") no-repeat center / contain;
+  opacity: 90.2;
+  pointer-events: none;
+  animation: fadeInCapy 0.3s forwards;
+}
+
+@keyframes fadeInCapy {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 0.6; transform: translateY(0); }
+}
+
+.bbcode-rendered.isirc::before {
+  color: #20ff38;
+  font-size: 12px;
+  margin-right: 5px;
+  display: inline;
+  content: "•IRC•";
+  font-style: italic;
+}
+
+.chatroom__messages li:hover {
+  background: none;
+}
+
+.chatroom__messages > li {
+  padding: 0 6px;
+  margin: 2px 0;
+  border-left: 2px solid transparent;
+  position: relative;
+}
+
+.chatroom__messages .message {
+  overflow-wrap: anywhere;
+  background: #11121b;
+  border-radius: 0px 10px 0 0;
+}
+
+.chatroom__messages--wrapper .chatroom__messages .reply {
+  font-size: .8em;
+  background: #12141a;
+  max-width: max-content;
+  display: inline-flex;
+  padding: 2px 6px;
+  border-radius: 3px;
+  border: solid 1px;
+  margin-bottom: 2px;
+  font-style: italic;
+}
+
+.chatroom__messages--wrapper .chatroom__messages .reply::before {
+  --spine-width: 2px;
+  --avatar-size: 27px;
+  --reply-spacing: 4px;
+  --gutter: 16px;
+  --custom-message-spacing-vertical-container-cozy: .75rem;
+  content: "";
+  display: block;
+  position: absolute;
+  box-sizing: border-box;
+  top: 50%;
+  right: 100%;
+  bottom: 0;
+  left: calc(-1 * (.5 * var(--avatar-size) + var(--gutter)));
+  margin-right: var(--reply-spacing);
+  margin-top: calc(-.5 * var(--spine-width));
+  margin-left: calc(-.5 * var(--spine-width));
+  margin-bottom: calc(-4px + var(--custom-message-spacing-vertical-container-cozy));
+  border-color: #d3d9e4;
+  border-width: var(--spine-width) 0 0 var(--spine-width);
+  border-style: solid;
+  border-top-left-radius: 6px;
+}
+
+.chatroom__whispers-reply {
+  grid-area: reply;
+  padding: 2px 5px;
+  margin: 6px 6px;
+    margin-left: 6px;
+  font-size: 12px;
+  align-items: center;
+  justify-content: space-between;
+  background: #20252e;
+  max-width: max-content;
+  display: inline-flex;
+  border-radius: 6px;
+  margin-left: 17px !important;
+}
+
+.fa-circle-xmark::before, .fa-times-circle::before, .fa-xmark-circle::before {
+  content: "";
+  margin-right: 3px;
+  color: #ca3838;
+}
+
+.chatroom__whispers-typing {
+  grid-area: new-messages-start;
+  margin: 6px 17px;
+  display: flex;
+  align-items: center;
+  color: #958324;
+  background: #0f10199e;
+  max-width: max-content;
+  padding: 1px 7px;
+  border-radius: 5px;
+  font-size: 13px;
+  height: 19px;
+}
+
+.form__standard-icon-button {
+  all: unset;
+  font-size: 21px;
+  line-height: 1;
+  padding: 11.8px;
+  border-radius: var(--icon-button-border-radius);
+  border: var(--icon-button-border);
+  background: var(--icon-button-bg);
+  color: var(--icon-button-fg);
+  transition: filter .3s;
+  display: inline-grid;
+  min-height: 29px;
+  min-width: 29px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.user-stat-card__username {
+  grid-area: username;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 1px;
+  margin: 0;
+  border-radius: 8px;
+  font-weight: 500;
+  text-decoration: none;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  background: #1e202296;
+}
+
+.donation-package__name {
+  font-size: 15px;
+  font-weight: 900;
+  color: #90e0ac;
+  text-decoration: underline;
+  background: #11121b;
+  padding: 3px 4px;
+  border-radius: 5px;
+}
+
+.meta__description {
+  grid-area: description;
+  max-height: 150px;
+  overflow-y: auto;
+  color: var(--meta-description-fg);
+  margin-top: 4px;
+  padding: 6px 8px;
+  font-size: 15px;
+  line-height: 1.5;
+  background: rgba(128, 133, 145, 0.25);
+  border: 1px solid rgba(60, 66, 80, 0.4);
+  border-radius: 6px;
+  scrollbar-width: thin;
+  scrollbar-color: #4c566a #2e3440;
+  font-family: 'Roboto', sans-serif;
+}
+
+.panelV2.blocks__news::before {
+  content: "🔔 ";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  transform: translateY(-50%);
+  color: #88c0d0;
+  font-size: 16px;
+  opacity: 50%;
+}
+
+ .torrent-search--list__seeders {
+  background: #2e34409e !important;
+  font-size: 14px !important;
+  color: #81a1c1;
+}
+
+.torrent-search--list__leechers {
+  background: #d0838c14 !important;
+  font-size: 14px !important;
+  color: #81a1c1;
+}
+
+.torrent-search--list__age ::before {
+  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/clock-regular.svg");
+  vertical-align: top;
 }
 
 /*
