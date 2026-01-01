@@ -1537,9 +1537,6 @@ body#collage .cats_music {
   order:5
 }
 .thin:last-child {
-  display: flex;
-  flex-wrap: wrap;
-  margin: -4px;
   box-shadow: rgba(0, 0, 0, 0.56) 1px 3px 20px 1px;
   border-radius: 10px 10px 10px 10px;
   margin: 5px;
