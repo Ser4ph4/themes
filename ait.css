@@ -1020,6 +1020,13 @@ progress {
   margin-left: 40px;
 }
 
+.chatbox-message__content {
+  font-size: 15px;
+  border-radius: 0 10px 10px 10px;
+  background: #474d59;
+  max-width: max-content;
+}
+
 .chatbox-message__time {
   display: inline-block;
   font-size: 11px;
