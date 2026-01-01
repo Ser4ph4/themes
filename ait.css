@@ -2840,6 +2840,15 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   vertical-align: top;
 }
 
+.chatbox-message__source::after {
+  font-family: "Font Awesome 5 Pro"; 
+  content: " \f544";               
+  font-weight: 900;               
+  margin-left: 6px;              
+  font-size: 12px;              
+  color: #787c41;                  
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
