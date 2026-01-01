@@ -764,8 +764,8 @@ div#flip_view_1 div#similar-artist .name {
   text-align:center;
   width:18px
 }
-.show_torrents>a:after {
-  content:"ðŸŽµ"
+.show_torrents > a::after {
+  content: "▶";
 }
 .hide_torrents>a:after {
   content:"\25BC"
