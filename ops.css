@@ -2889,6 +2889,127 @@ li#nav_torrents > a::before {
   vertical-align: text-bottom;
 }
 
+li#nav_torrents > a::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 23px;
+  background-image: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/torrent-menu.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.65;
+  vertical-align: text-bottom;
+}
+li#nav_forums> a::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 23px;
+  background-image: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/forum-menu.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.65;
+  vertical-align: text-bottom;
+}
+
+li#nav_top10> a::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 23px;
+  background-image: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/top-10-menu.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.95;
+  vertical-align: text-bottom;
+}
+
+li#nav_userinfo> a::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 23px;
+  background-image: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/menu-user-bj.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.95;
+  vertical-align: text-bottom;
+}
+
+
+li#nav_requests> a::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 23px;
+  background-image: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/request_ops.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.95;
+  vertical-align: text-bottom;
+}
+
+
+li#nav_collages> a::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 23px;
+  background-image: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/colage.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.95;
+  vertical-align: text-bottom;
+}
+
+li#nav_irc> a::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 23px;
+  background-image: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/irc_ops.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.95;
+  vertical-align: text-bottom;
+}
+
+li#nav_wiki> a::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 23px;
+  background-image: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/wiki_ops.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.95;
+  vertical-align: text-bottom;
+}
+
+li#nav_rules> a::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 23px;
+  background-image: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/rules_ops.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.95;
+  vertical-align: text-bottom;
+}
+
+
+
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
