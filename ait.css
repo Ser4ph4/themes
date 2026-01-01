@@ -2615,6 +2615,26 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   font-style: italic;
 }
 
+.chatbox-message__aside {
+  grid-area: aside;
+  position: absolute;
+  left: -40px;
+  bottom: 0;
+  background: #171b28 !important;
+  padding: 3px;
+  border-radius: 11px 1px 0 0;
+}
+
+.chatroom__messages {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  gap: 1px;
+  padding: 0px 3px 9px;
+  margin: 0;
+  align-items: flex-start;
+}
+
 .chatroom__messages li:hover {
   background: none;
 }
