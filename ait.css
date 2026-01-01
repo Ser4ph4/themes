@@ -2655,6 +2655,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   padding: 0px 3px 9px;
   margin: 0;
   align-items: flex-start;
+  background: #2a303b;
 }
 
 .chatroom__messages li:hover {
