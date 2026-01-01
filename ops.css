@@ -2798,8 +2798,10 @@ ul#check:after {
     
     @media (max-width: 575px) {
       .forum_post tr.colhead_dark span, .forum_post tr.colhead_dark strong {
-     font-size: 12px !important;
-     @media (max-width: 575px) {
+     font-size: 13px !important;
+     line-height: 16px;
+     text-align: left;
+       @media (max-width: 575px) {
       #wrapper .td_read {
         float: left;
         height: 19px;
@@ -2807,7 +2809,7 @@ ul#check:after {
         width: 11px;
       }
     }
-  }
+}
  }
   @media (max-width: 575px) {
   .forum_post .avatar img {
@@ -2823,13 +2825,8 @@ ul#check:after {
 
 @media (max-width: 575px) {
   .post_id {
-    font-size: 10px !important;
-    border-left: solid 3px rgb(81, 81, 81) !important;
-    border-radius: 4px !important;
-    font-weight: 700 !important;
-    color: #a9b7b7 !important;
-    background: #12161600;
  
+    display: none;
 }
 
 }
