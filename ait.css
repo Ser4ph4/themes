@@ -47,6 +47,10 @@ body {
   font-size: 13px;
 }
 
+.fas.fa-bell {
+  color: goldenrod !important;
+}
+
 p.bbcode-input__tabs {
   background: #1f1f1f !important;
   display: inline-flex;
