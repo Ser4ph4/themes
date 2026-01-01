@@ -2927,20 +2927,6 @@ li#nav_top10> a::before {
   vertical-align: text-bottom;
 }
 
-li#nav_userinfo> a::before {
-  content: "";
-  display: inline-block;
-  width: 20px;
-  height: 23px;
-  background-image: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/menu-user-bj.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  opacity: 0.95;
-  vertical-align: text-bottom;
-}
-
-
 li#nav_requests> a::before {
   content: "";
   display: inline-block;
@@ -3006,9 +2992,6 @@ li#nav_rules> a::before {
   opacity: 0.95;
   vertical-align: text-bottom;
 }
-
-
-
 
 /*
 ░░░░░░░░░░░
