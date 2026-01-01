@@ -1131,8 +1131,8 @@ blockquote {
 .forum_post .colhead_dark label {
   margin-right:4px
 }
-.thin:not(.linkbox)>:not(.two_columns) {
-  width:-moz-available
+.thin:not(.linkbox) > :not(.two_columns) {
+  width: -webkit-fill-available;
 }
 .thin>table {
   width:calc(100% - 8px)
