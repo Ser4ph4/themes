@@ -2881,13 +2881,13 @@ li#nav_torrents > a::before {
   content: "";
   display: inline-block;
   width: 20px;
-  height: 20px;
+  height: 23px;
   background-image: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/torrent-menu.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   opacity: 0.65;
-  vertical-align: text-top;
+  vertical-align: text-bottom;
 }
 
 /*
