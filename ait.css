@@ -999,6 +999,18 @@ progress {
   margin-right: 1px;
 }
 
+.chatbox-message {
+  display: grid;
+  grid-template-areas:
+"aside header  .       menu   " 
+"aside content content content";
+  grid-template-columns: 0 auto 1fr auto;
+  border-radius: 0 10px 0 0px;
+  background-color: #151822;
+  position: relative;
+  margin-left: 40px;
+}
+
 .chatbox-message__time {
   display: inline-block;
   font-size: 11px;
