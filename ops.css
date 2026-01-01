@@ -537,29 +537,29 @@ table.box2 {
   display:block
 }
 .read {
-  background:url('https://edge.opsfet.ch/svg/std/document-ccc.svg') 50% no-repeat
+  background:url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/document-ccc.svg') 50% no-repeat
 }
 .unread {
   background:url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/passport-solid.svg')  50% no-repeat;
   background-size: 19px;
 }
 .read_locked {
-  background:url('https://edge.opsfet.ch/svg/std/lock-ccc.svg') 50% no-repeat
+  background:url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/lock-ccc.svg') 50% no-repeat
 }
 .unread_locked {
-  background:url('https://edge.opsfet.ch/svg/std/lock-round-ccc.svg') 50% no-repeat
+  background:url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/lock-round-ccc.svg') 50% no-repeat
 }
 .read_sticky {
-  background:url('https://edge.opsfet.ch/svg/std/pin-ccc.svg') 50% no-repeat
+  background:url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/pin-ccc.svg') 50% no-repeat
 }
 .unread_sticky {
-  background:url('https://edge.opsfet.ch/svg/std/pin-round-ccc.svg') 50% no-repeat
+  background:url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/pin-round-ccc.svg') 50% no-repeat
 }
 .read_locked_sticky {
-  background:url('https://edge.opsfet.ch/svg/std/pin-and-lock-ccc.svg') 50% no-repeat
+  background:url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/pin-and-lock-ccc.svg') 50% no-repeat
 }
 .unread_locked_sticky {
-  background:url('https://edge.opsfet.ch/svg/std/pin-and-lock-round-ccc.svg') 50% no-repeat
+  background:url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/pin-and-lock-round-ccc.svg') 50% no-repeat
 }
 #footer {
   text-align:center
