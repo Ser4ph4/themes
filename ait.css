@@ -1004,11 +1004,10 @@ progress {
 .chatbox-message::before {
   display: block;
   content: "";
-  position: relative;
-  bottom: 2px;
-  left: -6px;
+  bottom: 10px;
+  left: -7px;
   width: 8px;
-  border-right: 10px solid #131620;
+  border-right: 10px solid #20252e;
   border-top: 10px solid transparent;
   margin-top: 19px;
 }
@@ -2523,10 +2522,8 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 .chatbox-message__avatar {
   width: 34px;
   height: 34px;
-  border-radius: 100% !important;
   box-shadow: rgb(15, 16, 25) 0px 5px 15px;
   margin-top: 10px;
-  margin-left: 0px;
 }
 
 .nav-tab-menu__items .nav-tab__link {
@@ -2668,7 +2665,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 }
 
 .chatroom__messages > li {
-  padding: 0 6px;
+  padding: 0 3px;
   margin: 2px 0;
   border-left: 2px solid transparent;
   position: relative;
