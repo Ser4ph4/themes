@@ -766,6 +766,7 @@ div#flip_view_1 div#similar-artist .name {
 }
 .show_torrents > a::after {
   content: "▶";
+  color: goldenrod;
 }
 .hide_torrents>a:after {
   content:"\25BC"
