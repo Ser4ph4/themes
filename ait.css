@@ -1001,6 +1001,19 @@ progress {
   font-size: 13px;
 }
 
+.chatbox-message::before {
+  display: block;
+  content: "";
+  position: relative;
+  bottom: 2px;
+  left: -6px;
+  width: 8px;
+  border-right: 10px solid #131620;
+  border-top: 10px solid transparent;
+  margin-top: 19px;
+}
+
+
 .chatbox-message__time::before {
   content: url('https://ser4ph4.github.io/themes/images/time-post.svg');
   vertical-align: -1px;
@@ -1549,17 +1562,6 @@ i.fas.fa-minus-circle.fa-pull-right {
 .post__author-join dt, .post__author-topics dt, .post__author-posts dt {
   font-weight: 400;
   padding: 0 3px;
-}
-
-.chatbox-message::before {
-  display: block;
-  content: "";
-  position: absolute;
-  bottom: 27px;
-  left: -7px;
-  width: 0;
-  border-right: none;
-  border-top: none;
 }
 
 .fa-trophy-alt::before, .fa-trophy-star::before {
