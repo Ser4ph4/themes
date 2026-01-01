@@ -2786,6 +2786,11 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   color: #81a1c1;
 }
 
+.torrent-search--list__age ::before {
+  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/clock-regular.svg");
+  vertical-align: top;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
