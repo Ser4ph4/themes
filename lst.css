@@ -2774,6 +2774,18 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   opacity: 50%;
 }
 
+ .torrent-search--list__seeders {
+  background: #2e34409e !important;
+  font-size: 14px !important;
+  color: #81a1c1;
+}
+
+.torrent-search--list__leechers {
+  background: #d0838c14 !important;
+  font-size: 14px !important;
+  color: #81a1c1;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
