@@ -57,6 +57,15 @@ p.bbcode-input__tabs {
   margin: auto;
 }
 
+.bbcode-input {
+  border: var(--bbcode-input-border);
+  border-radius: var(--bbcode-input-border-radius);
+  background-color: #1d1d1d;
+  display: grid;
+  grid-template: "tabs buttons toggle" auto "content content content" auto/1fr auto auto;
+  max-width: 100%;
+}
+
 .topic-listing__latest-post-link {
   font-size: 13px;
   background: radial-gradient(circle at top right,#23d1a508,#157d631c) !important;
