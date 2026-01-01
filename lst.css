@@ -1114,12 +1114,11 @@ progress {
 }
 
 .torrent-search--list__age {
-  font-size: 16px;
-  color: var(--torrent-row-fg);
-  background: #2c323d !important;
-  border-bottom: 1px solid #3b4252 !important;
-  border-right: 1px solid #3b4252 !important;
+  background: #1a1e29 !important;
+  border-bottom: 1px solid #212530 !important;
+  border-right: 1px solid #212530 !important;
   color: #43a4fb !important;
+  font-size: 12px !important;
 }
 
 .torrent-search--list__sticky-row td {
