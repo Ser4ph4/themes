@@ -1489,15 +1489,17 @@ dl.post__author-join{
 
 .fa-angle-left::before {
   content: "";
+  color: #02a1dc;
   background: #343a48;
-  padding: 6px 6px;
+  padding: 10px 10px;
   border-radius: 10px;
 }
 
 .fa-angle-right::before {
   content: "";
+  color: #02a1dc;
   background: #343a48;
-  padding: 6px 6px;
+  padding: 10px 10px;
   border-radius: 10px;
 }
 
