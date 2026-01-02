@@ -2822,13 +2822,13 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 }
 
 .panelV2.blocks__news::before {
-  content: "🔔 ";
-  font-family: "Font Awesome 5 Free";
+  content: "\f0f3";
+  font-family: "Font Awesome 5 Pro";
   font-weight: 900;
   transform: translateY(-50%);
-  color: #88c0d0;
+  color: #d8a32b;
   font-size: 16px;
-  opacity: 50%;
+  opacity: 90%;
 }
 
  .torrent-search--list__seeders {
