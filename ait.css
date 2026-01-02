@@ -2980,6 +2980,29 @@ a.form__button.filmclub__torrent_links {
   color: #d8a32b !important;
 }
 
+.torrent-search--poster__result {
+  background: #171b28;
+  border-radius: 10px;
+}
+
+.fa-arrow-trend-up:before {
+  content: "";
+  color: #fdb012;
+}
+
+div.panel__body.torrent-search--poster__results {
+  color: #fcaf11;
+}
+
+.torrent-search--poster__title {
+  color: white !important;
+  background: #212121;
+  border-radius: 3px;
+  max-width: max-content;
+  font-weight: 500;
+  padding: 0px 2px;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
