@@ -2948,6 +2948,13 @@ content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/clock
 vertical-align: top;
 }
 
+.torrent__seeder-count.torrent__seeder-count {
+  color: var(--torrent-row-seeders-fg);
+  background: #20252f;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
 @media only screen and (max-width: 867px) {
   .footer__section {
     flex-basis: calc(50% - 2rem);
