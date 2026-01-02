@@ -2937,6 +2937,17 @@ li.panel__tab[x-on\:click="tab = 'newest'"] {
   margin: 2px;
 }
 
+td.torrent-search--grouped__age time {
+  color:inherit;
+  background: #171b28;
+  padding: 2px 3px;
+  border-radius: 3px;
+}
+td.torrent-search--grouped__age time:before{
+content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/clock-regular.svg");
+vertical-align: top;
+}
+
 @media only screen and (max-width: 867px) {
   .footer__section {
     flex-basis: calc(50% - 2rem);
