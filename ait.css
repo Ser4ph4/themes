@@ -2975,6 +2975,11 @@ vertical-align: top;
   border-radius: 3px;
 }
 
+a.form__button.filmclub__torrent_links {
+  background: #171b28a6 !important;
+  color: #d8a32b !important;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
