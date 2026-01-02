@@ -2968,6 +2968,13 @@ vertical-align: top;
   }
 }
 
+.torrent-search--list__category {
+  background: #20252f82;
+  padding: 0px 12px;
+  margin-top: 2px;
+  border-radius: 3px;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
