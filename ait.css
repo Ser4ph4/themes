@@ -2881,6 +2881,48 @@ li.panel__tab[x-on\:click="tab = 'dead'"] {
   margin: 2px;
 }
 
+li.panel__tab[x-on\:click="tab = 'seeded'"] {
+  color: #4dff4d !important;
+  background: #1e1e1e;
+  border: 1px solid #4dff4d55;
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin: 2px;
+}
+
+li.panel__tab[x-on\:click="tab = 'leeched'"] {
+  color: #ffaf4d !important;
+  background: #1e1e1e;
+  border: 1px solid #ffaf4d55;
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin: 2px;
+}
+
+li.panel__tab[x-on\:click="tab = 'dying'"] {
+  color: #ff4d4d !important;
+  background: #1e1e1e;
+  border: 1px solid #212121;
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin: 2px;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
