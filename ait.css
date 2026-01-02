@@ -1533,7 +1533,7 @@ dl.post__author-join{
 }
 
 .mediainfo__subtitles::before {
-  content: url('https://ser4ph4.github.io/themes/trackers/legenda-cbr.svg');
+  content: url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/legenda-cbr.svg');
   width: 16px;
   display: inline-grid;
   margin-left: 1px;
@@ -1577,7 +1577,7 @@ i.fas.fa-minus-circle.fa-pull-right {
 }
 
 .footer__section-list {
-  list-style: url("https://ser4ph4.github.io/themes/images/circulo-cbr-footer.svg");
+  list-style: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/circulo-cbr-footer.svg");
   font-size: 13px;
   font-weight: 600;
   color: #bcbcbc;
@@ -2225,7 +2225,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 }
 
 .mediainfo__filename::before {
-  content: url('https://ser4ph4.github.io/themes/images/bars-solid.svg');
+  content: url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/bars-solid.svg');
   vertical-align: -2px;
   width: 12px;
   display: inline-grid;
@@ -2243,7 +2243,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 
 
 .mediainfo__audio::before {
-  content: url('https://ser4ph4.github.io/themes/images/audio-bj.svg');
+  content: url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/audio-bj.svg');
   vertical-align: baseline;
   width: 3px;
   display: inline-flex;
