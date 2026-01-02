@@ -2943,9 +2943,19 @@ td.torrent-search--grouped__age time {
   padding: 2px 3px;
   border-radius: 3px;
 }
+
 td.torrent-search--grouped__age time:before{
 content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/clock-regular.svg");
 vertical-align: top;
+}
+
+.gird__container--donation {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 72px 20px;
+  background: #171b28;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 @media only screen and (max-width: 867px) {
