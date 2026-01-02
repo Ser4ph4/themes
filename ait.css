@@ -2978,6 +2978,7 @@ vertical-align: top;
 a.form__button.filmclub__torrent_links {
   background: #171b28a6 !important;
   color: #d8a32b !important;
+  border-radius: 5px;
 }
 
 .torrent-search--poster__result {
