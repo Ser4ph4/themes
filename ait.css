@@ -2588,7 +2588,6 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 }
 
 .mediainfo__general, .mediainfo__video {
-  flex-basis: 48%;
   flex-shrink: 0;
   padding: 10px;
   background: rgba(46, 52, 64, 0.25);
