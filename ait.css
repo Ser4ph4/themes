@@ -1523,13 +1523,14 @@ dl.post__author-join{
 }
 
 .mediainfo__subtitles {
-  background: #2e344096;
-  max-width: max-content;
-  border: 2px solid #2c323d21;
-  margin-left: 3px;
-  border-radius: 10px;
-  padding: 0px 2px;
-  margin-top: 4px;
+  background: rgba(46, 52, 64, 0.25);
+  border: 1px solid rgba(76, 86, 106, 0.35);
+  border-radius: 8px;
+  font-size: 13px;
+  color: #d8dee9;
+  line-height: 1.5;
+  gap: 1px;
+  margin-bottom: ;
 }
 
 .mediainfo__subtitles::before {
@@ -2235,10 +2236,13 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 
 
 .mediainfo__audio {
-  background: #2c323d;
-  max-width: unset;
-  border-radius: 5px;
-  border: 2px solid #252a34;
+  padding: 10px;
+  background: rgba(46, 52, 64, 0.25);
+  border: 1px solid rgba(76, 86, 106, 0.35);
+  border-radius: 8px;
+  font-size: 13px;
+  color: #d8dee9;
+  margin-bottom: 4px;
 }
 
 
