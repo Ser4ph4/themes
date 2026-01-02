@@ -1,6 +1,6 @@
 /*
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
-❕[Stylesheet] AIT Nord Theme CSS  𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 01/01/2026 ~  
+❕[Stylesheet] AIT Nord Theme CSS  𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 02/01/2026 ~  
 ▫️𝘔𝘰𝘥𝘪𝘧𝘪𝘤𝘢𝘵𝘪𝘰𝘯𝘴 : @𝙎𝙚𝙧𝙖𝙥𝙝4
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
 */
@@ -2858,6 +2858,27 @@ div.btn-danger {
   background: #151822;
   border-radius: 10px;
   border: 2px solid #394050;
+}
+
+li.panel__tab[x-on\:click="tab = 'dead'"]::before {
+  content: "💀";
+  font-size: 1em;
+  opacity: 0.9;
+  transform: translateY(1px);
+}
+
+li.panel__tab[x-on\:click="tab = 'dead'"] {
+  color: #ff4d4da8 !important;
+  background: #2c323d;
+  border: 1px solid #212121;
+  border-radius: 6px;
+  padding: 6px 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin: 2px;
 }
 
 /*
