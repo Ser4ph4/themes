@@ -3779,8 +3779,8 @@ span.time.tooltip{
 
 .shoutContainer {
   word-wrap: break-word;
-  line-height: 23px;
-  font-size: 13px;
+  line-height: 23px !important;
+  font-size: 13px !important;
   background: #1e2228;
 }
 
