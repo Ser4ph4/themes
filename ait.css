@@ -311,18 +311,18 @@ p.bbcode-input__tabs {
   font-size: 11px;
   word-spacing: -1px;
 }
-    .torrent-card__header, .torrent-card__footer {
-      display: flex;
-      justify-content: space-between;
-      padding: 10px;
-      font-size: 11px;
-      color: var(--torrent-card-head-fg);
-      background-color: #2e3440;
-      margin: 0;
-      overflow: hidden;
-      white-space: nowrap;
-    }
 
+.torrent-card__header, .torrent-card__footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 11px;
+  color: var(--torrent-card-head-fg);
+  background-color: #21242f;
+  margin: 0;
+  overflow: hidden;
+  white-space: nowrap;
+}
     .footer__copyright {
       grid-area: copyright;
       margin: 0;
