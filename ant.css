@@ -534,6 +534,7 @@ p.min_padding {
 #menu {
   height: 50px;
   border-radius: 5px 5px 0 0;
+  background: #151a22;
 }
 
 #menu > ul {
@@ -2213,6 +2214,23 @@ body.style_color_dark #searchbars input {
   background: rgba(24, 32, 41, 0.5);
   border: none;
 }
+
+body.style_color_dark #searchbars input {
+  width: 153px;
+  position: relative;
+  padding: 10px 0 10px 18px;
+  font-size: 12pt;
+  color: #e6ffffbd;
+  border-radius: 10px;
+  background: #282b308a url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/fundo-busca-bj.svg") no-repeat center left;
+  background-position-x: left;
+  padding: 10px 21px;
+  background-position-x: 5px;
+  display: inline-flex;
+}
+
+
+
 body.style_color_dark #menu li:nth-child(1) {
   background: rgba(24, 32, 41, 0.7);
 }
