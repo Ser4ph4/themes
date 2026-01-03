@@ -3605,6 +3605,133 @@ div.logo.slick-slide img:first-child:not(.details-seen-wrapper) {
   margin-right: 12px;
 }
 
+li#nav_home > a::before {
+  content: "";
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  background-image: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/home-bj-menu.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.85;
+  vertical-align: text-bottom;
+}
+
+li#nav_torrents> a::before {
+  content: "";
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  background-image: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/torrent-menu.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.85;
+  vertical-align: text-bottom;
+}
+
+li#nav_collages> a::before {
+  content: "";
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  background-image: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/colage.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.85;
+  vertical-align: text-bottom;
+}
+
+li#nav_requests> a::before {
+  content: "";
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  background-image: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/request_ops.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.85;
+  vertical-align: text-bottom;
+}
+
+
+li#nav_forums> a::before {
+  content: "";
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  background-image: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/forum-menu.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.85;
+  vertical-align: text-bottom;
+}
+
+
+li#nav_irc> a::before {
+  content: "";
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  background-image: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/irc_ops.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.85;
+  vertical-align: text-bottom;
+}
+
+li#nav_top10> a::before {
+  content: "";
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  background-image: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/top-10-menu.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.85;
+  vertical-align: text-bottom;
+}
+
+li#nav_rules> a::before {
+  content: "";
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  background-image: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/rules_ops.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.85;
+  vertical-align: text-bottom;
+}
+
+li#nav_wiki> a::before {
+  content: "";
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  background-image: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/wiki_ops.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.85;
+  vertical-align: text-bottom;
+}
 
 /*
 ░░░░░░░░░░░
