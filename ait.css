@@ -3057,7 +3057,7 @@ a.form__button.filmclub__torrent_links::after {
 
 li.panel__tab[x-on\:click*="tab = 'closed'"].panel__tab--active {
   background-color: #171b28;
-  border: 2px solid #d9534f;
+  border: 2px solid #702e2c8f;
   color: #a94442;
   border-radius: 0 10px 0 0;
 }
