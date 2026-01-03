@@ -1057,8 +1057,9 @@ progress {
 
 .post__avatar {
   width: 100%;
-  border-radius: 10px;
+  border-radius: 3px;
   box-shadow: rgba(0, 0, 0, 0.64) 0px 5px 15px;
+ 
 }
 
 .chatroom__whispers {
@@ -2061,12 +2062,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 
 @media screen and (max-width: 576px) {
   .post__aside {
-    display: grid;
-    grid-template-areas:
-"figure author author author" 
-"figure topics posts  .     ";
-    grid-template-columns: 34px auto auto 1fr;
-    gap: 0 8px;
+    display: flex;
     padding: 2px;
   }
 }
@@ -3048,6 +3044,16 @@ a.form__button.filmclub__torrent_links::after {
   font-size: 0.9em;
   color: inherit; 
 }
+
+@media screen and (max-width: 576px) {
+  .post__avatar {
+  width: 100%;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.64) 0px 5px 15px;
+  height: 40px;
+ }
+}
+
 
 /*
 ░░░░░░░░░░░
