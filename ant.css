@@ -3583,6 +3583,13 @@ div.logo.slick-slide img:first-child:not(.details-seen-wrapper) {
   width: 6em;
 }
 
+#shoutForm input {
+  display: flow-root list-item;
+  margin-bottom: 5px;
+  margin-right: 12px;
+}
+
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
