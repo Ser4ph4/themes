@@ -147,6 +147,8 @@ h4 a,
 h5 a,
 h6 a {
   color: #71b0c3;
+  font-size: 12px;
+  vertical-align: middle;
 }
 
 #userform #settings_sections h2 {
@@ -1861,7 +1863,10 @@ a.last_read > svg {
 }
 .forum_index h4,
 .forum_list h4 {
-  font-size: 12px;
+  font-size: 14px;
+  background: #181e265e;
+  padding: 1px 1px;
+  border-radius: 5px;
 }
 
 .forum_index td {
@@ -1874,11 +1879,9 @@ a.last_read > svg {
 #forums td.unread:after {
   content: "";
   position: absolute;
-  height: 8px;
-  width: 8px;
-  top: 9px;
-  left: 7px;
-  border-radius: 1px;
+  height: 10px;
+  width: 10px;
+  border-radius: 4px;
 }
 .forum_index td.read:after {
   background-color: #3a7686;
