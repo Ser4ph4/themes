@@ -2975,12 +2975,6 @@ vertical-align: top;
   border-radius: 3px;
 }
 
-a.form__button.filmclub__torrent_links {
-  background: #171b28a6 !important;
-  color: #d8a32b !important;
-  border-radius: 5px;
-}
-
 .torrent-search--poster__result {
   background: #171b28;
   border-radius: 10px;
@@ -3043,7 +3037,7 @@ a.form__button.filmclub__torrent_links {
   display: inline-flex;
   align-items: center;
   gap: 8px; 
-  padding: 10px 15px; 
+  padding: 4px 4px; 
   text-decoration: none;
 }
 
