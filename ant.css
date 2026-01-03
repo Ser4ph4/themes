@@ -117,7 +117,21 @@ h2 {
 
 #torrents .header h2 {
   text-align: center;
+  background: #3f454a;
+  padding: 0px 5px;
+  margin-bottom: 5px;
+  max-width: max-content;
+  border-radius: 8px;
 }
+
+#torrents .header h2::before {
+  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/bars-solid.svg");
+  vertical-align: middle;
+  width: 14px;
+  display: inline-grid;
+  margin-right: 2px;
+}
+
 #torrents .torrent_extrainfo {
     float: inherit;
 }
