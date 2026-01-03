@@ -3747,7 +3747,7 @@ li#nav_wiki> a::before {
 }
 
 .post_id {
-  padding: 1px 5px;
+  padding: 2px 2px;
   font-weight: 500;
   color: #daddd5 !important;
   background: linear-gradient(135deg, #2b2f34 0%, #3a3e44 100%);
