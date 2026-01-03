@@ -752,7 +752,9 @@ li.ui-state-hover {
 
 div.linkbox {
   text-align: center;
-  padding: 5px;
+  padding: 3px;
+  background: #141921;
+  border-radius: 10px;
 }
 
 .linkbox > strong {
