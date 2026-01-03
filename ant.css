@@ -3529,3 +3529,9 @@ div.logo.slick-slide img:first-child:not(.details-seen-wrapper) {
         width: 100%;
     }
 }
+
+.main_column .box {
+  border: 3px solid #292a2f;
+  background-color: #3d3f42;
+  border-radius: 3px 3px 3px 3px;
+}
