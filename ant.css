@@ -3805,6 +3805,21 @@ span.time.tooltip{
   position: relative;
 }
 
+#nav_staff > ::after {
+  content: "";
+  display: inline-flex;
+  width: 18px;
+  height: 19px;
+  margin-right: 0px;
+  background-image: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/staff_ops.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.65;
+  vertical-align: text-bottom;
+  margin-left: 3px;
+}
+
 #stats_required a {
 content: url(https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/reload.svg);
 
