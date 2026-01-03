@@ -3,22 +3,24 @@
 ❕/* Ambiance Stylesheet/Nord : 𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 03/01/2026  
 ▫️𝘔𝘰𝘥𝘪𝘧𝘪𝘤𝘢𝘵𝘪𝘰𝘯𝘴 : @𝙎𝙚𝙧𝙖𝙥𝙝4
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
-*/
 /* latin-ext */
 @font-face {
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  src: local("Open Sans"), local("OpenSans"),
-  url(../fonts/OpenSans.ttf) format("truetype");
+  src: local('Open Sans'), local('OpenSans'),
+    url(https://anthelion.me/static/styles/fonts/OpenSans.ttf)
+      format('truetype');
 }
+
 /* latin */
 @font-face {
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 600;
-  src: local("Open Sans Semibold"), local("OpenSans-Semibold"),
-  url(../fonts/OpenSans-Semibold.ttf) format("truetype");
+  src: local('Open Sans Semibold'), local('OpenSans-Semibold'),
+    url(https://anthelion.me/static/styles/fonts/OpenSans-Semibold.ttf)
+      format('truetype');
 }
 
 * {
