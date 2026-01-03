@@ -3784,6 +3784,42 @@ span.time.tooltip{
   background: #1e2228;
 }
 
+#stats_seeding a {
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  background: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/up.svg") no-repeat center center !important;
+  text-indent: 9999px;
+  overflow: hidden;
+  position: relative;
+  vertical-align: top;
+}
+
+#stats_leeching a {
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  background: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/dow.svg") no-repeat center center !important;
+  text-indent: 9999px;
+  overflow: hidden;
+  position: relative;
+}
+
+#stats_required a {
+content: url(https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/reload.svg);
+
+}
+
+#bonus_points::before {
+  content: url(https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/coins-solid.svg);
+  vertical-align: text-top;
+}
+
+#stats_ratio::before {
+  content: url(https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/ratio.svg);
+  vertical-align: unset;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
