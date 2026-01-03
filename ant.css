@@ -3574,6 +3574,17 @@ div.logo.slick-slide img:first-child:not(.details-seen-wrapper) {
   vertical-align: middle;
 }
 
+#shoutBtn {
+  background: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/enviar-chat-bj.svg") no-repeat;
+    background-position-x: 0%;
+    background-position-y: 0%;
+  text-indent: 13px;
+  background-position-y: 10px;
+  background-position-x: 6px;
+  float: right;
+}
+
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
