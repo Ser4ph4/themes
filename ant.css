@@ -2026,7 +2026,8 @@ body.style_bg_haze {
 }
 body.style_bg_blue-space {
   background-color: #53565c;
-  background-image: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/blue-space.jpg");
+  background-image: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/vn-fundo.svg");
+  background-size: 75px;
 }
 
 /* New blue theme */
