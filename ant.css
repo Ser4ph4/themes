@@ -3753,6 +3753,15 @@ li#nav_wiki> a::before {
   transition: all 0.2s ease-in-out;
 }
 
+h3:before {
+  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/bars-solid.svg");
+  vertical-align: -1px;
+  width: 12px;
+  display: inline-grid;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
