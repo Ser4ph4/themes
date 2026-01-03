@@ -3559,3 +3559,9 @@ div.logo.slick-slide img:first-child:not(.details-seen-wrapper) {
   padding: 2px !important;
   background: #151a22 !important;
 }
+
+.top10tmdb {
+  width: 20px !important;
+  vertical-align: middle;
+}
+
