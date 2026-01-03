@@ -296,7 +296,7 @@ ul.thin li {
 }
 
 #logo a {
-  background-image: url("../public/images/logo.png");
+  background-image: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/ant_logo.png");
   background-repeat: no-repeat;
   /* Ensure the background doesn't repeat */
   background-position: center;
