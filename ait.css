@@ -3055,6 +3055,20 @@ a.form__button.filmclub__torrent_links::after {
  }
 }
 
+li.panel__tab[x-on\:click*="tab = 'closed'"].panel__tab--active {
+  background-color: #171b28;
+  border: 2px solid #d9534f;
+  color: #a94442;
+  border-radius: 0 10px 0 0;
+}
+
+li.panel__tab[x-on\:click*="tab = 'open'"].panel__tab--active {
+  background-color: #171b28a8;
+  border: 2px solid #1b412d;
+  color: #87d4a6;
+  border-radius: 10px 0 0 0;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
