@@ -3004,6 +3004,27 @@ div.panel__body.torrent-search--poster__results {
   padding: 0px 2px;
 }
 
+.alert__statuspage-status {
+  padding: 1px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.alert__statuspage-status::before {
+  content: "\f233"; 
+  font-family: "Font Awesome 6 Pro";
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.alert__statuspage-status {
+  background: #873131 !important;
+  font-style: oblique;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
