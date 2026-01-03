@@ -502,7 +502,7 @@ p.min_padding {
   display: inline-block;
   line-height: 20px;
   vertical-align: middle;
-  margin: 0 0.1em;
+  margin: auto;
   padding: 2px;
 }
 
