@@ -3051,6 +3051,7 @@ a.form__button.filmclub__torrent_links::after {
   border-radius: 3px;
   box-shadow: rgba(0, 0, 0, 0.64) 0px 5px 15px;
   height: 40px;
+  width: 40px;  
  }
 }
 
