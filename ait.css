@@ -3024,6 +3024,18 @@ div.panel__body.torrent-search--poster__results {
   background: #873131 !important;
 }
 
+.meta-chip__icon {
+  grid-area: image;
+  text-align: center;
+  line-height: 40px;
+  font-size: 14px;
+  color: #0d0c0c;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #eee;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
