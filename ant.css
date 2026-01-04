@@ -3869,9 +3869,9 @@ content: url(https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/reload
     }
 }
 
-@media screen and (max-width: 768px){
-.last_edited{
-font-size: 10px;
+@media screen and (max-width: 768px) {
+ .last_edited {
+  font-size: 10px;
   display: block;
   border-top: thin solid #35373b;
   font-style: oblique;
