@@ -3779,9 +3779,22 @@ h3:before {
   margin-left: 4px;
   margin-right: 4px;
 }
+.time.tooltip {
+  font-style: normal;
+  color: #c0cfad;
+  background: radial-gradient(circle at top right, #23d1a508, #157d6305) !important;
+  border: thin solid #181e265e;
+  font-size: 11px;
+  border-radius: 3px;
+  vertical-align: 1px;
+  padding: 1px 3px 1px 3px;
+  position: relative;
+}
 
-span.time.tooltip{
-  color: #5c8f9b !important;
+.time.tooltip::before {
+  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/time-post.svg");
+  vertical-align: middle;
+  margin-right: 3px;;
 }
 
 .shoutContainer {
