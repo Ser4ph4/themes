@@ -1510,8 +1510,8 @@ dl.post__author-join{
   display: inline-block;
   vertical-align: text-top;
   width: 20px;
-  height: 33px;
-  background-image: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/aither_icon.svg");
+  height: 43px;
+  background-image: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/music-card.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -3087,4 +3087,5 @@ li.panel__tab[x-on\:click*="tab = 'open'"].panel__tab--active {
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
 ░░░░░░░░░░░
 */
+
 
