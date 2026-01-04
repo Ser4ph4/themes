@@ -3846,6 +3846,37 @@ content: url(https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/reload
   padding: 3px 1px;
  }
 }
+
+.remove_bookmark a {
+  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/remove-favorito.svg");
+  border-radius: 5px;
+  color: #777 !important;
+  display: inline-block;
+  float: right;
+  font-size: 0.85em !important;
+  line-height: normal;
+  margin-right: 3px;
+  padding: 2px;
+  background: rgba(0, 0, 0, 0.15);
+  border: 1px solid #1f1f1f;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.add_bookmark a {
+  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/add-favorito.svg");
+  border-radius: 5px;
+  color: #777 !important;
+  display: inline-block;
+  float: right;
+  font-size: 0.85em !important;
+  line-height: normal;
+  margin-right: 3px;
+  padding: 2px;
+  background: rgba(0, 0, 0, 0.15);
+  border: 1px solid #1f1f1f;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
