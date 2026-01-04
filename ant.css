@@ -2350,6 +2350,7 @@ body.style_color_dark tr.group {
 }
 body.style_color_dark tr.group_torrent {
   background-color: rgba(24, 32, 41, 0.85);
+  font-size: 11px;
 }
 body.style_color_dark .body.style_color_dark {
   background: none;
