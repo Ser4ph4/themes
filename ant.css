@@ -1,6 +1,6 @@
 /*
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
-❕/* Ambiance Stylesheet/Nord : 𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 04/01/2026  
+❕/* Dark/Nord - ANT : 𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 04/01/2026  
 ▫️𝘔𝘰𝘥𝘪𝘧𝘪𝘤𝘢𝘵𝘪𝘰𝘯𝘴 : @𝙎𝙚𝙧𝙖𝙥𝙝4
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
 /* latin-ext */
@@ -327,9 +327,7 @@ ul.thin li {
 #logo a {
   background-image: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/ant_logo.png");
   background-repeat: no-repeat;
-  /* Ensure the background doesn't repeat */
   background-position: center;
-  /* Center the background image */
   background-size: contain;
   border: none;
   width: 230px;
@@ -416,7 +414,6 @@ p.min_padding {
   width: inherit;
 }
 
-/* Force old percentage-based layout for certain pages (user settings, store) */
 #store > #wrapper > #content > div.thin > div.sidebar {
   float: right;
   width: 28%;
@@ -970,7 +967,6 @@ ul.nobullet li {
   list-style-type: none;
 }
 
-/* Social Links on People Pages */
 a.social {
   display: list-item;
   list-style: none;
@@ -1089,7 +1085,6 @@ td.label {
   text-align: right;
   width: 180px;
 }
-/* Tried applying this everywhere, but reportsv2 breaks (super-wide); possibly others */
 #upload td.label {
   max-width: 180px;
   min-width: 150px;
@@ -1367,7 +1362,7 @@ table.forum_post td.body {
 }
 
 .last_edited {
-  font-size: 13px;
+  font-size: 12px;
   display: block;
   border-top: thin solid #35373b;
   font-style: oblique;
@@ -1384,7 +1379,6 @@ tbody {
 
 blockquote {
   border: 2px solid #3c3d3e !important;
-  color: #7bb0ff;
   font-style: oblique 5deg;
   font-size: 15px;
   line-height: 1.6;
@@ -1392,7 +1386,6 @@ blockquote {
   padding: 18px 22px;
   border-radius: 10px;
   box-shadow: inset 2px 3px 5px rgba(0, 0, 0, 0.15), 1px 1px 3px rgba(0, 0, 0, 0.3);
-  font-family: "Roboto", sans-serif;
   position: relative;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
@@ -2036,23 +2029,6 @@ caption {
   filter: invert(100%);
 }
 
-/* Background Additions (to be pulled from CSS eventually) */
-body.style_bg_carbon {
-  background-color: #53565c;
-  background-image: url("images/carbon.jpg");
-}
-body.style_bg_constellation {
-  background-color: #53565c;
-  background-image: url("images/constellation.jpg");
-}
-body.style_bg_space {
-  background-color: #53565c;
-  background-image: url("images/space.jpg");
-}
-body.style_bg_haze {
-  background-color: #53565c;
-  background-image: url("images/haze.png");
-}
 body.style_bg_blue-space {
   background-color: #53565c;
   background-image: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/vn-fundo.svg");
@@ -2106,7 +2082,6 @@ a.show_torrents_link:hover:after {
 }
 
 .secondary_class { color: #3b7283;}
-
 
 /* Green Additions (original Ambiance)*/
 body.style_color_green a {
@@ -2277,8 +2252,6 @@ body.style_color_dark #searchbars input {
   display: inline-flex;
 }
 
-
-
 body.style_color_dark #menu li:nth-child(1) {
   background: rgba(24, 32, 41, 0.7);
 }
@@ -2404,18 +2377,6 @@ body.style_color_dark .noty_buttons {
   background-color: rgba(44, 47, 54, 0.7);
 }
 
-/* Chocolat Additions */
-body.style_color_chocolat a.social {
-  background-image: url(images/Social-Chocolat.png);
-}
-body.style_color_chocolat h1 a,
-body.style_color_chocolat h2 a,
-body.style_color_chocolat h3 a,
-body.style_color_chocolat h4 a,
-body.style_color_chocolat h5 a,
-body.style_color_chocolat h6 a {
-  color: #c5b09b;
-}
 body.style_color_chocolat a:hover,
 body.style_color_chocolat .torrent_table .group a:hover {
   color: #eedfd1;
@@ -3689,7 +3650,6 @@ li#nav_requests> a::before {
   vertical-align: text-bottom;
 }
 
-
 li#nav_forums> a::before {
   content: "";
   display: inline-flex;
@@ -3703,7 +3663,6 @@ li#nav_forums> a::before {
   opacity: 0.85;
   vertical-align: text-bottom;
 }
-
 
 li#nav_irc> a::before {
   content: "";
@@ -3793,9 +3752,9 @@ h3:before {
 }
 
 .time.tooltip::before {
-  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/time-post.svg");
+  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/clock-regular.svg");
   vertical-align: middle;
-  margin-right: 3px;;
+  margin-right: 3px;
 }
 
 .shoutContainer {
