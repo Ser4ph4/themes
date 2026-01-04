@@ -3868,6 +3868,19 @@ content: url(https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/reload
         height: auto; 
     }
 }
+
+@media screen and (max-width: 768px){
+.last_edited{
+font-size: 10px;
+  display: block;
+  border-top: thin solid #35373b;
+  font-style: oblique;
+  color: #00ad89;
+  border-radius: 3px 3px 4px;
+  max-width: max-content;
+  padding: 3px 1px;
+ }
+}
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
