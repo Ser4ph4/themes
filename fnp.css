@@ -2626,9 +2626,9 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   content: "";
   position: absolute;
   bottom: 0.5rem;
-  right: 1.55rem;
-  width: 33px;
-  height: 33px;
+  right: 2.10rem;
+  width: 25px;
+  height: 25px;
   background: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/favicon_fnp.png") no-repeat center / contain;
   opacity: 90.2;
   pointer-events: none;
