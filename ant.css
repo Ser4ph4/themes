@@ -3525,8 +3525,9 @@ div.head.latest_topics {
 
 /* Format inline code blocks on forum posts */
 code {
-  background-color: #202020;
-  padding: 4px;
+  background-color: #171e25;
+  padding: 1px;
+  color: #9fe0ee;
 }
 
 /* Responsive sizing on youtube trailer video player */
