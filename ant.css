@@ -3821,6 +3821,12 @@ content: url(https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/reload
   font-weight: 500;
 }
 
+.last_poster {
+  color: #a3a3a3;
+  background: #282b30;
+  border-radius: 5px;
+}
+
 @media screen and (max-width: 768px) {
     .forum_post td img {
         max-width: 70%;
