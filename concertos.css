@@ -420,7 +420,7 @@ p.bbcode-input__tabs {
   background-color: #4281da;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  background-image: linear-gradient(90deg,#3654d8 4%,#349ce6 19%,#56d0e2 39%,#62e080 60%,#d195cb 80%,#e646dd);
+  background-image: linear-gradient(90deg,#3654d8 4%,#349ce6 19%,#56d0e2 39%,#62e080 60%,#8199c6 80%,#4a69ec);
   font-weight: 600;
   font-size: 2.1rem;
   text-transform: uppercase;
@@ -3087,6 +3087,7 @@ li.panel__tab[x-on\:click*="tab = 'open'"].panel__tab--active {
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
 ░░░░░░░░░░░
 */
+
 
 
 
