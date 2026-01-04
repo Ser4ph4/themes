@@ -107,6 +107,13 @@ h6 {
   margin: 8px 0;
 }
 
+.number_column.nobr {
+  color: #64aca8;
+  background: #1d1e208f;
+  vertical-align: middle;
+  font-weight: 500;
+}
+
 h1,
 h2 {
   font-size: 23px;
@@ -1220,7 +1227,7 @@ span.center_poll {
 }
 
 .torrent_table tr.group_torrent td {
-  padding: 8px;
+  padding: 4px;
 }
 
 .torrent_table tr.group_torrent .group.discog {
