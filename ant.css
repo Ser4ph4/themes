@@ -3923,6 +3923,17 @@ content: url(https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/reload
   border-radius: 6px;
 }
 
+.browse_rating::before {
+  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/hashtag-solid.svg");
+  vertical-align: top;
+}
+
+.browse_rating {
+  text-shadow: 1px 2px 0px #000;
+  background: radial-gradient(circle at top right, #1f2022, #1c1f23) !important;
+  border: thin solid #282b30;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
