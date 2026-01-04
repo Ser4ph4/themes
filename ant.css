@@ -1828,7 +1828,8 @@ tr.request:nth-of-type(even) {
 }
 
 .tl_reported {
-  color: #e85a5a;
+  color: #bd3737;
+  font-weight: 400;
 }
 
 .tl_seeding {
