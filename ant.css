@@ -3896,16 +3896,11 @@ content: url(https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/reload
   margin: auto;
   padding: 0px 2px;
   border-radius: 5px;
-} {
-  text-align: center;
-  font-size: 14px;
-  font-family: "Roboto";
-  font-weight: 500;
-  background: #2121214f;
-  max-width: max-content;
-  margin: auto;
-  padding: 0px 2px;
-  border-radius: 5px;
+}
+
+.internal {
+  color: orange;
+  background: #1c1f23 !important;
 }
 
 /*
