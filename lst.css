@@ -1,6 +1,6 @@
 /*
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
-❕[Stylesheet] LST Nord Theme CSS : 𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 01/01/2026 ~  
+❕[Stylesheet] LST Nord Theme CSS : 𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 05/01/2026 ~  
 ▫️𝘔𝘰𝘥𝘪𝘧𝘪𝘤𝘢𝘵𝘪𝘰𝘯𝘴 : @𝙎𝙚𝙧𝙖𝙥𝙝4
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
 */
@@ -2789,6 +2789,14 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 .torrent-search--list__age ::before {
   content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/clock-regular.svg");
   vertical-align: top;
+}
+
+.bbcode-rendered.editedindicator::after {
+  color: #da8a2b;
+  font-size: 11px;
+  margin-left: 5px;
+  display: inline;
+  content: "(edited)";
 }
 
 /*
