@@ -1455,15 +1455,16 @@ dl.post__author-join{
 }
 
 .meta__title::before {
-  content: "";
+  content: "";
+  font-family: "Font Awesome 6 Pro";
   display: inline-block;
-  vertical-align: -11px !important;
-  width: 22px;
-  height: 41px;
-  background-image: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/icon_title_lst.svg");
+  vertical-align: revert-layer;
+  width: 23px;
+  height: 20px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  color: #2286ea;
 }
 
 .mediainfo {
