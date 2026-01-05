@@ -1,73 +1,754 @@
 /* ==========================================================================
-   1. RESET & FUNDAMENTOS
+   1. Logo e Links de Torrents
    ========================================================================== */
-*, *:before, *:after {
+#logo {
+  background-image: url(../img/dg.png);
+}
+
+#torrents .torrent a[href*="torrents.php?id"] {
+  color: #969696;
+}
+
+#torrents .torrent a[href*="torrents.php?id"]:hover,
+#userinfo_major:before {
+  color: #b39770;
+}
+
+/* ==========================================================================
+   2. Refinamento do Menu Major (User Info)
+   ========================================================================== */
+#userinfo_major li a {
+  background: #1f1f1f;
+  border-bottom: 1px solid #333;
+}
+
+#userinfo_major li a:hover {
+  background: #111;
+  border-bottom: 1px solid rgba(78, 78, 78, 0.31);
+}
+
+/* ==========================================================================
+   3. Filtros de Categorias (Efeitos Visuais)
+   ========================================================================== */
+
+/* Categorias SD (Standard Definition) - Tons acinzentados/desaturados */
+.cats_tvsd.tags_,
+.cats_moviesd.tags_ {
+  -webkit-filter: hue-rotate(61deg) contrast(76%) saturate(0%) brightness(181%);
+  -moz-filter: hue-rotate(61deg) contrast(76%) saturate(0%) brightness(181%);
+  -o-filter: hue-rotate(61deg) contrast(76%) saturate(0%) brightness(181%);
+  filter: hue-rotate(61deg) contrast(76%) saturate(0%) brightness(181%);
+}
+
+/* Categorias HD (High Definition) - Maior contraste e leve saturação */
+.cats_moviehd.tags_,
+.cats_tvhd.tags_ {
+  -webkit-filter: hue-rotate(61deg) contrast(76%) saturate(48%) brightness(133%);
+  -moz-filter: hue-rotate(61deg) contrast(76%) saturate(48%) brightness(133%);
+  -o-filter: hue-rotate(61deg) contrast(76%) saturate(48%) brightness(133%);
+  filter: hue-rotate(61deg) contrast(76%) saturate(48%) brightness(133%);
+}
+
+/* ==========================================================================
+   1. Logotipo e Header
+   ========================================================================== */
+#header {
+  background-image: url(../img/global.jpg);
+}
+
+div#logo {
+  width: 66px;
+  height: 66px;
+  margin: 0 auto;
+  background-size: 66px 66px;
+}
+
+div#logo a {
+  display: block;
+  width: 66px;
+  height: 66px;
+  margin: 0 auto;
+}
+
+#header #logo {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* ==========================================================================
+   2. Informações do Usuário (Userinfo) e Menu Dropdown
+   ========================================================================== */
+div#userinfo,
+div#donation-link {
+  display: inline;
+}
+
+div#userinfo {
+  position: relative;
+}
+
+ul#userinfo_username {
+  margin-left: 11px;
+}
+
+#userinfo ul li {
+  display: inline-block;
+}
+
+/* Menu Major (Dropdown/Escondido) */
+#userinfo_major {
+  position: absolute;
+  list-style: none;
+  left: -9999px;
+  z-index: 900;
+  top: 0;
+}
+
+#userinfo_major:before {
+  content: "\f21e"; /* Ícone FontAwesome */
+  font-family: 'FontAwesome';
+  position: relative;
+  right: -9999px;
+  cursor: pointer;
+  width: 23px;
+  height: 13px;
+  text-align: center;
+  display: block;
+}
+
+#userinfo_major li {
+  text-align: left;
+  padding: 0 !important;
+  margin: 0 -90px 0 0 !important;
+  display: block !important;
+}
+
+#userinfo_major li a {
+  display: block;
+  padding: 5px 10px !important;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#userinfo_major li a:hover {
+  text-decoration: none;
+}
+
+ul#userinfo_major > li:first-child {
+  margin-top: 10px !important;
+}
+
+/* Estados de Hover para mostrar o menu */
+#userinfo_major:hover {
+  left: 0;
+}
+
+#userinfo_major:hover:before {
+  position: relative;
+  right: 0;
+  border: none !important;
+  background-position: 0 1px;
+}
+
+/* ==========================================================================
+   3. Tabelas e Outros Ajustes
+   ========================================================================== */
+table.layout.cat_list.ft_cat_list,
+table.layout.cat_list {
+  text-align: left;
+}
+
+.scale_image {
+  max-width: 100%;
+}
+
+/* Rodapé (Créditos) */
+div#footer > p:first-child:after {
+  content: " | GenavivReborn (by Sarek)";
+}
+
+input[type="submit"],input[type="button"]{background:#444}a.tabs__bar__link:hover,span.movie-tooltip__rating__title:hover,span.movie-tooltip__rating__title a:hover{background:#b39770!important;}a,tr.unreadpm a,.linkbox.pager a:hover,.linkbox a strong:hover,.linkbox.pager a strong:hover,li.tabs__bar__item.tabs__bar__item--active a:hover,.forum-post__heading a:hover,#torrents a.huge-movie-list__movie__title:hover,#torrents a.huge-movie-list__movie__director:hover,#header a.new-subscriptions,div#footer p:after,#wrapper .alert-bars a,tr.inbox-message--unread td a,tr.unreadpm a,.linkbox a:hover,.forum_post .colhead_dark a:hover,#content .forum-post__heading a:hover{color:#b39770;}td a:hover,a[href*="torrents.php?id"],table#torrent_table a[href*="torrents.php?torrentid"] strong,#header .new-subscriptions a,.torrent_info_row .bbcode-table-guard a:hover,.torrent_info_row .linkbox a.linkbox__link:hover,tbody.js-basic-movie-list__table-body a[href*="torrents.php?id"].basic-movie-list__movie__title{color:#b39770}#userinfo_minor a:hover,#menu ul>li>a:hover{color:#b39770}.box_info .stats.nobullet li a{color:#b39770!important;font-weight:400}td.unread:before{color:#b39770}td.unread_sticky:before{color:#b39770}td.unread_locked:before{color:#b39770}td.unread_locked_sticky:before{color:#b39770}#index .sidebar .stats.nobullet a{color:#b39770;}.forum_post a{color:#b39770}.box.filter_torrents .head a:hover,.box.filter_torrents .head a:focus,.forum_post .colhead a:hover,.forum_post .colhead_dark a:focus,#inbox .box .head a:focus,#inbox .box .head a:hover{color:#b39770}#request_table .rowb td:first-of-type>a:nth-child(2n),#request_table .rowa td>a:nth-child(2n){color:#b39770}table.forum_unread .colhead_dark{border-top:5px solid #b39770}#header>#menu ul>li.active>a{color:#b39770}#header a{color:#f7f7f7}#header a:hover,#header a:focus{color:#b39770}#header a.username{color:#b39770}#header a.username:hover,#header a.username:focus,tbody.js-basic-movie-list__table-body a[href*="torrents.php?id"].basic-movie-list__movie__title:hover{color:#f7f7f7}#header .alertbar a{color:#b39770}.ui-widget-content a:hover{color:#b39770!important;}/* Botões */
+input[type="submit"],
+input[type="button"] {
+  background: #444;
+}
+
+/* Backgrounds e Hovers com !important */
+a.tabs__bar__link:hover,
+span.movie-tooltip__rating__title:hover,
+span.movie-tooltip__rating__title a:hover {
+  background: #b39770 !important;
+}
+
+/* Links e Cores de Destaque (#b39770) */
+a,
+tr.unreadpm a,
+.linkbox.pager a:hover,
+.linkbox a strong:hover,
+.linkbox.pager a strong:hover,
+li.tabs__bar__item.tabs__bar__item--active a:hover,
+.forum-post__heading a:hover,
+#torrents a.huge-movie-list__movie__title:hover,
+#torrents a.huge-movie-list__movie__director:hover,
+#header a.new-subscriptions,
+div#footer p:after,
+#wrapper .alert-bars a,
+tr.inbox-message--unread td a,
+tr.unreadpm a,
+.linkbox a:hover,
+.forum_post .colhead_dark a:hover,
+#content .forum-post__heading a:hover {
+  color: #b39770;
+}
+
+/* Tabelas e Torrents */
+td a:hover,
+a[href*="torrents.php?id"],
+table#torrent_table a[href*="torrents.php?torrentid"] strong,
+#header .new-subscriptions a,
+.torrent_info_row .bbcode-table-guard a:hover,
+.torrent_info_row .linkbox a.linkbox__link:hover,
+tbody.js-basic-movie-list__table-body a[href*="torrents.php?id"].basic-movie-list__movie__title {
+  color: #b39770;
+}
+
+/* Menu e User Info */
+#userinfo_minor a:hover,
+#menu ul > li > a:hover {
+  color: #b39770;
+}
+
+/* Stats e Listas */
+.box_info .stats.nobullet li a {
+  color: #b39770 !important;
+  font-weight: 400;
+}
+
+#index .sidebar .stats.nobullet a {
+  color: #b39770;
+}
+
+/* Indicadores de Mensagens/Tópicos não lidos */
+td.unread:before,
+td.unread_sticky:before,
+td.unread_locked:before,
+td.unread_locked_sticky:before {
+  color: #b39770;
+}
+
+/* Fórum e Boxes */
+.forum_post a {
+  color: #b39770;
+}
+
+.box.filter_torrents .head a:hover,
+.box.filter_torrents .head a:focus,
+.forum_post .colhead a:hover,
+.forum_post .colhead_dark a:focus,
+#inbox .box .head a:focus,
+#inbox .box .head a:hover {
+  color: #b39770;
+}
+
+/* Pedidos e Tabelas Específicas */
+#request_table .rowb td:first-of-type > a:nth-child(2n),
+#request_table .rowa td > a:nth-child(2n) {
+  color: #b39770;
+}
+
+table.forum_unread .colhead_dark {
+  border-top: 5px solid #b39770;
+}
+
+/* Cabeçalho (Header) */
+#header > #menu ul > li.active > a {
+  color: #b39770;
+}
+
+#header a {
+  color: #f7f7f7;
+}
+
+#header a:hover,
+#header a:focus {
+  color: #b39770;
+}
+
+#header a.username {
+  color: #b39770;
+}
+
+#header a.username:hover,
+#header a.username:focus,
+tbody.js-basic-movie-list__table-body a[href*="torrents.php?id"].basic-movie-list__movie__title:hover {
+  color: #f7f7f7;
+}
+
+#header .alertbar a {
+  color: #b39770;
+}
+
+/* Widgets */
+.ui-widget-content a:hover {
+  color: #b39770 !important;
+}
+/* ==========================================================================
+   1. Reset & Box Model
+   ========================================================================== */
+*,
+*:before,
+*:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-* { padding: 0; margin: 0; }
+* {
+  padding: 0;
+  margin: 0;
+}
 
 body {
-  background: #1a1a1a;
-  color: #9a9a9a;
   font-family: 'Proxima Nova', 'Lato', 'Segoe UI', sans-serif;
   font-size: 13px;
+  -moz-osx-font-smoothing: grayscale !important;
   -webkit-font-smoothing: antialiased !important;
   text-rendering: optimizeLegibility !important;
 }
 
-img { max-width: 100%; }
-p { margin: 0; }
-.hidden { display: none; }
-.center { text-align: center; }
+p {
+  margin: 0;
+}
 
 /* ==========================================================================
-   2. LAYOUT & ESTRUTURA
+   2. Layout & Estrutura (Grids, Margens, Padding)
    ========================================================================== */
-#content { margin: 0 auto; }
+#content {
+  margin: 0 auto;
+}
 
-@media (min-width: 544px)  { #content { max-width: 576px; } }
-@media (min-width: 768px)  { #content { max-width: 720px; } }
-@media (min-width: 992px)  { #content { max-width: 940px; } }
+@media (min-width: 544px) { #content { max-width: 576px; } }
+@media (min-width: 768px) { #content { max-width: 720px; } }
+@media (min-width: 992px) { #content { max-width: 940px; } }
 @media (min-width: 1200px) { #content { max-width: 1140px; } }
 
-.sidebar { width: 25%; float: right; padding: 0 0 0 2px; }
-.main_column, .main-column { width: 75%; float: left; }
-#footer, header { clear: both; float: none; }
-#footer { text-align: center; padding: 10px; }
+.sidebar {
+  width: 25%;
+  float: right;
+  padding: 0 0 0 2px;
+}
 
-/* Backgrounds de Seções */
-td, .box.pad, #blog .box, .box.thin.clear, div#quickreplytext, 
-#inbox .box, .box.news_post, .huge-movie-list__movie, 
-div#ft_container, .panel__body, .main_column .box, 
-div.pad#threadpoll, .alertbar, .forum-post__avatar-and-body,
-#user .main_column table[cellpadding="0"] {
+.main_column,
+.main-column {
+  width: 75%;
+  float: left;
+}
+
+#footer,
+header {
+  clear: both;
+  float: none;
+}
+
+#footer {
+  text-align: center;
+}
+
+.thin > div {
+  margin-top: 2px;
+}
+
+.center {
+  text-align: center;
+}
+
+/* ==========================================================================
+   3. Navegação & Menus
+   ========================================================================== */
+#menu,
+.main-menu {
+  top: 0;
+  z-index: 1500;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  transition: background 0.5s;
+  transform: translateZ(0px);
+  min-height: 50px;
+  border: 1px solid transparent;
+  text-align: center;
+}
+
+#menu ul > li,
+.main-menu ul > li {
+  padding: 15px 20px;
+}
+
+#menu ul > li > a,
+.main-menu ul > li > a {
+  line-height: 20px;
+  font-size: 14px;
+}
+
+ul#userinfo_minor > li > a {
+  padding: 0 20px;
+}
+
+#userinfo_minor {
+  text-align: center;
+  width: 100%;
+  height: 40px;
+  position: relative;
+  margin-top: 10px;
+}
+
+#userinfo_minor a {
+  line-height: 40px;
+  display: inline-block;
+}
+
+/* ==========================================================================
+   4. Tipografia & Títulos
+   ========================================================================== */
+h1, h2, h3, h4 {
+  margin: 0;
+}
+
+h2 { font-size: 0.90rem; text-align: center; }
+h3 { text-align: center; }
+
+body h1, body h2, body h3, body h4 {
+  padding: 5px 0;
+}
+
+.box h3, .header h1, .header h2, .header h3, #forums h2 {
+  font-weight: 600;
+  font-size: 1.125rem;
+}
+
+a {
+  text-decoration: none;
+  -webkit-transition: color 0.25s ease-out;
+  transition: color 0.25s ease-out;
+}
+
+/* ==========================================================================
+   5. Tabelas & Listas
+   ========================================================================== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 5px;
+  border-bottom: 1px solid #2b2b2b;
+}
+
+tr.colhead {
+  font-weight: bold;
+}
+
+.colhead td, .colhead_dark td {
+  font-size: 14px;
+}
+
+/* ==========================================================================
+   6. Formulários, Inputs e Botões
+   ========================================================================== */
+input, select, textarea {
+  border: none;
+  padding: 3px 5px;
+}
+
+input[type="submit"],
+input[type="button"] {
+  padding: 5px 8px;
+  margin: 1px;
+  cursor: pointer;
+  -webkit-transition: color 0.25s ease-out;
+  transition: color 0.25s ease-out;
+}
+
+textarea[name="comment"],
+input[name="subject"],
+textarea[name="body"],
+input[type="text"] {
+  border: 1px solid transparent !important;
+}
+
+textarea[name="comment"]:hover,
+input[name="subject"]:hover,
+textarea[name="body"]:hover,
+input[type="text"]:hover,
+textarea[name="body"]:focus,
+input[type="text"]:focus {
+  border: 1px solid #444 !important;
+}
+
+/* ==========================================================================
+   7. Boxes e Componentes Específicos
+   ========================================================================== */
+.box, .head {
+  padding: 10px;
+}
+
+.box .head {
+  margin: -10px -10px 6px !important;
+  margin-bottom: 6px;
+}
+
+blockquote {
+  margin: 10px;
+  padding: 10px;
+}
+
+.forum_post {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.forum_post td.avatar {
+  width: 16.6%;
+  padding: 0;
+}
+
+.forum_post td.body {
+  width: 83.4%;
+  word-break: break-word;
+  font-size: 14px;
+  line-height: 1.4;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+/* Estilo de Tags */
+#taglist tr td a,
+.huge-movie-list__movie__tag-list a,
+.movie-tooltip__tag,
+a.basic-movie-list__movie__tag,
+.tags a,
+.sidebar .stats.nobullet a {
+  padding: 3px 6px;
+  margin: 1px 0;
+  display: inline-block;
+  border-radius: 10px;
+  font-size: 0.7187rem;
+  transition: background 0.25s ease-out, color 0.25s ease-out;
+}
+
+/* ==========================================================================
+   8. Ícones FontAwesome (Pseudo-elementos)
+   ========================================================================== */
+td.unread:before { content: "\f075"; font-family: FontAwesome; }
+td.read:before { content: "\f075"; font-family: FontAwesome; }
+td.unread_sticky:before { content: "\f086"; font-family: FontAwesome; }
+td.unread_locked:before { content: "\f023"; font-family: FontAwesome; }
+
+/* ==========================================================================
+   9. Miscelânea (Imagens e Ajustes Finos)
+   ========================================================================== */
+img {
+  max-width: 100%;
+}
+
+a:hover img {
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+}
+
+.hidden {
+  display: none;
+}
+
+.signature {
+  padding-top: 10px;
+  margin-top: 10px;
+  border-top: 1px solid #2b2b2b; /* Exemplo de separação */
+}
+
+.lightbox {
+  position: fixed;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+  z-index: 2001;
+  overflow: auto;
+  text-align: center;
+}
+
+/* ==========================================================================
+   1. Cores Globais e Body
+   ========================================================================== */
+body {
+  background: #1a1a1a;
+  color: #9a9a9a;
+}
+
+.holder {
+  background: #1a1a1a;
+}
+
+/* Links e Estados de Hover */
+a:hover,
+a.simple-tabs__link:hover,
+#wrapper .alert-bars a:hover,
+#header .new-subscriptions a:hover,
+td a,
+#header .alertbar a:hover,
+.forum_post a:hover,
+tr.inbox-message--unread td a:hover,
+tr.unreadpm a:hover,
+a.simple-tabs__link.simple-tabs__link--active,
+a[href*="#last5gp_table"]:hover {
+  color: #f7f7f7;
+}
+
+/* ==========================================================================
+   2. Componentes de Interface (Cores de Fundo)
+   ========================================================================== */
+/* Fundo Escuro (Conteúdo) */
+td,
+form.search_form,
+.box.pad,
+#blog .box,
+.box.thin.clear,
+div#quickreplytext,
+#user .main_column table[cellpadding="0"],
+#inbox .box,
+.box.news_post,
+.huge-movie-list__movie,
+div#ft_container,
+.panel__body,
+.main_column .box,
+div.pad#threadpoll,
+#content .thin div[style="height:140px;"],
+.alertbar,
+.forum-post__avatar-and-body {
   background: #262626;
 }
 
-/* Cabeçalhos e Barras de Títulos */
-.forum_list h3, thead th, .colhead td, .colhead_dark td, 
-tr.colhead, tr.colhead_dark, #inbox .box .head, #reply_box h3, 
-.tabs__bar__list, li.tabs__bar__item.tabs__bar__item--active,
-.toggleable-search-form__toggler-container, .forum-post__heading {
+/* Fundo Cinza Médio (Cabeçalhos e Barras) */
+.forum_list h3,
+.toggleable-search-form__toggler-container,
+thead th,
+.box.filter_torrents .head,
+.colhead td,
+.forum-post__heading,
+.colhead_dark td,
+tr.colhead,
+tr.colhead_dark,
+#inbox .box .head,
+#reply_box h3,
+#inbox form .send_form #quickpost h3,
+.tabs__bar__list,
+li.tabs__bar__item.tabs__bar__item--active {
   background: #373737;
   color: #9a9a9a;
   border-bottom: 2px solid #1a1a1a;
 }
 
 /* ==========================================================================
-   3. NAVEGAÇÃO & HEADER
+   3. Formulários, Inputs e Selects
    ========================================================================== */
-#header {
-  background-image: url(../img/global.jpg);
-  background-size: cover;
-  text-align: center;
-  padding-top: 50px;
+form.search_form input,
+select,
+textarea[name="comment"],
+input[name="subject"],
+textarea[name="body"],
+input[type="text"] {
+  background: #333;
+  color: #969696;
+  border: 1px solid transparent !important;
+}
+
+form.search_form input:hover,
+form.search_form input:focus,
+select:hover,
+select:focus,
+textarea[name="comment"]:hover,
+textarea[name="body"]:focus {
+  background: #1f1f1f;
+  color: #f7f7f7;
+  border: 1px solid #444 !important;
+}
+
+/* Botões */
+input[type="submit"],
+input[type="button"] {
+  color: #f7f7f7;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover {
+  background-color: #555;
+  color: #f4f4f4;
+}
+
+/* ==========================================================================
+   4. Sistema de Cores de Permissões (Usuários)
+   ========================================================================== */
+a.permission_1  { color: #35a3ac; } /* User */
+a.permission_2  { color: #FFFFFF; } /* Member */
+a.permission_4  { color: #4aac85; } /* Power User */
+a.permission_5  { color: #5ecea6; } /* Elite */
+a.permission_24 { color: #78dfaf; } /* Torrent Master */
+a.permission_43 { color: #cdffae !important; } /* VIP */
+a.permission_32 { color: #d71a41; } /* Sysop */
+a.permission_31 { color: #33ff33; } /* Staff */
+
+/* ==========================================================================
+   5. Ratios e Badges (Cores Semânticas)
+   ========================================================================== */
+/* Sucesso / Positivo (Verde) */
+.r99, .r10, .r20, .r50,
+.ratio-infinite,
+.snatchlist-status--seeding,
+.tl_free {
+  color: #3c9454 !important;
+}
+
+/* Alerta / Atenção (Laranja/Amarelo) */
+.ratio-08, .ratio-09,
+.tor_highlight_leech {
+  color: #f7da64 !important;
+}
+
+/* Perigo / Erro (Vermelho) */
+.ratio-00, .ratio-01, .ratio-02,
+.tl_reported,
+.alert--error {
+  color: #bf2727 !important;
+}
+
+/* ==========================================================================
+   6. Miscelânea e Ajustes Finais
+   ========================================================================== */
+blockquote {
+  border: 1px dashed rgba(121,121,121,0.5);
+}
+
+.signature {
+  border-top: 1px dashed rgba(121,121,121,0.5);
 }
 
 #menu, .main-menu {
-  top: 0; z-index: 1500; width: 100%; height: 50px;
-  position: fixed; transition: background 0.5s;
   background: rgba(0, 0, 0, 0.6);
+}
+
+#menu:hover, .main-menu:hover {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+/* Tooltips e Tags */
+.movie-tooltip__tag, .tags a, .sidebar .stats.nobullet a {
+  background: #1f1f1f;
+  color: #9a9a9a;
+}
+
+.movie-tooltip__tag:hover, .tags a:hover {
+  background: #333;
+  color: #f4f4f4;
+}
