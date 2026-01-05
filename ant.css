@@ -3943,6 +3943,16 @@ content: url(https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/reload
   color: white;
 }
 
+.sticky_post_label {
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  background: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/pin.png")
+    no-repeat center center !important;
+  text-indent: -9999px;
+  vertical-align: middle;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
