@@ -4,6 +4,206 @@
 @import 'https://fonts.googleapis.com/css?family=Inconsolata';
 
 /* ==========================================================================
+   1. RESET & FUNDAMENTOS (ESTRUTURA BASE)
+   ========================================================================== */
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+* { padding: 0; margin: 0; }
+
+body {
+  background: #1a1a1a;
+  color: #9a9a9a;
+  font-family: 'Proxima Nova', 'Lato', 'Segoe UI', sans-serif;
+  font-size: 13px;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+  text-rendering: optimizeLegibility !important;
+}
+
+h1, h2, h3, h4 { margin: 0; padding: 5px 0; }
+h2 { font-size: 0.90rem; text-align: center; }
+h3 { text-align: center; }
+
+p { margin: 0; }
+.hidden { display: none; }
+.center { text-align: center; }
+img { max-width: 100%; }
+
+/* ==========================================================================
+   2. LAYOUT & GRIDS
+   ========================================================================== */
+#content { margin: 0 auto; }
+
+@media (min-width: 544px)  { #content { max-width: 576px; } }
+@media (min-width: 768px)  { #content { max-width: 720px; } }
+@media (min-width: 992px)  { #content { max-width: 940px; } }
+@media (min-width: 1200px) { #content { max-width: 1140px; } }
+
+.sidebar { width: 25%; float: right; padding: 0 0 0 2px; }
+.main_column, .main-column { width: 75%; float: left; }
+#footer, header { clear: both; float: none; }
+#footer { text-align: center; padding: 10px; }
+
+/* Backgrounds de Seções */
+td, .box.pad, #blog .box, .box.thin.clear, div#quickreplytext, 
+#inbox .box, .box.news_post, .huge-movie-list__movie, 
+div#ft_container, .panel__body, .main_column .box, 
+div.pad#threadpoll, .alertbar, .forum-post__avatar-and-body,
+#user .main_column table[cellpadding="0"], .holder {
+  background: #262626;
+}
+
+/* Cabeçalhos, Colheads e Títulos */
+.forum_list h3, thead th, .colhead td, .colhead_dark td, 
+tr.colhead, tr.colhead_dark, #inbox .box .head, #reply_box h3, 
+.tabs__bar__list, li.tabs__bar__item.tabs__bar__item--active,
+.toggleable-search-form__toggler-container, .forum-post__heading {
+  background: #373737;
+  color: #9a9a9a;
+  border-bottom: 2px solid #1a1a1a;
+}
+
+/* ==========================================================================
+   3. CABEÇALHO (HEADER) & LOGOTIPO
+   ========================================================================== */
+#header {
+  background-image: url(../img/global.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding-top: 50px;
+  text-align: center;
+}
+
+#logo {
+  background-image: url(../img/dg.png);
+  width: 66px; height: 66px; margin: 10px auto;
+  background-size: contain;
+}
+#logo a { display: block; width: 100%; height: 100%; }
+
+/* Menu Principal (Fixo) */
+#menu, .main-menu {
+  top: 0; z-index: 1500; width: 100%; height: 50px;
+  position: fixed; transition: background 0.5s;
+  background: rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+#menu:hover, .main-menu:hover { background: rgba(0, 0, 0, 0.9); }
+#menu ul > li { display: inline-block; padding: 15px 20px; }
+#menu ul > li > a { color: #fff; line-height: 20px; font-size: 14px; }
+
+/* Menu Dropdown (Userinfo Major) */
+div#userinfo { position: relative; display: inline; }
+#userinfo_major {
+  position: absolute; left: -9999px; z-index: 900; top: 0;
+  list-style: none;
+}
+#userinfo_major:hover { left: 0; }
+#userinfo_major:before {
+  content: "\f21e"; font-family: 'FontAwesome';
+  color: #b39770; cursor: pointer; display: block; width: 23px;
+}
+#userinfo_major li a {
+  display: block; padding: 5px 10px !important;
+  background: #1f1f1f; border-bottom: 1px solid #333;
+}
+#userinfo_major li a:hover { background: #111; color: #f7f7f7; }
+
+/* ==========================================================================
+   4. TIPOGRAFIA, LINKS E CORES DE DESTAQUE (#b39770)
+   ========================================================================== */
+a { color: #b39770; text-decoration: none; transition: color 0.25s ease-out; }
+
+/* Hover Branco/Claro */
+a:hover, #header a:hover, .forum_post a:hover, 
+.linkbox a:hover, tr.unreadpm a:hover, #header a:focus {
+  color: #f7f7f7;
+}
+
+/* Indicadores FontAwesome */
+td.unread:before, td.unread_sticky:before, 
+td.unread_locked:before, td.unread_locked_sticky:before {
+  color: #b39770;
+  font-family: FontAwesome;
+  content: "\f075";
+}
+
+/* Estilo de Tags e Badges */
+.tags a, .movie-tooltip__tag, .sidebar .stats.nobullet a, 
+#taglist tr td a, .huge-movie-list__movie__tag-list a {
+  background: #1f1f1f;
+  color: #9a9a9a;
+  padding: 3px 6px;
+  margin: 1px 0;
+  display: inline-block;
+  border-radius: 10px;
+  font-size: 0.7187rem;
+  transition: background 0.25s ease-out, color 0.25s ease-out;
+}
+.tags a:hover, .tags a:focus { background: #333; color: #f4f4f4; }
+
+/* ==========================================================================
+   5. COMPONENTES (FÓRUM, TABELAS, BOTÕES)
+   ========================================================================== */
+/* Tabelas */
+table { width: 100%; border-collapse: collapse; }
+td { border-bottom: 1px solid #2b2b2b; padding: 5px; }
+
+/* Fórum */
+.forum_post { width: 100%; margin-bottom: 20px; }
+.forum_post td.avatar { width: 16.6%; padding: 0; }
+.forum_post td.body { 
+  width: 83.4%; word-break: break-word; font-size: 14px; 
+  line-height: 1.4; padding: 10px; 
+}
+
+/* Botões e Inputs */
+input, select, textarea { 
+  border: none; background: #333; color: #969696; padding: 3px 5px; 
+}
+
+input[type="submit"], input[type="button"] {
+  background: #444; color: #f7f7f7; padding: 5px 8px; cursor: pointer;
+}
+input[type="submit"]:hover { background: #555; color: #f4f4f4; }
+
+textarea:hover, input[type="text"]:hover, input[type="text"]:focus {
+  border: 1px solid #444 !important;
+  background: #1f1f1f;
+  color: #f7f7f7;
+}
+
+/* ==========================================================================
+   6. PERMISSÕES E STATUS (CORES SEMÂNTICAS)
+   ========================================================================== */
+/* Usuários */
+a.permission_1  { color: #35a3ac; } 
+a.permission_2  { color: #ffffff; }
+a.permission_32 { color: #d71a41; }
+a.permission_43 { color: #cdffae !important; }
+
+/* Status de Torrents / Ratio */
+.r99, .r10, .r20, .tl_free { color: #3c9454 !important; }
+.r08, .r09, .tor_highlight_leech { color: #f7da64 !important; }
+.r00, .r01, .tl_reported, .alert--error { color: #bf2727 !important; }
+
+/* ==========================================================================
+   7. AJUSTES ESPECÍFICOS E FILTROS
+   ========================================================================== */
+.signature {
+  padding-top: 10px; margin-top: 10px;
+  border-top: 1px dashed rgba(121,121,121,0.5);
+}
+
+blockquote {
+  margin: 10px; padding: 10px
+
+/* ==========================================================================
    1. Logo e Links de Torrents
    ========================================================================== */
 #logo {
