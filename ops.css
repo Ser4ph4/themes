@@ -1,5 +1,5 @@
 /*
--Apollostage Theme - Last Update: 01/01/2026
+-Apollostage Theme - Last Update: 07/01/2026
 -Modifications & Updates: @Seraph4
 -Love for Music - OPS 
 */
@@ -1568,10 +1568,17 @@ body#collage .cats_music {
   background:0 0
 }
 #searchbars .search_form input {
-  border:none;
-  border-radius:2.5px;
-  height:30px;
-  background:#1d2424
+  width: 100%;
+  background-color: inherit;
+  border: none;
+  font-size: 13px;
+  padding: 1px 0 1px 20px;
+  color: #fff;
+  font-family: Roboto;
+  background: #434c5e
+    url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/fundo-busca-bj.svg")
+    no-repeat;
+  background-position: 2%;
 }
 #searchbars .search_form input:focus {
   background:#121616
