@@ -2306,14 +2306,16 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 }
 
 .mediainfo__filename::before {
-  content: url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/bars-solid.svg');
-  vertical-align: -2px;
-  width: 12px;
-  display: inline-grid;
-  margin-left: 1px;
-  margin-right: -1px;
+  content: "\f0c9" !important;
+  font-family: "Font Awesome 5 Pro" !important;
+  font-weight: 900 !important;
+  font-size: 12px !important;
+  color: inherit;
+  display: inline-block !important;
+  margin-right: 0px;
+  text-indent: 0 !important;
+  width: auto !important;
 }
-
 
 .mediainfo__audio {
   padding: 10px;
@@ -2325,14 +2327,16 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   margin-bottom: 4px;
 }
 
-
 .mediainfo__audio::before {
-  content: url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/audio-bj.svg');
-  vertical-align: baseline;
-  width: 3px;
-  display: inline-flex;
-  margin-left: 11px;
-  margin-right: 1px;
+  content: "\f028" !important;
+  font-family: "Font Awesome 5 Pro" !important;
+  font-weight: 900 !important;
+  font-size: 12px !important;
+  color: inherit;
+  display: inline-block !important;
+  margin-right: 0px;
+  text-indent: 0 !important;
+  width: auto !important;
 }
 
 .mediainfo h3 {
