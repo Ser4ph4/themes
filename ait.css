@@ -1199,6 +1199,13 @@ font-family: "Font Awesome 5 Pro";
   row-gap: 10px;
 }
 
+.topic-tag {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 0 4px;
+  font-size: 11px;
+}
+
 .topic-tag--approved::after {
   font-family: "Font Awesome 5 Pro";
   content: " \f164";
