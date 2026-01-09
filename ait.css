@@ -804,10 +804,14 @@ progress {
 }
 
 .torrent__tags > li > time::before {
-  content: url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/clock-time.tolltip.svg');
-  vertical-align: -1px;
-  margin-left: 2px;
-  margin-right: 2px;
+  font-family: "Font Awesome 5 Pro";
+  content: " \f017";
+  font-weight: 500;
+  margin-left: 0px;
+  font-size: 10px;
+  color: #d6dce7;
+  margin-right: 0px;
+  vertical-align: 1px;
 }
 
 .post__header {
