@@ -4,21 +4,55 @@
 ▫️𝘔𝘰𝘥𝘪𝘧𝘪𝘤𝘢𝘵𝘪𝘰𝘯𝘴 : @𝙎𝙚𝙧𝙖𝙥𝙝4
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
 */
+
+:root {
+    /* Nord Theme Colors */
+    --nord0: #2e3440;
+    --nord1: #3b4252;
+    --nord2: #434c5e;
+    --nord3: #4c566a;
+    --nord4: #d8dee9;
+    --nord5: #e5e9f0;
+    --nord6: #eceff4;
+    --nord7: #8fbcbb;
+    --nord8: #88c0d0;
+    --nord9: #81a1c1;
+    --nord10: #5e81ac;
+    --nord11: #bf616a;
+    --nord12: #d08770;
+    --nord13: #ebcb8b;
+    --nord14: #a3be8c;
+    --nord15: #b48ead;
+
+    /* Custom Theme Colors */
+    --bg-dark: #191d2a;
+    --bg-panel: #222731;
+    --bg-input: #1d1d1d;
+    --bg-aside: #252a34;
+    --accent-green: #23d1a5;
+    --accent-gold: #feb100;
+    --text-white: #ffffff;
+    --text-muted: #ffffffa1;
+    
+    /* Assets */
+    --bg-image: url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/aither-bg.svg');
+}
+
 .alert {
-  color: #feb100;
-  background: #191d2a url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/aither-bg.svg');
+  color: var(--accent-gold);
+  background: var(--bg-dark) var(--bg-image);
   background-size: 130px;
   font-size: 14px;
   padding: 0px;
 }
 
 body {
-    background: #191d2a  url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/aither-bg.svg');
+    background: var(--bg-dark)  var(--bg-image);
   }
 
 .top-nav__main-menus {
   list-style-type: none;
-  background: #222731 !important;
+  background: var(--bg-panel) !important;
   padding: 3px 7px;
   border-radius: 10px;
 }
@@ -103,7 +137,7 @@ p.bbcode-input__tabs {
     border-color: var(--post-toolbar-bg);
     color: var(--post-toolbar-fg);
     width: 72px;
-    background-color: #2e3440;
+    background-color: var(--nord0);
     text-align: right;
     border-radius: 8px;
   }
@@ -162,7 +196,7 @@ p.bbcode-input__tabs {
 }
 
 .form__button--filled {
-      background: #295756;;
+      background: #295756;
       color: var(--button-filled-fg);
       border: var(--button-filled-border);
       border-radius: var(--button-filled-border-radius);
@@ -348,7 +382,7 @@ p.bbcode-input__tabs {
 
     .similar-torrents__torrents {
       border-collapse: collapse;
-      background: #3b4252b2 !important;
+      background: var(--nord1)b2 !important;
     }
 
     .meta {
@@ -363,12 +397,12 @@ p.bbcode-input__tabs {
       gap: 16px 32px;
       padding: 16px;
       max-height: 510px;
-      background: #3b42525e;
+      background: var(--nord1)5e;
       border-radius: 10px;
     }
 
     .torrent__activity-link{
-      background: #3b42525e;
+      background: var(--nord1)5e;
       border-radius: 10px;
    }
 
@@ -438,7 +472,7 @@ p.bbcode-input__tabs {
 }
 
 .panel__tab {
-  color: #81a1c1;
+  color: var(--nord9);
   font-weight: 500;
 }
 
@@ -462,7 +496,7 @@ p.bbcode-input__tabs {
 }
 
 .panel__tab--active {
-  color: #88c0d0;
+  color: var(--nord8);
   border-bottom: 2px solid #88c0d0;
   border-top: 2px solid #88c0d0;
   background: #343a48;
@@ -504,7 +538,7 @@ p.bbcode-input__tabs {
   border: none;
   text-align: center;
   cursor: pointer;
-  background: #3b4252;
+  background: var(--nord1);
 }
 
 .bbcode-rendered.bbcode-rendered blockquote {
@@ -514,7 +548,7 @@ p.bbcode-input__tabs {
   color: #c0c7d3;
   border-left: .25em solid #212121;
   font-size: 15px;
-  background-color: #2e3440;
+  background-color: var(--nord0);
   border-radius: 6px;
   border-right: 0.25em solid #212121;
   border-top: 1px solid #272c36;
@@ -699,7 +733,7 @@ font-family: "Font Awesome 5 Pro";
   left: 0;
   right: 0;
   border: 2px solid #88c0d096;
-  background: #3b4252;
+  background: var(--nord1);
   padding: revert;
 }
 
@@ -731,7 +765,7 @@ font-family: "Font Awesome 5 Pro";
   flex-direction: column;
   align-items: stretch;
   padding: 8px 0;
-  background-color: #3b4252;
+  background-color: var(--nord1);
   border: var(--secondary-nav-tab-menu-border);
   border-radius: var(--secondary-nav-tab-menu-border-radius);
   box-shadow: var(--secondary-nav-tab-menu-box-shadow);
@@ -752,13 +786,13 @@ progress {
 
 .panelV2.achievements__unlocked{
   background: #5daa0017;
-  color: #feb100;
+  color: var(--accent-gold);
   border-radius: 10px
 }
 
 .panelV2.achievements__pending{
   background: #fb00000f;
-  color: #feb100;
+  color: var(--accent-gold);
   border-radius: 10px
 }
 
@@ -899,7 +933,7 @@ font-family: "Font Awesome 5 Pro";
   margin-top: 20px;
   text-align: center;
   font-style: italic;
-  background: #3b4252;
+  background: var(--nord1);
   border-radius: 5px;
 }
 
@@ -982,7 +1016,7 @@ font-family: "Font Awesome 5 Pro";
   border-right: 1px solid var(--footer-hr-fg);
   border-left: 1px solid var(--footer-hr-fg);
   border-radius: 5px;
-  background: #191d2a4a;
+  background: var(--bg-dark)4a;
   background: radial-gradient(circle at top right,#23d1a508,#2328334f) !important;
   border-bottom: thin solid #324041a1;
   border-right: thin solid #324041a1;
@@ -1217,7 +1251,7 @@ font-family: "Font Awesome 5 Pro";
 }
 
 .torrent-search--list__sticky-row td {
-  background-color: #191d2a !important;
+  background-color: var(--bg-dark) !important;
   border-bottom: none !important;
 }
 
@@ -1373,7 +1407,7 @@ font-family: "Font Awesome 5 Pro";
   border-style: none;
   max-width: 100%;
   box-sizing: content-box;
-  background-color: #3b425200;
+  background-color: var(--nord1)00;
 }
 
 .post__toolbar {
@@ -1469,7 +1503,7 @@ font-family: "Font Awesome 5 Pro";
   border-radius: 8px;
   padding: 2px 6px;
   text-align: center;
-  background-color: #3b4252 !important;
+  background-color: var(--nord1) !important;
 }
 
 .user-tag, .user-tag__link {
@@ -1896,8 +1930,8 @@ border-bottom: 2px solid #2c323d;
 
 @media only screen and (max-width: 767px) {
   .form__group--short-horizontal {
-  background-color: inherit !important;;
-  display: grid !important;;
+  background-color: inherit !important;
+  display: grid !important;
   gap: 0px;
   grid-template-columns: repeat(auto-fit,minmax(120px,1fr));
   align-items: center;
@@ -2269,7 +2303,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 
 .footer__section-title ~ p {
   color: #fff;
-  background: #3b425282;
+  background: var(--nord1)82;
   max-width: max-content;
   padding: 2px 5px;
   border-radius: 5px;
@@ -2513,7 +2547,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 
 .featured-carousel__featured-by {
   color: #C6C6C6;
-  background: #191d2a;
+  background: var(--bg-dark);
   padding: 0px 4px;
   border: 2px solid #5c7297;
   font-style: italic;
@@ -2602,10 +2636,14 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 }
 
 .panel__action.page__published::before {
-  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/clock-regular.svg");
+font-family: "Font Awesome 5 Pro";
+  content: " \f017";
+  font-weight: 500;
   margin-left: 0px;
+  font-size: 9px;
+  color: #d6dce7;
   margin-right: 0px;
-  vertical-align: unset;
+  vertical-align: 1px;
 }
 
 .panel__action.page__published {
@@ -2671,7 +2709,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   content: "►"; 
   font-weight: 900;
   margin-right: 0px;
-  color: #3c96d7; /* Pode ter cor diferente do texto se quiser */
+  color: #3c96d7; 
 }
 
 .mediainfo__general, .mediainfo__video {
@@ -2917,13 +2955,13 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
  .torrent-search--list__seeders {
   background: #2e34409e !important;
   font-size: 14px !important;
-  color: #81a1c1;
+  color: var(--nord9);
 }
 
 .torrent-search--list__leechers {
   background: #d0838c14 !important;
   font-size: 14px !important;
-  color: #81a1c1;
+  color: var(--nord9);
 }
 
 .torrent-search--list__age ::before {
