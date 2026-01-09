@@ -1600,11 +1600,13 @@ dl.post__author-join{
 }
 
 .mediainfo__subtitles::before {
-  content: url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/legenda-cbr.svg');
-  width: 16px;
-  display: inline-grid;
-  margin-left: 1px;
-  margin-right: 1px;
+  font-family: "Font Awesome 5 Pro";
+  content: " \f20a";
+  font-weight: 900;
+  font-size: 14px;
+  color: #f9f9f9;
+  margin-right: 2px;
+  margin-left: 7px;
 }
 
 i.fas.fa-plus-circle.fa-pull-right {
