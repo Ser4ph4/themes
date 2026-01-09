@@ -2990,8 +2990,14 @@ td.torrent-search--grouped__age time {
 }
 
 td.torrent-search--grouped__age time:before{
-content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/clock-regular.svg");
-vertical-align: top;
+  font-family: "Font Awesome 5 Pro";
+  content: " \f017";
+  font-weight: 500;
+  margin-left: 0px;
+  font-size: 9px;
+  color: #d6dce7;
+  margin-right: 0px;
+  vertical-align: 1px;
 }
 
 .gird__container--donation {
