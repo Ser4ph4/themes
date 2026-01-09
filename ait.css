@@ -1477,11 +1477,16 @@ font-family: "Font Awesome 5 Pro";
 }
 
 .media__title::before {
-  content: url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/bars-solid.svg');
-  vertical-align: -1px;
-  width: 10px;
-  display: inline-grid;
-  margin-left: 1px;
+  content: "\f0c9" !important;
+  font-family: "Font Awesome 5 Pro" !important;
+  font-weight: 900 !important;
+  font-size: 12px !important;
+  color: inherit;
+  display: inline-block !important;
+  margin-right: 1px;
+  text-indent: 0 !important;
+  width: auto !important;
+  margin-top: 2px;
 }
 
 .bbcode-rendered.bbcode-rendered {
