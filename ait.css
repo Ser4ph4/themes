@@ -1079,15 +1079,18 @@ vertical-align: 1px;
   grid-area: whispers;
   font-size: 11px;
   color: yellow;
-  font-style: italic;
   margin-top: -4px;
 }
 
 .chatroom__whispers:before {
-  content: url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/keyboard-solid.svg');
-  vertical-align: -2px;
-  margin-left: 2px;
-  margin-right: 2px;
+ font-family: "Font Awesome 5 Pro";
+  content: " \f11c";
+  font-weight: 500;
+  margin-left: 0px;
+  font-size: 11px;
+  color: #44affa;
+  margin-right: 0px;
+  vertical-align: 1px;
 }
 
 .post__datetime::before {
