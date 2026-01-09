@@ -1165,9 +1165,12 @@ font-family: "Font Awesome 5 Pro";
 }
 
 .topic-tag--implemented::after {
-  content: url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/implementaded.svg');
-  vertical-align: -2px;
-  margin-left: 2px;
+  font-family: "Font Awesome 5 Pro";
+  content: " \f560";
+  font-weight: 500;
+  margin-left: 0px;
+  font-size: 10px;
+  color: #00e12a;
   margin-right: 0px;
 }
 
