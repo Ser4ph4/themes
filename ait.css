@@ -787,8 +787,13 @@ progress {
 }
 
 .torrent__category a::before {
+ font-family: "Font Awesome 5 Pro";
+  content: " \23";
   font-weight: 600;
-  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/hashtag-solid.svg");
+  margin-left: 0px;
+  font-size: 14px;
+  color: #4ebaf5;
+  vertical-align: middle;
 }
 
  .torrent__tags > li > time {
