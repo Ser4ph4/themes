@@ -918,11 +918,11 @@ font-family: "Font Awesome 5 Pro";
 }
 
 .post__tip-stats::before {
-  content: "\f51e" !important;
-  font-family: "Font Awesome 5 Pro" !important;
-  font-weight: 600 !important;
-  font-size: 13px !important;
-  color: #ffaa3e !important;
+  content: "\f51e";
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 600;
+  font-size: 13px;
+  color: #d8a32b;
   margin-left: 3px;
   margin-right: 3px;
 }
