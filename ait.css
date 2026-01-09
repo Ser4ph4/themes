@@ -918,9 +918,12 @@ font-family: "Font Awesome 5 Pro";
 }
 
 .post__tip-stats::before {
-  content: url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/capy-coins.svg');
-  margin-top: 1px;
-  margin-left: 6px;
+  content: "\f51e" !important;
+  font-family: "Font Awesome 5 Pro" !important;
+  font-weight: 600 !important;
+  font-size: 13px !important;
+  color: #ffaa3e !important;
+  margin-left: 3px;
   margin-right: 3px;
 }
 
