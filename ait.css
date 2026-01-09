@@ -1,10 +1,9 @@
 /*
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
-❕[Stylesheet] AIT Nord Theme CSS  𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 03/01/2026 ~  
+❕[Stylesheet] AIT Nord Theme CSS  𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 09/01/2026 ~  
 ▫️𝘔𝘰𝘥𝘪𝘧𝘪𝘤𝘢𝘵𝘪𝘰𝘯𝘴 : @𝙎𝙚𝙧𝙖𝙥𝙝4
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
 */
-
 .alert {
   color: #feb100;
   background: #191d2a url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/aither-bg.svg');
@@ -527,8 +526,13 @@ p.bbcode-input__tabs {
 }
 
 .topic-listing--unread .topic-listing__heading a::before {
+font-family: "Font Awesome 5 Pro";
+  content: " \f192";
   font-weight: 600;
-  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/star-of-life.svg");
+  margin-left: 0px;
+  font-size: 10px;
+  color: #aed46f ;
+  vertical-align: 1px;
 }
 
 .post__author-join {
@@ -831,10 +835,14 @@ progress {
 }
 
 .post__tip-button::after {
-  content: url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/paper-plane-regular.svg');
-  vertical-align: -2px;
-  margin-left: 2px;
+font-family: "Font Awesome 5 Pro";
+  content: " \f1d8";
+  font-weight: 500;
+  margin-left: 0px;
+  font-size: 11px;
+  color: #fad044;
   margin-right: 2px;
+  vertical-align: 1px;
 }
 
  .post__tip-button {
@@ -1022,10 +1030,14 @@ progress {
 
 
 .chatbox-message__time::before {
-  content: url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/time-post.svg');
-  vertical-align: -1px;
-  margin-left: -10px;
-  margin-right: 1px;
+font-family: "Font Awesome 5 Pro";
+  content: " \f017";
+  font-weight: 900;
+  margin-left: 0px;
+  font-size: 9px;
+  color: #a4d8fd;
+margin-right: 2px;
+vertical-align: 1px;
 }
 
 .chatbox-message {
@@ -1078,10 +1090,14 @@ progress {
 }
 
 .post__datetime::before {
-  content: url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/time-post.svg');
-  vertical-align: -1px;
-  margin-left: 2px;
+font-family: "Font Awesome 5 Pro";
+  content: " \f017";
+  font-weight: 900;
+  margin-left: 0px;
+  font-size: 9px;
+  color: #a4d8fd;
   margin-right: 2px;
+  vertical-align: 1px;
 }
 
 .form__standard-icon-button--skinny {
@@ -1307,8 +1323,13 @@ progress {
 }
 
 .panel__tab--active::before {
-  content: "#";
-  margin-right: 2px;
+font-family: "Font Awesome 5 Pro";
+  content: " \23";
+  font-weight: 600;
+  margin-left: 0px;
+  font-size: 15px;
+  color: #aed46f;
+  vertical-align: 1px;
   color: #3b7ebb;
 }
 
@@ -1581,11 +1602,30 @@ i.fas.fa-minus-circle.fa-pull-right {
 }
 
 .footer__section-list {
-  list-style: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/circulo-cbr-footer.svg");
+  list-style: none; /
+  padding-left: 0;
+}
+
+.footer__section-list li {
   font-size: 13px;
   font-weight: 600;
-  color: #bcbcbc;
- 
+  color: #d6dce7;
+  position: relative;
+  padding-left: 15px; 
+  margin-bottom: 0px;
+}
+
+.footer__section-list li::before {
+  content: "\f111"; 
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 500;
+  font-size: 11px;
+  color:#58cff9;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%); 
+  margin-right: 9px;
 }
 
 .footer__section-list {
@@ -2840,8 +2880,14 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 }
 
 .torrent-search--list__age ::before {
-  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/clock-regular.svg");
-  vertical-align: top;
+  font-family: "Font Awesome 5 Pro";
+  content: " \f017";
+  font-weight: 500;
+  margin-left: 0px;
+  font-size: 9px;
+  color: #d6dce7;
+  margin-right: 0px;
+  vertical-align: 1px;
 }
 
 .chatbox-message__source::after {
