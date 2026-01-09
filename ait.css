@@ -1124,7 +1124,11 @@ vertical-align: 1px;
   grid-area: whispers;
   font-size: 11px;
   color: yellow;
-  margin-top: -4px;
+  margin-top: 0px;
+  background: #282e39;
+  max-width: max-content;
+  border-radius: 0px 0px 5px 0px;
+  padding: 0px 7px;
 }
 
 .chatroom__whispers:before {
