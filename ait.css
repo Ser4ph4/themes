@@ -1152,6 +1152,7 @@ font-family: "Font Awesome 5 Pro";
 .fas.fa-thumbtack {
   color: #f66;
 }
+
 .topic-posts {
   list-style-type: none;
   margin: 0;
@@ -1160,18 +1161,25 @@ font-family: "Font Awesome 5 Pro";
   flex-direction: column;
   row-gap: 10px;
 }
+
 .topic-tag--approved::after {
-  content: url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/aprovado-tag.svg');
-  vertical-align: -1px;
-  margin-left: 3px;
+  font-family: "Font Awesome 5 Pro";
+  content: " \f164";
+  font-weight: 800;
+  margin-left: 0px;
+  font-size: 10px;
+  color: #61e4be;
   margin-right: 0px;
 }
 
 .topic-tag--denied::after {
-  content: url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/reprovado-tag.svg');
-  margin-left: 3px;
+  font-family: "Font Awesome 5 Pro";
+  content: " \f165";
+  font-weight: 800;
+  margin-left: 0px;
+  font-size: 10px;
+  color: #b70c0e;
   margin-right: 0px;
-  vertical-align: sub;
 }
 
 .topic-tag--approved {
