@@ -48,7 +48,7 @@ By : @𝙎𝙚𝙧𝙖𝙥𝙝4
 
 body {
     background: var(--bg-dark)  var(--bg-image);
-    background-size: 130px;
+    background-size: 480px auto;
   }
 
 .top-nav__main-menus {
@@ -3322,5 +3322,6 @@ li.panel__tab[x-on\:click*="tab = 'open'"].panel__tab--active {
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
 ░░░░░░░░░░░
 */
+
 
 
