@@ -1,26 +1,58 @@
 /*
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
-❕[Stylesheet] Concertos Nord Theme CSS : 𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 04/01/2026 ~
+❕[Stylesheet] Concertos Nord Theme CSS  
+𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 08/02/2026 ~
 By : @𝙎𝙚𝙧𝙖𝙥𝙝4
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
 */
+:root {
+    /* Nord Theme Colors */
+    --nord0: #2e3440;
+    --nord1: #3b4252;
+    --nord2: #434c5e;
+    --nord3: #4c566a;
+    --nord4: #d8dee9;
+    --nord5: #e5e9f0;
+    --nord6: #eceff4;
+    --nord7: #8fbcbb;
+    --nord8: #88c0d0;
+    --nord9: #81a1c1;
+    --nord10: #5e81ac;
+    --nord11: #bf616a;
+    --nord12: #d08770;
+    --nord13: #ebcb8b;
+    --nord14: #a3be8c;
+    --nord15: #b48ead;
+
+    /* Custom Theme Colors */
+    --bg-dark: #191d2a;
+    --bg-panel: #222731;
+    --bg-input: #1d1d1d;
+    --bg-aside: #252a34;
+    --accent-green: #23d1a5;
+    --accent-gold: #feb100;
+    --text-white: #ffffff;
+    --text-muted: #ffffffa1;
+    
+    /* Assets */
+    --bg-image: url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/aither-bg.svg');
+}
 
 .alert {
-  color: #feb100;
-  background: #191d2a url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/fundo-concertos.svg');
+  color: var(--accent-gold);
+  background: var(--bg-dark) var(--bg-image);
   background-size: 130px;
   font-size: 14px;
   padding: 0px;
 }
 
 body {
-    background: #191d2a  url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/fundo-concertos.svg');
-  background-size: 480px auto;
+    background: var(--bg-dark)  var(--bg-image);
   }
 
 .top-nav__main-menus {
   list-style-type: none;
-  background: #222731 !important;
+  background: var(--bg-panel) !important;
   padding: 3px 7px;
   border-radius: 10px;
 }
@@ -105,7 +137,7 @@ p.bbcode-input__tabs {
     border-color: var(--post-toolbar-bg);
     color: var(--post-toolbar-fg);
     width: 72px;
-    background-color: #2e3440;
+    background-color: var(--nord0);
     text-align: right;
     border-radius: 8px;
   }
@@ -164,7 +196,7 @@ p.bbcode-input__tabs {
 }
 
 .form__button--filled {
-      background: #295756;;
+      background: #295756;
       color: var(--button-filled-fg);
       border: var(--button-filled-border);
       border-radius: var(--button-filled-border-radius);
@@ -350,7 +382,7 @@ p.bbcode-input__tabs {
 
     .similar-torrents__torrents {
       border-collapse: collapse;
-      background: #3b4252b2 !important;
+      background: var(--nord1)b2 !important;
     }
 
     .meta {
@@ -365,12 +397,12 @@ p.bbcode-input__tabs {
       gap: 16px 32px;
       padding: 16px;
       max-height: 510px;
-      background: #3b42525e;
+      background: var(--nord1)5e;
       border-radius: 10px;
     }
 
     .torrent__activity-link{
-      background: #3b42525e;
+      background: var(--nord1)5e;
       border-radius: 10px;
    }
 
@@ -420,7 +452,7 @@ p.bbcode-input__tabs {
   background-color: #4281da;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  background-image: linear-gradient(90deg,#3654d8 4%,#349ce6 19%,#56d0e2 39%,#62e080 60%,#8199c6 80%,#4a69ec);
+  background-image: linear-gradient(90deg,#3654d8 4%,#349ce6 19%,#56d0e2 39%,#62e080 60%,#d195cb 80%,#e646dd);
   font-weight: 600;
   font-size: 2.1rem;
   text-transform: uppercase;
@@ -440,7 +472,7 @@ p.bbcode-input__tabs {
 }
 
 .panel__tab {
-  color: #81a1c1;
+  color: var(--nord9);
   font-weight: 500;
 }
 
@@ -464,7 +496,7 @@ p.bbcode-input__tabs {
 }
 
 .panel__tab--active {
-  color: #88c0d0;
+  color: var(--nord8);
   border-bottom: 2px solid #88c0d0;
   border-top: 2px solid #88c0d0;
   background: #343a48;
@@ -506,7 +538,7 @@ p.bbcode-input__tabs {
   border: none;
   text-align: center;
   cursor: pointer;
-  background: #3b4252;
+  background: var(--nord1);
 }
 
 .bbcode-rendered.bbcode-rendered blockquote {
@@ -516,7 +548,7 @@ p.bbcode-input__tabs {
   color: #c0c7d3;
   border-left: .25em solid #212121;
   font-size: 15px;
-  background-color: #2e3440;
+  background-color: var(--nord0);
   border-radius: 6px;
   border-right: 0.25em solid #212121;
   border-top: 1px solid #272c36;
@@ -528,8 +560,13 @@ p.bbcode-input__tabs {
 }
 
 .topic-listing--unread .topic-listing__heading a::before {
+font-family: "Font Awesome 5 Pro";
+  content: " \f192";
   font-weight: 600;
-  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/star-of-life.svg");
+  margin-left: 0px;
+  font-size: 10px;
+  color: #aed46f ;
+  vertical-align: 1px;
 }
 
 .post__author-join {
@@ -680,6 +717,7 @@ p.bbcode-input__tabs {
   color: var(--forum-tag-implemented-fg);
   font-weight: 400;
   max-height: 16px;
+  vertical-align: middle;
 }
 
 .topic-tag--denied {
@@ -695,7 +733,7 @@ p.bbcode-input__tabs {
   left: 0;
   right: 0;
   border: 2px solid #88c0d096;
-  background: #3b4252;
+  background: var(--nord1);
   padding: revert;
 }
 
@@ -727,7 +765,7 @@ p.bbcode-input__tabs {
   flex-direction: column;
   align-items: stretch;
   padding: 8px 0;
-  background-color: #3b4252;
+  background-color: var(--nord1);
   border: var(--secondary-nav-tab-menu-border);
   border-radius: var(--secondary-nav-tab-menu-border-radius);
   box-shadow: var(--secondary-nav-tab-menu-box-shadow);
@@ -748,13 +786,13 @@ progress {
 
 .panelV2.achievements__unlocked{
   background: #5daa0017;
-  color: #feb100;
+  color: var(--accent-gold);
   border-radius: 10px
 }
 
 .panelV2.achievements__pending{
   background: #fb00000f;
-  color: #feb100;
+  color: var(--accent-gold);
   border-radius: 10px
 }
 
@@ -783,8 +821,13 @@ progress {
 }
 
 .torrent__category a::before {
+ font-family: "Font Awesome 5 Pro";
+  content: " \23";
   font-weight: 600;
-  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/hashtag-solid.svg");
+  margin-left: 0px;
+  font-size: 14px;
+  color: #4ebaf5;
+  vertical-align: middle;
 }
 
  .torrent__tags > li > time {
@@ -795,10 +838,14 @@ progress {
 }
 
 .torrent__tags > li > time::before {
-  content: url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/clock-time.tolltip.svg');
-  vertical-align: -1px;
-  margin-left: 2px;
-  margin-right: 2px;
+  font-family: "Font Awesome 5 Pro";
+  content: " \f017";
+  font-weight: 500;
+  margin-left: 0px;
+  font-size: 10px;
+  color: #d6dce7;
+  margin-right: 0px;
+  vertical-align: 1px;
 }
 
 .post__header {
@@ -832,10 +879,14 @@ progress {
 }
 
 .post__tip-button::after {
-  content: url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/paper-plane-regular.svg');
-  vertical-align: -2px;
-  margin-left: 2px;
+font-family: "Font Awesome 5 Pro";
+  content: " \f1d8";
+  font-weight: 500;
+  margin-left: 0px;
+  font-size: 11px;
+  color: #fad044;
   margin-right: 2px;
+  vertical-align: 1px;
 }
 
  .post__tip-button {
@@ -882,7 +933,7 @@ progress {
   margin-top: 20px;
   text-align: center;
   font-style: italic;
-  background: #3b4252;
+  background: var(--nord1);
   border-radius: 5px;
 }
 
@@ -910,9 +961,12 @@ progress {
 }
 
 .post__tip-stats::before {
-  content: url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/capy-coins.svg');
-  margin-top: 1px;
-  margin-left: 6px;
+  content: "\f51e";
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 600;
+  font-size: 13px;
+  color: #d8a32b;
+  margin-left: 3px;
   margin-right: 3px;
 }
 
@@ -962,7 +1016,7 @@ progress {
   border-right: 1px solid var(--footer-hr-fg);
   border-left: 1px solid var(--footer-hr-fg);
   border-radius: 5px;
-  background: #191d2a4a;
+  background: var(--bg-dark)4a;
   background: radial-gradient(circle at top right,#23d1a508,#2328334f) !important;
   border-bottom: thin solid #324041a1;
   border-right: thin solid #324041a1;
@@ -988,6 +1042,76 @@ progress {
 .post__content.post__content.post__content {
   background-color: #434c5e;
   font-size: 16px;
+}
+
+.bbcode-input__tab-label[for="content-bbcode-preview-disabled"] {
+    font-size: 0 !important; 
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: all 0.2s ease;
+}
+
+.bbcode-input__tab-label[for="content-bbcode-preview-disabled"]::before {
+    content: "\e472"; 
+    font-family: "Font Awesome 5 Pro", "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 16px;
+    color: #d6dce7;
+    visibility: visible;
+    display: inline-block;
+}
+
+.bbcode-input__tab-label[for="content-bbcode-preview-disabled"]:hover::before {
+    color: #007bff;
+    transform: scale(1.1);
+}
+
+.bbcode-input__tab-label[for="content-bbcode-preview-enabled"] {
+    font-size: 0 !important; 
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.bbcode-input__tab-label[for="content-bbcode-preview-enabled"]::before {
+    content: "\f06e";
+    font-family: "Font Awesome 5 Pro", "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 16px;
+    color: #d6dce7;
+    visibility: visible;
+    display: inline-block;
+}
+
+.bbcode-input__tab-label[for="content-bbcode-preview-enabled"]:hover::before {
+    color: #007bff;
+    transform: scale(1.1);
+}
+
+.form__button.form__button--text[x-on\:click="toggleButtonVisibility"] {
+    font-size: 0 !important;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    padding: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form__button.form__button--text[x-on\:click="toggleButtonVisibility"]::before {
+    content: "\f121";
+    font-family: "Font Awesome 5 Pro", "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 16px;
+    color: #d6dce7;
+    visibility: visible;
+}
+
+.form__button.form__button--text[x-on\:click="toggleButtonVisibility"]:hover::before {
+    color: #007bff;
+    transform: scale(1.1);
 }
 
 .bbcode-rendered.bbcode-rendered .bbcode-rendered__note::before {
@@ -1023,10 +1147,14 @@ progress {
 
 
 .chatbox-message__time::before {
-  content: url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/time-post.svg');
-  vertical-align: -1px;
-  margin-left: -10px;
-  margin-right: 1px;
+font-family: "Font Awesome 5 Pro";
+  content: " \f017";
+  font-weight: 900;
+  margin-left: 0px;
+  font-size: 9px;
+  color: #a4d8fd;
+margin-right: 2px;
+vertical-align: 1px;
 }
 
 .chatbox-message {
@@ -1053,7 +1181,6 @@ progress {
   font-size: 11px;
   color: #d8dee9;
   position: unset;
-  padding: 2px 8px 3px 10px;
 }
 
 .post__avatar {
@@ -1067,22 +1194,33 @@ progress {
   grid-area: whispers;
   font-size: 11px;
   color: yellow;
-  font-style: italic;
-  margin-top: -4px;
+  margin-top: 0px;
+  background: #282e39;
+  max-width: max-content;
+  border-radius: 0px 0px 5px 0px;
+  padding: 0px 7px;
 }
 
 .chatroom__whispers:before {
-  content: url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/keyboard-solid.svg');
-  vertical-align: -2px;
-  margin-left: 2px;
-  margin-right: 2px;
+ font-family: "Font Awesome 5 Pro";
+  content: " \f11c";
+  font-weight: 500;
+  margin-left: 0px;
+  font-size: 11px;
+  color: #44affa;
+  margin-right: 0px;
+  vertical-align: 1px;
 }
 
 .post__datetime::before {
-  content: url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/time-post.svg');
-  vertical-align: -1px;
-  margin-left: 2px;
+font-family: "Font Awesome 5 Pro";
+  content: " \f017";
+  font-weight: 900;
+  margin-left: 0px;
+  font-size: 9px;
+  color: #a4d8fd;
   margin-right: 2px;
+  vertical-align: 1px;
 }
 
 .form__standard-icon-button--skinny {
@@ -1121,6 +1259,7 @@ progress {
 .fas.fa-thumbtack {
   color: #f66;
 }
+
 .topic-posts {
   list-style-type: none;
   margin: 0;
@@ -1129,18 +1268,52 @@ progress {
   flex-direction: column;
   row-gap: 10px;
 }
+
+.topic-tag {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 0 4px;
+  font-size: 11px;
+}
+
 .topic-tag--approved::after {
-  content: url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/aprovado-tag.svg');
-  vertical-align: -1px;
-  margin-left: 3px;
+  font-family: "Font Awesome 5 Pro";
+  content: " \f164";
+  font-weight: 800;
+  margin-left: 0px;
+  font-size: 10px;
+  color: #61e4be;
   margin-right: 0px;
 }
 
 .topic-tag--denied::after {
-  content: url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/reprovado-tag.svg');
-  margin-left: 3px;
+  font-family: "Font Awesome 5 Pro";
+  content: " \f165";
+  font-weight: 800;
+  margin-left: 0px;
+  font-size: 10px;
+  color: #b70c0e;
   margin-right: 0px;
-  vertical-align: sub;
+}
+
+.topic-tag--solved::after {
+  font-family: "Font Awesome 5 Pro";
+  content: " \f336";
+  font-weight: 800;
+  margin-left: 0px;
+  font-size: 10px;
+  color: #108b88;
+  margin-right: 0px;
+}
+
+.topic-tag--bug::after {
+  font-family: "Font Awesome 5 Pro";
+  content: " \f188";
+  font-weight: 800;
+  margin-left: 0px;
+  font-size: 10px;
+  color: #dc929c;
+  margin-right: 0px;
 }
 
 .topic-tag--approved {
@@ -1150,16 +1323,24 @@ progress {
 }
 
 .topic-tag--implemented::after {
-  content: url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/implementaded.svg');
-  vertical-align: -2px;
-  margin-left: 2px;
+  font-family: "Font Awesome 5 Pro";
+  content: " \f560";
+  font-weight: 500;
+  margin-left: 0px;
+  font-size: 10px;
+  color: #00e12a;
   margin-right: 0px;
 }
 
 .topic-listing__latest-post-link::before {
-  content: url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/clock-ait.svg');
-  vertical-align: 0px;
+ font-family: "Font Awesome 5 Pro";
+  content: " \f017";
+  font-weight: 500;
+  margin-left: 0px;
+  font-size: 9px;
+  color: #d6dce7;
   margin-right: 0px;
+  vertical-align: 1px;
 }
 
 .torrent-search--list__age {
@@ -1171,7 +1352,7 @@ progress {
 }
 
 .torrent-search--list__sticky-row td {
-  background-color: #191d2a !important;
+  background-color: var(--bg-dark) !important;
   border-bottom: none !important;
 }
 
@@ -1300,16 +1481,19 @@ progress {
   border-top: thin solid #324041a1;
 }
 
-
-
 #chatbox_header{
   margin-top:-1px !important;
 
 }
 
 .panel__tab--active::before {
-  content: "#";
-  margin-right: 2px;
+font-family: "Font Awesome 5 Pro";
+  content: " \23";
+  font-weight: 600;
+  margin-left: 0px;
+  font-size: 15px;
+  color: #aed46f;
+  vertical-align: 1px;
   color: #3b7ebb;
 }
 
@@ -1322,7 +1506,7 @@ progress {
   border-style: none;
   max-width: 100%;
   box-sizing: content-box;
-  background-color: #3b425200;
+  background-color: var(--nord1)00;
 }
 
 .post__toolbar {
@@ -1389,13 +1573,18 @@ progress {
 }
 
 .quick-search__input {
-  width: 100%;
-  border: none;
-  font-size: 14px;
-  padding: 3px 0 1px 30px;
-  color: #fff;
-  background: #0F1019AD url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/fundo-busca-bj.svg') no-repeat; 
-  background-position: 4%;
+  position: relative;
+  color: #e6ffffbd;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 2px, rgb(0, 0, 0) 0px 4px 1px;
+  display: inline-flex;
+  outline: none;
+  background-color: #282b308a;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='%239d9e94' d='M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z'%3E%3C/path%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: 16px;
+  background-position: 10px center;
+  padding: 10px 10px 10px 35px;
 }
 
 .nav-tab--active__link::before {
@@ -1413,7 +1602,7 @@ progress {
   border-radius: 8px;
   padding: 2px 6px;
   text-align: center;
-  background-color: #3b4252 !important;
+  background-color: var(--nord1) !important;
 }
 
 .user-tag, .user-tag__link {
@@ -1445,11 +1634,16 @@ progress {
 }
 
 .media__title::before {
-  content: url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/bars-solid.svg');
-  vertical-align: -1px;
-  width: 10px;
-  display: inline-grid;
-  margin-left: 1px;
+  content: "\f0c9" !important;
+  font-family: "Font Awesome 5 Pro" !important;
+  font-weight: 900 !important;
+  font-size: 12px !important;
+  color: inherit;
+  display: inline-block !important;
+  margin-right: 1px;
+  text-indent: 0 !important;
+  width: auto !important;
+  margin-top: 2px;
 }
 
 .bbcode-rendered.bbcode-rendered {
@@ -1510,7 +1704,7 @@ dl.post__author-join{
   display: inline-block;
   vertical-align: text-top;
   width: 20px;
-  height: 43px;
+  height: 33px;
   background-image: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/music-card.svg");
   background-size: contain;
   background-repeat: no-repeat;
@@ -1538,11 +1732,13 @@ dl.post__author-join{
 }
 
 .mediainfo__subtitles::before {
-  content: url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/legenda-cbr.svg');
-  width: 16px;
-  display: inline-grid;
-  margin-left: 1px;
-  margin-right: 1px;
+  font-family: "Font Awesome 5 Pro";
+  content: " \f20a";
+  font-weight: 900;
+  font-size: 14px;
+  color: #f9f9f9;
+  margin-right: 2px;
+  margin-left: 7px;
 }
 
 i.fas.fa-plus-circle.fa-pull-right {
@@ -1582,11 +1778,30 @@ i.fas.fa-minus-circle.fa-pull-right {
 }
 
 .footer__section-list {
-  list-style: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/circulo-cbr-footer.svg");
+  list-style: none; /
+  padding-left: 0;
+}
+
+.footer__section-list li {
   font-size: 13px;
   font-weight: 600;
-  color: #bcbcbc;
- 
+  color: #d6dce7;
+  position: relative;
+  padding-left: 15px; 
+  margin-bottom: 0px;
+}
+
+.footer__section-list li::before {
+  content: "\f111"; 
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 500;
+  font-size: 11px;
+  color:#58cff9;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%); 
+  margin-right: 9px;
 }
 
 .footer__section-list {
@@ -1814,8 +2029,8 @@ border-bottom: 2px solid #2c323d;
 
 @media only screen and (max-width: 767px) {
   .form__group--short-horizontal {
-  background-color: inherit !important;;
-  display: grid !important;;
+  background-color: inherit !important;
+  display: grid !important;
   gap: 0px;
   grid-template-columns: repeat(auto-fit,minmax(120px,1fr));
   align-items: center;
@@ -2187,7 +2402,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 
 .footer__section-title ~ p {
   color: #fff;
-  background: #3b425282;
+  background: var(--nord1)82;
   max-width: max-content;
   padding: 2px 5px;
   border-radius: 5px;
@@ -2223,14 +2438,16 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 }
 
 .mediainfo__filename::before {
-  content: url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/bars-solid.svg');
-  vertical-align: -2px;
-  width: 12px;
-  display: inline-grid;
-  margin-left: 1px;
-  margin-right: -1px;
+  content: "\f0c9" !important;
+  font-family: "Font Awesome 5 Pro" !important;
+  font-weight: 900 !important;
+  font-size: 12px !important;
+  color: inherit;
+  display: inline-block !important;
+  margin-right: 0px;
+  text-indent: 0 !important;
+  width: auto !important;
 }
-
 
 .mediainfo__audio {
   padding: 10px;
@@ -2242,14 +2459,16 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   margin-bottom: 4px;
 }
 
-
 .mediainfo__audio::before {
-  content: url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/audio-bj.svg');
-  vertical-align: baseline;
-  width: 3px;
-  display: inline-flex;
-  margin-left: 11px;
-  margin-right: 1px;
+  content: "\f028" !important;
+  font-family: "Font Awesome 5 Pro" !important;
+  font-weight: 900 !important;
+  font-size: 12px !important;
+  color: inherit;
+  display: inline-block !important;
+  margin-right: 0px;
+  text-indent: 0 !important;
+  width: auto !important;
 }
 
 .mediainfo h3 {
@@ -2427,7 +2646,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 
 .featured-carousel__featured-by {
   color: #C6C6C6;
-  background: #191d2a;
+  background: var(--bg-dark);
   padding: 0px 4px;
   border: 2px solid #5c7297;
   font-style: italic;
@@ -2466,7 +2685,6 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   display: block;
   font-size: 13px;
   background: #1c1f26;
-  border-radius: 10px 10px 0 0 !important;
 }
 
 .top-nav__dropdown:hover > a, .top-nav__dropdown:focus-within > a {
@@ -2516,10 +2734,14 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 }
 
 .panel__action.page__published::before {
-  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/clock-regular.svg");
+font-family: "Font Awesome 5 Pro";
+  content: " \f017";
+  font-weight: 500;
   margin-left: 0px;
+  font-size: 9px;
+  color: #d6dce7;
   margin-right: 0px;
-  vertical-align: unset;
+  vertical-align: 1px;
 }
 
 .panel__action.page__published {
@@ -2585,7 +2807,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   content: "►"; 
   font-weight: 900;
   margin-right: 0px;
-  color: #3c96d7; /* Pode ter cor diferente do texto se quiser */
+  color: #3c96d7; 
 }
 
 .mediainfo__general, .mediainfo__video {
@@ -2627,9 +2849,9 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   content: "";
   position: absolute;
   bottom: 0.5rem;
-  right: 1.75rem;
-  width: 30px;
-  height: 30px;
+  right: 1.55rem;
+  width: 33px;
+  height: 33px;
   background: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/music-card.svg") no-repeat center / contain;
   opacity: 90.2;
   pointer-events: none;
@@ -2831,18 +3053,24 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
  .torrent-search--list__seeders {
   background: #2e34409e !important;
   font-size: 14px !important;
-  color: #81a1c1;
+  color: var(--nord9);
 }
 
 .torrent-search--list__leechers {
   background: #d0838c14 !important;
   font-size: 14px !important;
-  color: #81a1c1;
+  color: var(--nord9);
 }
 
 .torrent-search--list__age ::before {
-  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/clock-regular.svg");
-  vertical-align: top;
+  font-family: "Font Awesome 5 Pro";
+  content: " \f017";
+  font-weight: 500;
+  margin-left: 0px;
+  font-size: 9px;
+  color: #d6dce7;
+  margin-right: 0px;
+  vertical-align: 1px;
 }
 
 .chatbox-message__source::after {
@@ -2945,8 +3173,14 @@ td.torrent-search--grouped__age time {
 }
 
 td.torrent-search--grouped__age time:before{
-content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/clock-regular.svg");
-vertical-align: top;
+  font-family: "Font Awesome 5 Pro";
+  content: " \f017";
+  font-weight: 500;
+  margin-left: 0px;
+  font-size: 9px;
+  color: #d6dce7;
+  margin-right: 0px;
+  vertical-align: 1px;
 }
 
 .gird__container--donation {
@@ -3087,7 +3321,3 @@ li.panel__tab[x-on\:click*="tab = 'open'"].panel__tab--active {
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
 ░░░░░░░░░░░
 */
-
-
-
-
