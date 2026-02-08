@@ -1703,8 +1703,8 @@ dl.post__author-join{
 .meta__title::before {
   content: "";
   display: inline-block;
-  vertical-align: text-top;
-  width: 20px;
+  vertical-align: bottom;
+  width: 22px;
   height: 33px;
   background-image: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/music-card.svg");
   background-size: contain;
@@ -3322,7 +3322,3 @@ li.panel__tab[x-on\:click*="tab = 'open'"].panel__tab--active {
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
 ░░░░░░░░░░░
 */
-
-
-
-
