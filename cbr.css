@@ -1620,16 +1620,14 @@ font-family: "Font Awesome 5 Pro";
 
 .chatroom__whispers {
   grid-area: whispers;
-  font-size: 12px;
-  padding: 2px 4px !important;
+  font-size: 11px;
   color: yellow;
-  font-family: var(--font-roboto);
-  background: #2c323d9e;
+  margin-top: 0px;
+  background: #2e3341;
   max-width: max-content;
-  margin-left: 10px;
-  border-radius: 7px;
+  border-radius: 0px 0px 5px 0px;
+  padding: 2px 7px;
 }
-
 .chatroom__whispers:before {
  font-family: "Font Awesome 5 Pro";
   content: " \f11c";
@@ -2709,9 +2707,10 @@ td.torrent-search--grouped__age time::before {
 "aside content content content";
   grid-template-columns: 0 auto 1fr auto;
   border-radius: 15px 15px 15px 15px;
-  background-color: var(--chatbox-message-bg);
+  background-color: #1f1f1f;
   position: relative;
   margin-left: 30px;
+  max-width: max-content;
 }
 
 .chatbox-message__aside {
@@ -3280,7 +3279,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons {
 }
 
 .chatroom__whispers {
-  min-height: 24px;
+  min-height: 22px;
 }
 
 .form__bbcode-buttons {
