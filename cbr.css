@@ -2212,13 +2212,11 @@ font-family: "Font Awesome 5 Pro";
 
 .torrent-icons {
   grid-area: icons;
-  display: flex;               
   align-items: center;
-  gap: 3px;                    
-  padding: 2px 1px;
+  padding: 3px 4px;
   max-width: max-content;
-  border-radius: 6px;          
-  background: rgba(40, 40, 40, 0.4); 
+  border-radius: 6px;
+  background: rgba(40, 40, 40, 0.4);
   transition: background 0.3s ease, transform 0.2s ease;
 }
 
