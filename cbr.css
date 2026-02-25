@@ -1624,10 +1624,10 @@ font-family: "Font Awesome 5 Pro";
   padding: 2px 4px !important;
   color: yellow;
   font-family: var(--font-roboto);
-  background: #2c323d;
+  background: #2c323d9e;
   max-width: max-content;
   margin-left: 10px;
-  border-radius: 0 0 10px 10px;
+  border-radius: 7px;
 }
 
 .chatroom__whispers:before {
@@ -1638,7 +1638,7 @@ font-family: "Font Awesome 5 Pro";
   font-size: 11px;
   color: #44affa;
   margin-right: 0px;
-  vertical-align: 1px;
+  vertical-align: middle;
 }
 
 .chatbox-message__header {
