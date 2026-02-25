@@ -2241,13 +2241,13 @@ i.fas.fa-minus-circle.fa-pull-right {
 }
 
 .mediainfo__audio {
-  display: block;
+  display: inline;
   background: linear-gradient(145deg, #2c323d, #252a34);
-  border: 2px solid #1e222b;
+  border: 3px solid #1e222b;
   border-radius: 2px;
   padding: 6px;
   max-width: 100%;
-  margin: 1px auto;
+  margin: auto;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
 }
 
