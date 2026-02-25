@@ -2705,6 +2705,18 @@ td.torrent-search--grouped__age time::before {
   letter-spacing: 1px;
 }
 
+.chatbox-message {
+  display: grid;
+  grid-template-areas:
+"aside header  .       menu   " 
+"aside content content content";
+  grid-template-columns: 0 auto 1fr auto;
+  border-radius: 15px 15px 15px 15px;
+  background-color: var(--chatbox-message-bg);
+  position: relative;
+  margin-left: 30px;
+}
+
 .chatbox-message__aside {
   bottom: auto;
   top: 4px;
