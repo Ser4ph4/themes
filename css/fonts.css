@@ -4,7 +4,7 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url('../fonts/jetbrains-mono/jetbrains-mono-700.woff2') format('woff2');
+  src: url('../fonts/jetbrains-mono/jetbrains-mono-v24-latin-700.woff2') format('woff2');
 }
 
 @font-face {
