@@ -1446,12 +1446,12 @@ progress {
   display: flex;
   column-gap: 0;
   list-style-type: none;
-  margin: -10px;
+  margin: unset;
   padding: 0;
   align-items: center;
   background: #333a4878;
   max-width: max-content;
-  border-radius: 10px;
+  border-radius: 13px;
 }
 
 .footer__sub-footer {
