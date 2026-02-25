@@ -3277,6 +3277,10 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons {
 .chatroom__messages > li > article {
   padding: 2px 6px;
 }
+chatroom__messages {
+  list-style-type: none;
+  background: #2c313f;
+}
 
 .chatroom__whispers {
   min-height: 22px;
