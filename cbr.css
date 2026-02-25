@@ -129,7 +129,7 @@ body {
   color: #fff;
   background: radial-gradient(circle at top right, #3b4252, #166d6b9e, #3b4252);
   border-radius: 10px;
-  font-family: var(--font-roboto);
+  
   border: 2px solid #3b4252;
   font-size: 21px;
   font-weight: 500;
@@ -165,7 +165,7 @@ body {
   justify-content: center;
   padding: 0;
   margin: 0;
-  font-family: var(--font-roboto);
+  
   font-weight: 400;
   background: var(--nord1);
   border-radius: 5px;
@@ -185,7 +185,7 @@ body {
   border: var(--button-outlined-border);
   border-radius: var(--button-outlined-border-radius);
   background: #272c36b5;
-  font-family: var(--font-roboto);
+  
   font-weight: 400;
 }
 
@@ -248,13 +248,13 @@ body {
 .post__author-topics dt,
 .post__author-posts dt {
   font-weight: 500;
-  font-family: var(--font-roboto);
+  
 }
 
 .text-green {
   color: var(--accent-green);
   font-size: 14px;
-  font-family: var(--font-roboto);
+  
 }
 
 .torrent__seeders-link.text-green {
@@ -294,13 +294,13 @@ body {
 .text-red {
   color: var(--accent-red);
   font-size: 14px;
-  font-family: var(--font-roboto);
+  
 }
 
 .text-orange {
   color: var(--accent-orange);
   font-size: 14px;
-  font-family: var(--font-roboto);
+  
 }
 
 th.similar-torrents__type {
@@ -402,7 +402,7 @@ th.similar-torrents__type {
 
 .topic-listing__latest-post-link {
   font-size: 13px;
-  font-family: var(--font-roboto);
+  
   background: radial-gradient(
     circle at top right,
     #23d1a508,
@@ -415,13 +415,13 @@ th.similar-torrents__type {
 }
 .topic-listing {
   color: var(--panel-fg);
-  font-family: var(--font-roboto);
+  
   border: 1px solid #3b4252;
 }
 
 .breadcrumb--active {
   color: var(--breadcrumb-active-fg);
-  font-family: var(--font-roboto);
+  
 }
 
 .panel__actions {
@@ -514,7 +514,7 @@ li.panel__tab[x-on\:click="tab = 'seeded'"].panel__tab--active {
 
 .panel__tab {
   color: #81a1c1;
-  font-family: var(--font-roboto);
+  
   font-weight: 500;
 }
 
@@ -800,7 +800,7 @@ li.panel__tab[x-on\:click="tab = 'newest'"].panel__tab--active {
   grid-area: size;
   width: 8.5%;
   font-size: 14px;
-  font-family: var(--font-roboto);
+  
   font-weight: 400;
 }
 
@@ -827,7 +827,7 @@ li.panel__tab[x-on\:click="tab = 'newest'"].panel__tab--active {
   border: none;
   text-align: center;
   cursor: pointer;
-  font-family: var(--font-roboto);
+  
   background: var(--nord1);
 }
 
@@ -847,7 +847,7 @@ li.panel__tab[x-on\:click="tab = 'newest'"].panel__tab--active {
 
 .topic-listing--unread {
   font-weight: 600;
-  font-family: var(--font-roboto);
+  
 }
 
 .topic-listing--unread .topic-listing__heading a::before {
@@ -865,7 +865,7 @@ li.panel__tab[x-on\:click="tab = 'newest'"].panel__tab--active {
   justify-content: space-between;
   font-size: 13px;
   margin-bottom: 0;
-  font-family: var(--font-roboto);
+  
   background: radial-gradient(circle at top right, #2e3440, #434c5e) !important;
   padding: 1px 2px;
 }
@@ -875,7 +875,7 @@ li.panel__tab[x-on\:click="tab = 'newest'"].panel__tab--active {
   justify-content: space-between;
   font-size: 13px;
   margin-bottom: 0;
-  font-family: var(--font-roboto);
+  
   background: radial-gradient(circle at top right, #2e3440, #434c5e) !important;
   padding: 1px 2px;
 }
@@ -885,7 +885,7 @@ li.panel__tab[x-on\:click="tab = 'newest'"].panel__tab--active {
   justify-content: space-between;
   font-size: 13px;
   margin-bottom: 0;
-  font-family: var(--font-roboto);
+  
   background: radial-gradient(circle at top right, #2e3440, #434c5e) !important;
   border-radius: 0 0 5px 5px;
   padding: 1px 2px;
@@ -926,7 +926,7 @@ li.panel__tab[x-on\:click="tab = 'newest'"].panel__tab--active {
 
 .panel__action .form__button {
   background: #434c5e;
-  font-family: var(--font-roboto);
+  
   font-weight: 500;
   color: #90e2ad;
 }
@@ -1118,7 +1118,7 @@ li.panel__tab[x-on\:click="tab = 'newest'"].panel__tab--active {
 .topic-tag--implemented {
   background-color: rgba(162, 238, 239, 0.3);
   color: var(--forum-tag-implemented-fg);
-  font-family: var(--font-roboto);
+  
   font-weight: 400;
   vertical-align: 1px;
   margin: 0;
@@ -1128,7 +1128,7 @@ li.panel__tab[x-on\:click="tab = 'newest'"].panel__tab--active {
 .topic-tag--denied {
   background-color: rgba(19, 20, 29, 0.34);
   color: #e10101;
-  font-family: var(--font-roboto);
+  
   font-weight: 400;
   vertical-align: middle;
   max-height: 17px;
@@ -1168,7 +1168,7 @@ li.panel__tab[x-on\:click="tab = 'newest'"].panel__tab--active {
   color: #7dafbf;
   font-size: 14px;
   background-color: var(--dialog-head-bg);
-  font-family: var(--font-roboto);
+  
 }
 
 .form__textarea {
@@ -1245,7 +1245,7 @@ progress {
   font-weight: 500;
   border-radius: 10px 10px 0 0px;
   max-width: max-content;
-  font-family: var(--font-roboto);
+  
 }
 
 .torrent__tags {
@@ -1279,7 +1279,7 @@ progress {
   padding: 6px 12px;
   display: inline-block;
   font-weight: 400;
-  font-family: var(--font-roboto);
+  
 }
 
 .torrent__tags > li > time::before {
@@ -1314,7 +1314,7 @@ progress {
 
 .post__toolbar-item {
   list-style-type: none;
-  font-family: var(--font-roboto);
+  
 }
 
 .post__tip-button:hover {
@@ -1380,7 +1380,7 @@ progress {
   font-style: italic;
   background: var(--nord1);
   border-radius: 5px;
-  font-family: var(--font-roboto);
+  
 }
 
 .post__tip-stats dt {
@@ -1497,7 +1497,7 @@ progress {
 .post__content.post__content.post__content {
   background-color: #434c5e;
   font-size: 16px;
-  font-family: var(--font-roboto);
+  
 }
 
 .bbcode-rendered.bbcode-rendered .bbcode-rendered__note::before {
@@ -1559,7 +1559,7 @@ progress {
 
 .chatbox-message__content {
   font-size: 16px;
-  font-family: var(--font-roboto);
+  
   border-radius: 0 10px 10px 10px;
   background: #474d59;
   max-width: max-content;
@@ -1648,7 +1648,7 @@ font-family: "Font Awesome 5 Pro";
   border-radius: 5px;
   color: white;
   font-size: 11px;
-  font-family: var(--font-roboto);
+  
   word-spacing: -1px;
 }
 
@@ -1656,7 +1656,7 @@ font-family: "Font Awesome 5 Pro";
   font-size: 13px;
   line-height: 1;
   font-weight: 400;
-  font-family: var(--font-roboto);
+  
 }
 
 .user-tag__link {
@@ -1684,7 +1684,7 @@ font-family: "Font Awesome 5 Pro";
 
 .torrent-search--list__resolution {
   color: #87f79a;
-  font-family: var(--font-roboto);
+  
   background: #2c323d;
   border-radius: 6px;
 }
@@ -1694,7 +1694,7 @@ font-family: "Font Awesome 5 Pro";
 }
 
 .user-tag__link {
-  font-family: var(--font-roboto);
+  
   display: inline-flex;
   white-space: nowrap;
   align-items: center;
@@ -1718,7 +1718,7 @@ font-family: "Font Awesome 5 Pro";
   font-size: 12px;
   background: var(--bg-dark);
   border-radius: 5px;
-  font-family: var(--font-roboto);
+  
 }
 
 .topic-tag {
@@ -1787,7 +1787,7 @@ font-family: "Font Awesome 5 Pro";
 
 .torrent-search--list__age {
   font-size: 16px;
-  font-family: var(--font-roboto);
+  
   border-bottom: 1px solid #3b4252 !important;
   border-right: 1px solid #3b4252 !important;
   color: #43a4fb !important;
@@ -1804,14 +1804,14 @@ font-family: "Font Awesome 5 Pro";
   font-size: 15px;
   border-top: 1px solid var(--torrent-group-header-bg);
   padding: 8px 6px 8px 16px;
-  font-family: var(--font-roboto);
+  
   font-weight: 400;
 }
 
 .torrent-search--list__format {
   grid-area: format;
   background: #2c323dbf !important;
-  font-family: var(--font-roboto);
+  
 }
 
 .row-flags__wrapper {
@@ -1821,7 +1821,7 @@ font-family: "Font Awesome 5 Pro";
   width: auto;
   margin-top: 8px;
   background: #2c323d69 !important;
-  font-family: var(--font-roboto);
+  
   border-radius: 3px;
 }
 
@@ -1855,7 +1855,7 @@ font-family: "Font Awesome 5 Pro";
 
 .torrent-search--list__overview {
   color: var(--torrent-row-fg);
-  font-family: var(--font-roboto);
+  
   border: thin #2c323d !important;
 }
 .fas.fa-coins {
@@ -2044,7 +2044,7 @@ font-family: "Font Awesome 5 Pro";
   font-size: 12px;
   background: #2c323d;
   border-radius: 5px;
-  font-family: var(--font-roboto);
+  
 }
 
 .panel__header {
@@ -2054,13 +2054,13 @@ font-family: "Font Awesome 5 Pro";
 
 .key-value__group:first-child {
   padding-top: var(--key-value-padding);
-  font-family: var(--font-roboto);
+  
   color: #e1e1e1;
 }
 
 .key-value__group:last-child {
   padding-bottom: var(--key-value-padding);
-  font-family: var(--font-roboto);
+  
 }
 
 .top-nav__ratio-bar a {
@@ -2108,7 +2108,7 @@ font-family: "Font Awesome 5 Pro";
   font-weight: 800;
   background: #2e3440eb;
   padding: 5px;
-  font-family: var(--font-roboto);
+  
   max-width: max-content;
   border-radius: 0 10px 0 0;
 }
@@ -2134,7 +2134,7 @@ font-family: "Font Awesome 5 Pro";
   padding: 2px 6px;
   text-align: center;
   background-color: var(--nord1) !important;
-  font-family: var(--font-roboto);
+  
 }
 
 .top-nav__profile-image {
@@ -2162,7 +2162,7 @@ font-family: "Font Awesome 5 Pro";
   background-color: #2c323d;
   border-radius: 10px 10px 10px 10px;
   border: 2px solid #262b35;
-  font-family: var(--font-roboto);
+  
   padding: 3px;
 }
 
@@ -2240,7 +2240,7 @@ i.fas.fa-minus-circle.fa-pull-right {
 .mediainfo dt {
   padding-left: 6px;
   margin-left: 3px;
-  font-family: var(--font-roboto);
+  
   color: #4af;
   font-weight: 500;
   background: #2c323d6e;
@@ -2619,7 +2619,7 @@ td.torrent-search--grouped__age time::before {
 
 .footer__section-title ~ p {
   color: #fff;
-  font-family: var(--font-roboto);
+  
   background: var(--nord1)82;
   max-width: max-content;
   padding: 0px 1px;
@@ -2656,7 +2656,7 @@ td.torrent-search--grouped__age time::before {
   padding: 7px;
   border: 2px solid var(--bbcode-rendered-attention-subtle);
   background: #252a3463;
-  font-family: var(--font-roboto);
+  
 }
 
 .user-tag img {
@@ -2677,7 +2677,7 @@ td.torrent-search--grouped__age time::before {
   padding: 0.6rem 0.75rem;
   max-width: 100%;
   transition: background 0.25s ease, color 0.25s ease;
-  font-family: var(--font-roboto);
+  
 }
 
 .bbcode-rendered.bbcode-rendered pre:hover {
@@ -2905,7 +2905,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons {
     font-size: 12px !important;
     background: var(--bg-dark);
     border-radius: 5px;
-    font-family: var(--font-roboto);
+    
     display: none !important;
   }
 }
@@ -2999,7 +2999,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons {
       #3b4252
     );
     border-radius: 10px;
-    font-family: var(--font-roboto);
+    
     border: 2px solid #3b4252;
     font-size: 13px;
     font-weight: 500;
@@ -3068,7 +3068,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons {
     min-height: 36px;
     grid-area: type;
     white-space: nowrap;
-    font-family: var(--font-roboto);
+    
     background: #212121;
     border-radius: 10px;
   }
@@ -3336,7 +3336,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons {
 
 .torrent__tags li {
   white-space: nowrap;
-  font-family: var(--font-roboto);
+  
 }
 
 .chatbox-message__menu-button {
