@@ -202,6 +202,7 @@ body {
   font-variant: normal;
 }
 
+
 .subforum-listing__latest-heading {
   font-size: 14px;
   white-space: nowrap;
@@ -2609,6 +2610,10 @@ td.torrent-search--grouped__age time::before {
 
 .fa-circle::before {
   content: "";
+}
+
+.fa-award-simple::before {
+  content: "";
 }
 
 .footer__section-title ~ p {
