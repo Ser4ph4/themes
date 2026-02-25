@@ -1563,12 +1563,11 @@ progress {
   display: block;
   content: "";
   position: relative;
-  bottom: 2px;
-  left: -6px;
+  top: 10px;
   width: 8px;
-  border-right: 10px solid #23272f;
+  border-right: 10px solid #394050;
   border-top: 10px solid transparent;
-  margin-top: 19px;
+  margin-top: 17px;
 }
 
 .chatbox-message__time::before {
@@ -1582,11 +1581,11 @@ font-family: "Font Awesome 5 Pro";
 }
 
 .chatbox-message__avatar {
-  width: 34px;
-  height: 34px;
+  width: 29px;
+  height: 29px;
   border-radius: 100%;
   box-shadow: rgb(33, 33, 33) 0px 5px 15px;
-  margin-top: 6px;
+  margin-top: 10px;
 }
 
 .post__avatar {
