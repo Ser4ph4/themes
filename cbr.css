@@ -1563,11 +1563,11 @@ progress {
   display: block;
   content: "";
   position: relative;
-  top: 10px;
-  border-right: 10px solid #394050;
+  top: 5px;
+  border-right: 10px solid #1d1d1d;
   border-top: 10px solid transparent;
   margin-top: 17px;
-  right: 10px;
+  right: revert;
 }
 
 .chatbox-message__time::before {
