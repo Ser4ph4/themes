@@ -6,12 +6,6 @@
 */
 
 :root {
-    /* Fontes */
-    --font-main: 'Fira Sans', sans-serif;
-    --font-condensed: 'Roboto Condensed', sans-serif;
-    --font-mono: 'JetBrains Mono', monospace;
-    --font-roboto: 'Roboto', sans-serif;
-
     /* Cores Nord */
     --nord0: #2e3440;
     --nord1: #3b4252;
@@ -66,7 +60,6 @@ body {
 
 .topic-listing--read .topic-listing__heading {
   font-weight: 400;
-  font-family: var(--font-roboto);
 }
 
 .topic-listing--read {
