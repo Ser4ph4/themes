@@ -2068,9 +2068,11 @@ font-family: "Font Awesome 5 Pro";
 }
 
 .special-event-alert > .alert__content {
-  width: 45%;
   display: flex;
   justify-content: space-around;
+  background: #1c1c1c;
+  padding: 0px 6px;
+  border-radius: 10px;
 }
 
 .random__media a {
