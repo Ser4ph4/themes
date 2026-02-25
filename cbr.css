@@ -3279,7 +3279,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons {
 }
 chatroom__messages {
   list-style-type: none;
-  background: #2c313f;
+  background: #2c313f !important;
 }
 
 .chatroom__whispers {
