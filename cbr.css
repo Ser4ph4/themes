@@ -3160,6 +3160,9 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons {
   content: "";
 }
 
+.fa-bolt-lightning::before {
+  content: "";
+}
 .torrent-search--list__type {
   font-size: 13px;
   font-family: var(--font-roboto) !important;
