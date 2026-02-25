@@ -39,7 +39,6 @@
 
 .alert {
   color: var(--accent-gold);
-  font-family: var(--font-mono);
   background: var(--bg-dark)
     var(--bg-image);
   background-size: 130px;
@@ -92,7 +91,6 @@ body {
   color: #ffffffa1;
   background: #212121;
   border-radius: 5px;
-  font-family: var(--font-mono);
   line-height: 12px;
   padding: 2px 1px;
   margin-top: 1px;
@@ -104,12 +102,10 @@ body {
   color: var(--button-filled-fg);
   border: var(--button-filled-border);
   border-radius: var(--button-filled-border-radius);
-  font-family: var(--font-mono);
 }
 
 .torrent.search--list__name {
   grid-area: name;
-  font-family: var(--font-mono);
   font-size: 16px;
   font-weight: 500;
   color: var(--torrent-row-fg);
@@ -241,7 +237,6 @@ body {
   border-radius: 5px;
   position: relative;
   cursor: pointer;
-  font-family: var(--font-mono);
 }
 
 .post__author-topics dt,
@@ -303,7 +298,6 @@ body {
 }
 
 th.similar-torrents__type {
-  font-family: var(--font-roboto), sans-serif;
   font-size: 13px;
   font-weight: 400;
   color: #eceff4;
@@ -457,7 +451,6 @@ th.similar-torrents__type {
   );
   font-weight: 400;
   font-size: 2.5rem;
-  font-family: var(--font-mono), Arial, sans-serif;
   text-transform: uppercase;
   -webkit-filter: brightness(110%);
   filter: brightness(110%);
@@ -737,7 +730,6 @@ li.panel__tab[x-on\:click="tab = 'games'"].panel__tab--active {
   font-size: 12px;
   text-align: center;
   display: inline-block;
-  font-family: var(--font-mono);
 }
 
 .nav-tabsV2 {
@@ -908,7 +900,6 @@ li.panel__tab[x-on\:click="tab = 'newest'"].panel__tab--active {
 .profile__username {
   grid-area: username;
   font-size: 18px;
-  font-family: var(--font-mono);
   border-radius: 5px;
   max-width: max-content;
   background: radial-gradient(
@@ -1176,7 +1167,6 @@ li.panel__tab[x-on\:click="tab = 'newest'"].panel__tab--active {
   width: 100%;
   outline: none;
   padding: var(--textarea-padding, 8px);
-  font-family: var(--font-mono);
   resize: vertical;
   min-height: 80px;
   transition: border-color 0.2s, box-shadow 0.2s, background-color 0.2s;
@@ -1363,7 +1353,6 @@ progress {
   font-weight: 900;
   color: #90e0ac;
   text-decoration: underline;
-  font-family: var(--font-mono);
 }
 
 .donation-package__description {
@@ -1396,7 +1385,6 @@ progress {
   background: #343a488f;
   border-radius: 3px;
   color: #daa520;
-  font-family: var(--font-roboto) !important;
   font-weight: 500;
   padding: 0px 2px;
 }
@@ -1416,7 +1404,6 @@ progress {
   text-align: center;
   background: #ffffff17;
   border-radius: 5px;
-  font-family: var(--font-mono);
   color: #90e2ad;
   line-height: 16px;
 }
@@ -1427,7 +1414,6 @@ progress {
   line-height: 1.5;
   text-align: center;
   font-size: 15px;
-  font-family: var(--font-mono);
   background: #24272f;
   border: 1px solid #182026;
   border-radius: 18px 18px 0 0;
@@ -1467,7 +1453,6 @@ progress {
   border: thin solid #324041a1; 
   border-radius: 5px;
   background: radial-gradient(circle at top right, #23d1a508, #2328334f);
-  font-family: var(--font-roboto), sans-serif;
   color: #c0c6c9; 
   box-shadow: 0 2px 6px rgba(0,0,0,0.2); 
 }
@@ -1484,7 +1469,6 @@ progress {
   font-size: 15px;
   margin: 0;
   font-weight: 400;
-  font-family: var(--font-mono);
   color: #5a96ca;
 }
 
@@ -1908,7 +1892,6 @@ font-family: "Font Awesome 5 Pro";
   padding: 3px 3px;              
   margin: 0;
   background: rgba(44, 50, 61, 0.7) !important;
-  font-family: var(--font-roboto), sans-serif;
   font-weight: 500;
   color: #f0f0f0;                
   border-radius: 8px;            
@@ -2092,7 +2075,6 @@ font-family: "Font Awesome 5 Pro";
 .random__media a {
   color: #fff;
   font-weight: bold;
-  font-family: var(--font-mono);
 }
 
 .media__title {
@@ -2171,7 +2153,6 @@ font-family: "Font Awesome 5 Pro";
 .torrent-search--list__size {
   background: #2d323d !important;
   font-size: 14px !important;
-  font-family: var(--font-mono);
   color: #81a1c1;
 }
 
@@ -2182,13 +2163,11 @@ font-family: "Font Awesome 5 Pro";
 .torrent-search--list__completed {
   background: #2e34409e !important;
   font-size: 14px !important;
-  font-family: var(--font-mono);
   color: #81a1c1;
 }
 
 .blocks__online {
   background: #2e3440ab;
-  font-family: var(--font-mono);
 }
 
 .torrent-icons {
@@ -2398,7 +2377,6 @@ div.panel__body.torrent-search--poster__results {
 
 .subforum-listing__post-stats dd {
   margin: 0;
-  font-family: var(--font-mono);
   color: #2c93e6;
 }
 
@@ -2504,7 +2482,6 @@ td.torrent-search--grouped__age time::before {
   padding: 0px 3px;
   border-radius: 5px;
   border: 2px solid #212121;
-  font-family: var(--font-mono);
   font-size: 14px;
   color: #dddedf;
   display: inline-flex;
@@ -2546,7 +2523,6 @@ td.torrent-search--grouped__age time::before {
 
 .notification--unread {
   background: #2d313b !important;
-  font-family: var(--font-mono);
   font-size: 14px !important;
 }
 
@@ -2630,7 +2606,6 @@ td.torrent-search--grouped__age time::before {
   background: #252a34;
   padding: 0px 3px;
   border: thin solid #434c5e;
-  font-family: var(--font-condensed);
   margin-right: 1px;
   font-size: 9pt;
 }
@@ -2645,7 +2620,6 @@ td.torrent-search--grouped__age time::before {
 
 .topic-listing__view-stats dd {
   margin: 0;
-  font-family: var(--font-mono);
   color: #2c93e6;
 }
 
@@ -2706,7 +2680,6 @@ td.torrent-search--grouped__age time::before {
 }
 
 span.fas {
-  font-family: "Roboto", sans-serif;
   margin-right: 4px;
   margin-top: 2px;
 }
@@ -3175,7 +3148,6 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons {
 }
 .torrent-search--list__type {
   font-size: 13px;
-  font-family: var(--font-roboto) !important;
   white-space: wrap !important;
 }
 
@@ -3222,7 +3194,6 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons {
     padding: 0px;
     font-size: 14px;
     color: white;
-    font-family: var(--font-roboto) !important;
   }
 }
 
@@ -3414,7 +3385,6 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons {
 
 a[href="/users/System"] {
   color: rgb(255, 120, 0) !important;
-  font-family: var(--font-mono);
   background: #2e3440;
   padding: 2px 1px;
   border-radius: 5px;
@@ -3468,7 +3438,6 @@ a[href="/users/System"] {
   border-radius: 6px;
   scrollbar-width: thin;
   scrollbar-color: #4c566a #2e3440;
-  font-family: 'Roboto', sans-serif;
 }
 
 .meta__description::-webkit-scrollbar {
