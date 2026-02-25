@@ -148,8 +148,7 @@ body {
   display: grid;
   align-items: center;
   position: relative;
-  font-family: var(--font-mono);
-  font-size: 17px;
+  font-size: 16.7px;
 }
 
 .top-nav__ratio-bar.top-nav__ratio-bar {
