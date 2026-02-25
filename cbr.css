@@ -3624,6 +3624,15 @@ li.panel__tab[x-on\:click="tab = 'dead'"]::before {
   transform: translateY(1px);
 }
 
+.torrent__seeders-link.torrent__seeders-link {
+  color: var(--torrent-row-seeders-fg);
+  background: #01b8011a;
+  padding: 4px;
+  border-radius: 10px;
+  color: whitesmoke;
+  word-spacing: -3px;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
