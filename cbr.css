@@ -2721,6 +2721,11 @@ i.fas.fa-heartbeat.torrent-icons__thanks {
   margin-right: 0.1ch;
 }
 
+.fa-magic::before, .fa-wand-magic::before {
+  content: "";
+  color: #faad23;
+}
+
 .fa-user-plus::before {
   content: "";
   font-size: 12px !important;
