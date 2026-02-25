@@ -2358,15 +2358,16 @@ div.panel__body.torrent-search--poster__results {
 }
 
 .article-preview__title {
-  font-size: 18px;
+  font-size: 17px;
   background: #2c323d;
   max-width: max-content;
-  font-family: var(--font-mono);
   border: 2px solid #343a48;
+  padding: 0px 4px;
+  border-radius: 9px;
 }
 
 .article-preview__title::before {
-  font-family: "Font Awesome 5 Pro";
+  font-family: "Font Awesome 6 Pro";
   content: " \f675";
   font-weight: 900;
   margin-left: 4px;
