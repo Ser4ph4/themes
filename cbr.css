@@ -3649,8 +3649,7 @@ li.panel__tab[x-on\:click="tab = 'dead'"]::before {
 "tags        tags        tags       " 
 "ids         ids         ids        " 
 "description description description" 
-"chips       chips       chips      " 
-undefined!important undefined;
+"chips       chips       chips      " !important ;
     grid-template-columns: 64px minmax(0,1fr) auto !important;
     column-gap: 12px !important;
     align-items: center;
