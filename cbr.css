@@ -370,21 +370,16 @@ th.similar-torrents__type {
 .meta {
   display: grid;
   grid-template-areas:
-    "poster title       actions"
-    "poster ids         ids"
-    "poster description description"
-    "poster chips       chips";
+"poster title       actions    " 
+"poster tags        tags       " 
+"poster ids         ids        " 
+"poster description description" 
+"poster chips       chips      ";
   grid-template-columns: auto 1fr auto;
-  grid-template-rows: auto auto auto minmax(0, 1fr);
-  gap: 16px 24px;
-  padding: 20px;
-  max-height: 510px;
-  background: rgba(59, 66, 82, 0.4);
-  border: 1px solid rgba(76, 86, 106, 0.35);
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
-  overflow: hidden;
-  transition: box-shadow 0.3s ease, transform 0.2s ease;
+  grid-template-rows: auto auto auto auto minmax(0,1fr);
+  gap: 8px 32px;
+  padding: 16px;
+  max-height: 540px;
 }
 
 .torrent__activity-link {
