@@ -1949,6 +1949,11 @@ font-family: "Font Awesome 5 Pro";
   font-weight: 700;
 }
 
+.fa-arrow-trend-up::before {
+  content: "";
+  color: #fdb012;
+}
+
 .fas.fa-sort-amount-down {
   color: #3a8bd4;
 }
