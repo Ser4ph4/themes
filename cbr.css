@@ -3590,13 +3590,6 @@ li.panel__tab[x-on\:click="tab = 'dying'"] {
   margin: 2px;
 }
 
-li.panel__tab[x-on\:click="tab = 'dead'"]::before {
-  content: "💀";
-  font-size: 1em;
-  opacity: 0.9;
-  transform: translateY(1px);
-}
-
 .torrent__seeders-link.torrent__seeders-link {
   color: var(--torrent-row-seeders-fg);
   background: #01b8011a;
