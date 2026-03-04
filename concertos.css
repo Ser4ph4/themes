@@ -1,7 +1,7 @@
 /*
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ❕[Stylesheet] Concertos Nord Theme CSS  
-𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 08/02/2026 ~
+𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 04/03/2026 ~
 By : @𝙎𝙚𝙧𝙖𝙥𝙝4
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
 */
@@ -79,6 +79,10 @@ body {
 .fa-youtube::before {
   content: "";
   font-size: 13px;
+}
+
+.fa-bolt-lightning::before {
+  content: "";
 }
 
 .fas.fa-bell {
@@ -3322,3 +3326,4 @@ li.panel__tab[x-on\:click*="tab = 'open'"].panel__tab--active {
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
 ░░░░░░░░░░░
 */
+
