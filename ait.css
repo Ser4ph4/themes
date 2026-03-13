@@ -1,6 +1,6 @@
 /*
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
-❕[Stylesheet] ATH Nord Theme CSS  𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 11/01/2026 ~  
+❕[Stylesheet] ATH Nord Theme CSS  𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 13/03/2026 ~  
 ▫️𝘔𝘰𝘥𝘪𝘧𝘪𝘤𝘢𝘵𝘪𝘰𝘯𝘴 : @𝙎𝙚𝙧𝙖𝙥𝙝4
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
 */
@@ -397,7 +397,7 @@ p.bbcode-input__tabs {
       gap: 16px 32px;
       padding: 16px;
       max-height: 510px;
-      background: var(--nord1)5e;
+      background: #2a303b5e;
       border-radius: 10px;
     }
 
