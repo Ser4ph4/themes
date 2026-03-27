@@ -1,6 +1,6 @@
 /*
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
-❕CBR 𝘛𝘩𝘦𝘮𝘦 : 𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 09/03/2026  
+❕CBR 𝘛𝘩𝘦𝘮𝘦 : 𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 27/03/2026  
 ▫️𝘔𝘰𝘥𝘪𝘧𝘪𝘤𝘢𝘵𝘪𝘰𝘯𝘴 : @𝙎𝙚𝙧𝙖𝙥𝙝4
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
 */
@@ -3619,6 +3619,30 @@ li.panel__tab[x-on\:click="tab = 'dying'"] {
     column-gap: 12px !important;
     align-items: center;
   }
+}
+
+.media__badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 3;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 2px 4px 2px 4px;
+  border-radius: 4px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  text-transform: uppercase;
+  backdrop-filter: blur(6px);
+  white-space: nowrap;
+  box-shadow: 0 1px 4px #1f1f1f;
+}
+
+.media__badge--movie {
+  background: #b91c1cd1;
+  color: #fff;
 }
 
 /*
