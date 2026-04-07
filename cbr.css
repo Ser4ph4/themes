@@ -71,6 +71,10 @@ body {
   font-size: 13px;
 }
 
+.fa-reply::before {
+  content: "";
+}
+
 .post__tip-input {
   margin: 5px 5px 2px 9px;
   border-width: 0 0 2px 0;
