@@ -3657,6 +3657,7 @@ li.panel__tab[x-on\:click="tab = 'dying'"] {
 }
 
 .trailer-btn:hover {
+  transform: none;
   box-shadow: 0 0 12px #ffa90066;
   color: #fff;
   text-decoration: none;
