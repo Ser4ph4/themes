@@ -5,42 +5,41 @@
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
 */
 :root {
-    /* Cores Nord */
-    --nord0: #2e3440;
-    --nord1: #3b4252;
-    --nord2: #434c5e;
-    --nord3: #4c566a;
-    --nord4: #d8dee9;
-    --nord5: #e5e9f0;
-    --nord6: #eceff4;
-    --nord7: #8fbcbb;
-    --nord8: #88c0d0;
-    --nord9: #81a1c1;
-    --nord10: #5e81ac;
-    --nord11: #bf616a;
-    --nord12: #d08770;
-    --nord13: #ebcb8b;
-    --nord14: #a3be8c;
-    --nord15: #b48ead;
+  /* Cores Nord */
+  --nord0: #2e3440;
+  --nord1: #3b4252;
+  --nord2: #434c5e;
+  --nord3: #4c566a;
+  --nord4: #d8dee9;
+  --nord5: #e5e9f0;
+  --nord6: #eceff4;
+  --nord7: #8fbcbb;
+  --nord8: #88c0d0;
+  --nord9: #81a1c1;
+  --nord10: #5e81ac;
+  --nord11: #bf616a;
+  --nord12: #d08770;
+  --nord13: #ebcb8b;
+  --nord14: #a3be8c;
+  --nord15: #b48ead;
 
-    /* Cores Customizadas CBR */
-    --bg-dark: #27292d;
-    --bg-panel: #222731;
-    --bg-aside: #252a34;
-    --accent-gold: #feb100;
-    --accent-teal: #166d6b;
-    --accent-green: #3fb618;
-    --accent-red: #ff0039;
-    --accent-orange: #ff7518;
-    
-    /* Assets */
-    --bg-image: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/capibara.svg");
+  /* Cores Customizadas CBR */
+  --bg-dark: #27292d;
+  --bg-panel: #222731;
+  --bg-aside: #252a34;
+  --accent-gold: #feb100;
+  --accent-teal: #166d6b;
+  --accent-green: #3fb618;
+  --accent-red: #ff0039;
+  --accent-orange: #ff7518;
+
+  /* Assets */
+  --bg-image: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/capibara.svg");
 }
 
 .alert {
   color: var(--accent-gold);
-  background: var(--bg-dark)
-    var(--bg-image);
+  background: var(--bg-dark) var(--bg-image);
   background-size: 130px;
   font-size: 14px;
   padding: 0px;
@@ -121,14 +120,14 @@ body {
 }
 
 .torrent.search--list__name:hover {
-  color: #88c0d0; 
+  color: #88c0d0;
 }
 
 .torrent__name {
   color: #fff;
   background: radial-gradient(circle at top right, #3b4252, #166d6b9e, #3b4252);
   border-radius: 10px;
-  
+
   border: 2px solid #3b4252;
   font-size: 21px;
   font-weight: 500;
@@ -143,7 +142,7 @@ body {
   border-radius: var(--button-filled-border-radius);
 }
 
-.top-nav__dropdown > a > .top-nav--left__container {
+.top-nav__dropdown>a>.top-nav--left__container {
   display: grid;
   align-items: center;
   position: relative;
@@ -163,7 +162,7 @@ body {
   justify-content: center;
   padding: 0;
   margin: 0;
-  
+
   font-weight: 400;
   background: var(--nord1);
   border-radius: 5px;
@@ -171,8 +170,7 @@ body {
   border-right: solid 1px rgb(19, 20, 29);
   border-top: solid 1px rgb(19, 20, 29);
   border-bottom: solid 1px rgb(19, 20, 30);
-  background: var(--bg-dark)
-    var(--bg-image);
+  background: var(--bg-dark) var(--bg-image);
   background-size: auto;
   background-size: 130px;
 }
@@ -183,7 +181,7 @@ body {
   border: var(--button-outlined-border);
   border-radius: var(--button-outlined-border-radius);
   background: #272c36b5;
-  
+
   font-weight: 400;
 }
 
@@ -220,8 +218,8 @@ body {
   color: var(--post-aside-fg);
 }
 
-.top-nav__dropdown > ul > li > a,
-.top-nav__dropdown > ul > li > form > button {
+.top-nav__dropdown>ul>li>a,
+.top-nav__dropdown>ul>li>form>button {
   color: var(--top-nav-dropdown-menu-item-fg);
   font-size: 15px;
   text-decoration: none;
@@ -246,24 +244,24 @@ body {
 .post__author-topics dt,
 .post__author-posts dt {
   font-weight: 500;
-  
+
 }
 
 .text-green {
   color: var(--accent-green);
   font-size: 14px;
-  
+
 }
 
 .torrent__seeders-link.text-green {
   display: inline-flex;
   align-items: center;
-  background: rgba(1, 184, 1, 0.1); 
+  background: rgba(1, 184, 1, 0.1);
   padding: 3px 6px;
   border-radius: 10px;
   color: whitesmoke;
   font-weight: 500;
-  letter-spacing: 0.5px; 
+  letter-spacing: 0.5px;
   transition: background 0.2s, color 0.2s;
 }
 
@@ -275,12 +273,12 @@ body {
 .torrent__leechers-link.text-red {
   display: inline-flex;
   align-items: center;
-  background: rgba(191, 97, 106, 0.23); 
+  background: rgba(191, 97, 106, 0.23);
   padding: 3px 6px;
   border-radius: 10px;
   color: white;
   font-weight: 500;
-  letter-spacing: 0.5px; 
+  letter-spacing: 0.5px;
   transition: background 0.2s, color 0.2s;
 }
 
@@ -292,13 +290,13 @@ body {
 .text-red {
   color: var(--accent-red);
   font-size: 14px;
-  
+
 }
 
 .text-orange {
   color: var(--accent-orange);
   font-size: 14px;
-  
+
 }
 
 th.similar-torrents__type {
@@ -368,13 +366,13 @@ th.similar-torrents__type {
 .meta {
   display: grid;
   grid-template-areas:
-"poster title       actions    " 
-"poster tags        tags       " 
-"poster ids         ids        " 
-"poster description description" 
-"poster chips       chips      ";
+    "poster title       actions    "
+    "poster tags        tags       "
+    "poster ids         ids        "
+    "poster description description"
+    "poster chips       chips      ";
   grid-template-columns: auto 1fr auto;
-  grid-template-rows: auto auto auto auto minmax(0,1fr);
+  grid-template-rows: auto auto auto auto minmax(0, 1fr);
   gap: 8px 32px;
   padding: 16px;
   max-height: 540px;
@@ -394,26 +392,25 @@ th.similar-torrents__type {
 
 .topic-listing__latest-post-link {
   font-size: 13px;
-  
-  background: radial-gradient(
-    circle at top right,
-    #23d1a508,
-    #157d631c
-  ) !important;
+
+  background: radial-gradient(circle at top right,
+      #23d1a508,
+      #157d631c) !important;
   border-bottom: thin solid #324041a1;
   border-right: thin solid #324041a1;
   border-left: thin solid #324041a1;
   border-top: thin solid #324041a1;
 }
+
 .topic-listing {
   color: var(--panel-fg);
-  
+
   border: 1px solid #3b4252;
 }
 
 .breadcrumb--active {
   color: var(--breadcrumb-active-fg);
-  
+
 }
 
 .panel__actions {
@@ -430,7 +427,7 @@ th.similar-torrents__type {
   row-gap: 1rem;
 }
 
-.torrent-search--grouped__dropdown > summary::before {
+.torrent-search--grouped__dropdown>summary::before {
   font-family: "Font Awesome 5 Pro", sans-serif;
   color: var(--torrent-group-text);
   font-size: 16px;
@@ -444,15 +441,13 @@ th.similar-torrents__type {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  background-image: linear-gradient(
-    90deg,
-    #3654d8 4%,
-    #349ce6 19%,
-    #56d0e2 39%,
-    #62e080 60%,
-    #d195cb 80%,
-    #e646dd
-  );
+  background-image: linear-gradient(90deg,
+      #3654d8 4%,
+      #349ce6 19%,
+      #56d0e2 39%,
+      #62e080 60%,
+      #d195cb 80%,
+      #e646dd);
   font-weight: 400;
   font-size: 2.5rem;
   text-transform: uppercase;
@@ -474,7 +469,7 @@ th.similar-torrents__type {
 
 /* Estilo exclusivo para o tab "seeded" */
 li.panel__tab[x-on\:click="tab = 'seeded'"] {
-  color: #4dff4d !important;     
+  color: #4dff4d !important;
   background: #1e1e1e;
   border: 1px solid #4dff4d55;
   border-radius: 6px;
@@ -483,7 +478,7 @@ li.panel__tab[x-on\:click="tab = 'seeded'"] {
   transition: all 0.2s ease-in-out;
   display: inline-flex;
   align-items: center;
-  gap: 6px; 
+  gap: 6px;
   margin: 2px;
 }
 
@@ -505,13 +500,13 @@ li.panel__tab[x-on\:click="tab = 'seeded'"].panel__tab--active {
 
 .panel__tab {
   color: #81a1c1;
-  
+
   font-weight: 500;
 }
 
 /* Estilo exclusivo para o tab "leeched" */
 li.panel__tab[x-on\:click="tab = 'leeched'"] {
-  color: #ffaf4d !important;     
+  color: #ffaf4d !important;
   background: #1e1e1e;
   border: 1px solid #ffaf4d55;
   border-radius: 6px;
@@ -520,7 +515,8 @@ li.panel__tab[x-on\:click="tab = 'leeched'"] {
   transition: all 0.2s ease-in-out;
   display: inline-flex;
   align-items: center;
-  gap: 6px; /* espaço entre ícone e texto */
+  gap: 6px;
+  /* espaço entre ícone e texto */
   margin: 2px;
 }
 
@@ -543,7 +539,8 @@ li.panel__tab[x-on\:click="tab = 'leeched'"].panel__tab--active {
 
 /* Estilo exclusivo para o tab "dead" */
 li.panel__tab[x-on\:click="tab = 'dead'"] {
-  color: #ff4d4d !important;     /* substitui o inline */
+  color: #ff4d4d !important;
+  /* substitui o inline */
   background: #1e1e1e;
   border: 1px solid #212121;
   border-radius: 6px;
@@ -552,7 +549,8 @@ li.panel__tab[x-on\:click="tab = 'dead'"] {
   transition: all 0.2s ease-in-out;
   display: inline-flex;
   align-items: center;
-  gap: 6px; /* espaço entre ícone e texto */
+  gap: 6px;
+  /* espaço entre ícone e texto */
   margin: 2px;
 }
 
@@ -573,7 +571,7 @@ li.panel__tab[x-on\:click="tab = 'dead'"].panel__tab--active {
 
 /* Estilo exclusivo para o tab "movies" */
 li.panel__tab[x-on\:click="tab = 'movies'"] {
-  color: #d8dee9 !important;     
+  color: #d8dee9 !important;
   background: #1e1e1e;
   border: 1px solid #c44dff55;
   border-radius: 6px;
@@ -582,8 +580,9 @@ li.panel__tab[x-on\:click="tab = 'movies'"] {
   transition: all 0.2s ease-in-out;
   display: inline-flex;
   align-items: center;
-  gap: 6px; /* espaço entre ícone e texto */
-  margin:2px
+  gap: 6px;
+  /* espaço entre ícone e texto */
+  margin: 2px
 }
 
 /* Hover */
@@ -603,7 +602,7 @@ li.panel__tab[x-on\:click="tab = 'movies'"].panel__tab--active {
 
 /* Estilo exclusivo para o tab "series" */
 li.panel__tab[x-on\:click="tab = 'series'"] {
-  color: #d8dee9 !important;     
+  color: #d8dee9 !important;
   background: #1e1e1e;
   border: 1px solid #ffd84d55;
   border-radius: 6px;
@@ -612,8 +611,9 @@ li.panel__tab[x-on\:click="tab = 'series'"] {
   transition: all 0.2s ease-in-out;
   display: inline-flex;
   align-items: center;
-  gap: 6px; /* espaço entre ícone e texto */
-  margin:2px
+  gap: 6px;
+  /* espaço entre ícone e texto */
+  margin: 2px
 }
 
 /* Hover */
@@ -633,7 +633,7 @@ li.panel__tab[x-on\:click="tab = 'series'"].panel__tab--active {
 
 /* Estilo exclusivo para o tab "animes" */
 li.panel__tab[x-on\:click="tab = 'animes'"] {
-  color: #d8dee9 !important;     
+  color: #d8dee9 !important;
   background: #1e1e1e;
   border: 1px solid #ff4db855;
   border-radius: 6px;
@@ -642,7 +642,8 @@ li.panel__tab[x-on\:click="tab = 'animes'"] {
   transition: all 0.2s ease-in-out;
   display: inline-flex;
   align-items: center;
-  gap: 6px; /* espaço entre ícone e texto */
+  gap: 6px;
+  /* espaço entre ícone e texto */
   margin: 2px;
 }
 
@@ -663,7 +664,7 @@ li.panel__tab[x-on\:click="tab = 'animes'"].panel__tab--active {
 
 /* Estilo exclusivo para o tab "courses" */
 li.panel__tab[x-on\:click="tab = 'courses'"] {
-  color: #d8dee9 !important;     
+  color: #d8dee9 !important;
   background: #1e1e1e;
   border: 1px solid #4dffe655;
   border-radius: 6px;
@@ -672,8 +673,9 @@ li.panel__tab[x-on\:click="tab = 'courses'"] {
   transition: all 0.2s ease-in-out;
   display: inline-flex;
   align-items: center;
-  gap: 6px; /* espaço entre ícone e texto */
-  margin:2px
+  gap: 6px;
+  /* espaço entre ícone e texto */
+  margin: 2px
 }
 
 /* Hover */
@@ -693,7 +695,7 @@ li.panel__tab[x-on\:click="tab = 'courses'"].panel__tab--active {
 
 /* Estilo exclusivo para o tab "games" */
 li.panel__tab[x-on\:click="tab = 'games'"] {
-  color: #d8dee9 !important;     
+  color: #d8dee9 !important;
   background: #1e1e1e;
   border: 1px solid #ff6f4d55;
   border-radius: 6px;
@@ -702,8 +704,9 @@ li.panel__tab[x-on\:click="tab = 'games'"] {
   transition: all 0.2s ease-in-out;
   display: inline-flex;
   align-items: center;
-  gap: 6px; /* espaço entre ícone e texto */
-  margin:2px
+  gap: 6px;
+  /* espaço entre ícone e texto */
+  margin: 2px
 }
 
 /* Hover */
@@ -755,7 +758,7 @@ li.panel__tab[x-on\:click="tab = 'games'"].panel__tab--active {
 }
 
 li.panel__tab[x-on\:click="tab = 'newest'"] {
-  color: #4dc3ff !important;     
+  color: #4dc3ff !important;
   background: #1e1e1e !important;
   border: 1px solid #4dc3ff55;
   border-radius: 6px;
@@ -764,7 +767,8 @@ li.panel__tab[x-on\:click="tab = 'newest'"] {
   transition: all 0.2s ease-in-out;
   display: inline-flex;
   align-items: center;
-  gap: 6px; /* espaço entre ícone e texto */
+  gap: 6px;
+  /* espaço entre ícone e texto */
   margin: 2px;
 }
 
@@ -790,7 +794,7 @@ li.panel__tab[x-on\:click="tab = 'newest'"].panel__tab--active {
   grid-area: size;
   width: 8.5%;
   font-size: 14px;
-  
+
   font-weight: 400;
 }
 
@@ -817,7 +821,7 @@ li.panel__tab[x-on\:click="tab = 'newest'"].panel__tab--active {
   border: none;
   text-align: center;
   cursor: pointer;
-  
+
   background: var(--nord1);
 }
 
@@ -837,7 +841,7 @@ li.panel__tab[x-on\:click="tab = 'newest'"].panel__tab--active {
 
 .topic-listing--unread {
   font-weight: 600;
-  
+
 }
 
 .topic-listing--unread .topic-listing__heading a::before {
@@ -855,7 +859,7 @@ li.panel__tab[x-on\:click="tab = 'newest'"].panel__tab--active {
   justify-content: space-between;
   font-size: 13px;
   margin-bottom: 0;
-  
+
   background: radial-gradient(circle at top right, #2e3440, #434c5e) !important;
   padding: 1px 2px;
 }
@@ -865,7 +869,7 @@ li.panel__tab[x-on\:click="tab = 'newest'"].panel__tab--active {
   justify-content: space-between;
   font-size: 13px;
   margin-bottom: 0;
-  
+
   background: radial-gradient(circle at top right, #2e3440, #434c5e) !important;
   padding: 1px 2px;
 }
@@ -875,7 +879,7 @@ li.panel__tab[x-on\:click="tab = 'newest'"].panel__tab--active {
   justify-content: space-between;
   font-size: 13px;
   margin-bottom: 0;
-  
+
   background: radial-gradient(circle at top right, #2e3440, #434c5e) !important;
   border-radius: 0 0 5px 5px;
   padding: 1px 2px;
@@ -906,16 +910,14 @@ li.panel__tab[x-on\:click="tab = 'newest'"].panel__tab--active {
   font-size: 18px;
   border-radius: 5px;
   max-width: max-content;
-  background: radial-gradient(
-    circle at top right,
-    #252a346b,
-    #3b4252
-  ) !important;
+  background: radial-gradient(circle at top right,
+      #252a346b,
+      #3b4252) !important;
 }
 
 .panel__action .form__button {
   background: #434c5e;
-  
+
   font-weight: 500;
   color: #90e2ad;
 }
@@ -951,7 +953,7 @@ li.panel__tab[x-on\:click="tab = 'newest'"].panel__tab--active {
 }
 
 .user-stat-card {
-  position: relative; 
+  position: relative;
   overflow: hidden;
 }
 
@@ -964,19 +966,26 @@ li.panel__tab[x-on\:click="tab = 'newest'"].panel__tab--active {
 .user-stat-card:hover::after {
   content: "";
   position: absolute;
-  bottom: 0.5rem;   
-  right: 1.55rem;   
-  width: 32px;      
+  bottom: 0.5rem;
+  right: 1.55rem;
+  width: 32px;
   height: 32px;
   background: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/capivara_corrigida.svg") no-repeat center / contain;
   opacity: 0.6;
-  pointer-events: none; 
+  pointer-events: none;
   animation: fadeInCapy 0.3s forwards;
 }
 
 @keyframes fadeInCapy {
-  from { opacity: 0; transform: translateY(6px); }
-  to   { opacity: 0.6; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+
+  to {
+    opacity: 0.6;
+    transform: translateY(0);
+  }
 }
 
 .user-stat-card {
@@ -995,73 +1004,73 @@ li.panel__tab[x-on\:click="tab = 'newest'"].panel__tab--active {
 }
 
 .bbcode-input__tab-label[for="content-bbcode-preview-disabled"] {
-    font-size: 0 !important; 
-    display: inline-block;
-    cursor: pointer;
-    padding: 10px 20px;
-    transition: all 0.2s ease;
+  font-size: 0 !important;
+  display: inline-block;
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: all 0.2s ease;
 }
 
 .bbcode-input__tab-label[for="content-bbcode-preview-disabled"]::before {
-    content: "\e472"; 
-    font-family: "Font Awesome 5 Pro", "Font Awesome 6 Free";
-    font-weight: 900;
-    font-size: 16px;
-    color: #d6dce7;
-    visibility: visible;
-    display: inline-block;
+  content: "\e472";
+  font-family: "Font Awesome 5 Pro", "Font Awesome 6 Free";
+  font-weight: 900;
+  font-size: 16px;
+  color: #d6dce7;
+  visibility: visible;
+  display: inline-block;
 }
 
 .bbcode-input__tab-label[for="content-bbcode-preview-disabled"]:hover::before {
-    color: #007bff;
-    transform: scale(1.1);
+  color: #007bff;
+  transform: scale(1.1);
 }
 
 .bbcode-input__tab-label[for="content-bbcode-preview-enabled"] {
-    font-size: 0 !important; 
-    display: inline-block;
-    cursor: pointer;
-    padding: 10px 20px;
+  font-size: 0 !important;
+  display: inline-block;
+  cursor: pointer;
+  padding: 10px 20px;
 }
 
 .bbcode-input__tab-label[for="content-bbcode-preview-enabled"]::before {
-    content: "\f06e";
-    font-family: "Font Awesome 5 Pro", "Font Awesome 6 Free";
-    font-weight: 900;
-    font-size: 16px;
-    color: #d6dce7;
-    visibility: visible;
-    display: inline-block;
+  content: "\f06e";
+  font-family: "Font Awesome 5 Pro", "Font Awesome 6 Free";
+  font-weight: 900;
+  font-size: 16px;
+  color: #d6dce7;
+  visibility: visible;
+  display: inline-block;
 }
 
 .bbcode-input__tab-label[for="content-bbcode-preview-enabled"]:hover::before {
-    color: #007bff;
-    transform: scale(1.1);
+  color: #007bff;
+  transform: scale(1.1);
 }
 
 .form__button.form__button--text[x-on\:click="toggleButtonVisibility"] {
-    font-size: 0 !important;
-    cursor: pointer;
-    border: none;
-    background: transparent;
-    padding: 10px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+  font-size: 0 !important;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  padding: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .form__button.form__button--text[x-on\:click="toggleButtonVisibility"]::before {
-    content: "\f121";
-    font-family: "Font Awesome 5 Pro", "Font Awesome 6 Free";
-    font-weight: 900;
-    font-size: 16px;
-    color: #d6dce7;
-    visibility: visible;
+  content: "\f121";
+  font-family: "Font Awesome 5 Pro", "Font Awesome 6 Free";
+  font-weight: 900;
+  font-size: 16px;
+  color: #d6dce7;
+  visibility: visible;
 }
 
 .form__button.form__button--text[x-on\:click="toggleButtonVisibility"]:hover::before {
-    color: #007bff;
-    transform: scale(1.1);
+  color: #007bff;
+  transform: scale(1.1);
 }
 
 .bbcode-input__icon-bar-toggle {
@@ -1092,12 +1101,7 @@ li.panel__tab[x-on\:click="tab = 'newest'"].panel__tab--active {
   background: #13141d;
 }
 
-.page__forum--topic
-  > article
-  > div
-  > section
-  > .panel__header
-  > .panel__heading {
+.page__forum--topic>article>div>section>.panel__header>.panel__heading {
   font-size: 16px;
   text-transform: initial;
   background: #343a48b0;
@@ -1107,7 +1111,7 @@ li.panel__tab[x-on\:click="tab = 'newest'"].panel__tab--active {
 .topic-tag--implemented {
   background-color: rgba(162, 238, 239, 0.3);
   color: var(--forum-tag-implemented-fg);
-  
+
   font-weight: 400;
   vertical-align: 1px;
   margin: 0;
@@ -1117,7 +1121,7 @@ li.panel__tab[x-on\:click="tab = 'newest'"].panel__tab--active {
 .topic-tag--denied {
   background-color: rgba(19, 20, 29, 0.34);
   color: #e10101;
-  
+
   font-weight: 400;
   vertical-align: middle;
   max-height: 17px;
@@ -1157,7 +1161,7 @@ li.panel__tab[x-on\:click="tab = 'newest'"].panel__tab--active {
   color: #7dafbf;
   font-size: 14px;
   background-color: var(--dialog-head-bg);
-  
+
 }
 
 .form__textarea {
@@ -1233,7 +1237,7 @@ progress {
   font-weight: 500;
   border-radius: 10px 10px 0 0px;
   max-width: max-content;
-  
+
 }
 
 .torrent__tags {
@@ -1253,7 +1257,7 @@ progress {
 }
 
 .torrent__category a::before {
- font-family: "Font Awesome 5 Pro";
+  font-family: "Font Awesome 5 Pro";
   content: " \23";
   font-weight: 600;
   margin-left: 0px;
@@ -1262,15 +1266,15 @@ progress {
   vertical-align: middle;
 }
 
-.torrent__tags > li > time {
+.torrent__tags>li>time {
   color: var(--torrent-tag-fg);
   padding: 6px 12px;
   display: inline-block;
   font-weight: 400;
-  
+
 }
 
-.torrent__tags > li > time::before {
+.torrent__tags>li>time::before {
   font-family: "Font Awesome 5 Pro";
   content: " \f017";
   font-weight: 500;
@@ -1302,7 +1306,7 @@ progress {
 
 .post__toolbar-item {
   list-style-type: none;
-  
+
 }
 
 .post__tip-button:hover {
@@ -1367,7 +1371,7 @@ progress {
   font-style: italic;
   background: var(--nord1);
   border-radius: 5px;
-  
+
 }
 
 .post__tip-stats dt {
@@ -1446,7 +1450,7 @@ progress {
 
 .footer__sub-footer {
   display: grid;
-  grid-template-areas: 
+  grid-template-areas:
     "libraries stats"
     "libraries copyright";
   grid-template-columns: auto auto;
@@ -1454,11 +1458,11 @@ progress {
   max-width: 100%;
   padding: 6px 8px;
   margin-top: 20px;
-  border: thin solid #324041a1; 
+  border: thin solid #324041a1;
   border-radius: 5px;
   background: radial-gradient(circle at top right, #23d1a508, #2328334f);
-  color: #c0c6c9; 
-  box-shadow: 0 2px 6px rgba(0,0,0,0.2); 
+  color: #c0c6c9;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
 .footer__copyright {
@@ -1479,7 +1483,7 @@ progress {
 .post__content.post__content.post__content {
   background-color: #434c5e;
   font-size: 16px;
-  
+
 }
 
 .bbcode-rendered.bbcode-rendered .bbcode-rendered__note::before {
@@ -1497,7 +1501,6 @@ progress {
 }
 
 .footer__section-list {
-  list-style: none; /
   padding-left: 0;
   gap: 3px !important;
 }
@@ -1507,20 +1510,20 @@ progress {
   font-weight: 600;
   color: #d6dce7;
   position: relative;
-  padding-left: 15px; 
+  padding-left: 15px;
   margin-bottom: 0px;
 }
 
 .footer__section-list li::before {
-  content: "\f111"; 
+  content: "\f111";
   font-family: "Font Awesome 5 Pro";
   font-weight: 500;
   font-size: 11px;
-  color:#58cff9;
+  color: #58cff9;
   position: absolute;
   left: 0;
   top: 50%;
-  transform: translateY(-50%); 
+  transform: translateY(-50%);
   margin-right: 12px;
 }
 
@@ -1541,7 +1544,7 @@ progress {
 
 .chatbox-message__content {
   font-size: 16px;
-  
+
   border-radius: 0 10px 10px 10px;
   background: #474d59;
   max-width: max-content;
@@ -1559,7 +1562,7 @@ progress {
 }
 
 .chatbox-message__time::before {
-font-family: "Font Awesome 5 Pro";
+  font-family: "Font Awesome 5 Pro";
   content: " \f017";
   font-weight: 900;
   margin-right: 3px;
@@ -1599,8 +1602,9 @@ font-family: "Font Awesome 5 Pro";
   border-radius: 0px 0px 5px 0px;
   padding: 2px 7px;
 }
+
 .chatroom__whispers:before {
- font-family: "Font Awesome 5 Pro";
+  font-family: "Font Awesome 5 Pro";
   content: " \f11c";
   font-weight: 500;
   margin-left: 0px;
@@ -1629,7 +1633,7 @@ font-family: "Font Awesome 5 Pro";
   border-radius: 5px;
   color: white;
   font-size: 11px;
-  
+
   word-spacing: -1px;
 }
 
@@ -1637,7 +1641,7 @@ font-family: "Font Awesome 5 Pro";
   font-size: 13px;
   line-height: 1;
   font-weight: 400;
-  
+
 }
 
 .user-tag__link {
@@ -1665,7 +1669,7 @@ font-family: "Font Awesome 5 Pro";
 
 .torrent-search--list__resolution {
   color: #87f79a;
-  
+
   background: #2c323d;
   border-radius: 6px;
 }
@@ -1675,7 +1679,7 @@ font-family: "Font Awesome 5 Pro";
 }
 
 .user-tag__link {
-  
+
   display: inline-flex;
   white-space: nowrap;
   align-items: center;
@@ -1699,7 +1703,7 @@ font-family: "Font Awesome 5 Pro";
   font-size: 12px;
   background: var(--bg-dark);
   border-radius: 5px;
-  
+
 }
 
 .topic-tag {
@@ -1757,7 +1761,7 @@ font-family: "Font Awesome 5 Pro";
 }
 
 .topic-listing__latest-post-link::before {
- font-family: "Font Awesome 5 Pro";
+  font-family: "Font Awesome 5 Pro";
   content: " \f017";
   font-weight: 500;
   margin-left: 0px;
@@ -1769,7 +1773,7 @@ font-family: "Font Awesome 5 Pro";
 
 .torrent-search--list__age {
   font-size: 16px;
-  
+
   border-bottom: 1px solid #3b4252 !important;
   border-right: 1px solid #3b4252 !important;
   color: #43a4fb !important;
@@ -1780,20 +1784,20 @@ font-family: "Font Awesome 5 Pro";
   border-bottom: none !important;
 }
 
-.torrent-search--grouped__dropdown > summary {
+.torrent-search--grouped__dropdown>summary {
   cursor: pointer;
   list-style: none;
   font-size: 15px;
   border-top: 1px solid var(--torrent-group-header-bg);
   padding: 8px 6px 8px 16px;
-  
+
   font-weight: 400;
 }
 
 .torrent-search--list__format {
   grid-area: format;
   background: #2c323dbf !important;
-  
+
 }
 
 .row-flags__wrapper {
@@ -1803,7 +1807,7 @@ font-family: "Font Awesome 5 Pro";
   width: auto;
   margin-top: 8px;
   background: #2c323d69 !important;
-  
+
   border-radius: 3px;
 }
 
@@ -1837,9 +1841,10 @@ font-family: "Font Awesome 5 Pro";
 
 .torrent-search--list__overview {
   color: var(--torrent-row-fg);
-  
+
   border: thin #2c323d !important;
 }
+
 .fas.fa-coins {
   color: #ffc00a;
 }
@@ -1850,7 +1855,7 @@ font-family: "Font Awesome 5 Pro";
   align-self: center;
 }
 
-.panelV2 > :nth-child(2) {
+.panelV2> :nth-child(2) {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   overflow: auto;
@@ -1877,7 +1882,8 @@ font-family: "Font Awesome 5 Pro";
 }
 
 .meta__title:hover {
-  color: var(--meta-title-hover, #60a5fa); /* azul sutil no hover */
+  color: var(--meta-title-hover, #60a5fa);
+  /* azul sutil no hover */
 }
 
 .fa-clock-four::before,
@@ -1894,19 +1900,19 @@ font-family: "Font Awesome 5 Pro";
 
 .user-stat-card__username {
   grid-area: username;
-  padding: 3px 3px;              
+  padding: 3px 3px;
   margin: 0;
   background: rgba(44, 50, 61, 0.7) !important;
   font-weight: 500;
-  color: #f0f0f0;                
-  border-radius: 8px;            
-  display: inline-flex;            
+  color: #f0f0f0;
+  border-radius: 8px;
+  display: inline-flex;
   align-items: center;
   justify-content: space-between;
-  text-overflow: ellipsis;        
+  text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
-  transition: background 0.2s, color 0.2s; 
+  transition: background 0.2s, color 0.2s;
 }
 
 .user-stat-card__username:hover {
@@ -1944,7 +1950,7 @@ font-family: "Font Awesome 5 Pro";
   margin-bottom: 6px !important;
 }
 
-.data-table > thead > tr > th {
+.data-table>thead>tr>th {
   background-color: #343a48;
   border-bottom: var(--data-table-thead-border);
   text-align: left;
@@ -1969,12 +1975,13 @@ font-family: "Font Awesome 5 Pro";
   color: seagreen;
 }
 
-.panelV2 > :not(:has(~ :not([style*="display: none"]))) {
+.panelV2> :not(:has(~ :not([style*="display: none"]))) {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   overflow: hidden;
   background-color: #343a48;
 }
+
 .fab.fa-telegram {
   color: #3b9bee;
 }
@@ -2010,17 +2017,17 @@ font-family: "Font Awesome 5 Pro";
   margin-left: 15px;
   color: green;
 }
+
 .subforum-listing__latest-post-link {
-  background: radial-gradient(
-    circle at top right,
-    #23d1a508,
-    #157d631c
-  ) !important;
+  background: radial-gradient(circle at top right,
+      #23d1a508,
+      #157d631c) !important;
   border-bottom: thin solid #324041a1;
   border-right: thin solid #324041a1;
   border-left: thin solid #324041a1;
   border-top: thin solid #324041a1;
 }
+
 .subforum-listing__topic-stats,
 .subforum-listing__post-stats {
   margin: 0;
@@ -2030,7 +2037,7 @@ font-family: "Font Awesome 5 Pro";
   font-size: 12px;
   background: #2c323d;
   border-radius: 5px;
-  
+
 }
 
 .panel__header {
@@ -2040,19 +2047,20 @@ font-family: "Font Awesome 5 Pro";
 
 .key-value__group:first-child {
   padding-top: var(--key-value-padding);
-  
+
   color: #e1e1e1;
 }
 
 .key-value__group:last-child {
   padding-bottom: var(--key-value-padding);
-  
+
 }
 
 .top-nav__ratio-bar a {
   color: var(--top-nav-ratio-bar-fg);
   text-decoration: none;
-  margin: 0 6px !important; /* mantém espaçamento uniforme */
+  margin: 0 6px !important;
+  /* mantém espaçamento uniforme */
   padding: 2px 4px;
   border-radius: 4px;
   transition: color 0.25s ease, background 0.25s ease;
@@ -2060,8 +2068,8 @@ font-family: "Font Awesome 5 Pro";
 }
 
 .top-nav__ratio-bar a:hover {
-  background: rgba(255, 255, 255, 0.1); 
-  color: #ffd369; 
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffd369;
 }
 
 .far.fa-sign-out {
@@ -2076,7 +2084,7 @@ font-family: "Font Awesome 5 Pro";
   padding: 3px;
 }
 
-.special-event-alert > .alert__content {
+.special-event-alert>.alert__content {
   display: flex;
   justify-content: space-around;
   background: #1c1c1c;
@@ -2095,7 +2103,7 @@ font-family: "Font Awesome 5 Pro";
   font-weight: 800;
   background: #2e3440eb;
   padding: 5px;
-  
+
   max-width: max-content;
   border-radius: 0 10px 0 0;
 }
@@ -2121,7 +2129,7 @@ font-family: "Font Awesome 5 Pro";
   padding: 2px 6px;
   text-align: center;
   background-color: var(--nord1) !important;
-  
+
 }
 
 .top-nav__profile-image {
@@ -2149,7 +2157,7 @@ font-family: "Font Awesome 5 Pro";
   background-color: #2c323d;
   border-radius: 10px 10px 10px 10px;
   border: 2px solid #262b35;
-  
+
   padding: 3px;
 }
 
@@ -2157,7 +2165,7 @@ font-family: "Font Awesome 5 Pro";
   margin-top: -6px;
 }
 
-.page__forum--topic > article > div > section > .panel__body {
+.page__forum--topic>article>div>section>.panel__body {
   background-color: transparent;
   padding: 12px 0 0px;
 }
@@ -2224,7 +2232,7 @@ i.fas.fa-minus-circle.fa-pull-right {
 .mediainfo dt {
   padding-left: 6px;
   margin-left: 3px;
-  
+
   color: #4af;
   font-weight: 500;
   background: #2c323d6e;
@@ -2382,7 +2390,7 @@ div.panel__body.torrent-search--poster__results {
     rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 
-.chatroom__messages > li {
+.chatroom__messages>li {
   width: 100%;
   position: relative;
 }
@@ -2461,7 +2469,7 @@ td.torrent-search--grouped__size {
 }
 
 td.torrent-search--grouped__age time::before {
- font-family: "Font Awesome 5 Pro";
+  font-family: "Font Awesome 5 Pro";
   content: " \f017";
   font-weight: 900;
   margin-left: 0px;
@@ -2529,7 +2537,7 @@ td.torrent-search--grouped__age time::before {
   text-shadow: 1px 1px 4px #0b0a0a;
 }
 
-.data-table tr:nth-child(2n) > td {
+.data-table tr:nth-child(2n)>td {
   background-color: #2c323d6e;
 }
 
@@ -2577,7 +2585,7 @@ td.torrent-search--grouped__age time::before {
   border-radius: 10px;
 }
 
- .panel__action.page__published::before {
+.panel__action.page__published::before {
   font-family: "Font Awesome 5 Pro";
   content: " \f017";
   font-weight: 500;
@@ -2603,9 +2611,9 @@ td.torrent-search--grouped__age time::before {
   content: "";
 }
 
-.footer__section-title ~ p {
+.footer__section-title~p {
   color: #fff;
-  
+
   background: var(--nord1)82;
   max-width: max-content;
   padding: 0px 1px;
@@ -2640,7 +2648,7 @@ td.torrent-search--grouped__age time::before {
   padding: 7px;
   border: 2px solid var(--bbcode-rendered-attention-subtle);
   background: #252a3463;
-  
+
 }
 
 .user-tag img {
@@ -2652,8 +2660,8 @@ td.torrent-search--grouped__age time::before {
   background-color: var(--bbcode-bg, #252a34);
   color: var(--bbcode-fg, #e5e7eb);
   border: 1px solid rgba(255, 255, 255, 0.06);
-  border-radius: 0.5rem; 
-  font-size: 1.45rem; 
+  border-radius: 0.5rem;
+  font-size: 1.45rem;
   line-height: 1.4;
   word-break: break-word;
   overflow-wrap: anywhere;
@@ -2661,7 +2669,7 @@ td.torrent-search--grouped__age time::before {
   padding: 0.6rem 0.75rem;
   max-width: 100%;
   transition: background 0.25s ease, color 0.25s ease;
-  
+
 }
 
 .bbcode-rendered.bbcode-rendered pre:hover {
@@ -2676,8 +2684,8 @@ td.torrent-search--grouped__age time::before {
 .chatbox-message {
   display: grid;
   grid-template-areas:
-"aside header  .       menu   " 
-"aside content content content";
+    "aside header  .       menu   "
+    "aside content content content";
   grid-template-columns: 0 auto 1fr auto;
   border-radius: 15px 15px 15px 15px;
   background-color: #1f1f1f;
@@ -2711,7 +2719,8 @@ i.fas.fa-heartbeat.torrent-icons__thanks {
   margin-right: 0.1ch;
 }
 
-.fa-magic::before, .fa-wand-magic::before {
+.fa-magic::before,
+.fa-wand-magic::before {
   content: "";
 }
 
@@ -2743,19 +2752,14 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons {
 }
 
 @media screen and (max-width: 767px) {
-  .top-nav__icon-bar {
-  }
-}
-
-@media screen and (max-width: 767px) {
   .top-nav__ratio-bar.top-nav__ratio-bar.mobile {
     display: grid !important;
-    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr)); 
-    gap: 4px; 
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    gap: 4px;
     justify-items: center;
-    margin: 0 auto; 
+    margin: 0 auto;
   }
-  
+
   .top-nav__ratio-bar.top-nav__ratio-bar.mobile a {
     margin: 2px 0 !important;
     padding: 4px 6px;
@@ -2846,6 +2850,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons {
 }
 
 @media only screen and (max-width: 767px) {
+
   .footer__stats,
   .footer__copyright {
     text-align: center !important;
@@ -2892,12 +2897,13 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons {
     font-size: 12px !important;
     background: var(--bg-dark);
     border-radius: 5px;
-    
+
     display: none !important;
   }
 }
 
 @media only screen and (max-width: 767px) {
+
   .subforum-listing__topic-stats,
   .subforum-listing__post-stats {
     flex-direction: row !important;
@@ -2918,6 +2924,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons {
 }
 
 @media only screen and (max-width: 767px) {
+
   .user-tag,
   .user-tag__link {
     font-family: inherit;
@@ -2979,14 +2986,12 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons {
 @media only screen and (max-width: 767px) {
   .torrent__name {
     color: #fff;
-    background: radial-gradient(
-      circle at top right,
-      #3b4252,
-      #166d6b9e,
-      #3b4252
-    );
+    background: radial-gradient(circle at top right,
+        #3b4252,
+        #166d6b9e,
+        #3b4252);
     border-radius: 10px;
-    
+
     border: 2px solid #3b4252;
     font-size: 13px;
     font-weight: 500;
@@ -3055,7 +3060,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons {
     min-height: 36px;
     grid-area: type;
     white-space: nowrap;
-    
+
     background: #212121;
     border-radius: 10px;
   }
@@ -3123,7 +3128,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons {
   }
 }
 
-.form__select:valid:not(.form__select--default) + .form__label--floating {
+.form__select:valid:not(.form__select--default)+.form__label--floating {
   top: -3px;
   font-size: 11px;
   border-radius: 0;
@@ -3157,6 +3162,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons {
 .fa-bolt-lightning::before {
   content: "";
 }
+
 .torrent-search--list__type {
   font-size: 13px;
   white-space: wrap !important;
@@ -3201,7 +3207,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons {
 }
 
 @media screen and (max-width: 576px) {
-  .data-table > tbody > tr > td {
+  .data-table>tbody>tr>td {
     padding: 0px;
     font-size: 14px;
     color: white;
@@ -3237,6 +3243,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons {
 }
 
 @media only screen and (max-width: 767px) {
+
   .fa-duotone.fa-comments::after,
   .fad.fa-comments::after {
     content: "";
@@ -3251,9 +3258,10 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons {
   }
 }
 
-.chatroom__messages > li > article {
+.chatroom__messages>li>article {
   padding: 3px 4px;
 }
+
 .chatroom__messages {
   list-style-type: none;
   background: #2c313f !important;
@@ -3287,7 +3295,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons {
   }
 }
 
-.torrent-search--grouped__dropdown > summary::before {
+.torrent-search--grouped__dropdown>summary::before {
   font-family: "Font Awesome 5 Pro", sans-serif;
   font-size: 13px;
   display: inline-block;
@@ -3324,7 +3332,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons {
 
 .torrent__tags li {
   white-space: nowrap;
-  
+
 }
 
 .chatbox-message__menu-button {
@@ -3346,6 +3354,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons {
   border-bottom: 2px solid #474d59;
   border-top: 2px solid #474d59;
 }
+
 .chatTriggers::after {
   content: "🖤";
   font-size: 77%;
@@ -3481,10 +3490,12 @@ a[href="/users/System"] {
 .meta__chip-container::-webkit-scrollbar {
   width: 6px;
 }
+
 .meta__chip-container::-webkit-scrollbar-thumb {
   background: #4c566a;
   border-radius: 3px;
 }
+
 .meta__chip-container::-webkit-scrollbar-track {
   background: #2e3440;
 }
@@ -3496,14 +3507,15 @@ a[href="/users/System"] {
   line-height: 1.4;
   padding-bottom: 16px;
   color: #eceff4;
-  text-shadow: 0 1px 2px rgba(0,0,0,0.4);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
   overflow-wrap: break-word;
   word-break: break-word;
   border-bottom: 1px solid rgba(76, 86, 106, 0.3);
   margin-bottom: 8px;
 }
 
-.mediainfo__general,.mediainfo__video {
+.mediainfo__general,
+.mediainfo__video {
   flex-basis: 48%;
   flex-shrink: 0;
   padding: 10px;
@@ -3528,7 +3540,7 @@ a[href="/users/System"] {
 
 .panelV2.blocks__news::before {
   content: "\f0f3";
-  font-family: "Font Awesome 5 Pro"; 
+  font-family: "Font Awesome 5 Pro";
   font-weight: 900;
   position: absolute;
   left: 10px;
@@ -3539,7 +3551,8 @@ a[href="/users/System"] {
   opacity: 90%;
 }
 
-.top-nav__dropdown:hover > a, .top-nav__dropdown:focus-within > a {
+.top-nav__dropdown:hover>a,
+.top-nav__dropdown:focus-within>a {
   color: var(--top-nav-dropdown-hover-fg);
   text-decoration: var(--top-nav-dropdown-hover-text-decoration);
   text-underline-offset: 3px;
@@ -3552,7 +3565,7 @@ a[href="/users/System"] {
 }
 
 @media (hover: hover) {
-  .data-table__action > :not(.dialog) {
+  .data-table__action> :not(.dialog) {
     visibility: hidden;
     background: #343838;
   }
@@ -3614,12 +3627,12 @@ li.panel__tab[x-on\:click="tab = 'dying'"] {
 @media screen and (max-width: 480px) {
   .meta {
     grid-template-areas:
-"poster      title       actions    " 
-"tags        tags        tags       " 
-"ids         ids         ids        " 
-"description description description" 
-"chips       chips       chips      " !important ;
-    grid-template-columns: 64px minmax(0,1fr) auto !important;
+      "poster      title       actions    "
+      "tags        tags        tags       "
+      "ids         ids         ids        "
+      "description description description"
+      "chips       chips       chips      " !important;
+    grid-template-columns: 64px minmax(0, 1fr) auto !important;
     column-gap: 12px !important;
     align-items: center;
   }
