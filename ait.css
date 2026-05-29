@@ -6,36 +6,36 @@
 */
 
 :root {
-    /* Nord Theme Colors */
-    --nord0: #2e3440;
-    --nord1: #3b4252;
-    --nord2: #434c5e;
-    --nord3: #4c566a;
-    --nord4: #d8dee9;
-    --nord5: #e5e9f0;
-    --nord6: #eceff4;
-    --nord7: #8fbcbb;
-    --nord8: #88c0d0;
-    --nord9: #81a1c1;
-    --nord10: #5e81ac;
-    --nord11: #bf616a;
-    --nord12: #d08770;
-    --nord13: #ebcb8b;
-    --nord14: #a3be8c;
-    --nord15: #b48ead;
+  /* Nord Theme Colors */
+  --nord0: #2e3440;
+  --nord1: #3b4252;
+  --nord2: #434c5e;
+  --nord3: #4c566a;
+  --nord4: #d8dee9;
+  --nord5: #e5e9f0;
+  --nord6: #eceff4;
+  --nord7: #8fbcbb;
+  --nord8: #88c0d0;
+  --nord9: #81a1c1;
+  --nord10: #5e81ac;
+  --nord11: #bf616a;
+  --nord12: #d08770;
+  --nord13: #ebcb8b;
+  --nord14: #a3be8c;
+  --nord15: #b48ead;
 
-    /* Custom Theme Colors */
-    --bg-dark: #191d2a;
-    --bg-panel: #222731;
-    --bg-input: #1d1d1d;
-    --bg-aside: #252a34;
-    --accent-green: #23d1a5;
-    --accent-gold: #feb100;
-    --text-white: #ffffff;
-    --text-muted: #ffffffa1;
-    
-    /* Assets */
-    --bg-image: url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/aither-bg.svg');
+  /* Custom Theme Colors */
+  --bg-dark: #191d2a;
+  --bg-panel: #222731;
+  --bg-input: #1d1d1d;
+  --bg-aside: #252a34;
+  --accent-green: #23d1a5;
+  --accent-gold: #feb100;
+  --text-white: #ffffff;
+  --text-muted: #ffffffa1;
+
+  /* Assets */
+  --bg-image: url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/aither-bg.svg');
 }
 
 .alert {
@@ -47,8 +47,8 @@
 }
 
 body {
-    background: var(--bg-dark)  var(--bg-image);
-  }
+  background: var(--bg-dark) var(--bg-image);
+}
 
 .top-nav__main-menus {
   list-style-type: none;
@@ -61,7 +61,7 @@ body {
   font-weight: 400;
 }
 
-.user-tag.torrent-search--list__uploader{
+.user-tag.torrent-search--list__uploader {
   height: auto;
 }
 
@@ -70,7 +70,8 @@ body {
   color: goldenrod;
 }
 
-.fa-face-smile::before, .fa-smile::before {
+.fa-face-smile::before,
+.fa-smile::before {
   content: "";
   color: gold;
 }
@@ -102,7 +103,7 @@ p.bbcode-input__tabs {
 
 .topic-listing__latest-post-link {
   font-size: 13px;
-  background: radial-gradient(circle at top right,#23d1a508,#157d631c) !important;
+  background: radial-gradient(circle at top right, #23d1a508, #157d631c) !important;
   border-bottom: thin solid #324041a1;
   border-right: thin solid #324041a1;
   border-left: thin solid #324041a1;
@@ -111,36 +112,37 @@ p.bbcode-input__tabs {
 
 @media only screen and (min-width: 1600px) {
   main {
-    margin: 0 max(0px,29vw - 350px);
+    margin: 0 max(0px, 29vw - 350px);
   }
 }
 
 .topic-listing--read {
   font-weight: 600 !important;
- }
+}
 
 .bbcode-input__icon-separator {
   align-self: stretch;
   margin: 11px 0px;
 }
 
-  .fa::before, .fas::before {
-    font-family: "Font Awesome 5 Pro";
-    font-weight: 900;
-    font-size: 12px;
-  }
+.fa::before,
+.fas::before {
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 900;
+  font-size: 12px;
+}
 
-  .post__tip-input {
-    margin: 5px 5px 2px 9px;
-    border-width: 0 0 2px 0;
-    border-style: solid;
-    border-color: var(--post-toolbar-bg);
-    color: var(--post-toolbar-fg);
-    width: 72px;
-    background-color: var(--nord0);
-    text-align: right;
-    border-radius: 8px;
-  }
+.post__tip-input {
+  margin: 5px 5px 2px 9px;
+  border-width: 0 0 2px 0;
+  border-style: solid;
+  border-color: var(--post-toolbar-bg);
+  color: var(--post-toolbar-fg);
+  width: 72px;
+  background-color: var(--nord0);
+  text-align: right;
+  border-radius: 8px;
+}
 
 .post__author-title {
   font-size: 12px;
@@ -162,23 +164,23 @@ p.bbcode-input__tabs {
   font-weight: 600;
 }
 
-  .form__button--filled {
-    background: #0c4b49;
-    color: var(--button-filled-fg);
-    border: var(--button-filled-border);
-    border-radius: var(--button-filled-border-radius);
-  }
+.form__button--filled {
+  background: #0c4b49;
+  color: var(--button-filled-fg);
+  border: var(--button-filled-border);
+  border-radius: var(--button-filled-border-radius);
+}
 
-    .torrent-search--list__name {
-      grid-area: name;
-      font-size: 16px;
-      color: var(--torrent-row-fg);
-     
-    }
+.torrent-search--list__name {
+  grid-area: name;
+  font-size: 16px;
+  color: var(--torrent-row-fg);
+
+}
 
 .torrent__name {
   color: #fff;
-  background: radial-gradient(circle at top right,#3b4252,#466bf059,#3b4252);
+  background: radial-gradient(circle at top right, #3b4252, #466bf059, #3b4252);
   border-radius: 10px;
   border: 2px solid #3b4252;
   font-size: 21px;
@@ -187,7 +189,7 @@ p.bbcode-input__tabs {
   margin: 10px 0;
 }
 
- .chatbox-message__source {
+.chatbox-message__source {
   display: block;
   padding: 4px 8px 4px 2px;
   font-size: 11px;
@@ -196,14 +198,14 @@ p.bbcode-input__tabs {
 }
 
 .form__button--filled {
-      background: #295756;
-      color: var(--button-filled-fg);
-      border: var(--button-filled-border);
-      border-radius: var(--button-filled-border-radius);
+  background: #295756;
+  color: var(--button-filled-fg);
+  border: var(--button-filled-border);
+  border-radius: var(--button-filled-border-radius);
 
-    }
+}
 
-.top-nav__icon-bar > li > a > i {
+.top-nav__icon-bar>li>a>i {
   color: var(--top-nav-icon-bar-icon-fg);
   font-size: 16px;
   text-align: center;
@@ -214,7 +216,7 @@ p.bbcode-input__tabs {
   line-height: 32px;
 }
 
-.top-nav__dropdown > a > .top-nav--left__container {
+.top-nav__dropdown>a>.top-nav--left__container {
   display: grid;
   align-items: center;
   position: relative;
@@ -223,57 +225,63 @@ p.bbcode-input__tabs {
   text-shadow: 1px 2px 0px #0b0a0a;
 }
 
-    .top-nav__ratio-bar.top-nav__ratio-bar {
-      display: grid;
-      gap: 1px 12px;
-      grid-template-rows: repeat(2,auto);
-      grid-template-columns: repeat(4,auto);
-      grid-auto-flow: column;
-      font-size: 13px;
-      list-style-type: none;
-      color: var(--top-nav-ratio-bar-fg);
-      align-content: center;
-      justify-content: center;
-      padding: 0;
-      margin: 0;
-      font-weight: 400;
-      background: #0f1019;
-      border-radius: 5px;
-      border-left: solid 1px rgb(19, 20, 29);
-      border-right: solid 1px rgb(19, 20, 29);
-      border-top: solid 1px rgb(19, 20, 29);
-      border-bottom: solid 1px rgb(19, 20, 30);
-      box-shadow: rgba(0, 0, 0, 0.64) 0px 3px 10px;
+.top-nav__ratio-bar.top-nav__ratio-bar {
+  display: grid;
+  gap: 1px 12px;
+  grid-template-rows: repeat(2, auto);
+  grid-template-columns: repeat(4, auto);
+  grid-auto-flow: column;
+  font-size: 13px;
+  list-style-type: none;
+  color: var(--top-nav-ratio-bar-fg);
+  align-content: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+  background: #0f1019;
+  border-radius: 5px;
+  border-left: solid 1px rgb(19, 20, 29);
+  border-right: solid 1px rgb(19, 20, 29);
+  border-top: solid 1px rgb(19, 20, 29);
+  border-bottom: solid 1px rgb(19, 20, 30);
+  box-shadow: rgba(0, 0, 0, 0.64) 0px 3px 10px;
 
-    }
-    .form__button--outlined {
-      background: var(--button-outlined-bg);
-      color: var(--button-outlined-fg);
-      border: var(--button-outlined-border);
-      border-radius: var(--button-outlined-border-radius);
-      background: #272c36b5;
-      font-weight: 400;
-    }
+}
 
-    .fa::before, .fab::before, .fad::before, .fal::before, .far::before, .fas::before {
-      -moz-osx-font-smoothing: grayscale;
-      -webkit-font-smoothing: antialiased;
-      text-rendering: auto;
-      display: inline-block;
-      font-style: normal;
-      font-variant: normal;
-    }
+.form__button--outlined {
+  background: var(--button-outlined-bg);
+  color: var(--button-outlined-fg);
+  border: var(--button-outlined-border);
+  border-radius: var(--button-outlined-border-radius);
+  background: #272c36b5;
+  font-weight: 400;
+}
 
-    .subforum-listing__latest-heading {
-      font-size: 14px;
-      white-space: nowrap;
-      background: #ffffff17;
-      border-radius: 5px;
-      max-width: max-content;
-      
-    }
+.fa::before,
+.fab::before,
+.fad::before,
+.fal::before,
+.far::before,
+.fas::before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: auto;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+}
 
- .post__aside {
+.subforum-listing__latest-heading {
+  font-size: 14px;
+  white-space: nowrap;
+  background: #ffffff17;
+  border-radius: 5px;
+  max-width: max-content;
+
+}
+
+.post__aside {
   grid-area: aside;
   padding: 9px;
   display: flex;
@@ -283,61 +291,63 @@ p.bbcode-input__tabs {
   color: var(--post-aside-fg);
 }
 
-    .top-nav__dropdown > ul > li > a, .top-nav__dropdown > ul > li > form > button {
-      color: var(--top-nav-dropdown-menu-item-fg);
-      font-size: 15px;
-      text-decoration: none;
-      padding: 6px 90px 6px 6px;
-      white-space: nowrap;
-      height: 100%;
-      display: grid;
-      grid-template-columns: 30px auto;
-      column-gap: 10px;
-      align-items: center;
-      line-height: 15px;
-      background: var(--top-nav-dropdown-menu-item-bg);
-      outline: none;
-      width: 100%;
-      border: none;
-      text-align: left;
-      border-radius: 5px;
-      position: relative;
-      cursor: pointer;
-      
-    }
+.top-nav__dropdown>ul>li>a,
+.top-nav__dropdown>ul>li>form>button {
+  color: var(--top-nav-dropdown-menu-item-fg);
+  font-size: 15px;
+  text-decoration: none;
+  padding: 6px 90px 6px 6px;
+  white-space: nowrap;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 30px auto;
+  column-gap: 10px;
+  align-items: center;
+  line-height: 15px;
+  background: var(--top-nav-dropdown-menu-item-bg);
+  outline: none;
+  width: 100%;
+  border: none;
+  text-align: left;
+  border-radius: 5px;
+  position: relative;
+  cursor: pointer;
 
-    .post__author-topics dt, .post__author-posts dt {
-      font-weight: 500;
-    }
+}
 
-    .text-green {
-      color: #3fb618;
-      font-size: 15px;
-    }
+.post__author-topics dt,
+.post__author-posts dt {
+  font-weight: 500;
+}
 
-    .text-red {
-      color: #ff0039;
-      font-size: 15px;
-    }
+.text-green {
+  color: #3fb618;
+  font-size: 15px;
+}
 
-    .text-orange {
-      color: #ff7518;
-      font-size: 15px;
-    }
+.text-red {
+  color: #ff0039;
+  font-size: 15px;
+}
 
-    th.similar-torrents__type {
-      background-color: initial;
-      font-size: 13px;
-      font-weight: 400;
-      padding: 0px 1px;
-      min-height: 36px;
-      vertical-align: middle;
-      grid-area: type;
-      white-space: nowrap;
-      background: #ffffff17;
-    }
+.text-orange {
+  color: #ff7518;
+  font-size: 15px;
+}
 
-  .post__datetime {
+th.similar-torrents__type {
+  background-color: initial;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 0px 1px;
+  min-height: 36px;
+  vertical-align: middle;
+  grid-area: type;
+  white-space: nowrap;
+  background: #ffffff17;
+}
+
+.post__datetime {
   grid-area: datetime;
   border-radius: 5px;
   color: white;
@@ -345,7 +355,8 @@ p.bbcode-input__tabs {
   word-spacing: -1px;
 }
 
-.torrent-card__header, .torrent-card__footer {
+.torrent-card__header,
+.torrent-card__footer {
   display: flex;
   justify-content: space-between;
   padding: 10px;
@@ -356,91 +367,93 @@ p.bbcode-input__tabs {
   overflow: hidden;
   white-space: nowrap;
 }
-    .footer__copyright {
-      grid-area: copyright;
-      margin: 0;
-      font-size: 12px;
-      text-align: right;
-     
-    }
 
-    .footer__stats {
-      grid-area: stats;
-      font-size: 12px;
-      margin: 0;
-      text-align: right;
-    
-    }
+.footer__copyright {
+  grid-area: copyright;
+  margin: 0;
+  font-size: 12px;
+  text-align: right;
 
-    .pagination {
-      margin: 0;
-      display: flex;
-      justify-content: center;
-      max-width: 100vw;
-      background-color: var(--paginate-bg);
-    }
+}
 
-    .similar-torrents__torrents {
-      border-collapse: collapse;
-      background: var(--nord1)b2 !important;
-    }
+.footer__stats {
+  grid-area: stats;
+  font-size: 12px;
+  margin: 0;
+  text-align: right;
 
-    .meta {
-      display: grid;
-      grid-template-areas:
-    "poster title       actions    " 
-    "poster ids         ids        " 
-    "poster description description" 
+}
+
+.pagination {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  max-width: 100vw;
+  background-color: var(--paginate-bg);
+}
+
+.similar-torrents__torrents {
+  border-collapse: collapse;
+  background: var(--nord1)b2 !important;
+}
+
+.meta {
+  display: grid;
+  grid-template-areas:
+    "poster title       actions    "
+    "poster ids         ids        "
+    "poster description description"
     "poster chips       chips      ";
-      grid-template-columns: auto 1fr auto;
-      grid-template-rows: auto auto auto minmax(0,1fr);
-      gap: 16px 32px;
-      padding: 16px;
-      max-height: 510px;
-      background: #2a303b5e;
-      border-radius: 10px;
-    }
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: auto auto auto minmax(0, 1fr);
+  gap: 16px 32px;
+  padding: 16px;
+  max-height: 510px;
+  background: #2a303b5e;
+  border-radius: 10px;
+}
 
-    .torrent__activity-link{
-      background: var(--nord1)5e;
-      border-radius: 10px;
-   }
+.torrent__activity-link {
+  background: var(--nord1)5e;
+  border-radius: 10px;
+}
 
-   .top-nav__right {
-    grid-area: right;
-    display: flex;
-    column-gap: 20px;
-    justify-content: end;
-  }
+.top-nav__right {
+  grid-area: right;
+  display: flex;
+  column-gap: 20px;
+  justify-content: end;
+}
 
-  .topic-listing__latest-post-link{
-    font-size: 13px;
-  }
+.topic-listing__latest-post-link {
+  font-size: 13px;
+}
 
-  .topic-listing {
-    color: var(--panel-fg);
-  }
+.topic-listing {
+  color: var(--panel-fg);
+}
 
-  .breadcrumb--active {
-    color: var(--breadcrumb-active-fg);
-  }
+.breadcrumb--active {
+  color: var(--breadcrumb-active-fg);
+}
 
-  .panel__actions {
-    background-color: #2a303b00;
-    color: #d8dee9;
-    text-transform: revert-layer !important;
-    font-size: 12px;
-    font-weight: 700;
-    border-radius: 13px 13px 0 0;
-  }
-  .torrent-search__component {
-    display: flex;
-    flex-direction: column;
-    row-gap: 1rem;
-  }
+.panel__actions {
+  background-color: #2a303b00;
+  color: #d8dee9;
+  text-transform: revert-layer !important;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 13px 13px 0 0;
+}
 
-.torrent-search--grouped__dropdown > summary::before {
-  font-family: "Font Awesome 5 Pro",sans-serif;
+.torrent-search__component {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.torrent-search--grouped__dropdown>summary::before {
+  font-family: "Font Awesome 5 Pro", sans-serif;
   color: var(--torrent-group-text);
   font-size: 16px;
   display: inline-block;
@@ -452,7 +465,7 @@ p.bbcode-input__tabs {
   background-color: #4281da;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  background-image: linear-gradient(90deg,#3654d8 4%,#349ce6 19%,#56d0e2 39%,#62e080 60%,#d195cb 80%,#e646dd);
+  background-image: linear-gradient(90deg, #3654d8 4%, #349ce6 19%, #56d0e2 39%, #62e080 60%, #d195cb 80%, #e646dd);
   font-weight: 600;
   font-size: 2.1rem;
   text-transform: uppercase;
@@ -463,7 +476,7 @@ p.bbcode-input__tabs {
 
 .secondary-nav {
   grid-template-columns: 1fr auto 1fr;
-  background: radial-gradient(circle at top right,#3b4252,#252a34) !important;
+  background: radial-gradient(circle at top right, #3b4252, #252a34) !important;
   margin: 0;
   padding: 0 18px;
   column-gap: 18px;
@@ -483,7 +496,7 @@ p.bbcode-input__tabs {
   height: 31px;
   line-height: 27px;
   width: 30px;
-  box-shadow: 0 8px 10px 1px #00000024,0 3px 14px 2px #0000001f,0 5px 5px -3px #0003;
+  box-shadow: 0 8px 10px 1px #00000024, 0 3px 14px 2px #0000001f, 0 5px 5px -3px #0003;
   font-size: 12px;
   text-align: center;
 }
@@ -505,7 +518,8 @@ p.bbcode-input__tabs {
   border-radius: 10px;
 }
 
-.topic-listing__post-stats dt, .topic-listing__view-stats dt {
+.topic-listing__post-stats dt,
+.topic-listing__view-stats dt {
   font-weight: 400;
   font-size: 12px;
 }
@@ -560,28 +574,30 @@ p.bbcode-input__tabs {
 }
 
 .topic-listing--unread .topic-listing__heading a::before {
-font-family: "Font Awesome 5 Pro";
+  font-family: "Font Awesome 5 Pro";
   content: " \f192";
   font-weight: 600;
   margin-left: 0px;
   font-size: 10px;
-  color: #aed46f ;
+  color: #aed46f;
   vertical-align: 1px;
 }
 
 .post__author-join {
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
   font-size: 13px;
   margin-bottom: 0;
-  background: radial-gradient(circle at top right,#2e3440,#434c5e) !important;
+  background: radial-gradient(circle at top right, #2e3440, #434c5e) !important;
 }
-.post__author-posts{
-  border-radius: 0 0  10px  10px;
+
+.post__author-posts {
+  border-radius: 0 0 10px 10px;
   background: #2c323d;
 
 }
-.post__author-topics{
+
+.post__author-topics {
   background: #333a47;
 
 }
@@ -597,7 +613,7 @@ font-family: "Font Awesome 5 Pro";
   font-size: 18px;
   border-radius: 5px;
   max-width: max-content;
-  background: radial-gradient(circle at top right,#252a346b,#3b4252) !important;
+  background: radial-gradient(circle at top right, #252a346b, #3b4252) !important;
 }
 
 .panel__action .form__button {
@@ -608,7 +624,7 @@ font-family: "Font Awesome 5 Pro";
 }
 
 .user-peers {
-  margin: 0 calc(-1*max(0px,10vw - 100px));
+  margin: 0 calc(-1*max(0px, 10vw - 100px));
   width: max-content;
   align-self: center;
 }
@@ -649,7 +665,7 @@ font-family: "Font Awesome 5 Pro";
   text-align: center;
   border-radius: 0 10px 10px 0;
   background: #2c323d;
-  font-weight:600;
+  font-weight: 600;
 }
 
 .user-stat-card {
@@ -661,8 +677,8 @@ font-family: "Font Awesome 5 Pro";
   display: grid;
   gap: 4px 16px;
   grid-template-areas:
-"avatar username" 
-"avatar stat    ";
+    "avatar username"
+    "avatar stat    ";
   grid-template-columns: auto 1fr;
   box-shadow: rgb(19, 20, 29) 0px 5px 15px;
 }
@@ -696,7 +712,7 @@ font-family: "Font Awesome 5 Pro";
   background: #13141d;
 }
 
-.page__forum--topic > article > div > section > .panel__header > .panel__heading {
+.page__forum--topic>article>div>section>.panel__header>.panel__heading {
   font-size: 16px;
   text-transform: initial;
   background: #343a48b0;
@@ -755,7 +771,7 @@ font-family: "Font Awesome 5 Pro";
   outline: none;
   padding: var(--textarea-padding);
   width: 100%;
-  }
+}
 
 .nav-tab-menu__items {
   margin-left: 4px;
@@ -780,17 +796,17 @@ font-family: "Font Awesome 5 Pro";
 }
 
 progress {
-  vertical-align:baseline;
+  vertical-align: baseline;
   border-radius: 9px;
 }
 
-.panelV2.achievements__unlocked{
+.panelV2.achievements__unlocked {
   background: #5daa0017;
   color: var(--accent-gold);
   border-radius: 10px
 }
 
-.panelV2.achievements__pending{
+.panelV2.achievements__pending {
   background: #fb00000f;
   color: var(--accent-gold);
   border-radius: 10px
@@ -816,12 +832,12 @@ progress {
   align-items: baseline;
   font-size: 14px;
   justify-content: center;
-  background: radial-gradient(circle at top right,#3b42526e,#2c31319e,#3b425273);
+  background: radial-gradient(circle at top right, #3b42526e, #2c31319e, #3b425273);
   border-radius: 10px;
 }
 
 .torrent__category a::before {
- font-family: "Font Awesome 5 Pro";
+  font-family: "Font Awesome 5 Pro";
   content: " \23";
   font-weight: 600;
   margin-left: 0px;
@@ -830,14 +846,14 @@ progress {
   vertical-align: middle;
 }
 
- .torrent__tags > li > time {
+.torrent__tags>li>time {
   color: var(--torrent-tag-fg);
   padding: 6px 12px;
   display: inline-block;
   font-weight: 400;
 }
 
-.torrent__tags > li > time::before {
+.torrent__tags>li>time::before {
   font-family: "Font Awesome 5 Pro";
   content: " \f017";
   font-weight: 500;
@@ -852,7 +868,7 @@ progress {
   grid-area: header;
   display: grid;
   grid-template-areas:
-"datetime topic . tip-stats toolbar";
+    "datetime topic . tip-stats toolbar";
   grid-template-columns: auto auto 1fr auto auto;
   align-items: center;
   gap: 9px;
@@ -879,7 +895,7 @@ progress {
 }
 
 .post__tip-button::after {
-font-family: "Font Awesome 5 Pro";
+  font-family: "Font Awesome 5 Pro";
   content: " \f1d8";
   font-weight: 500;
   margin-left: 0px;
@@ -889,7 +905,7 @@ font-family: "Font Awesome 5 Pro";
   vertical-align: 1px;
 }
 
- .post__tip-button {
+.post__tip-button {
   display: inline;
   place-items: center;
   height: 100%;
@@ -925,7 +941,7 @@ font-family: "Font Awesome 5 Pro";
   font-weight: 900;
   color: #90e0ac;
   text-decoration: underline;
- }
+}
 
 .donation-package__description {
   font-size: 14px;
@@ -1017,7 +1033,7 @@ font-family: "Font Awesome 5 Pro";
   border-left: 1px solid var(--footer-hr-fg);
   border-radius: 5px;
   background: var(--bg-dark)4a;
-  background: radial-gradient(circle at top right,#23d1a508,#2328334f) !important;
+  background: radial-gradient(circle at top right, #23d1a508, #2328334f) !important;
   border-bottom: thin solid #324041a1;
   border-right: thin solid #324041a1;
   border-left: thin solid #324041a1;
@@ -1045,73 +1061,73 @@ font-family: "Font Awesome 5 Pro";
 }
 
 .bbcode-input__tab-label[for="content-bbcode-preview-disabled"] {
-    font-size: 0 !important; 
-    display: inline-block;
-    cursor: pointer;
-    padding: 10px 20px;
-    transition: all 0.2s ease;
+  font-size: 0 !important;
+  display: inline-block;
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: all 0.2s ease;
 }
 
 .bbcode-input__tab-label[for="content-bbcode-preview-disabled"]::before {
-    content: "\e472"; 
-    font-family: "Font Awesome 5 Pro", "Font Awesome 6 Free";
-    font-weight: 900;
-    font-size: 16px;
-    color: #d6dce7;
-    visibility: visible;
-    display: inline-block;
+  content: "\e472";
+  font-family: "Font Awesome 5 Pro", "Font Awesome 6 Free";
+  font-weight: 900;
+  font-size: 16px;
+  color: #d6dce7;
+  visibility: visible;
+  display: inline-block;
 }
 
 .bbcode-input__tab-label[for="content-bbcode-preview-disabled"]:hover::before {
-    color: #007bff;
-    transform: scale(1.1);
+  color: #007bff;
+  transform: scale(1.1);
 }
 
 .bbcode-input__tab-label[for="content-bbcode-preview-enabled"] {
-    font-size: 0 !important; 
-    display: inline-block;
-    cursor: pointer;
-    padding: 10px 20px;
+  font-size: 0 !important;
+  display: inline-block;
+  cursor: pointer;
+  padding: 10px 20px;
 }
 
 .bbcode-input__tab-label[for="content-bbcode-preview-enabled"]::before {
-    content: "\f06e";
-    font-family: "Font Awesome 5 Pro", "Font Awesome 6 Free";
-    font-weight: 900;
-    font-size: 16px;
-    color: #d6dce7;
-    visibility: visible;
-    display: inline-block;
+  content: "\f06e";
+  font-family: "Font Awesome 5 Pro", "Font Awesome 6 Free";
+  font-weight: 900;
+  font-size: 16px;
+  color: #d6dce7;
+  visibility: visible;
+  display: inline-block;
 }
 
 .bbcode-input__tab-label[for="content-bbcode-preview-enabled"]:hover::before {
-    color: #007bff;
-    transform: scale(1.1);
+  color: #007bff;
+  transform: scale(1.1);
 }
 
 .form__button.form__button--text[x-on\:click="toggleButtonVisibility"] {
-    font-size: 0 !important;
-    cursor: pointer;
-    border: none;
-    background: transparent;
-    padding: 10px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+  font-size: 0 !important;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  padding: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .form__button.form__button--text[x-on\:click="toggleButtonVisibility"]::before {
-    content: "\f121";
-    font-family: "Font Awesome 5 Pro", "Font Awesome 6 Free";
-    font-weight: 900;
-    font-size: 16px;
-    color: #d6dce7;
-    visibility: visible;
+  content: "\f121";
+  font-family: "Font Awesome 5 Pro", "Font Awesome 6 Free";
+  font-weight: 900;
+  font-size: 16px;
+  color: #d6dce7;
+  visibility: visible;
 }
 
 .form__button.form__button--text[x-on\:click="toggleButtonVisibility"]:hover::before {
-    color: #007bff;
-    transform: scale(1.1);
+  color: #007bff;
+  transform: scale(1.1);
 }
 
 .bbcode-rendered.bbcode-rendered .bbcode-rendered__note::before {
@@ -1119,7 +1135,7 @@ font-family: "Font Awesome 5 Pro";
   color: var(--bbcode-rendered-attention-subtle);
   display: inline-block;
   padding-right: 0.4ch;
-  
+
 }
 
 .bbcode-rendered.bbcode-rendered .bbcode-rendered__alert::before {
@@ -1147,21 +1163,21 @@ font-family: "Font Awesome 5 Pro";
 
 
 .chatbox-message__time::before {
-font-family: "Font Awesome 5 Pro";
+  font-family: "Font Awesome 5 Pro";
   content: " \f017";
   font-weight: 900;
   margin-left: 0px;
   font-size: 9px;
   color: #a4d8fd;
-margin-right: 2px;
-vertical-align: 1px;
+  margin-right: 2px;
+  vertical-align: 1px;
 }
 
 .chatbox-message {
   display: grid;
   grid-template-areas:
-"aside header  .       menu   " 
-"aside content content content";
+    "aside header  .       menu   "
+    "aside content content content";
   grid-template-columns: 0 auto 1fr auto;
   border-radius: 10px 10px 10px 10px;
   background-color: #151822;
@@ -1187,7 +1203,7 @@ vertical-align: 1px;
   width: 100%;
   border-radius: 3px;
   box-shadow: rgba(0, 0, 0, 0.64) 0px 5px 15px;
- 
+
 }
 
 .chatroom__whispers {
@@ -1202,7 +1218,7 @@ vertical-align: 1px;
 }
 
 .chatroom__whispers:before {
- font-family: "Font Awesome 5 Pro";
+  font-family: "Font Awesome 5 Pro";
   content: " \f11c";
   font-weight: 500;
   margin-left: 0px;
@@ -1213,7 +1229,7 @@ vertical-align: 1px;
 }
 
 .post__datetime::before {
-font-family: "Font Awesome 5 Pro";
+  font-family: "Font Awesome 5 Pro";
   content: " \f017";
   font-weight: 900;
   margin-left: 0px;
@@ -1230,8 +1246,8 @@ font-family: "Font Awesome 5 Pro";
   background: none !important;
 }
 
-.fa-sharp.fas.fa-bell{
- color:goldenrod;
+.fa-sharp.fas.fa-bell {
+  color: goldenrod;
 }
 
 .torrent-search--list__resolution {
@@ -1333,7 +1349,7 @@ font-family: "Font Awesome 5 Pro";
 }
 
 .topic-listing__latest-post-link::before {
- font-family: "Font Awesome 5 Pro";
+  font-family: "Font Awesome 5 Pro";
   content: " \f017";
   font-weight: 500;
   margin-left: 0px;
@@ -1356,7 +1372,7 @@ font-family: "Font Awesome 5 Pro";
   border-bottom: none !important;
 }
 
-.torrent-search--grouped__dropdown > summary {
+.torrent-search--grouped__dropdown>summary {
   cursor: pointer;
   list-style: none;
   font-size: 15px;
@@ -1397,14 +1413,14 @@ font-family: "Font Awesome 5 Pro";
   color: #42affe;
 }
 
-  .fa-download::before {
+.fa-download::before {
   content: "";
   color: #8ab941;
 }
 
 .fa-rotate:before,
 .fa-sync-alt:before {
-  content:""
+  content: ""
 }
 
 .notification--unread {
@@ -1416,19 +1432,18 @@ font-family: "Font Awesome 5 Pro";
   border: thin #2c323d !important;
 }
 
-.fa-sharp.fas.fa-coins{
+.fa-sharp.fas.fa-coins {
   color: #ffc00a;
 }
 
-.panelV2 > :nth-child(2) {
+.panelV2> :nth-child(2) {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   overflow: hidden;
   max-width: 98vw !important;
 }
 
-.torrent-search--list__ratings-header.torrent-search--list__ratings-header
-{
+.torrent-search--list__ratings-header.torrent-search--list__ratings-header {
   text-align: left;
   min-width: 70px;
   color: #d8dee9;
@@ -1443,7 +1458,7 @@ font-family: "Font Awesome 5 Pro";
   font-size: 15px;
 }
 
-.data-table > thead > tr > th {
+.data-table>thead>tr>th {
   background-color: #343a48;
   border-bottom: var(--data-table-thead-border);
   text-align: left;
@@ -1452,7 +1467,7 @@ font-family: "Font Awesome 5 Pro";
   font-weight: 700;
 }
 
-.panelV2 > :not(:has(~ :not([style*="display: none"]))) {
+.panelV2> :not(:has(~ :not([style*="display: none"]))) {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   overflow: hidden;
@@ -1463,7 +1478,8 @@ font-family: "Font Awesome 5 Pro";
   color: #42a2fb;
 }
 
-.subforum-listing__topic-stats, .subforum-listing__post-stats {
+.subforum-listing__topic-stats,
+.subforum-listing__post-stats {
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -1473,8 +1489,8 @@ font-family: "Font Awesome 5 Pro";
   border-radius: 5px;
 }
 
-.subforum-listing__latest-post-link{
-  background: radial-gradient(circle at top right,#23d1a508,#157d631c) !important;
+.subforum-listing__latest-post-link {
+  background: radial-gradient(circle at top right, #23d1a508, #157d631c) !important;
   border-bottom: thin solid #324041a1;
   border-right: thin solid #324041a1;
   border-left: thin solid #324041a1;
@@ -1483,13 +1499,13 @@ font-family: "Font Awesome 5 Pro";
 
 
 
-#chatbox_header{
-  margin-top:-1px !important;
+#chatbox_header {
+  margin-top: -1px !important;
 
 }
 
 .panel__tab--active::before {
-font-family: "Font Awesome 5 Pro";
+  font-family: "Font Awesome 5 Pro";
   content: " \23";
   font-weight: 600;
   margin-left: 0px;
@@ -1539,7 +1555,7 @@ font-family: "Font Awesome 5 Pro";
   padding: 0 10px;
 }
 
-.special-event-alert > .alert__content {
+.special-event-alert>.alert__content {
   display: flex;
   justify-content: space-around;
 }
@@ -1560,7 +1576,8 @@ font-family: "Font Awesome 5 Pro";
   padding: 3px;
 }
 
-.topic-listing__post-stats, .topic-listing__view-stats {
+.topic-listing__post-stats,
+.topic-listing__view-stats {
   margin: -4px;
   display: flex;
   flex-direction: column;
@@ -1607,7 +1624,8 @@ font-family: "Font Awesome 5 Pro";
   background-color: var(--nord1) !important;
 }
 
-.user-tag, .user-tag__link {
+.user-tag,
+.user-tag__link {
   display: inline-flex;
   white-space: nowrap;
   align-items: baseline;
@@ -1619,7 +1637,7 @@ font-family: "Font Awesome 5 Pro";
   color: #2c93e6;
 }
 
-.data-table tr:nth-child(2n) > td {
+.data-table tr:nth-child(2n)>td {
   background-color: #2c323d6e;
 }
 
@@ -1667,9 +1685,9 @@ font-family: "Font Awesome 5 Pro";
   margin-right: 7px;
 }
 
-dl.post__author-join{
+dl.post__author-join {
   color: white;
-  background: #13141d6b  !important;
+  background: #13141d6b !important;
   border-radius: 8px 8px 0 0;
 }
 
@@ -1761,7 +1779,8 @@ i.fas.fa-minus-circle.fa-pull-right {
   border-radius: 10px !important;
 }
 
-.post__author-topics dd, .post__author-posts dd {
+.post__author-topics dd,
+.post__author-posts dd {
   margin: 0;
   padding: 0 3px;
   font-family: Verdana;
@@ -1769,19 +1788,21 @@ i.fas.fa-minus-circle.fa-pull-right {
   color: #d8dee9;
 }
 
-.post__author-join dt, .post__author-topics dt, .post__author-posts dt {
+.post__author-join dt,
+.post__author-topics dt,
+.post__author-posts dt {
   font-weight: 400;
   padding: 0 3px;
 }
 
-.fa-trophy-alt::before, .fa-trophy-star::before {
+.fa-trophy-alt::before,
+.fa-trophy-star::before {
   content: "";
   color: #fdb012;
 }
 
 .footer__section-list {
-  list-style: none; /
-  padding-left: 0;
+  list-style: none;/ padding-left: 0;
 }
 
 .footer__section-list li {
@@ -1789,20 +1810,20 @@ i.fas.fa-minus-circle.fa-pull-right {
   font-weight: 600;
   color: #d6dce7;
   position: relative;
-  padding-left: 15px; 
+  padding-left: 15px;
   margin-bottom: 0px;
 }
 
 .footer__section-list li::before {
-  content: "\f111"; 
+  content: "\f111";
   font-family: "Font Awesome 5 Pro";
   font-weight: 500;
   font-size: 11px;
-  color:#58cff9;
+  color: #58cff9;
   position: absolute;
   left: 0;
   top: 50%;
-  transform: translateY(-50%); 
+  transform: translateY(-50%);
   margin-right: 9px;
 }
 
@@ -1832,7 +1853,8 @@ i.fas.fa-minus-circle.fa-pull-right {
   background: #2c323d80;
 }
 
-.work__tags > li > a, .work__tags > li > span {
+.work__tags>li>a,
+.work__tags>li>span {
   color: var(--torrent-tag-fg);
   padding: 1px 5px;
   display: inline-flex;
@@ -1865,21 +1887,23 @@ i.fas.fa-minus-circle.fa-pull-right {
 }
 
 @media only screen and (max-width: 767px) {
- .torrent-search--list__row {
-border-bottom: 2px solid #2c323d;
- }
+  .torrent-search--list__row {
+    border-bottom: 2px solid #2c323d;
+  }
 }
 
 @media only screen and (max-width: 767px) {
-.fa-duotone.fa-comments::after, .fad.fa-comments::after {
- content: "";
+
+  .fa-duotone.fa-comments::after,
+  .fad.fa-comments::after {
+    content: "";
   }
- }
+}
 
 @media only screen and (max-width: 767px) {
-.fa-comments::before {
-  content: "";
- }
+  .fa-comments::before {
+    content: "";
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -1897,19 +1921,19 @@ border-bottom: 2px solid #2c323d;
 }
 
 @media screen and (max-width: 576px) {
-  .data-table > tbody > tr > td {
-  padding: 0px;
-  font-size: 14px;
-  color: white;
+  .data-table>tbody>tr>td {
+    padding: 0px;
+    font-size: 14px;
+    color: white;
+  }
 }
- }
 
 @media screen and (max-width: 576px) {
- .topic-listing__forum {
-  font-size: 10px;
-  text-align: center;
-  margin-left: 27px;
-}
+  .topic-listing__forum {
+    font-size: 10px;
+    text-align: center;
+    margin-left: 27px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -1928,7 +1952,9 @@ border-bottom: 2px solid #2c323d;
 }
 
 @media only screen and (max-width: 767px) {
-  .footer__stats, .footer__copyright {
+
+  .footer__stats,
+  .footer__copyright {
     text-align: center !important;
     display: block !important;
   }
@@ -1946,28 +1972,28 @@ border-bottom: 2px solid #2c323d;
 }
 
 @media only screen and (max-width: 767px) {
-.nav-tab--active__link::before {
-  content: "";
- }
+  .nav-tab--active__link::before {
+    content: "";
+  }
 }
 
 
 @media only screen and (max-width: 767px) {
-.footer__icons {
-  font-size: 13px;
-  grid-area: libraries;
-  margin: 0;
-  display: flex;
-  align-items: center;
-  gap: 0px;
- }
+  .footer__icons {
+    font-size: 13px;
+    grid-area: libraries;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 0px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
-  .torrent__tags li:not(:last-child)::after  {
+  .torrent__tags li:not(:last-child)::after {
     content: "" !important;
-   display: inline-block !important;
-   margin-left: -.5ch !important;
+    display: inline-block !important;
+    margin-left: -.5ch !important;
   }
 }
 
@@ -1997,7 +2023,9 @@ border-bottom: 2px solid #2c323d;
 }
 
 @media only screen and (max-width: 767px) {
-  .subforum-listing__topic-stats, .subforum-listing__post-stats {
+
+  .subforum-listing__topic-stats,
+  .subforum-listing__post-stats {
     flex-direction: row !important;
     max-width: max-content !important;
     padding: 0px 1px;
@@ -2005,66 +2033,68 @@ border-bottom: 2px solid #2c323d;
 }
 
 @media only screen and (max-width: 767px) {
-.post__topic {
-  grid-area: topic !important;
-  margin-top: -2px !important;
-  color: #fff;
-  text-transform: lowercase;
-  font-size: 12px;
-  margin-left: 1px !important;
+  .post__topic {
+    grid-area: topic !important;
+    margin-top: -2px !important;
+    color: #fff;
+    text-transform: lowercase;
+    font-size: 12px;
+    margin-left: 1px !important;
   }
- }
-
-@media only screen and (max-width: 767px) {
-.user-tag, .user-tag__link {
-  font-family: inherit;
-  display: inline-block;
-  white-space: nowrap;
-   }
 }
 
 @media only screen and (max-width: 767px) {
-.chatbox-message__content img {
-  max-width: 300px;
- }
+
+  .user-tag,
+  .user-tag__link {
+    font-family: inherit;
+    display: inline-block;
+    white-space: nowrap;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .chatbox-message__content img {
+    max-width: 300px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
   .form__group--short-horizontal {
-  background-color: inherit !important;
-  display: grid !important;
-  gap: 0px;
-  grid-template-columns: repeat(auto-fit,minmax(120px,1fr));
-  align-items: center;
-  } 
+    background-color: inherit !important;
+    display: grid !important;
+    gap: 0px;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    align-items: center;
+  }
 }
 
 @media only screen and (max-width: 767px) {
-.form__button--outlined {
-  color: var(--button-outlined-fg);
-  border: var(--button-outlined-border);
-  background: #5d616a7d;
-  font-weight: 400;
-  font-size: 12px;
- }
+  .form__button--outlined {
+    color: var(--button-outlined-fg);
+    border: var(--button-outlined-border);
+    background: #5d616a7d;
+    font-weight: 400;
+    font-size: 12px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
-.form__button {
-  line-height: 1;
-  margin: 3px;
-  padding: 5px 10px;
-  align-self: flex-start;
-  filter: brightness(1);
-  text-align: center;
-  transition: filter .3s;
-  cursor: pointer;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.1ch;
-  -webkit-user-select: none;
-  user-select: none;
- }
+  .form__button {
+    line-height: 1;
+    margin: 3px;
+    padding: 5px 10px;
+    align-self: flex-start;
+    filter: brightness(1);
+    text-align: center;
+    transition: filter .3s;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.1ch;
+    -webkit-user-select: none;
+    user-select: none;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -2076,7 +2106,7 @@ border-bottom: 2px solid #2c323d;
 @media only screen and (max-width: 767px) {
   .torrent__name {
     color: #fff;
-    background: radial-gradient(circle at top right,#3b4252,#166d6b9e,#3b4252);
+    background: radial-gradient(circle at top right, #3b4252, #166d6b9e, #3b4252);
     border-radius: 10px;
     font-family: Arial;
     border: 2px solid #3b4252;
@@ -2111,11 +2141,11 @@ border-bottom: 2px solid #2c323d;
 }
 
 @media only screen and (max-width: 767px) {
-td.torrent-search--grouped__age time {
-  color: inherit;
-  background: #2c323d;
-  padding: 1px 1px;
-  margin-right: 64px;
+  td.torrent-search--grouped__age time {
+    color: inherit;
+    background: #2c323d;
+    padding: 1px 1px;
+    margin-right: 64px;
   }
 }
 
@@ -2128,14 +2158,14 @@ td.torrent-search--grouped__age time {
 }
 
 @media only screen and (max-width: 767px) {
-.torrent-icons {
-  letter-spacing: 1px;
-  align-items: center;
-  max-width: max-content;
-  border-radius: 3px;
-  background: #27313278;
-  margin: auto;
- }
+  .torrent-icons {
+    letter-spacing: 1px;
+    align-items: center;
+    max-width: max-content;
+    border-radius: 3px;
+    background: #27313278;
+    margin: auto;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -2153,50 +2183,50 @@ td.torrent-search--grouped__age time {
 }
 
 @media only screen and (max-width: 767px) {
-.img-responsive{
-  max-height: 120px !important;
- }
+  .img-responsive {
+    max-height: 120px !important;
+  }
 }
 
 @media only screen and (max-width: 767px) {
-.top-nav {
-  background-color: var(--top-nav-bg);
-  box-shadow: var(--top-nav-box-shadow);
-  display: grid;
-  grid-template: "left . menus . right toggle" 48px/1fr 40px auto 40px 1fr auto;
-  align-items: center;
-  padding: 0px 40px;
- }
+  .top-nav {
+    background-color: var(--top-nav-bg);
+    box-shadow: var(--top-nav-box-shadow);
+    display: grid;
+    grid-template: "left . menus . right toggle" 48px/1fr 40px auto 40px 1fr auto;
+    align-items: center;
+    padding: 0px 40px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
-.profile__avatar {
-  grid-area: avatar;
-  align-self: start;
-  border-radius: 10%;
-  width: 100px;
-  height: 100px;
-  margin: auto;
-  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
- }
+  .profile__avatar {
+    grid-area: avatar;
+    align-self: start;
+    border-radius: 10%;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  }
 }
 
 @media only screen and (max-width: 767px) {
-.top-nav__icon-bar {
-  margin: 0;
-  list-style-type: none;
-  background: #242932;
-  border-radius: 22px;
-  border: 2px solid #4c566a;
-  padding: 3px 3px;
-  display: none;
- }
+  .top-nav__icon-bar {
+    margin: 0;
+    list-style-type: none;
+    background: #242932;
+    border-radius: 22px;
+    border: 2px solid #4c566a;
+    padding: 3px 3px;
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 1100px) {
   .panel__actions {
     position: unset;
-  
+
   }
 }
 
@@ -2222,31 +2252,33 @@ td.torrent-search--grouped__age time {
 
 @media screen and (max-width: 576px) {
   .post__tip-stats::before {
-  display: none !important;
-}
+    display: none !important;
+  }
 }
 
 @media screen and (max-width: 1100px) {
   .torrent-search--list__poster-img {
-  width: 54px;
-  height: 81px;
-  border-radius: 5px;
-  margin-left: 25px !important;
-  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
-  margin-bottom: 0px !important;
-  margin-top: 3px !important;
- }
+    width: 54px;
+    height: 81px;
+    border-radius: 5px;
+    margin-left: 25px !important;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    margin-bottom: 0px !important;
+    margin-top: 3px !important;
+  }
 }
 
-i.fas.fa-arrow-circle-up.text-success.torrent-icons{
- margin-right:1.3px !important;
+i.fas.fa-arrow-circle-up.text-success.torrent-icons {
+  margin-right: 1.3px !important;
 }
 
-.fa-heart-pulse::before, .fa-heartbeat::before {
+.fa-heart-pulse::before,
+.fa-heartbeat::before {
   content: "";
 }
 
-.fa-comment-alt-lines::before, .fa-message-lines::before {
+.fa-comment-alt-lines::before,
+.fa-message-lines::before {
   content: "";
   margin-right: 3px;
 }
@@ -2264,7 +2296,11 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   }
 }
 
-.fa-close::before, .fa-multiply::before, .fa-remove::before, .fa-times::before, .fa-xmark::before {
+.fa-close::before,
+.fa-multiply::before,
+.fa-remove::before,
+.fa-times::before,
+.fa-xmark::before {
   content: "";
   color: red;
 }
@@ -2287,34 +2323,34 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 
 @media screen and (max-width: 576px) {
   .post__author-join {
-   display: none !important;
-   
+    display: none !important;
+
   }
 }
 
 @media screen and (max-width: 576px) {
-.topic-listing__header {
-  grid-area: header;
-  padding: 0 33px;
- }
+  .topic-listing__header {
+    grid-area: header;
+    padding: 0 33px;
+  }
 }
 
 @media screen and (max-width: 576px) {
-.footer__stats {
-  grid-area: stats;
-  font-size: 10px;
-  margin-top: 2px;
- } 
+  .footer__stats {
+    grid-area: stats;
+    font-size: 10px;
+    margin-top: 2px;
+  }
 }
 
 @media screen and (max-width: 576px) {
-.footer__copyright {
-  grid-area: copyright;
-  margin: 0;
-  font-size: 9px;
-  color: #46bcfb9e;
-  font-family: Arial;
- }
+  .footer__copyright {
+    grid-area: copyright;
+    margin: 0;
+    font-size: 9px;
+    color: #46bcfb9e;
+    font-family: Arial;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -2326,37 +2362,37 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 }
 
 @media only screen and (max-width: 1100px) {
-.panel__heading {
-  color: var(--panel-head-fg);
-  display: block;
-  margin: 0;
-  font-size: 13px;
-  flex-grow: 1;
-  font-weight: 600;
- } 
+  .panel__heading {
+    color: var(--panel-head-fg);
+    display: block;
+    margin: 0;
+    font-size: 13px;
+    flex-grow: 1;
+    font-weight: 600;
+  }
 }
 
 @media only screen and (max-width: 1100px) {
-.form__button {
-  font-size: 11px;
-  line-height: 1;
-  padding: 4px 4px;
-  filter: brightness(1);
-  text-align: center;
-  transition: filter .3s;
-  cursor: pointer;
-  display: inline-flex;
-  align-items: center;
-  gap: .5ch;
-  user-select: none;
-  pointer-events: auto;
- }
+  .form__button {
+    font-size: 11px;
+    line-height: 1;
+    padding: 4px 4px;
+    filter: brightness(1);
+    text-align: center;
+    transition: filter .3s;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: .5ch;
+    user-select: none;
+    pointer-events: auto;
+  }
 }
 
 @media only screen and (max-width: 1100px) {
-.panel__action .form__button {
-  margin: auto;
- }
+  .panel__action .form__button {
+    margin: auto;
+  }
 }
 
 @media only screen and (max-width: 1100px) {
@@ -2377,8 +2413,9 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   color: var(--top-nav-toggle-fg) !important;
 }
 
-.fa-bars::before, .fa-navicon::before {
- content: "";
+.fa-bars::before,
+.fa-navicon::before {
+  content: "";
   font-size: 25px !important;
   margin-top: 4px;
   margin-left: 17px;
@@ -2402,7 +2439,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   margin-top: 10px;
 }
 
-.footer__section-title ~ p {
+.footer__section-title~p {
   color: #fff;
   background: var(--nord1)82;
   max-width: max-content;
@@ -2412,8 +2449,8 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   font-size: 14px;
 }
 
-.torrent__seeders-link.torrent__seeders-link{
-  color:var(--torrent-row-seeders-fg);
+.torrent__seeders-link.torrent__seeders-link {
+  color: var(--torrent-row-seeders-fg);
   background: #01b8011a;
   padding: 4px;
   border-radius: 10px;
@@ -2421,7 +2458,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   word-spacing: -3px;
 }
 
-.torrent__leechers-link.torrent__leechers-link{
+.torrent__leechers-link.torrent__leechers-link {
   color: var(--torrent-row-leechers-fg);
   background: #bf616a3b;
   padding: 4px;
@@ -2488,12 +2525,12 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 @media screen and (max-width: 767px) {
   .meta {
     grid-template-areas:
-"poster      title       actions    " 
-"tags        tags        tags       " 
-"ids         ids         ids        " 
-"description description description" 
-"chips       chips       chips      ";
-    grid-template-columns: 64px minmax(0,1fr) auto;
+      "poster      title       actions    "
+      "tags        tags        tags       "
+      "ids         ids         ids        "
+      "description description description"
+      "chips       chips       chips      ";
+    grid-template-columns: 64px minmax(0, 1fr) auto;
     column-gap: 12px;
     align-items: center;
   }
@@ -2503,12 +2540,12 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   .meta {
     max-height: unset;
     grid-template-areas:
-"poster      title       actions    " 
-"poster      tags        tags       " 
-"poster      ids         ids        " 
-"description description description" 
-"chips       chips       chips      ";
-    grid-template-columns: 96px minmax(0,1fr) auto;
+      "poster      title       actions    "
+      "poster      tags        tags       "
+      "poster      ids         ids        "
+      "description description description"
+      "chips       chips       chips      ";
+    grid-template-columns: 96px minmax(0, 1fr) auto;
   }
 }
 
@@ -2526,8 +2563,8 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   }
 }
 
-.torrent-search--grouped__dropdown > summary::before {
-  font-family: "Font Awesome 5 Pro",sans-serif;
+.torrent-search--grouped__dropdown>summary::before {
+  font-family: "Font Awesome 5 Pro", sans-serif;
   font-size: 13px;
   display: inline-block;
   color: springgreen;
@@ -2570,7 +2607,9 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 }
 
 @media screen and (max-width: 767px) {
-  .top-nav__left .top-nav__site-logo, .top-nav__left .top-nav__branding i {
+
+  .top-nav__left .top-nav__site-logo,
+  .top-nav__left .top-nav__branding i {
     font-size: 24px;
     font-family: initial;
     font-weight: 600 !important;
@@ -2603,7 +2642,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 }
 
 .torrent-search--list__name:visited:before {
- color: gray;
+  color: gray;
 }
 
 .torrent-search--list__name::before {
@@ -2660,7 +2699,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   padding: 1px 2px;
 }
 
-.page__topic--show > article > div > section > .panel__body {
+.page__topic--show>article>div>section>.panel__body {
   background-color: transparent;
   padding: 3px 0 0px;
 }
@@ -2689,14 +2728,15 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   background: #1c1f26;
 }
 
-.top-nav__dropdown:hover > a, .top-nav__dropdown:focus-within > a {
+.top-nav__dropdown:hover>a,
+.top-nav__dropdown:focus-within>a {
   color: var(--top-nav-dropdown-hover-fg);
   text-decoration: var(--top-nav-dropdown-hover-text-decoration);
   text-underline-offset: 3px;
   background: none !important;
 }
 
-.special-event-alert > .alert__content {
+.special-event-alert>.alert__content {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2707,8 +2747,8 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   border-radius: 8px;
 }
 
-.special-event-alert > .alert__content::before {
-  content: "✨"; 
+.special-event-alert>.alert__content::before {
+  content: "✨";
   font-size: 1.2rem;
 }
 
@@ -2736,7 +2776,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 }
 
 .panel__action.page__published::before {
-font-family: "Font Awesome 5 Pro";
+  font-family: "Font Awesome 5 Pro";
   content: " \f017";
   font-weight: 500;
   margin-left: 0px;
@@ -2775,7 +2815,8 @@ font-family: "Font Awesome 5 Pro";
   padding: 0px !important;
 }
 
-.featured-carousel__featured-until, .featured-carousel__featured-by {
+.featured-carousel__featured-until,
+.featured-carousel__featured-by {
   text-align: center;
   font-size: 11.5px;
   background: #11121b59;
@@ -2795,10 +2836,11 @@ font-family: "Font Awesome 5 Pro";
   gap: 2px;
   background: #11121b;
 }
+
 .torrent-search--list__name2 {
-  grid-area:name;
-  font-size:14px;
-  color:#3c96d7;
+  grid-area: name;
+  font-size: 14px;
+  color: #3c96d7;
   background: #12121b;
   padding: 2px 5px;
   border-radius: 5px;
@@ -2806,13 +2848,14 @@ font-family: "Font Awesome 5 Pro";
 }
 
 .torrent-search--list__name2::before {
-  content: "►"; 
+  content: "►";
   font-weight: 900;
   margin-right: 0px;
-  color: #3c96d7; 
+  color: #3c96d7;
 }
 
-.mediainfo__general, .mediainfo__video {
+.mediainfo__general,
+.mediainfo__video {
   flex-shrink: 0;
   padding: 10px;
   background: rgba(46, 52, 64, 0.25);
@@ -2861,8 +2904,15 @@ font-family: "Font Awesome 5 Pro";
 }
 
 @keyframes fadeInCapy {
-  from { opacity: 0; transform: translateY(6px); }
-  to   { opacity: 0.6; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+
+  to {
+    opacity: 0.6;
+    transform: translateY(0);
+  }
 }
 
 .bbcode-rendered.isirc::before {
@@ -2898,7 +2948,7 @@ font-family: "Font Awesome 5 Pro";
   background: none;
 }
 
-.chatroom__messages > li {
+.chatroom__messages>li {
   padding: 0 3px;
   margin: 2px 0;
   border-left: 2px solid transparent;
@@ -2951,7 +3001,7 @@ font-family: "Font Awesome 5 Pro";
   grid-area: reply;
   padding: 2px 5px;
   margin: 6px 6px;
-    margin-left: 6px;
+  margin-left: 6px;
   font-size: 12px;
   align-items: center;
   justify-content: space-between;
@@ -2962,7 +3012,9 @@ font-family: "Font Awesome 5 Pro";
   margin-left: 17px !important;
 }
 
-.fa-circle-xmark::before, .fa-times-circle::before, .fa-xmark-circle::before {
+.fa-circle-xmark::before,
+.fa-times-circle::before,
+.fa-xmark-circle::before {
   content: "";
   margin-right: 3px;
   color: #ca3838;
@@ -3052,7 +3104,7 @@ font-family: "Font Awesome 5 Pro";
   opacity: 90%;
 }
 
- .torrent-search--list__seeders {
+.torrent-search--list__seeders {
   background: #2e34409e !important;
   font-size: 14px !important;
   color: var(--nord9);
@@ -3076,12 +3128,12 @@ font-family: "Font Awesome 5 Pro";
 }
 
 .chatbox-message__source::after {
-  font-family: "Font Awesome 5 Pro"; 
-  content: " \f544";               
-  font-weight: 900;               
-  margin-left: 6px;              
-  font-size: 12px;              
-  color: #787c41;                  
+  font-family: "Font Awesome 5 Pro";
+  content: " \f544";
+  font-weight: 900;
+  margin-left: 6px;
+  font-size: 12px;
+  color: #787c41;
 }
 
 div.btn-danger {
@@ -3168,13 +3220,13 @@ li.panel__tab[x-on\:click="tab = 'newest'"] {
 }
 
 td.torrent-search--grouped__age time {
-  color:inherit;
+  color: inherit;
   background: #171b28;
   padding: 2px 3px;
   border-radius: 3px;
 }
 
-td.torrent-search--grouped__age time:before{
+td.torrent-search--grouped__age time:before {
   font-family: "Font Awesome 5 Pro";
   content: " \f017";
   font-weight: 500;
@@ -3187,7 +3239,7 @@ td.torrent-search--grouped__age time:before{
 
 .gird__container--donation {
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 72px 20px;
   background: #171b28;
   padding: 10px;
@@ -3241,7 +3293,7 @@ div.panel__body.torrent-search--poster__results {
 }
 
 .alert__statuspage-status::before {
-  content: "\f233"; 
+  content: "\f233";
   font-family: "Font Awesome 6 Pro";
   font-weight: 500;
   font-size: 14px;
@@ -3269,27 +3321,27 @@ a.form__button.filmclub__torrent_links {
   border-radius: 5px;
   display: inline-flex;
   align-items: center;
-  gap: 8px; 
-  padding: 4px 4px; 
+  gap: 8px;
+  padding: 4px 4px;
   text-decoration: none;
 }
 
 a.form__button.filmclub__torrent_links::after {
-  content: "\f8a9"; 
-  font-family: "Font Awesome 6 Pro"; 
-  font-weight: 900; 
+  content: "\f8a9";
+  font-family: "Font Awesome 6 Pro";
+  font-weight: 900;
   font-size: 0.9em;
-  color: inherit; 
+  color: inherit;
 }
 
 @media screen and (max-width: 576px) {
   .post__avatar {
-  width: 100%;
-  border-radius: 3px;
-  box-shadow: rgba(0, 0, 0, 0.64) 0px 5px 15px;
-  height: 40px;
-  width: 40px;  
- }
+    width: 100%;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.64) 0px 5px 15px;
+    height: 40px;
+    width: 40px;
+  }
 }
 
 li.panel__tab[x-on\:click*="tab = 'closed'"].panel__tab--active {
@@ -3307,7 +3359,7 @@ li.panel__tab[x-on\:click*="tab = 'open'"].panel__tab--active {
 }
 
 @media (hover: hover) {
-  .data-table__action > :not(.dialog) {
+  .data-table__action> :not(.dialog) {
     visibility: hidden;
     background: #343838;
   }
@@ -3316,6 +3368,16 @@ li.panel__tab[x-on\:click*="tab = 'open'"].panel__tab--active {
 .top-nav__ratio-bar a:hover {
   background: rgba(255, 255, 255, 0.1);
   color: #ffd369;
+}
+
+.user-profile-card__meta {
+  display: inline-flex;
+  align-items: center;
+  padding: 1px 40px;
+  backdrop-filter: blur(10px);
+  background-color: #ffffff1a;
+  font-size: 14px;
+  border: 5px solid #0e1014;
 }
 
 /*
