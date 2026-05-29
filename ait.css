@@ -3371,13 +3371,14 @@ li.panel__tab[x-on\:click*="tab = 'open'"].panel__tab--active {
 }
 
 .user-profile-card__meta {
-  display: inline-flex !important;
+  display: inline-flex;
   align-items: center;
-  padding: 1px 40px !important;
+  padding: 1px 40px;
   backdrop-filter: blur(10px);
   background-color: #ffffff1a;
   font-size: 14px;
   border: 5px solid #0e1014;
+  border-radius: 8px;
 }
 
 /*
