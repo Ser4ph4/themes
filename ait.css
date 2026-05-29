@@ -1748,7 +1748,6 @@ dl.post__author-join {
   color: #d8dee9;
   line-height: 1.5;
   gap: 1px;
-  margin-bottom: ;
 }
 
 .mediainfo__subtitles::before {
@@ -1802,7 +1801,8 @@ i.fas.fa-minus-circle.fa-pull-right {
 }
 
 .footer__section-list {
-  list-style: none;/ padding-left: 0;
+  list-style: none;
+  padding-left: 0;
 }
 
 .footer__section-list li {
