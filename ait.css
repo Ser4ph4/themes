@@ -3371,9 +3371,9 @@ li.panel__tab[x-on\:click*="tab = 'open'"].panel__tab--active {
 }
 
 .user-profile-card__meta {
-  display: inline-flex;
+  display: inline-flex !important;
   align-items: center;
-  padding: 1px 40px;
+  padding: 1px 40px !important;
   backdrop-filter: blur(10px);
   background-color: #ffffff1a;
   font-size: 14px;
