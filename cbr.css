@@ -216,6 +216,9 @@ body {
   align-items: stretch;
   background-color: #252a34;
   color: var(--post-aside-fg);
+  min-width: 0;
+  overflow: hidden;
+  word-break: break-word;
 }
 
 .top-nav__dropdown>ul>li>a,
@@ -2636,6 +2639,34 @@ td.torrent-search--grouped__age time::before {
   border-radius: 5px 5px 0 0;
   margin-left: 1px;
   margin-right: 0px;
+}
+
+.post__author-join dt {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  /* Esconde o texto original do HTML */
+  font-size: 0;
+  color: transparent;
+}
+
+.post__author-join dt::before {
+  font-family: "Font Awesome 6 Pro";
+  font-weight: 400;
+  font-size: 15px;
+  color: var(--post-aside-fg);
+  /* restaura a cor */
+  content: "\f073";
+  /* ícone */
+}
+
+.post__author-join dt::after {
+  font-size: 10px;
+  color: var(--post-aside-fg);
+  /* restaura a cor */
+  content: "Entrou:";
+  /* texto que quiser */
+  margin-right: 1px;
 }
 
 .topic-listing__view-stats dd {
