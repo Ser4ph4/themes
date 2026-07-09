@@ -53,6 +53,7 @@ body {
   list-style-type: none;
   background: #222731 !important;
   border-radius: 6px;
+  border-left: 3px solid #f9ae1c;
 }
 
 .topic-listing--read .topic-listing__heading {
