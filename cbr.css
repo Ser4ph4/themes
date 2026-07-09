@@ -3768,6 +3768,20 @@ li.panel__tab[x-on\:click="tab = 'dying'"] {
   transform: translateX(100%);
 }
 
+.fc-banner {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 1px;
+  padding: 3px 20px;
+  overflow: hidden;
+  isolation: isolate;
+  border: 2px solid rgb(125, 103, 60);
+  background: linear-gradient(115deg,#2a1c0b,#171310 45%,#241a0e);
+  border-radius: 7px;
+}
+
 /*    
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
