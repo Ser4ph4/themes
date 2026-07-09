@@ -3782,6 +3782,18 @@ li.panel__tab[x-on\:click="tab = 'dying'"] {
   border-radius: 7px;
 }
 
+.top-nav__dropdown > a {
+  padding: 6px 9px;
+  margin: 0 1px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: grid;
+  color: var(--top-nav-dropdown-fg);
+  font-size: 15px;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
 /*    
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
