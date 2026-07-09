@@ -1,6 +1,6 @@
 /*
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
-❕CBR 𝘛𝘩𝘦𝘮𝘦 : 𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 30/05/2026  
+❕CBR 𝘛𝘩𝘦𝘮𝘦 : 𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 08/07/2026  
 ▫️𝘔𝘰𝘥𝘪𝘧𝘪𝘤𝘢𝘵𝘪𝘰𝘯𝘴 : @𝙎𝙚𝙧𝙖𝙥𝙝4
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
 */
@@ -142,8 +142,8 @@ body {
   border-radius: var(--button-filled-border-radius);
 }
 
-.top-nav__dropdown>a>.top-nav--left__container {
-  display: grid;
+.top-nav__dropdown > a > .top-nav--left__container {
+  display: inline-flex;
   align-items: center;
   position: relative;
   font-size: 16.7px;
