@@ -194,7 +194,7 @@ body {
   overflow: hidden;
   cursor: default;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
-  margin: 0px 8px;
+  margin: 1px 6px;
   padding: 0px 9px;
 }
 
@@ -205,6 +205,7 @@ body {
   font-size: 13px;
   color: #0b3d2e;
   flex-shrink: 0;
+  margin: auto;
 }
 
 /* brilho que desliza suavemente sobre o badge */
@@ -213,7 +214,7 @@ body {
   position: absolute;
   top: 0;
   left: -60%;
-  width: 35%;
+  width: 55%;
   height: 100%;
   background: linear-gradient(
     120deg,
