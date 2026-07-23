@@ -194,7 +194,7 @@ body {
   overflow: hidden;
   cursor: default;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
-  margin: 1px 5px;
+  margin: 0px 8px;
   padding: 0px 9px;
 }
 
