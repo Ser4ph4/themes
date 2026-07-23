@@ -1,6 +1,6 @@
 /*
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
-❕CBR 𝘛𝘩𝘦𝘮𝘦 : 𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 08/07/2026  
+❕CBR 𝘛𝘩𝘦𝘮𝘦 : 𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 23/07/2026  
 ▫️𝘔𝘰𝘥𝘪𝘧𝘪𝘤𝘢𝘵𝘪𝘰𝘯𝘴 : @𝙎𝙚𝙧𝙖𝙥𝙝4
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
 */
@@ -175,6 +175,69 @@ body {
   background-size: auto;
   background-size: 130px;
 }
+
+.ratio-bar__2fa {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  border-radius: 6px;
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: #0b3d2e;
+  background: linear-gradient(135deg, #7ef2c0, #34d399);
+  box-shadow:
+    0 0 0 1px rgba(16, 185, 129, 0.35),
+    0 2px 8px rgba(16, 185, 129, 0.35),
+    inset 0 1px 0 rgba(255, 255, 255, 0.4);
+  position: relative;
+  overflow: hidden;
+  cursor: default;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  margin: 1px 5px;
+  padding: 0px 9px;
+}
+
+.ratio-bar__2fa::before {
+  content: "\f3ed"; /* code point do fa-shield-halved */
+  font-family: "Font Awesome 6 Pro";
+  font-weight: 900; /* obrigatório pro estilo "solid" */
+  font-size: 13px;
+  color: #0b3d2e;
+  flex-shrink: 0;
+}
+
+/* brilho que desliza suavemente sobre o badge */
+.ratio-bar__2fa::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -60%;
+  width: 35%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(255, 255, 255, 0.6),
+    transparent
+  );
+  transform: skewX(-20deg);
+  animation: ratio-bar-2fa-shine 3.5s ease-in-out infinite;
+}
+
+@keyframes ratio-bar-2fa-shine {
+  0% { left: -60%; }
+  50% { left: 130%; }
+  100% { left: 130%; }
+}
+
+.ratio-bar__2fa:hover {
+  box-shadow:
+    0 0 0 1px rgba(16, 185, 129, 0.5),
+    0 4px 14px rgba(16, 185, 129, 0.45),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
 
 .form__button--outlined {
   background: var(--button-outlined-bg);
