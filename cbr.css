@@ -179,32 +179,25 @@ body {
 .ratio-bar__2fa {
   display: inline-flex;
   align-items: center;
-  gap: 4px;
   border-radius: 6px;
   font-size: 9px;
   font-weight: 600;
-  letter-spacing: 0.02em;
   color: #0b3d2e;
-  background: linear-gradient(135deg, #7ef2c0, #34d399);
-  box-shadow:
-    0 0 0 1px rgba(16, 185, 129, 0.35),
-    0 2px 8px rgba(16, 185, 129, 0.35),
-    inset 0 1px 0 rgba(255, 255, 255, 0.4);
+  background: linear-gradient(135deg, #52665d, #1c3029);
   position: relative;
   overflow: hidden;
   cursor: default;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   margin: 1px 6px;
-  padding: 0px 9px;
+  /*! padding: 0px 9px; */
 }
 
 .ratio-bar__2fa::before {
-  content: "\f3ed"; /* code point do fa-shield-halved */
+   /* code point do fa-shield-halved */
   font-family: "Font Awesome 6 Pro";
   font-weight: 900; /* obrigatório pro estilo "solid" */
   font-size: 13px;
-  color: #0b3d2e;
-  flex-shrink: 0;
+  color: #090b0a;
   margin: auto;
 }
 
@@ -213,9 +206,6 @@ body {
   content: "";
   position: absolute;
   top: 0;
-  left: -60%;
-  width: 55%;
-  height: 100%;
   background: linear-gradient(
     120deg,
     transparent,
@@ -233,10 +223,10 @@ body {
 }
 
 .ratio-bar__2fa:hover {
-  box-shadow:
+  /*! box-shadow:
     0 0 0 1px rgba(16, 185, 129, 0.5),
     0 4px 14px rgba(16, 185, 129, 0.45),
-    inset 0 1px 0 rgba(255, 255, 255, 0.5);
+    inset 0 1px 0 rgba(255, 255, 255, 0.5); */
 }
 
 
@@ -275,7 +265,7 @@ body {
 
 .post__aside {
   grid-area: aside;
-  padding: 8px;
+  padding: 30px 20px;
   display: flex;
   flex-direction: column;
   align-items: stretch;
@@ -2127,7 +2117,7 @@ progress {
 .top-nav__ratio-bar a {
   color: var(--top-nav-ratio-bar-fg);
   text-decoration: none;
-  margin: 0 6px !important;
+  margin: 0px 5px !important;
   /* mantém espaçamento uniforme */
   padding: 2px 4px;
   border-radius: 4px;
@@ -2726,12 +2716,12 @@ td.torrent-search--grouped__age time::before {
 }
 
 .post__author-join dt::after {
-  font-size: 10px;
   color: var(--post-aside-fg);
   /* restaura a cor */
   content: "Entrou:";
   /* texto que quiser */
   margin-right: 1px;
+  content: "";
 }
 
 .topic-listing__view-stats dd {
