@@ -72,7 +72,7 @@ body {
 }
 
 .fa-reply::before {
-  content: "";
+  content: "";
 }
 
 .post__tip-input {
@@ -1933,7 +1933,7 @@ progress {
 
 .fa-clock-four::before,
 .fa-clock::before {
-  content: "";
+  content: "";
   color: white;
 }
 
@@ -1968,7 +1968,7 @@ progress {
 
 .fa-feed::before,
 .fa-rss::before {
-  content: "";
+  content: "";
   color: #f94b07;
 }
 
@@ -1991,7 +1991,7 @@ progress {
 .fa-home-lg-alt::before,
 .fa-home::before,
 .fa-house::before {
-  content: "";
+  content: "";
   margin-bottom: 6px !important;
 }
 
@@ -2005,7 +2005,7 @@ progress {
 }
 
 .fa-arrow-trend-up::before {
-  content: "";
+  content: "";
   color: #fdb012;
 }
 
@@ -2016,7 +2016,7 @@ progress {
 .fas.fa-comment-dots,
 .fa-comment-dots::before,
 .fa-commenting::before {
-  content: "" !important;
+  content: "" !important;
   color: seagreen;
 }
 
@@ -2622,7 +2622,7 @@ td.torrent-search--grouped__age time::before {
 }
 
 .fa-angle-left::before {
-  content: "";
+  content: "";
   color: #02a1dc;
   background: #343a48;
   padding: 10px 10px;
@@ -2630,7 +2630,7 @@ td.torrent-search--grouped__age time::before {
 }
 
 .fa-angle-right::before {
-  content: "";
+  content: "";
   color: #02a1dc;
   background: #343a48;
   padding: 10px 10px;
@@ -2656,11 +2656,11 @@ td.torrent-search--grouped__age time::before {
 }
 
 .fa-circle::before {
-  content: "";
+  content: "";
 }
 
 .fa-award-simple::before {
-  content: "";
+  content: "";
 }
 
 .footer__section-title~p {
@@ -2801,16 +2801,16 @@ i.fas.fa-heartbeat.torrent-icons__thanks {
 
 .fa-magic::before,
 .fa-wand-magic::before {
-  content: "";
+  content: "";
 }
 
 .fa-user-plus::before {
-  content: "";
+  content: "";
   font-size: 12px !important;
 }
 
 .fa-eye-slash::before {
-  content: "";
+  content: "";
   font-size: 12px !important;
 }
 
@@ -2820,14 +2820,14 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons {
 
 .fa-heart-pulse::before,
 .fa-heartbeat::before {
-  content: "";
+  content: "";
   margin-right: 3px;
   vertical-align: 0px;
 }
 
 .fa-comment-alt-lines::before,
 .fa-message-lines::before {
-  content: "";
+  content: "";
   margin-right: 3px;
 }
 
@@ -2859,7 +2859,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons {
 .fa-remove::before,
 .fa-times::before,
 .fa-xmark::before {
-  content: "";
+  content: "";
   color: red;
 }
 
@@ -2908,7 +2908,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons {
 
 .fa-bars::before,
 .fa-navicon::before {
-  content: "";
+  content: "";
   font-size: 25px !important;
   margin-top: 4px;
   margin-left: 17px;
@@ -3226,7 +3226,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons {
 }
 
 .fa-skull-crossbones {
-  content: "";
+  content: "";
   background: #252a34;
   padding: 0px 6px;
   max-height: 16px;
@@ -3236,11 +3236,11 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons {
 }
 
 .fa-award::before {
-  content: "";
+  content: "";
 }
 
 .fa-bolt-lightning::before {
-  content: "";
+  content: "";
 }
 
 .torrent-search--list__type {
@@ -3272,7 +3272,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons {
 
 .fa-trophy-alt::before,
 .fa-trophy-star::before {
-  content: "";
+  content: "";
   color: #fdb012;
 }
 
@@ -3326,14 +3326,14 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons {
 
   .fa-duotone.fa-comments::after,
   .fad.fa-comments::after {
-    content: "";
+    content: "";
     margin-left: 13px;
   }
 }
 
 @media only screen and (max-width: 767px) {
   .fa-comments::before {
-    content: "";
+    content: "";
     margin-left: 13px;
   }
 }
@@ -3779,7 +3779,7 @@ li.panel__tab[x-on\:click="tab = 'dying'"] {
 }
 
 .trailer-modal__title::before {
-  content: "";
+  content: "";
   font-family: "Font Awesome 6 pro";
   font-weight: 900;
   margin-right: 2px;
