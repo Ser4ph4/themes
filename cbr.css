@@ -177,31 +177,25 @@ body {
 }
 
 .ratio-bar__2fa {
-  display: inline-flex;
-  align-items: center;
   border-radius: 6px;
-  font-size: 9px;
-  font-weight: 600;
-  color: #0b3d2e;
+  font-weight: 400;
   background: linear-gradient(135deg, #52665d, #1c3029);
   position: relative;
   overflow: hidden;
   cursor: default;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
-  margin: 1px 6px;
-  /*! padding: 0px 9px; */
+  margin: 1px 0px;
+  font-size: 10px !important;
 }
 
 .ratio-bar__2fa::before {
-   /* code point do fa-shield-halved */
   font-family: "Font Awesome 6 Pro";
-  font-weight: 900; /* obrigatório pro estilo "solid" */
+  font-weight: 900;
   font-size: 13px;
   color: #090b0a;
   margin: auto;
 }
 
-/* brilho que desliza suavemente sobre o badge */
 .ratio-bar__2fa::after {
   content: "";
   position: absolute;
@@ -220,13 +214,6 @@ body {
   0% { left: -60%; }
   50% { left: 130%; }
   100% { left: 130%; }
-}
-
-.ratio-bar__2fa:hover {
-  /*! box-shadow:
-    0 0 0 1px rgba(16, 185, 129, 0.5),
-    0 4px 14px rgba(16, 185, 129, 0.45),
-    inset 0 1px 0 rgba(255, 255, 255, 0.5); */
 }
 
 
@@ -2114,19 +2101,26 @@ progress {
 
 }
 
-.top-nav__ratio-bar a {
-  color: var(--top-nav-ratio-bar-fg);
-  text-decoration: none;
-  margin: 0px 5px !important;
-  /* mantém espaçamento uniforme */
-  padding: 2px 4px;
-  border-radius: 4px;
-  transition: color 0.25s ease, background 0.25s ease;
-  font-weight: 500;
+.ratio-bar__2fa {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  width: fit-content;
+  line-height: 1.2;
+  padding-left: 1px;
+  padding-right: 11px;
+}
+
+.ratio-bar__2fa svg,
+.ratio-bar__2fa img,
+.ratio-bar__2fa i {
+  font-size: 12px;
+  width: 12px;
+  height: 12px;
+  flex-shrink: 0;
 }
 
 .top-nav__ratio-bar a:hover {
-  background: rgba(255, 255, 255, 0.1);
   color: #ffd369;
 }
 
