@@ -1,6 +1,6 @@
 /*
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
-❕CBR 𝘛𝘩𝘦𝘮𝘦 : 𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 23/07/2026  
+❕CBR 𝘛𝘩𝘦𝘮𝘦 : 𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 08/08/2026  
 ▫️𝘔𝘰𝘥𝘪𝘧𝘪𝘤𝘢𝘵𝘪𝘰𝘯𝘴 : @𝙎𝙚𝙧𝙖𝙥𝙝4
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
 */
@@ -2622,7 +2622,7 @@ td.torrent-search--grouped__age time::before {
 }
 
 .fa-angle-left::before {
-  content: "";
+  content: "<";
   color: #02a1dc;
   background: #343a48;
   padding: 10px 10px;
@@ -2630,7 +2630,7 @@ td.torrent-search--grouped__age time::before {
 }
 
 .fa-angle-right::before {
-  content: "";
+  content: ">";
   color: #02a1dc;
   background: #343a48;
   padding: 10px 10px;
