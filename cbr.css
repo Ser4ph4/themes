@@ -3870,6 +3870,9 @@ li.panel__tab[x-on\:click="tab = 'dying'"] {
   transition: background-color .15s ease,border-color .15s ease;
 }
 
+.fa-arrow-trend-up::before {
+  content: "" !important;
+}
 /*    
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
