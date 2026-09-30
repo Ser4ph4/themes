@@ -1596,14 +1596,14 @@ progress {
 }
 
 .chatbox-message::before {
-  display: block;
+   display: block;
   content: "";
   position: relative;
-  top: 5px;
+  top: 1px;
   border-right: 10px solid #1d1d1d;
   border-top: 10px solid transparent;
   margin-top: 17px;
-  right: revert;
+  right: 17px;
 }
 
 .chatbox-message__time::before {
