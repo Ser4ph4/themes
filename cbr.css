@@ -1588,8 +1588,7 @@ progress {
 }
 
 .chatbox-message__content {
-  font-size: 16px;
-
+  font-size: 16px !important;
   border-radius: 0 10px 10px 10px;
   background: #474d59;
   max-width: max-content;
