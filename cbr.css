@@ -1592,7 +1592,6 @@ progress {
   font-family: Roboto;
   border-radius: 0 10px 10px 10px;
   background: #474d59;
-  
   max-width: max-content;
 }
 
@@ -1604,7 +1603,7 @@ progress {
   border-right: 10px solid #1d1d1d;
   border-top: 10px solid transparent;
   margin-top: 17px;
-  right: 17px;
+  right: 13px;
 }
 
 .chatbox-message__time::before {
