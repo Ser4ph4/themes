@@ -1589,8 +1589,10 @@ progress {
 
 .chatbox-message__content {
   font-size: 16px !important;
+  font-family: Roboto;
   border-radius: 0 10px 10px 10px;
   background: #474d59;
+  
   max-width: max-content;
 }
 
@@ -2771,6 +2773,9 @@ td.torrent-search--grouped__age time::before {
   position: relative;
   margin-left: 30px;
   max-width: max-content;
+  border-left: 3px solid #292929;
+  border: none;
+  
 }
 
 .chatbox-message__aside {
@@ -3346,6 +3351,12 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons {
 .chatroom__messages {
   list-style-type: none;
   background: #2c313f !important;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 0 18px 0px;
+  margin: 0;
+  align-items: flex-start;
 }
 
 .chatroom__whispers {
