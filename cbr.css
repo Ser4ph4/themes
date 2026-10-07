@@ -1,6 +1,6 @@
 /*
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
-❕CBR 𝘛𝘩𝘦𝘮𝘦 : 𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 02/10/2026  
+❕CBR 𝘛𝘩𝘦𝘮𝘦 : 𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 07/10/2026  
 ▫️𝘔𝘰𝘥𝘪𝘧𝘪𝘤𝘢𝘵𝘪𝘰𝘯𝘴 : @𝙎𝙚𝙧𝙖𝙥𝙝4
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
 */
@@ -1538,7 +1538,6 @@ progress {
 }
 
 .bbcode-rendered.bbcode-rendered .bbcode-rendered__alert::before {
-  content: "▫️𝗔𝗹𝗲𝗿𝘁𝗮: ";
   color: var(--bbcode-rendered-danger-fg);
   display: inline-block;
   padding-right: 0.4ch;
