@@ -3892,6 +3892,22 @@ li.panel__tab[x-on\:click="tab = 'dying'"] {
   padding: 2px 4px;
   border-radius: 5px;
 }
+
+.cbr-msg__toolbar {
+  position: absolute;
+  right: 3px;
+  z-index: 5;
+  gap: 2px;
+  align-items: center;
+  margin: 0;
+  padding: 1px;
+  border: 1px solid var(--cbr-chat-line, rgba(204, 204, 204, .12));
+  border-radius: 10px;
+  background: var(--panel-bg, #1f1f1f);
+  box-shadow: 0 6px 18px #0006;
+  list-style: none;
+}
+
 /*    
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
