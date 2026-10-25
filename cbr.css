@@ -3919,6 +3919,10 @@ li.panel__tab[x-on\:click="tab = 'dying'"] {
     font-size: 13px;
 }
 
+.cbr-msg__system-head strong {
+  font-size: 13px;
+  font-style: italic;
+}
 /*    
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
