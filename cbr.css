@@ -1,6 +1,6 @@
 /*
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
-❕CBR 𝘛𝘩𝘦𝘮𝘦 : 𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 23/10/2026  
+❕CBR 𝘛𝘩𝘦𝘮𝘦 : 𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 24/10/2026  
 ▫️𝘔𝘰𝘥𝘪𝘧𝘪𝘤𝘢𝘵𝘪𝘰𝘯𝘴 : @𝙎𝙚𝙧𝙖𝙥𝙝4
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
 */
@@ -3906,6 +3906,16 @@ li.panel__tab[x-on\:click="tab = 'dying'"] {
   background: var(--panel-bg, #1f1f1f);
   box-shadow: 0 6px 18px #0006;
   list-style: none;
+}
+
+.cbr-msg__body {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+  background: #2a2a2a;
+  border-radius: 10px 10px 0 0;
 }
 
 /*    
