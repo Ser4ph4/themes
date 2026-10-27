@@ -1,6 +1,6 @@
 /*
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
-❕CBR 𝘛𝘩𝘦𝘮𝘦 : 𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 25/10/2026  
+❕CBR 𝘛𝘩𝘦𝘮𝘦 : 𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 27/10/2026  
 ▫️𝘔𝘰𝘥𝘪𝘧𝘪𝘤𝘢𝘵𝘪𝘰𝘯𝘴 : @𝙎𝙚𝙧𝙖𝙥𝙝4
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
 */
@@ -3923,6 +3923,27 @@ li.panel__tab[x-on\:click="tab = 'dying'"] {
   font-size: 13px;
   font-style: italic;
 }
+
+.cbr-chat__pinned-full.cbr-msg__content.bbcode-rendered {
+    background: rgba(255, 255, 255, 0.05);
+    border-left: 3px solid #8b5cf6;
+    border-radius: 6px;
+    padding: 10px 14px;
+    color: #e5e7eb;
+    font-size: 14px;
+    line-height: 1.5;
+    word-break: break-word;
+}
+
+/* Links dentro da mensagem */
+.cbr-chat__pinned-full.cbr-msg__content.bbcode-rendered a {
+    color: #a78bfa;
+    text-decoration: none;
+}
+.cbr-chat__pinned-full.cbr-msg__content.bbcode-rendered a:hover {
+    text-decoration: underline;
+}
+
 /*    
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
