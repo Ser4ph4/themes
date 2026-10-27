@@ -3925,14 +3925,14 @@ li.panel__tab[x-on\:click="tab = 'dying'"] {
 }
 
 .cbr-chat__pinned-full.cbr-msg__content.bbcode-rendered {
-    background: rgba(255, 255, 255, 0.05);
-    border-left: 3px solid #8b5cf6;
-    border-radius: 6px;
-    padding: 10px 14px;
-    color: #e5e7eb;
-    font-size: 14px;
-    line-height: 1.5;
-    word-break: break-word;
+  background: rgb(42, 42, 42);
+  border-left: 3px solid #d0933b;
+  border-radius: 6px;
+  padding: 10px 14px;
+  color: #e5e7eb;
+  font-size: 15px;
+  line-height: 1.5;
+  word-break: break-word;
 }
 
 /* Links dentro da mensagem */
